@@ -1,7 +1,7 @@
 /* ============================================================
-   MON TRAJET EN PORTUGAIS (PORTUGAL) — données de contenu
+   MON TRAJET EN JAPONAIS — données de contenu
    3 niveaux × 3 modules × 20 leçons × 10 phrases = 1800 phrases,
-   45 points de grammaire. Champ cible : "pt" (TTS pt-PT).
+   70 points de grammaire. Champs : fr, ja, ro (rōmaji), lit (mot à mot, niveau 1) — TTS ja-JP.
    ============================================================ */
 
 const ICONS = {
@@ -14,1350 +14,2332 @@ const ICONS = {
 
 const level1Module1Lessons = [
  {
-  "title": "Arrivée à Lisbonne",
+  "title": "Premiers mots à Shinjuku",
   "phrases": [
    {
-    "fr": "Enfin à Lisbonne, quel soleil !",
-    "pt": "Finalmente em Lisboa, que sol!"
+    "fr": "Bonjour !",
+    "ja": "こんにちは！",
+    "ro": "Konnichiwa!",
+    "lit": "bonjour (littéralement : quant à aujourd'hui)"
    },
    {
-    "fr": "Excusez-moi, le métro, c'est par où ?",
-    "pt": "Desculpe, o metro é por onde?"
+    "fr": "Enchanté.",
+    "ja": "はじめまして。",
+    "ro": "Hajimemashite.",
+    "lit": "pour la première fois"
    },
    {
-    "fr": "J'ai seulement une valise.",
-    "pt": "Tenho só uma mala."
+    "fr": "Je m'appelle Léa.",
+    "ja": "レアです。",
+    "ro": "Rea desu.",
+    "lit": "Léa · être (poli)"
    },
    {
-    "fr": "Le métro part juste devant l'aéroport.",
-    "pt": "O metro sai mesmo à porta do aeroporto."
+    "fr": "Je suis français.",
+    "ja": "フランス人です。",
+    "ro": "Furansujin desu.",
+    "lit": "France-personne · être (poli)"
    },
    {
-    "fr": "Je vais en métro jusqu'au centre.",
-    "pt": "Vou de metro até ao centro."
+    "fr": "Ravi de faire votre connaissance.",
+    "ja": "よろしくお願いします。",
+    "ro": "Yoroshiku onegaishimasu.",
+    "lit": "bien · je vous le demande humblement"
    },
    {
-    "fr": "Combien coûte la carte de transport ?",
-    "pt": "Quanto custa o cartão de transporte?"
+    "fr": "J'ai sommeil.",
+    "ja": "眠いです。",
+    "ro": "Nemui desu.",
+    "lit": "avoir sommeil · être (poli)"
    },
    {
-    "fr": "La carte coûte cinquante centimes.",
-    "pt": "O cartão custa cinquenta cêntimos."
+    "fr": "J'ai faim.",
+    "ja": "お腹がすきました。",
+    "ro": "Onaka ga sukimashita.",
+    "lit": "honorable-ventre · [sujet] · s'est vidé (poli)"
    },
    {
-    "fr": "Je vais descendre à Baixa-Chiado.",
-    "pt": "Vou sair na Baixa-Chiado."
+    "fr": "Je suis fatiguée.",
+    "ja": "疲れました。",
+    "ro": "Tsukaremashita.",
+    "lit": "s'être fatigué (poli)"
    },
    {
-    "fr": "Mon appartement se trouve à Alfama.",
-    "pt": "O meu apartamento fica em Alfama."
+    "fr": "Je suis tellement content !",
+    "ja": "とてもうれしいです！",
+    "ro": "Totemo ureshii desu!",
+    "lit": "très · content · être (poli)"
    },
    {
-    "fr": "Le centre est à vingt minutes en métro.",
-    "pt": "O centro fica a vinte minutos de metro."
-   }
-  ]
- },
- {
-  "title": "Une bica à la pastelaria",
-  "phrases": [
-   {
-    "fr": "Bonjour, une bica et un pastel de nata, s'il vous plaît.",
-    "pt": "Bom dia, uma bica e um pastel de nata, se faz favor."
-   },
-   {
-    "fr": "Le pastel de nata est encore chaud.",
-    "pt": "O pastel de nata ainda está quente."
-   },
-   {
-    "fr": "Tu veux de la cannelle dessus ?",
-    "pt": "Queres canela por cima?"
-   },
-   {
-    "fr": "Oui, un peu de cannelle et de sucre.",
-    "pt": "Sim, um pouco de canela e de açúcar."
-   },
-   {
-    "fr": "Pour moi, un galão et une tosta mista.",
-    "pt": "Para mim, um galão e uma tosta mista."
-   },
-   {
-    "fr": "La pastelaria est pleine ce matin.",
-    "pt": "A pastelaria está cheia esta manhã."
-   },
-   {
-    "fr": "On mange au comptoir ?",
-    "pt": "Comemos ao balcão?"
-   },
-   {
-    "fr": "Le café ici est vraiment bon.",
-    "pt": "O café aqui é mesmo bom."
-   },
-   {
-    "fr": "Ça fait combien en tout ?",
-    "pt": "Quanto é tudo?"
-   },
-   {
-    "fr": "Trois euros quarante, s'il vous plaît.",
-    "pt": "São três euros e quarenta, por favor."
+    "fr": "Shinjuku, c'est immense !",
+    "ja": "新宿は大きいですね！",
+    "ro": "Shinjuku wa ōkii desu ne!",
+    "lit": "Shinjuku · [thème] · grand · être (poli) · [n'est-ce pas]"
    }
   ],
   "tip": {
-   "title": "« O, a, um, uma » : les articles",
-   "example": "Pour moi, un galão et une tosta mista. — Para mim, <b>um</b> galão e <b>uma</b> tosta mista.",
-   "body": "Comme en français, le portugais a des articles définis (o, a, os, as = le, la, les) et indéfinis (um, uma = un, une). On les accorde en genre et en nombre : o café, a bica, um pastel, uma tosta, os pastéis. Attention, le genre ne correspond pas toujours au français : a ponte (le pont), a viagem (le voyage)."
+   "title": "Pas besoin de « je » : le japonais omet le sujet",
+   "example": "Je suis français. — <b>フランス人です</b>。",
+   "exampleRo": "Furansujin desu.",
+   "lit": "France-personne · être (poli)",
+   "body": "En français, une phrase a presque toujours un sujet : je, tu, il. En japonais, c'est différent : quand on comprend de qui on parle, on ne le dit tout simplement pas. « Furansujin desu » se dit littéralement : France-personne, être. Pas de « je », et pourtant tout le monde comprend que vous parlez de vous. De la même façon, « Nemui desu », c'est : avoir sommeil, être, donc j'ai sommeil. Et « Tsukaremashita », un seul mot, veut dire : je suis fatigué. Le mot « watashi », qui veut dire moi, existe bien, mais si on le répète à chaque phrase, on paraît insistant, un peu comme si on disait moi, moi, moi. Retenez cette astuce : en japonais, c'est le contexte qui fait le sujet, et quand il est clair, on l'efface."
   }
  },
  {
-  "title": "Le miradouro de Santa Luzia",
+  "title": "Au konbini du quartier",
   "phrases": [
    {
-    "fr": "On monte au miradouro de Santa Luzia ?",
-    "pt": "Subimos ao miradouro de Santa Luzia?"
+    "fr": "Le konbini est juste là.",
+    "ja": "コンビニはそこです。",
+    "ro": "Konbini wa soko desu.",
+    "lit": "konbini · [thème] · là · être (poli)"
    },
    {
-    "fr": "La montée est un peu raide.",
-    "pt": "A subida é um bocado íngreme."
+    "fr": "Le konbini est pratique.",
+    "ja": "コンビニは便利です。",
+    "ro": "Konbini wa benri desu.",
+    "lit": "konbini · [thème] · pratique · être (poli)"
    },
    {
-    "fr": "Regarde, on voit le Tage d'ici !",
-    "pt": "Olha, daqui vê-se o Tejo!"
+    "fr": "C'est un onigiri au thon.",
+    "ja": "ツナのおにぎりです。",
+    "ro": "Tsuna no onigiri desu.",
+    "lit": "thon · [de] · onigiri · être (poli)"
    },
    {
-    "fr": "Les toits d'Alfama sont magnifiques.",
-    "pt": "Os telhados de Alfama são lindíssimos."
+    "fr": "Le thé vert, c'est cent cinquante yens.",
+    "ja": "お茶は百五十円です。",
+    "ro": "Ocha wa hyakugojū en desu.",
+    "lit": "honorable-thé · [thème] · cent-cinquante yens · être (poli)"
    },
    {
-    "fr": "Les azulejos sont bleus et blancs.",
-    "pt": "Os azulejos são azuis e brancos."
+    "fr": "Mademoiselle Tanaka est vendeuse.",
+    "ja": "田中さんは店員です。",
+    "ro": "Tanaka-san wa ten'in desu.",
+    "lit": "Tanaka-mademoiselle · [thème] · employée de magasin · être (poli)"
    },
    {
-    "fr": "Tu me prends en photo ?",
-    "pt": "Tiras-me uma fotografia?"
+    "fr": "Le bentō, c'est cinq cents yens.",
+    "ja": "お弁当は五百円です。",
+    "ro": "Obentō wa gohyaku en desu.",
+    "lit": "honorable-bentō · [thème] · cinq-cents yens · être (poli)"
    },
    {
-    "fr": "Il y a beaucoup de touristes ce matin.",
-    "pt": "Hoje de manhã há muitos turistas."
+    "fr": "L'onigiri est délicieux.",
+    "ja": "おにぎりはおいしいです。",
+    "ro": "Onigiri wa oishii desu.",
+    "lit": "onigiri · [thème] · délicieux · être (poli)"
    },
    {
-    "fr": "On s'assoit un peu sur ce banc ?",
-    "pt": "Sentamo-nos um pouco neste banco?"
+    "fr": "Aujourd'hui, c'est lundi.",
+    "ja": "今日は月曜日です。",
+    "ro": "Kyō wa getsuyōbi desu.",
+    "lit": "aujourd'hui · [thème] · lundi · être (poli)"
    },
    {
-    "fr": "J'adore la lumière de Lisbonne.",
-    "pt": "Adoro a luz de Lisboa."
+    "fr": "Il est sept heures.",
+    "ja": "七時です。",
+    "ro": "Shichiji desu.",
+    "lit": "sept-heure · être (poli)"
    },
    {
-    "fr": "On redescend à pied vers la Baixa.",
-    "pt": "Descemos a pé até à Baixa."
-   }
-  ]
- },
- {
-  "title": "S'installer à Alfama",
-  "phrases": [
-   {
-    "fr": "Voici les clés de l'appartement.",
-    "pt": "Aqui estão as chaves do apartamento."
-   },
-   {
-    "fr": "L'appartement est au deuxième étage.",
-    "pt": "O apartamento fica no segundo andar."
-   },
-   {
-    "fr": "Il n'y a pas d'ascenseur dans l'immeuble.",
-    "pt": "Não há elevador no prédio."
-   },
-   {
-    "fr": "La cuisine est petite, mais très lumineuse.",
-    "pt": "A cozinha é pequena, mas tem muita luz."
-   },
-   {
-    "fr": "Où est la salle de bains ?",
-    "pt": "Onde é a casa de banho?"
-   },
-   {
-    "fr": "Le frigo ne marche pas.",
-    "pt": "O frigorífico não funciona."
-   },
-   {
-    "fr": "Je vais appeler le propriétaire.",
-    "pt": "Vou ligar ao senhorio."
-   },
-   {
-    "fr": "La fenêtre donne sur la ruelle.",
-    "pt": "A janela dá para a rua."
-   },
-   {
-    "fr": "Le soir, on entend le fado d'ici.",
-    "pt": "À noite, ouve-se o fado daqui."
-   },
-   {
-    "fr": "Je me sens déjà bien ici.",
-    "pt": "Já me sinto bem aqui."
-   }
-  ]
- },
- {
-  "title": "Une matinée à Graça",
-  "phrases": [
-   {
-    "fr": "Graça est un quartier très calme.",
-    "pt": "A Graça é um bairro muito calmo."
-   },
-   {
-    "fr": "Aujourd'hui, il y a un marché sur la place.",
-    "pt": "Hoje há uma feira no largo."
-   },
-   {
-    "fr": "Moi, je suis français, et toi ?",
-    "pt": "Sou francês, e tu?"
-   },
-   {
-    "fr": "Je suis ici pour six mois.",
-    "pt": "Estou cá por seis meses."
-   },
-   {
-    "fr": "La boulangerie est fermée le dimanche.",
-    "pt": "A padaria está fechada ao domingo."
-   },
-   {
-    "fr": "Cette terrasse est très agréable.",
-    "pt": "Esta esplanada é muito agradável."
-   },
-   {
-    "fr": "Tu es fatigué ?",
-    "pt": "Estás cansado?"
-   },
-   {
-    "fr": "Non, je suis juste un peu en retard.",
-    "pt": "Não, só estou um bocado atrasado."
-   },
-   {
-    "fr": "Mon voisin est très sympathique.",
-    "pt": "O meu vizinho é muito simpático."
-   },
-   {
-    "fr": "Le café est déjà froid.",
-    "pt": "O café já está frio."
+    "fr": "Ce konbini est tout neuf.",
+    "ja": "このコンビニは新しいです。",
+    "ro": "Kono konbini wa atarashii desu.",
+    "lit": "ce · konbini · [thème] · neuf · être (poli)"
    }
   ],
   "tip": {
-   "title": "« Ser » ou « estar » ?",
-   "example": "Moi, je suis français, et toi ? — <b>Sou</b> francês, e tu?",
-   "body": "Le verbe « être » se traduit par deux verbes. « Ser » exprime l'identité, la nationalité ou une caractéristique durable : sou francês, a Graça é calma. « Estar » exprime un état passager ou la situation du moment : estou cansado, o café está frio. Comparez : « O meu vizinho é simpático » (de nature) et « Hoje está muito simpático » (aujourd'hui)."
+   "title": "« Desu » : le verbe être poli",
+   "example": "Le konbini est pratique. — コンビニは便利<b>です</b>。",
+   "exampleRo": "Konbini wa benri desu.",
+   "lit": "konbini · [thème] · pratique · être (poli)",
+   "body": "« Desu » joue le rôle de notre verbe être, avec une touche de politesse. Il se place toujours à la fin de la phrase, comme un point final poli. Le schéma de base est : X wa Y desu, c'est-à-dire, quant à X, c'est Y. « Konbini wa benri desu » se dit littéralement : konbini, quant à lui, pratique, être. Avec ce seul modèle, vous pouvez déjà dire beaucoup : « Shichiji desu », il est sept heures, ou « Obentō wa gohyaku en desu », le bentō fait cinq cents yens. Notez aussi que « desu » ne change pas selon la personne : je suis, tu es, ils sont, tout se dit « desu ». Petite astuce de prononciation : le « u » final s'entend à peine, on dit presque « dess ». Pensez-y comme à un sourire poli posé en fin de phrase."
   }
  },
  {
-  "title": "En elétrico 28",
+  "title": "Le carrefour de Shibuya",
   "phrases": [
    {
-    "fr": "On prend l'elétrico 28 à Martim Moniz.",
-    "pt": "Apanhamos o elétrico 28 no Martim Moniz."
+    "fr": "Ici, c'est Shibuya.",
+    "ja": "ここは渋谷です。",
+    "ro": "Koko wa Shibuya desu.",
+    "lit": "ici · [thème] · Shibuya · être (poli)"
    },
    {
-    "fr": "Il y a déjà une file énorme.",
-    "pt": "Já há uma fila enorme."
+    "fr": "Ce carrefour est très célèbre.",
+    "ja": "この交差点はとても有名です。",
+    "ro": "Kono kōsaten wa totemo yūmei desu.",
+    "lit": "ce · carrefour · [thème] · très · célèbre · être (poli)"
    },
    {
-    "fr": "L'elétrico passe toutes les dix minutes.",
-    "pt": "O elétrico passa de dez em dez minutos."
+    "fr": "Hachikō est un chien.",
+    "ja": "ハチ公は犬です。",
+    "ro": "Hachikō wa inu desu.",
+    "lit": "Hachikō · [thème] · chien · être (poli)"
    },
    {
-    "fr": "Je valide ma carte en montant.",
-    "pt": "Valido o cartão à entrada."
+    "fr": "La statue de Hachikō est par là.",
+    "ja": "ハチ公の像はあちらです。",
+    "ro": "Hachikō no zō wa achira desu.",
+    "lit": "Hachikō · [de] · statue · [thème] · par là-bas · être (poli)"
    },
    {
-    "fr": "Fais attention à ton sac !",
-    "pt": "Cuidado com a tua mala!"
+    "fr": "Moi, je suis Marc.",
+    "ja": "私はマルクです。",
+    "ro": "Watashi wa Maruku desu.",
+    "lit": "moi · [thème] · Marc · être (poli)"
    },
    {
-    "fr": "Les rues sont très étroites par ici.",
-    "pt": "As ruas aqui são muito estreitas."
+    "fr": "Pour moi, ce sera un café.",
+    "ja": "私はコーヒーです。",
+    "ro": "Watashi wa kōhī desu.",
+    "lit": "moi · [thème] · café · être (poli)"
    },
    {
-    "fr": "L'elétrico monte jusqu'à Graça.",
-    "pt": "O elétrico sobe até à Graça."
+    "fr": "Aujourd'hui, il fait beau.",
+    "ja": "今日はいい天気です。",
+    "ro": "Kyō wa ii tenki desu.",
+    "lit": "aujourd'hui · [thème] · bon · temps · être (poli)"
    },
    {
-    "fr": "Je descends à l'arrêt suivant.",
-    "pt": "Saio na próxima paragem."
+    "fr": "Shibuya est très animé.",
+    "ja": "渋谷はとてもにぎやかです。",
+    "ro": "Shibuya wa totemo nigiyaka desu.",
+    "lit": "Shibuya · [thème] · très · animé · être (poli)"
    },
    {
-    "fr": "Il y a une place libre, assieds-toi.",
-    "pt": "Há um lugar livre, senta-te."
+    "fr": "Mon ami, c'est Kenji.",
+    "ja": "友達は健二さんです。",
+    "ro": "Tomodachi wa Kenji-san desu.",
+    "lit": "ami · [thème] · Kenji-monsieur · être (poli)"
    },
    {
-    "fr": "Ce trajet est vraiment génial !",
-    "pt": "Esta viagem é mesmo fixe!"
-   }
-  ]
- },
- {
-  "title": "Déjeuner dans la Mouraria",
-  "phrases": [
-   {
-    "fr": "On déjeune dans cette petite tasca ?",
-    "pt": "Almoçamos nesta tasca?"
-   },
-   {
-    "fr": "Le plat du jour est écrit sur le tableau.",
-    "pt": "O prato do dia está no quadro."
-   },
-   {
-    "fr": "Je vais prendre une bifana.",
-    "pt": "Eu vou querer uma bifana."
-   },
-   {
-    "fr": "Et pour moi, des sardines grillées.",
-    "pt": "E para mim, sardinhas assadas."
-   },
-   {
-    "fr": "Tu veux du vin ou de l'eau ?",
-    "pt": "Queres vinho ou água?"
-   },
-   {
-    "fr": "Un verre de vinho verde, s'il vous plaît.",
-    "pt": "Um copo de vinho verde, se faz favor."
-   },
-   {
-    "fr": "Le pain et les olives arrivent tout de suite.",
-    "pt": "O pão e as azeitonas vêm já."
-   },
-   {
-    "fr": "Le serveur est très rapide.",
-    "pt": "O empregado é muito rápido."
-   },
-   {
-    "fr": "Ces sardines sont délicieuses.",
-    "pt": "Estas sardinhas estão deliciosas."
-   },
-   {
-    "fr": "Vous pouvez nous apporter l'addition ?",
-    "pt": "Pode trazer-nos a conta, por favor?"
-   }
-  ]
- },
- {
-  "title": "Au marché du quartier",
-  "phrases": [
-   {
-    "fr": "Je vais au marché ce matin.",
-    "pt": "Vou ao mercado esta manhã."
-   },
-   {
-    "fr": "Le marché du quartier ouvre à sept heures.",
-    "pt": "O mercado do bairro abre às sete horas."
-   },
-   {
-    "fr": "Je voudrais un demi-kilo de tomates.",
-    "pt": "Queria meio quilo de tomate."
-   },
-   {
-    "fr": "Ces oranges sont bien sucrées ?",
-    "pt": "Estas laranjas são docinhas?"
-   },
-   {
-    "fr": "La poissonnerie est au fond du marché.",
-    "pt": "A peixaria fica ao fundo do mercado."
-   },
-   {
-    "fr": "Le poisson est très frais aujourd'hui.",
-    "pt": "O peixe hoje está muito fresco."
-   },
-   {
-    "fr": "Je prends deux daurades.",
-    "pt": "Levo duas douradas."
-   },
-   {
-    "fr": "J'achète le pain à la boulangerie d'à côté.",
-    "pt": "Compro o pão na padaria ao lado."
-   },
-   {
-    "fr": "Ça fait six euros vingt.",
-    "pt": "São seis euros e vinte."
-   },
-   {
-    "fr": "Je mets tout dans le sac.",
-    "pt": "Ponho tudo no saco."
+    "fr": "Kenji est étudiant.",
+    "ja": "健二さんは学生です。",
+    "ro": "Kenji-san wa gakusei desu.",
+    "lit": "Kenji-monsieur · [thème] · étudiant · être (poli)"
    }
   ],
   "tip": {
-   "title": "Les contractions « no, na, do, da, ao »",
-   "example": "La poissonnerie est au fond du marché. — A peixaria fica <b>ao</b> fundo <b>do</b> mercado.",
-   "body": "Comme « au » (à + le) en français, le portugais contracte les prépositions avec l'article, et cela aussi au féminin. Em + o = no, em + a = na : no mercado, na padaria. De + o = do, de + a = da : do bairro, da Graça. A + o = ao, a + a = à : vou ao mercado, vou à pastelaria."
+   "title": "« Wa » : la particule du thème, de quoi on parle",
+   "example": "Pour moi, ce sera un café. — 私<b>は</b>コーヒーです。",
+   "exampleRo": "Watashi wa kōhī desu.",
+   "lit": "moi · [thème] · café · être (poli)",
+   "body": "Les particules sont de petits mots qui se placent après un mot pour indiquer son rôle dans la phrase. « Wa » annonce le thème, c'est-à-dire ce dont on parle, un peu comme quant à, ou pour ce qui est de, en français. « Watashi wa kōhī desu » se dit littéralement : moi, quant à moi, café, être. Cela ne veut pas dire je suis un café, mais tout simplement : pour moi, ce sera un café. Autre exemple : « Kyō wa ii tenki desu », aujourd'hui, quant à lui, beau temps, donc il fait beau aujourd'hui. Et « Koko wa Shibuya desu » : ici, c'est Shibuya. Curiosité amusante : à l'écrit, cette particule utilise le signe qui se lit d'habitude « ha », mais on la prononce bien « wa ». Pour retenir, imaginez que « wa » pose un projecteur sur le mot qui le précède : voilà le sujet de la conversation."
   }
  },
  {
-  "title": "Les courses à la mercearia",
+  "title": "Une promenade à Ueno",
   "phrases": [
    {
-    "fr": "Il y a une petite épicerie au coin de la rue.",
-    "pt": "Há uma mercearia na esquina."
+    "fr": "Vous allez bien ?",
+    "ja": "お元気ですか？",
+    "ro": "Ogenki desu ka?",
+    "lit": "honorable-santé · être (poli) · [question]"
    },
    {
-    "fr": "Tu as besoin de quelque chose ?",
-    "pt": "Precisas de alguma coisa?"
+    "fr": "Oui, je vais très bien.",
+    "ja": "はい、とても元気です。",
+    "ro": "Hai, totemo genki desu.",
+    "lit": "oui · très · en forme · être (poli)"
    },
    {
-    "fr": "Il nous faut du lait et des œufs.",
-    "pt": "Precisamos de leite e de ovos."
+    "fr": "C'est bien ici, le parc d'Ueno ?",
+    "ja": "ここは上野公園ですか？",
+    "ro": "Koko wa Ueno kōen desu ka?",
+    "lit": "ici · [thème] · Ueno-parc · être (poli) · [question]"
    },
    {
-    "fr": "Une douzaine d'œufs, s'il vous plaît.",
-    "pt": "Uma dúzia de ovos, se faz favor."
+    "fr": "Oui, c'est ça.",
+    "ja": "はい、そうです。",
+    "ro": "Hai, sō desu.",
+    "lit": "oui · ainsi · être (poli)"
    },
    {
-    "fr": "Vous avez de l'huile d'olive portugaise ?",
-    "pt": "Tem azeite português?"
+    "fr": "Où est le musée d'art ?",
+    "ja": "美術館はどこですか？",
+    "ro": "Bijutsukan wa doko desu ka?",
+    "lit": "musée d'art · [thème] · où · être (poli) · [question]"
    },
    {
-    "fr": "Celle-là est excellente.",
-    "pt": "Este é excelente."
+    "fr": "C'est loin ?",
+    "ja": "遠いですか？",
+    "ro": "Tōi desu ka?",
+    "lit": "loin · être (poli) · [question]"
    },
    {
-    "fr": "Je prends aussi une bouteille d'eau.",
-    "pt": "Levo também uma garrafa de água."
+    "fr": "Non, c'est tout près.",
+    "ja": "いいえ、すぐそこです。",
+    "ro": "Iie, sugu soko desu.",
+    "lit": "non · tout de suite · là · être (poli)"
    },
    {
-    "fr": "Je peux régler avec ma carte ?",
-    "pt": "Posso pagar com cartão?"
+    "fr": "Vous êtes étudiant ?",
+    "ja": "学生ですか？",
+    "ro": "Gakusei desu ka?",
+    "lit": "étudiant · être (poli) · [question]"
    },
    {
-    "fr": "Oui, mais seulement à partir de cinq euros.",
-    "pt": "Sim, mas só a partir de cinco euros."
+    "fr": "Non, je suis employé de bureau.",
+    "ja": "いいえ、会社員です。",
+    "ro": "Iie, kaishain desu.",
+    "lit": "non · employé d'entreprise · être (poli)"
    },
    {
-    "fr": "Il y a un distributeur dans la rue d'en face.",
-    "pt": "Há um multibanco na rua em frente."
+    "fr": "L'entrée du parc est gratuite ?",
+    "ja": "公園は無料ですか？",
+    "ro": "Kōen wa muryō desu ka?",
+    "lit": "parc · [thème] · gratuit · être (poli) · [question]"
    }
-  ]
+  ],
+  "tip": {
+   "title": "« Ka » : transformer une phrase en question",
+   "example": "Vous allez bien ? — お元気です<b>か</b>？",
+   "exampleRo": "Ogenki desu ka?",
+   "lit": "honorable-santé · être (poli) · [question]",
+   "body": "Pour poser une question en japonais, rien de plus simple : on prend une phrase affirmative et on ajoute « ka » à la fin. Pas besoin d'inverser les mots comme en français, ni d'ajouter est-ce que. « Ogenki desu ka » se dit littéralement : honorable santé, être, question ? Le « o » du début est une marque de politesse envers la personne à qui l'on parle. Comparez : « Gakusei desu », je suis étudiant, et « Gakusei desu ka », vous êtes étudiant ? De même, « Tōi desu », c'est loin, devient « Tōi desu ka », c'est loin ? Pour répondre, on dit « hai », oui, ou « iie », non. Astuce : voyez « ka » comme un point d'interrogation que l'on prononce à voix haute."
+  }
  },
  {
-  "title": "Une soirée au Bairro Alto",
+  "title": "Sur la ligne Yamanote",
   "phrases": [
    {
-    "fr": "Ce soir, on sort au Bairro Alto.",
-    "pt": "Hoje à noite vamos ao Bairro Alto."
+    "fr": "Je prends la ligne Yamanote.",
+    "ja": "山手線に乗ります。",
+    "ro": "Yamanotesen ni norimasu.",
+    "lit": "ligne Yamanote · [dans] · monter (poli)"
    },
    {
-    "fr": "Les ruelles sont pleines de monde.",
-    "pt": "As ruas estão cheias de gente."
+    "fr": "Le train arrive.",
+    "ja": "電車が来ます。",
+    "ro": "Densha ga kimasu.",
+    "lit": "train · [sujet] · venir (poli)"
    },
    {
-    "fr": "On boit un verre dehors ?",
-    "pt": "Bebemos um copo lá fora?"
+    "fr": "Je vais à Akihabara.",
+    "ja": "秋葉原に行きます。",
+    "ro": "Akihabara ni ikimasu.",
+    "lit": "Akihabara · [direction] · aller (poli)"
    },
    {
-    "fr": "Je vais prendre une bière pression.",
-    "pt": "Vou pedir uma imperial."
+    "fr": "Je descends à Shinjuku.",
+    "ja": "新宿で降ります。",
+    "ro": "Shinjuku de orimasu.",
+    "lit": "Shinjuku · [lieu] · descendre (poli)"
    },
    {
-    "fr": "La musique est un peu trop forte.",
-    "pt": "A música está um bocado alta."
+    "fr": "Je lis un livre dans le train.",
+    "ja": "電車で本を読みます。",
+    "ro": "Densha de hon o yomimasu.",
+    "lit": "train · [lieu] · livre · [objet] · lire (poli)"
    },
    {
-    "fr": "Il y a une maison de fado dans cette rue.",
-    "pt": "Há uma casa de fados nesta rua."
+    "fr": "J'écoute de la musique.",
+    "ja": "音楽を聞きます。",
+    "ro": "Ongaku o kikimasu.",
+    "lit": "musique · [objet] · écouter (poli)"
    },
    {
-    "fr": "On réserve une table pour dix heures du soir ?",
-    "pt": "Reservamos uma mesa para as dez da noite?"
+    "fr": "Je regarde par la fenêtre.",
+    "ja": "窓の外を見ます。",
+    "ro": "Mado no soto o mimasu.",
+    "lit": "fenêtre · [de] · extérieur · [objet] · regarder (poli)"
    },
    {
-    "fr": "Le Bairro Alto est très animé la nuit.",
-    "pt": "O Bairro Alto é muito animado à noite."
+    "fr": "J'attends le prochain train.",
+    "ja": "次の電車を待ちます。",
+    "ro": "Tsugi no densha o machimasu.",
+    "lit": "suivant · [de] · train · [objet] · attendre (poli)"
    },
    {
-    "fr": "Il est tard, je rentre à la maison.",
-    "pt": "Já é tarde, vou para casa."
+    "fr": "Je rentre à la maison.",
+    "ja": "家に帰ります。",
+    "ro": "Ie ni kaerimasu.",
+    "lit": "maison · [direction] · rentrer (poli)"
    },
    {
-    "fr": "On prend un taxi ou on marche ?",
-    "pt": "Apanhamos um táxi ou vamos a pé?"
+    "fr": "Demain, je vais à Ueno en train.",
+    "ja": "明日、電車で上野に行きます。",
+    "ro": "Ashita, densha de Ueno ni ikimasu.",
+    "lit": "demain · train · [moyen] · Ueno · [direction] · aller (poli)"
    }
-  ]
+  ],
+  "tip": {
+   "title": "Le verbe à la fin : l'ordre des mots japonais",
+   "example": "Je lis un livre dans le train. — 電車で本を<b>読みます</b>。",
+   "exampleRo": "Densha de hon o yomimasu.",
+   "lit": "train · [lieu] · livre · [objet] · lire (poli)",
+   "body": "En français, on dit : je lis un livre, avec le verbe au milieu. En japonais, le verbe arrive toujours en dernier, comme la chute d'une histoire. « Densha de hon o yomimasu » se dit littéralement : train, dans, livre, objet, lire. On pose d'abord le décor, puis ce qui est concerné, et l'action vient tout à la fin. C'est pour cela que les particules sont si utiles : elles disent le rôle de chaque mot, alors le début de la phrase reste assez souple. Autres exemples : « Ongaku o kikimasu », musique, objet, écouter, et « Akihabara ni ikimasu », Akihabara, vers, aller. Pour un Français, c'est un peu comme écouter quelqu'un qui garde le suspense jusqu'au bout. Astuce : quand vous construisez une phrase, gardez le verbe en réserve et posez-le en tout dernier."
+  }
  },
  {
-  "title": "Le temps qu'il fait",
+  "title": "Les boutiques d'Akihabara",
   "phrases": [
    {
-    "fr": "Il fait quel temps ce matin ?",
-    "pt": "Como está o tempo esta manhã?"
+    "fr": "Qu'est-ce que c'est, ceci ?",
+    "ja": "これは何ですか？",
+    "ro": "Kore wa nan desu ka?",
+    "lit": "ceci · [thème] · quoi · être (poli) · [question]"
    },
    {
-    "fr": "En été, il fait très chaud à Lisbonne.",
-    "pt": "No verão, faz muito calor em Lisboa."
+    "fr": "Cela, c'est un appareil photo.",
+    "ja": "それはカメラです。",
+    "ro": "Sore wa kamera desu.",
+    "lit": "cela · [thème] · appareil photo · être (poli)"
    },
    {
-    "fr": "Aujourd'hui, il fait vingt-huit degrés.",
-    "pt": "Hoje estão vinte e oito graus."
+    "fr": "Combien coûte ceci ?",
+    "ja": "これはいくらですか？",
+    "ro": "Kore wa ikura desu ka?",
+    "lit": "ceci · [thème] · combien · être (poli) · [question]"
    },
    {
-    "fr": "Il va pleuvoir dans l'après-midi.",
-    "pt": "Vai chover à tarde."
+    "fr": "Ça fait trente mille yens.",
+    "ja": "三万円です。",
+    "ro": "Sanman en desu.",
+    "lit": "trois-dix-mille yens · être (poli)"
    },
    {
-    "fr": "Prends un parapluie, on ne sait jamais.",
-    "pt": "Leva um guarda-chuva, nunca se sabe."
+    "fr": "C'est cher, dites donc !",
+    "ja": "高いですね！",
+    "ro": "Takai desu ne!",
+    "lit": "cher · être (poli) · [n'est-ce pas]"
    },
    {
-    "fr": "Il y a beaucoup de vent au miradouro.",
-    "pt": "Está muito vento no miradouro."
+    "fr": "Et là-bas, qu'est-ce que c'est ?",
+    "ja": "あれは何ですか？",
+    "ro": "Are wa nan desu ka?",
+    "lit": "ce là-bas · [thème] · quoi · être (poli) · [question]"
    },
    {
-    "fr": "En hiver, il ne fait pas très froid ici.",
-    "pt": "No inverno, não faz muito frio cá."
+    "fr": "Là-bas, c'est un robot.",
+    "ja": "あれはロボットです。",
+    "ro": "Are wa robotto desu.",
+    "lit": "ce là-bas · [thème] · robot · être (poli)"
    },
    {
-    "fr": "Mais les maisons sont souvent humides.",
-    "pt": "Mas as casas são muitas vezes húmidas."
+    "fr": "Ce jeu est amusant.",
+    "ja": "このゲームはおもしろいです。",
+    "ro": "Kono gēmu wa omoshiroi desu.",
+    "lit": "ce · jeu · [thème] · amusant · être (poli)"
    },
    {
-    "fr": "Le ciel est tout bleu ce matin.",
-    "pt": "O céu está todo azul esta manhã."
+    "fr": "Celui-ci, s'il vous plaît.",
+    "ja": "これをください。",
+    "ro": "Kore o kudasai.",
+    "lit": "ceci · [objet] · donnez-moi (poli)"
    },
    {
-    "fr": "Il fait un temps parfait pour se promener !",
-    "pt": "Está um dia ótimo para passear!"
+    "fr": "Akihabara est le quartier de l'électronique.",
+    "ja": "秋葉原は電気の町です。",
+    "ro": "Akihabara wa denki no machi desu.",
+    "lit": "Akihabara · [thème] · électricité · [de] · quartier · être (poli)"
    }
-  ]
+  ],
+  "tip": {
+   "title": "« Kore, sore, are » : ceci, cela, ce là-bas",
+   "example": "Qu'est-ce que c'est, ceci ? — <b>これ</b>は何ですか？",
+   "exampleRo": "Kore wa nan desu ka?",
+   "lit": "ceci · [thème] · quoi · être (poli) · [question]",
+   "body": "Le japonais a trois mots pour montrer les choses, selon la distance. « Kore », c'est ceci, près de moi. « Sore », c'est cela, près de vous. « Are », c'est ce truc là-bas, loin de nous deux. « Kore wa nan desu ka » se dit littéralement : ceci, quant à lui, quoi, être, question ? Et la réponse peut être : « Sore wa kamera desu », cela, c'est un appareil photo. Les mêmes sons reviennent partout : « koko », « soko », « asoko » veulent dire ici, là, là-bas. Devant un nom, on utilise « kono », « sono », « ano » : « kono gēmu », ce jeu-ci. Astuce : « ko » est près de moi, « so » est près de toi, « a » est au loin, il suffit de retenir ces trois petits sons."
+  }
  },
  {
-  "title": "Le metro de Lisbonne",
+  "title": "Mon petit appartement",
   "phrases": [
    {
-    "fr": "La station de métro est à deux minutes.",
-    "pt": "A estação de metro fica a dois minutos."
+    "fr": "Voici mon appartement.",
+    "ja": "ここは私のアパートです。",
+    "ro": "Koko wa watashi no apāto desu.",
+    "lit": "ici · [thème] · moi · [possessif] · appartement · être (poli)"
    },
    {
-    "fr": "Je recharge ma carte à la machine.",
-    "pt": "Carrego o cartão na máquina."
+    "fr": "C'est ma clé.",
+    "ja": "これは私の鍵です。",
+    "ro": "Kore wa watashi no kagi desu.",
+    "lit": "ceci · [thème] · moi · [possessif] · clé · être (poli)"
    },
    {
-    "fr": "Un trajet coûte combien ?",
-    "pt": "Quanto custa uma viagem?"
+    "fr": "Ma chambre est petite.",
+    "ja": "私の部屋は小さいです。",
+    "ro": "Watashi no heya wa chiisai desu.",
+    "lit": "moi · [possessif] · chambre · [thème] · petit · être (poli)"
    },
    {
-    "fr": "La ligne bleue passe par Baixa-Chiado.",
-    "pt": "A linha azul passa pela Baixa-Chiado."
+    "fr": "C'est le vélo de Monsieur Satō.",
+    "ja": "それは佐藤さんの自転車です。",
+    "ro": "Sore wa Satō-san no jitensha desu.",
+    "lit": "cela · [thème] · Satō-monsieur · [possessif] · vélo · être (poli)"
    },
    {
-    "fr": "Pour la Mouraria, je descends à Martim Moniz.",
-    "pt": "Para a Mouraria, saio no Martim Moniz."
+    "fr": "Mon appartement est près de la gare.",
+    "ja": "私のアパートは駅の近くです。",
+    "ro": "Watashi no apāto wa eki no chikaku desu.",
+    "lit": "moi · [possessif] · appartement · [thème] · gare · [de] · proximité · être (poli)"
    },
    {
-    "fr": "Le métro est bondé à l'heure de pointe.",
-    "pt": "O metro vai cheio à hora de ponta."
+    "fr": "La salle de bain est neuve.",
+    "ja": "お風呂は新しいです。",
+    "ro": "Ofuro wa atarashii desu.",
+    "lit": "honorable-bain · [thème] · neuf · être (poli)"
    },
    {
-    "fr": "Le prochain métro arrive dans trois minutes.",
-    "pt": "O próximo metro chega daqui a três minutos."
+    "fr": "C'est le parapluie de qui ?",
+    "ja": "これはだれの傘ですか？",
+    "ro": "Kore wa dare no kasa desu ka?",
+    "lit": "ceci · [thème] · qui · [possessif] · parapluie · être (poli) · [question]"
    },
    {
-    "fr": "Je dois changer de ligne à Baixa-Chiado.",
-    "pt": "Tenho de mudar de linha na Baixa-Chiado."
+    "fr": "C'est le mien.",
+    "ja": "私のです。",
+    "ro": "Watashi no desu.",
+    "lit": "moi · [possessif] · être (poli)"
    },
    {
-    "fr": "Le métro ferme vers une heure du matin.",
-    "pt": "O metro fecha por volta da uma da manhã."
+    "fr": "Le loyer est de quatre-vingt mille yens.",
+    "ja": "家賃は八万円です。",
+    "ro": "Yachin wa hachiman en desu.",
+    "lit": "loyer · [thème] · huit-dix-mille yens · être (poli)"
    },
    {
-    "fr": "C'est plus rapide que le bus.",
-    "pt": "É mais rápido do que o autocarro."
+    "fr": "La propriétaire est gentille.",
+    "ja": "大家さんは優しいです。",
+    "ro": "Ōya-san wa yasashii desu.",
+    "lit": "propriétaire-madame · [thème] · gentil · être (poli)"
    }
-  ]
+  ],
+  "tip": {
+   "title": "« No » : de, à moi, le possessif",
+   "example": "Voici mon appartement. — ここは私<b>の</b>アパートです。",
+   "exampleRo": "Koko wa watashi no apāto desu.",
+   "lit": "ici · [thème] · moi · [possessif] · appartement · être (poli)",
+   "body": "« No » relie deux noms, un peu comme notre « de », mais à l'envers. En français, on dit le vélo de Monsieur Satō ; en japonais, on dit « Satō-san no jitensha », Satō, de, vélo. Le possesseur vient en premier, puis la chose possédée. « Koko wa watashi no apāto desu » se dit littéralement : ici, quant à lui, moi de, appartement, être. Donc « watashi no » veut dire mon, ma, ou à moi. On peut même laisser tomber l'objet : « Watashi no desu », c'est le mien. « No » sert aussi à préciser : « Tōkyō no fuyu », l'hiver de Tokyo, ou « eki no chikaku », près de la gare. Astuce : retenez l'ordre propriétaire, puis « no », puis objet, comme si vous disiez à moi, l'appartement."
+  }
  },
  {
-  "title": "Demander son chemin dans la Baixa",
+  "title": "Un bol de ramen",
   "phrases": [
    {
-    "fr": "Excusez-moi, la rue Augusta, c'est par où ?",
-    "pt": "Desculpe, a Rua Augusta é por onde?"
+    "fr": "Ce restaurant de ramen est célèbre.",
+    "ja": "このラーメン屋は有名です。",
+    "ro": "Kono rāmen-ya wa yūmei desu.",
+    "lit": "ce · ramen-boutique · [thème] · célèbre · être (poli)"
    },
    {
-    "fr": "Continuez tout droit jusqu'au bout de la rue.",
-    "pt": "Siga sempre em frente até ao fim da rua."
+    "fr": "Mais ce n'est pas un restaurant cher.",
+    "ja": "でも、高い店じゃありません。",
+    "ro": "Demo, takai mise ja arimasen.",
+    "lit": "mais · cher · restaurant · ne pas être (poli)"
    },
    {
-    "fr": "Ensuite, tournez à droite.",
-    "pt": "Depois, vire à direita."
+    "fr": "C'est du ramen au miso, ça ?",
+    "ja": "これは味噌ラーメンですか？",
+    "ro": "Kore wa miso rāmen desu ka?",
+    "lit": "ceci · [thème] · miso-ramen · être (poli) · [question]"
    },
    {
-    "fr": "C'est loin à pied ?",
-    "pt": "É longe a pé?"
+    "fr": "Non, ce n'est pas du miso.",
+    "ja": "いいえ、味噌じゃありません。",
+    "ro": "Iie, miso ja arimasen.",
+    "lit": "non · miso · ne pas être (poli)"
    },
    {
-    "fr": "Non, c'est à cinq minutes.",
-    "pt": "Não, fica a cinco minutos."
+    "fr": "C'est du ramen à la sauce soja.",
+    "ja": "醤油ラーメンです。",
+    "ro": "Shōyu rāmen desu.",
+    "lit": "sauce soja-ramen · être (poli)"
    },
    {
-    "fr": "Vous voyez le grand arc là-bas ?",
-    "pt": "Está a ver aquele arco grande ali?"
+    "fr": "Ce n'est pas ma commande.",
+    "ja": "それは私の注文じゃありません。",
+    "ro": "Sore wa watashi no chūmon ja arimasen.",
+    "lit": "cela · [thème] · moi · [possessif] · commande · ne pas être (poli)"
    },
    {
-    "fr": "Le Terreiro do Paço est juste derrière.",
-    "pt": "O Terreiro do Paço fica logo atrás."
+    "fr": "Pardon, ma commande, ce sont les gyōza.",
+    "ja": "すみません、私のは餃子です。",
+    "ro": "Sumimasen, watashi no wa gyōza desu.",
+    "lit": "pardon · moi · [possessif] · [thème] · gyōza · être (poli)"
    },
    {
-    "fr": "Je suis un peu perdu dans ces rues.",
-    "pt": "Estou um bocado perdido nestas ruas."
+    "fr": "Ce n'est pas un plat épicé.",
+    "ja": "辛い料理じゃありません。",
+    "ro": "Karai ryōri ja arimasen.",
+    "lit": "épicé · plat · ne pas être (poli)"
    },
    {
-    "fr": "Toutes les rues de la Baixa se ressemblent.",
-    "pt": "As ruas da Baixa são todas parecidas."
+    "fr": "Ce n'est pas la première fois.",
+    "ja": "初めてじゃありません。",
+    "ro": "Hajimete ja arimasen.",
+    "lit": "première fois · ne pas être (poli)"
    },
    {
-    "fr": "Merci beaucoup, vous êtes très aimable.",
-    "pt": "Muito obrigado, é muito amável."
+    "fr": "Ça fait neuf cents yens.",
+    "ja": "九百円です。",
+    "ro": "Kyūhyaku en desu.",
+    "lit": "neuf-cents yens · être (poli)"
    }
-  ]
+  ],
+  "tip": {
+   "title": "« Ja arimasen » : dire « ce n'est pas »",
+   "example": "Non, ce n'est pas du miso. — いいえ、味噌<b>じゃありません</b>。",
+   "exampleRo": "Iie, miso ja arimasen.",
+   "lit": "non · miso · ne pas être (poli)",
+   "body": "Pour dire ce n'est pas, on remplace « desu » par « ja arimasen ». « Miso desu », c'est du miso, devient « Miso ja arimasen », ce n'est pas du miso. Littéralement, « ja arimasen » signifie à peu près : en tant que cela, ça n'existe pas. Comme toujours, la négation se place à la fin de la phrase, là où se trouve le verbe. Il faut donc attendre le dernier mot pour savoir si une phrase est positive ou négative. Autres exemples : « Gakusei ja arimasen », je ne suis pas étudiant, et « Hajimete ja arimasen », ce n'est pas la première fois. Dans un registre un peu plus soigné, vous entendrez aussi « dewa arimasen », qui veut dire exactement la même chose. Astuce : en japonais, écoutez toujours jusqu'au bout, c'est la fin qui dit oui ou non."
+  }
  },
  {
   "title": "La routine du matin",
   "phrases": [
    {
-    "fr": "Je me lève à sept heures tous les jours.",
-    "pt": "Levanto-me às sete horas todos os dias."
+    "fr": "Je me lève à six heures.",
+    "ja": "六時に起きます。",
+    "ro": "Rokuji ni okimasu.",
+    "lit": "six-heure · [à : moment] · se lever (poli)"
    },
    {
-    "fr": "Je prends une douche et je m'habille.",
-    "pt": "Tomo banho e visto-me."
+    "fr": "Je me brosse les dents.",
+    "ja": "歯を磨きます。",
+    "ro": "Ha o migakimasu.",
+    "lit": "dents · [objet] · brosser (poli)"
    },
    {
-    "fr": "Je ne prends pas le petit-déjeuner à la maison.",
-    "pt": "Não tomo o pequeno-almoço em casa."
+    "fr": "Je prends une douche.",
+    "ja": "シャワーを浴びます。",
+    "ro": "Shawā o abimasu.",
+    "lit": "douche · [objet] · recevoir sur soi (poli)"
    },
    {
-    "fr": "Je descends à la pastelaria du coin.",
-    "pt": "Desço à pastelaria da esquina."
+    "fr": "Je prends mon petit-déjeuner.",
+    "ja": "朝ごはんを食べます。",
+    "ro": "Asagohan o tabemasu.",
+    "lit": "matin-repas · [objet] · manger (poli)"
    },
    {
-    "fr": "Bonjour, madame, vous voulez un galão comme d'habitude ?",
-    "pt": "Bom dia, a senhora quer o galão do costume?"
+    "fr": "Je bois du thé vert.",
+    "ja": "お茶を飲みます。",
+    "ro": "Ocha o nomimasu.",
+    "lit": "honorable-thé · [objet] · boire (poli)"
    },
    {
-    "fr": "Oui, avec une tosta mista, s'il vous plaît.",
-    "pt": "Sim, com uma tosta mista, se faz favor."
+    "fr": "Je sors à huit heures.",
+    "ja": "八時に出かけます。",
+    "ro": "Hachiji ni dekakemasu.",
+    "lit": "huit-heure · [à : moment] · sortir (poli)"
    },
    {
-    "fr": "Maintenant, le serveur me tutoie.",
-    "pt": "Agora o empregado já me trata por tu."
+    "fr": "Demain, je vais à Asakusa.",
+    "ja": "明日、浅草に行きます。",
+    "ro": "Ashita, Asakusa ni ikimasu.",
+    "lit": "demain · Asakusa · [direction] · aller (poli)"
    },
    {
-    "fr": "Tu veux du sucre dans ton café ?",
-    "pt": "Queres açúcar no café?"
+    "fr": "Le week-end, je fais le ménage.",
+    "ja": "週末、掃除をします。",
+    "ro": "Shūmatsu, sōji o shimasu.",
+    "lit": "week-end · ménage · [objet] · faire (poli)"
    },
    {
-    "fr": "Ensuite, je prends l'elétrico pour aller travailler.",
-    "pt": "Depois, apanho o elétrico para o trabalho."
+    "fr": "Ce soir, je regarde la télé.",
+    "ja": "今晩、テレビを見ます。",
+    "ro": "Konban, terebi o mimasu.",
+    "lit": "ce soir · télé · [objet] · regarder (poli)"
    },
    {
-    "fr": "J'arrive au bureau à neuf heures.",
-    "pt": "Chego ao escritório às nove horas."
+    "fr": "Je me couche à onze heures.",
+    "ja": "十一時に寝ます。",
+    "ro": "Jūichiji ni nemasu.",
+    "lit": "onze-heure · [à : moment] · dormir (poli)"
    }
   ],
   "tip": {
-   "title": "« Tu » et « o senhor / a senhora » : tutoyer et vouvoyer au Portugal",
-   "example": "Bonjour, madame, vous voulez un galão comme d'habitude ? — Bom dia, <b>a senhora quer</b> o galão do costume?",
-   "body": "Pour tutoyer, on emploie « tu » avec le verbe à la 2e personne : queres, podes, estás. Pour vouvoyer, on dit « o senhor / a senhora » avec le verbe à la 3e personne, ou simplement le verbe seul : « Quer um café? », « Pode ajudar-me? ». Au Portugal, « você » sonne souvent distant, voire impoli : mieux vaut l'éviter. Passer au tutoiement se dit « tratar por tu »."
+   "title": "Les verbes polis en « -masu » : présent et futur",
+   "example": "Demain, je vais à Asakusa. — 明日、浅草に<b>行きます</b>。",
+   "exampleRo": "Ashita, Asakusa ni ikimasu.",
+   "lit": "demain · Asakusa · [direction] · aller (poli)",
+   "body": "Les verbes polis japonais se terminent par « masu ». « Ikimasu » veut dire aller, « tabemasu » manger, « nomimasu » boire. Bonne nouvelle : ils ne changent pas selon la personne, je mange, tu manges et ils mangent se disent tous « tabemasu ». Encore mieux, la même forme sert pour le présent et pour le futur. « Ashita, Asakusa ni ikimasu » se dit littéralement : demain, Asakusa, vers, aller. C'est le mot « ashita », demain, qui indique le futur. Sans lui, « Asakusa ni ikimasu » peut vouloir dire je vais à Asakusa, en général ou bientôt. Comme « desu », la terminaison « masu » se prononce presque « mass ». Astuce : imaginez « masu » comme le costume poli que les verbes enfilent pour sortir."
   }
  },
  {
-  "title": "Les tâches de la maison",
+  "title": "Un bentō pour midi",
   "phrases": [
    {
-    "fr": "Aujourd'hui, je range toute la maison.",
-    "pt": "Hoje vou arrumar a casa toda."
+    "fr": "J'achète un bentō.",
+    "ja": "お弁当を買います。",
+    "ro": "Obentō o kaimasu.",
+    "lit": "honorable-bentō · [objet] · acheter (poli)"
    },
    {
-    "fr": "Tu peux passer l'aspirateur dans le salon ?",
-    "pt": "Podes aspirar a sala?"
+    "fr": "Je mange un onigiri.",
+    "ja": "おにぎりを食べます。",
+    "ro": "Onigiri o tabemasu.",
+    "lit": "onigiri · [objet] · manger (poli)"
    },
    {
-    "fr": "Après le dîner, je fais la vaisselle.",
-    "pt": "Depois do jantar, lavo a loiça."
+    "fr": "Je bois de l'eau.",
+    "ja": "水を飲みます。",
+    "ro": "Mizu o nomimasu.",
+    "lit": "eau · [objet] · boire (poli)"
    },
    {
-    "fr": "Qui descend les poubelles ce soir ?",
-    "pt": "Quem leva o lixo hoje à noite?"
+    "fr": "Je vous réchauffe le bentō ?",
+    "ja": "お弁当を温めますか？",
+    "ro": "Obentō o atatamemasu ka?",
+    "lit": "honorable-bentō · [objet] · réchauffer (poli) · [question]"
    },
    {
-    "fr": "J'étends le linge à la fenêtre.",
-    "pt": "Estendo a roupa à janela."
+    "fr": "Oui, s'il vous plaît.",
+    "ja": "はい、お願いします。",
+    "ro": "Hai, onegaishimasu.",
+    "lit": "oui · je vous le demande (poli)"
    },
    {
-    "fr": "Avec ce soleil, il sèche vite.",
-    "pt": "Com este sol, seca depressa."
+    "fr": "Je choisis un bentō au poulet frit.",
+    "ja": "唐揚げ弁当を選びます。",
+    "ro": "Karaage bentō o erabimasu.",
+    "lit": "poulet frit-bentō · [objet] · choisir (poli)"
    },
    {
-    "fr": "Il faut acheter du liquide vaisselle.",
-    "pt": "Temos de comprar detergente da loiça."
+    "fr": "Je sors mon porte-monnaie.",
+    "ja": "財布を出します。",
+    "ro": "Saifu o dashimasu.",
+    "lit": "porte-monnaie · [objet] · sortir (poli)"
    },
    {
-    "fr": "La machine à laver fait beaucoup de bruit.",
-    "pt": "A máquina de lavar faz muito barulho."
+    "fr": "Je regarde les prix.",
+    "ja": "値段を見ます。",
+    "ro": "Nedan o mimasu.",
+    "lit": "prix · [objet] · regarder (poli)"
    },
    {
-    "fr": "Je range mes affaires dans l'armoire.",
-    "pt": "Arrumo as minhas coisas no armário."
+    "fr": "Je prends le bentō en photo.",
+    "ja": "お弁当の写真を撮ります。",
+    "ro": "Obentō no shashin o torimasu.",
+    "lit": "honorable-bentō · [de] · photo · [objet] · prendre (poli)"
    },
    {
-    "fr": "Voilà, la maison est enfin propre !",
-    "pt": "Pronto, a casa já está limpa!"
+    "fr": "Qu'est-ce que vous mangez ?",
+    "ja": "何を食べますか？",
+    "ro": "Nani o tabemasu ka?",
+    "lit": "quoi · [objet] · manger (poli) · [question]"
    }
-  ]
+  ],
+  "tip": {
+   "title": "« O » : la particule du complément d'objet",
+   "example": "J'achète un bentō. — お弁当<b>を</b>買います。",
+   "exampleRo": "Obentō o kaimasu.",
+   "lit": "honorable-bentō · [objet] · acheter (poli)",
+   "body": "La particule « o » marque le complément d'objet, c'est-à-dire la chose sur laquelle porte l'action. On la place juste après cette chose, et juste avant le verbe. « Obentō o kaimasu » se dit littéralement : honorable bentō, objet, acheter. En français, on dirait simplement : j'achète un bentō. Autres exemples : « Mizu o nomimasu », eau, objet, boire, et « Onigiri o tabemasu », onigiri, objet, manger. Pour poser une question, remplacez la chose par « nani », quoi : « Nani o tabemasu ka », qu'est-ce que vous mangez ? À l'écrit, cette particule a son propre signe, qui ne sert presque qu'à cela, mais elle se prononce simplement « o ». Astuce : « o » est comme une flèche qui désigne la cible de l'action."
+  }
  },
  {
-  "title": "Les vêtements dans le Chiado",
+  "title": "Rendez-vous à Asakusa",
   "phrases": [
    {
-    "fr": "On va faire les boutiques dans le Chiado ?",
-    "pt": "Vamos às compras ao Chiado?"
+    "fr": "Nous allons au temple Sensō-ji.",
+    "ja": "浅草寺へ行きます。",
+    "ro": "Sensōji e ikimasu.",
+    "lit": "temple Sensō-ji · [direction] · aller (poli)"
    },
    {
-    "fr": "Je cherche une veste légère.",
-    "pt": "Procuro um casaco leve."
+    "fr": "Je pars à dix heures.",
+    "ja": "十時に出ます。",
+    "ro": "Jūji ni demasu.",
+    "lit": "dix-heure · [à : moment] · partir (poli)"
    },
    {
-    "fr": "Quelle taille faites-vous ?",
-    "pt": "Qual é o seu tamanho?"
+    "fr": "J'arrive à Asakusa à dix heures et demie.",
+    "ja": "十時半に浅草に着きます。",
+    "ro": "Jūji han ni Asakusa ni tsukimasu.",
+    "lit": "dix-heure · demie · [à : moment] · Asakusa · [direction] · arriver (poli)"
    },
    {
-    "fr": "Je fais du trente-huit.",
-    "pt": "Visto o trinta e oito."
+    "fr": "Mon ami arrive à onze heures.",
+    "ja": "友達は十一時に来ます。",
+    "ro": "Tomodachi wa jūichiji ni kimasu.",
+    "lit": "ami · [thème] · onze-heure · [à : moment] · venir (poli)"
    },
    {
-    "fr": "Les cabines d'essayage sont au fond.",
-    "pt": "Os provadores ficam ao fundo."
+    "fr": "Où allez-vous ?",
+    "ja": "どこへ行きますか？",
+    "ro": "Doko e ikimasu ka?",
+    "lit": "où · [direction] · aller (poli) · [question]"
    },
    {
-    "fr": "Ce pull rouge te va très bien.",
-    "pt": "Essa camisola vermelha fica-te muito bem."
+    "fr": "Je vais à la porte Kaminarimon.",
+    "ja": "雷門へ行きます。",
+    "ro": "Kaminarimon e ikimasu.",
+    "lit": "porte du Tonnerre · [direction] · aller (poli)"
    },
    {
-    "fr": "Il est un peu trop grand pour moi.",
-    "pt": "É um bocado grande para mim."
+    "fr": "Ensuite, nous allons à la Skytree.",
+    "ja": "それから、スカイツリーに行きます。",
+    "ro": "Sorekara, Sukaitsurī ni ikimasu.",
+    "lit": "ensuite · Skytree · [direction] · aller (poli)"
    },
    {
-    "fr": "Vous l'avez en noir ?",
-    "pt": "Tem em preto?"
+    "fr": "Je rentre chez moi à six heures.",
+    "ja": "六時に家へ帰ります。",
+    "ro": "Rokuji ni ie e kaerimasu.",
+    "lit": "six-heure · [à : moment] · maison · [direction] · rentrer (poli)"
    },
    {
-    "fr": "Ces chaussures sont parfaites pour les pavés.",
-    "pt": "Estes sapatos são perfeitos para a calçada."
+    "fr": "Le samedi, je vais à la piscine.",
+    "ja": "土曜日にプールへ行きます。",
+    "ro": "Doyōbi ni pūru e ikimasu.",
+    "lit": "samedi · [à : moment] · piscine · [direction] · aller (poli)"
    },
    {
-    "fr": "Je les prends, merci.",
-    "pt": "Levo-os, obrigado."
+    "fr": "Les boutiques de Nakamise ouvrent à dix heures.",
+    "ja": "仲見世のお店は十時に開きます。",
+    "ro": "Nakamise no omise wa jūji ni akimasu.",
+    "lit": "Nakamise · [de] · honorables-boutiques · [thème] · dix-heure · [à : moment] · ouvrir (poli)"
    }
-  ]
+  ],
+  "tip": {
+   "title": "« Ni » et « e » : aller vers un lieu, à une heure",
+   "example": "J'arrive à Asakusa à dix heures et demie. — 十時半<b>に</b>浅草<b>に</b>着きます。",
+   "exampleRo": "Jūji han ni Asakusa ni tsukimasu.",
+   "lit": "dix-heure · demie · [à : moment] · Asakusa · [direction] · arriver (poli)",
+   "body": "La particule « ni » a deux usages très fréquents. Après un lieu, elle indique la destination : « Asakusa ni ikimasu », Asakusa, vers, aller. Après une heure précise, elle indique le moment : « Jūji ni demasu », dix heures, à, partir. « Jūji han ni Asakusa ni tsukimasu » se dit donc : dix heures et demie, à, Asakusa, vers, arriver. La particule « e » ressemble beaucoup à « ni » pour les déplacements : « Sensōji e ikimasu », nous allons au temple Sensō-ji. « E » insiste sur la direction, le mouvement vers quelque part, alors que « ni » insiste plutôt sur le point d'arrivée. Pour aller quelque part, les deux sont donc presque toujours possibles, mais pour une heure, seul « ni » fonctionne. Astuce : « e », c'est la flèche du trajet, « ni », c'est la cible."
+  }
+ },
+ {
+  "title": "Le métro de Tokyo",
+  "phrases": [
+   {
+    "fr": "Je vais au travail en métro.",
+    "ja": "地下鉄で会社に行きます。",
+    "ro": "Chikatetsu de kaisha ni ikimasu.",
+    "lit": "métro · [moyen] · entreprise · [direction] · aller (poli)"
+   },
+   {
+    "fr": "Je change à Ueno.",
+    "ja": "上野で乗り換えます。",
+    "ro": "Ueno de norikaemasu.",
+    "lit": "Ueno · [lieu] · changer de train (poli)"
+   },
+   {
+    "fr": "J'achète un ticket au distributeur.",
+    "ja": "券売機で切符を買います。",
+    "ro": "Kenbaiki de kippu o kaimasu.",
+    "lit": "distributeur de tickets · [lieu] · ticket · [objet] · acheter (poli)"
+   },
+   {
+    "fr": "Je paie avec mon téléphone.",
+    "ja": "スマホで払います。",
+    "ro": "Sumaho de haraimasu.",
+    "lit": "smartphone · [moyen] · payer (poli)"
+   },
+   {
+    "fr": "Je dors dans le métro.",
+    "ja": "地下鉄で寝ます。",
+    "ro": "Chikatetsu de nemasu.",
+    "lit": "métro · [lieu] · dormir (poli)"
+   },
+   {
+    "fr": "Je vais à Ginza en taxi.",
+    "ja": "タクシーで銀座に行きます。",
+    "ro": "Takushī de Ginza ni ikimasu.",
+    "lit": "taxi · [moyen] · Ginza · [direction] · aller (poli)"
+   },
+   {
+    "fr": "Je déjeune à la gare de Tokyo.",
+    "ja": "東京駅で昼ごはんを食べます。",
+    "ro": "Tōkyō-eki de hirugohan o tabemasu.",
+    "lit": "Tokyo-gare · [lieu] · midi-repas · [objet] · manger (poli)"
+   },
+   {
+    "fr": "Je fais les courses à Ikebukuro.",
+    "ja": "池袋で買い物をします。",
+    "ro": "Ikebukuro de kaimono o shimasu.",
+    "lit": "Ikebukuro · [lieu] · courses · [objet] · faire (poli)"
+   },
+   {
+    "fr": "Où est-ce qu'on change ?",
+    "ja": "どこで乗り換えますか？",
+    "ro": "Doko de norikaemasu ka?",
+    "lit": "où · [lieu] · changer de train (poli) · [question]"
+   },
+   {
+    "fr": "Je vais au konbini à vélo.",
+    "ja": "自転車でコンビニに行きます。",
+    "ro": "Jitensha de konbini ni ikimasu.",
+    "lit": "vélo · [moyen] · konbini · [direction] · aller (poli)"
+   }
+  ],
+  "tip": {
+   "title": "« De » : le lieu où l'on fait quelque chose, et le moyen",
+   "example": "Je vais au travail en métro. — 地下鉄<b>で</b>会社に行きます。",
+   "exampleRo": "Chikatetsu de kaisha ni ikimasu.",
+   "lit": "métro · [moyen] · entreprise · [direction] · aller (poli)",
+   "body": "« De » est une particule très pratique qui a deux grands sens. D'abord, elle indique le lieu où l'on fait une action : « Ikebukuro de kaimono o shimasu », Ikebukuro, à, courses, faire, donc je fais les courses à Ikebukuro. Ensuite, elle indique le moyen, avec quoi on fait quelque chose. « Chikatetsu de kaisha ni ikimasu » se dit littéralement : métro, avec, entreprise, vers, aller. Autrement dit : je vais au travail en métro. On l'utilise aussi pour payer : « Sumaho de haraimasu », je paie avec mon téléphone. Attention à ne pas la confondre avec « ni » : « ni » indique où l'on va, « de » indique où l'action se passe. Astuce : si vous pouvez dire en ou avec en français, ou si quelqu'un agit à un endroit, pensez à « de »."
+  }
+ },
+ {
+  "title": "Un dimanche tranquille",
+  "phrases": [
+   {
+    "fr": "Aujourd'hui, je ne vais pas au travail.",
+    "ja": "今日は仕事に行きません。",
+    "ro": "Kyō wa shigoto ni ikimasen.",
+    "lit": "aujourd'hui · [thème] · travail · [direction] · ne pas aller (poli)"
+   },
+   {
+    "fr": "Je ne me lève pas tôt.",
+    "ja": "早く起きません。",
+    "ro": "Hayaku okimasen.",
+    "lit": "tôt · ne pas se lever (poli)"
+   },
+   {
+    "fr": "Je ne prends pas le train.",
+    "ja": "電車に乗りません。",
+    "ro": "Densha ni norimasen.",
+    "lit": "train · [dans] · ne pas monter (poli)"
+   },
+   {
+    "fr": "Je ne bois pas d'alcool.",
+    "ja": "お酒を飲みません。",
+    "ro": "Osake o nomimasen.",
+    "lit": "honorable-alcool · [objet] · ne pas boire (poli)"
+   },
+   {
+    "fr": "Ce soir, je ne fais pas la cuisine.",
+    "ja": "今晩は料理をしません。",
+    "ro": "Konban wa ryōri o shimasen.",
+    "lit": "ce soir · [thème] · cuisine · [objet] · ne pas faire (poli)"
+   },
+   {
+    "fr": "Je regarde un film à la maison.",
+    "ja": "家で映画を見ます。",
+    "ro": "Ie de eiga o mimasu.",
+    "lit": "maison · [lieu] · film · [objet] · regarder (poli)"
+   },
+   {
+    "fr": "Je ne regarde pas la télé.",
+    "ja": "テレビは見ません。",
+    "ro": "Terebi wa mimasen.",
+    "lit": "télé · [thème] · ne pas regarder (poli)"
+   },
+   {
+    "fr": "Je ne comprends pas très bien.",
+    "ja": "よくわかりません。",
+    "ro": "Yoku wakarimasen.",
+    "lit": "bien · ne pas comprendre (poli)"
+   },
+   {
+    "fr": "Demain, il ne pleuvra pas.",
+    "ja": "明日は雨が降りません。",
+    "ro": "Ashita wa ame ga furimasen.",
+    "lit": "demain · [thème] · pluie · [sujet] · ne pas tomber (poli)"
+   },
+   {
+    "fr": "Je ne vais nulle part.",
+    "ja": "どこへも行きません。",
+    "ro": "Doko e mo ikimasen.",
+    "lit": "où · [direction] · [même] · ne pas aller (poli)"
+   }
+  ],
+  "tip": {
+   "title": "La négation des verbes : « -masen »",
+   "example": "Aujourd'hui, je ne vais pas au travail. — 今日は仕事に<b>行きません</b>。",
+   "exampleRo": "Kyō wa shigoto ni ikimasen.",
+   "lit": "aujourd'hui · [thème] · travail · [direction] · ne pas aller (poli)",
+   "body": "Pour mettre un verbe poli à la forme négative, c'est très régulier : on remplace « masu » par « masen ». « Ikimasu », je vais, devient « ikimasen », je ne vais pas. « Tabemasu », je mange, devient « tabemasen », je ne mange pas. « Kyō wa shigoto ni ikimasen » se dit littéralement : aujourd'hui, quant à lui, travail, vers, ne pas aller. Comme le verbe est à la fin, la négation arrive aussi en dernier, il faut donc écouter jusqu'au bout. Et comme pour « masu », la forme « masen » vaut aussi pour le futur : « Ashita wa ame ga furimasen », il ne pleuvra pas demain. Une phrase très utile à connaître : « Wakarimasen », je ne comprends pas. Astuce : « masu » dit oui, « masen » dit non, une seule syllabe change tout."
+  }
  },
  {
   "title": "L'heure et les nombres",
   "phrases": [
    {
-    "fr": "Tu peux me donner l'heure ?",
-    "pt": "Tens horas, por favor?"
+    "fr": "Un, deux, trois !",
+    "ja": "いち、に、さん！",
+    "ro": "Ichi, ni, san!",
+    "lit": "un · deux · trois"
    },
    {
-    "fr": "Là, il est dix heures et quart.",
-    "pt": "Agora são dez e um quarto."
+    "fr": "Quelle heure est-il maintenant ?",
+    "ja": "今、何時ですか？",
+    "ro": "Ima, nanji desu ka?",
+    "lit": "maintenant · quelle-heure · être (poli) · [question]"
    },
    {
-    "fr": "La pastelaria ferme à vingt heures.",
-    "pt": "A pastelaria fecha às oito da noite."
+    "fr": "Il est quatre heures.",
+    "ja": "四時です。",
+    "ro": "Yoji desu.",
+    "lit": "quatre-heure · être (poli)"
    },
    {
-    "fr": "On se retrouve à midi et demi ?",
-    "pt": "Encontramo-nos ao meio-dia e meia?"
+    "fr": "Il est neuf heures et demie.",
+    "ja": "九時半です。",
+    "ro": "Kuji han desu.",
+    "lit": "neuf-heure · demie · être (poli)"
    },
    {
-    "fr": "Il est presque une heure.",
-    "pt": "É quase uma hora."
+    "fr": "Le train part à sept heures.",
+    "ja": "電車は七時に出ます。",
+    "ro": "Densha wa shichiji ni demasu.",
+    "lit": "train · [thème] · sept-heure · [à : moment] · partir (poli)"
    },
    {
-    "fr": "Mon numéro de porte, c'est le quinze.",
-    "pt": "O número da minha porta é o quinze."
+    "fr": "Quel est votre numéro de téléphone ?",
+    "ja": "電話番号は何番ですか？",
+    "ro": "Denwa bangō wa nanban desu ka?",
+    "lit": "téléphone-numéro · [thème] · quel-numéro · être (poli) · [question]"
    },
    {
-    "fr": "Il y a trente-deux marches jusqu'à chez moi.",
-    "pt": "Há trinta e dois degraus até à minha casa."
+    "fr": "Un ramen, c'est huit cents yens.",
+    "ja": "ラーメンは八百円です。",
+    "ro": "Rāmen wa happyaku en desu.",
+    "lit": "ramen · [thème] · huit-cents yens · être (poli)"
    },
    {
-    "fr": "J'ai vingt-neuf ans.",
-    "pt": "Tenho vinte e nove anos."
+    "fr": "Le cours commence à une heure.",
+    "ja": "授業は一時に始まります。",
+    "ro": "Jugyō wa ichiji ni hajimarimasu.",
+    "lit": "cours · [thème] · une-heure · [à : moment] · commencer (poli)"
    },
    {
-    "fr": "Le billet coûte trois euros dix.",
-    "pt": "O bilhete custa três euros e dez."
+    "fr": "Dix, onze, douze.",
+    "ja": "十、十一、十二。",
+    "ro": "Jū, jūichi, jūni.",
+    "lit": "dix · dix-un · dix-deux"
    },
    {
-    "fr": "J'ai cinq minutes de retard.",
-    "pt": "Estou cinco minutos atrasado."
-   }
-  ]
- },
- {
-  "title": "Un appel téléphonique",
-  "phrases": [
-   {
-    "fr": "Allô, c'est Sofia ?",
-    "pt": "Estou? É a Sofia?"
-   },
-   {
-    "fr": "Oui, c'est moi. Qui est à l'appareil ?",
-    "pt": "Sim, sou eu. Quem fala?"
-   },
-   {
-    "fr": "Mon téléphone n'a presque plus de batterie.",
-    "pt": "O meu telemóvel já quase não tem bateria."
-   },
-   {
-    "fr": "Il n'y a pas de réseau dans le métro.",
-    "pt": "Não há rede no metro."
-   },
-   {
-    "fr": "Tu as un chargeur ?",
-    "pt": "Tens um carregador?"
-   },
-   {
-    "fr": "Je te rappelle d'ici dix minutes.",
-    "pt": "Ligo-te daqui a dez minutos."
-   },
-   {
-    "fr": "Tu as mon nouveau numéro ?",
-    "pt": "Tens o meu número novo?"
-   },
-   {
-    "fr": "Je t'envoie un message avec l'adresse.",
-    "pt": "Mando-te uma mensagem com a morada."
-   },
-   {
-    "fr": "Il y a un problème avec l'appartement.",
-    "pt": "Há um problema com o apartamento."
-   },
-   {
-    "fr": "D'accord, à tout à l'heure.",
-    "pt": "Está bem, até logo."
+    "fr": "Il est midi pile.",
+    "ja": "ちょうど十二時です。",
+    "ro": "Chōdo jūniji desu.",
+    "lit": "pile · douze-heure · être (poli)"
    }
   ],
   "tip": {
-   "title": "« Ter » et « há » (= il y a)",
-   "example": "Il n'y a pas de réseau dans le métro. — Não <b>há</b> rede no metro.",
-   "body": "« Ter » signifie avoir : tenho, tens, tem, temos, têm (tens um carregador?). Pour dire « il y a », le portugais européen emploie « há », qui ne change jamais : há um problema, há muitos turistas, não há rede. Au Portugal, on évite « tem » dans ce sens : on dit « há uma pastelaria aqui »."
+   "title": "Compter en japonais : ichi, ni, san, et les heures en « -ji »",
+   "example": "Il est quatre heures. — <b>四時</b>です。",
+   "exampleRo": "Yoji desu.",
+   "lit": "quatre-heure · être (poli)",
+   "body": "Les nombres japonais sont très logiques. De un à dix : ichi, ni, san, yon, go, roku, nana, hachi, kyū, jū. Ensuite, on assemble comme des briques : onze, c'est « jūichi », dix-un, et douze, « jūni », dix-deux. Vingt, c'est « nijū », deux-dix, et trente, « sanjū », trois-dix. Pour l'heure, on ajoute simplement « ji » : « ichiji », une heure, « sanji », trois heures. « Yoji desu » se dit littéralement : quatre-heure, être. Attention à trois exceptions : quatre heures se dit « yoji », sept heures « shichiji », et neuf heures « kuji ». Pour la demie, on ajoute « han » : « kuji han », neuf heures et demie. Astuce : pour demander l'heure, remplacez le nombre par « nan », quoi : « Nanji desu ka », quelle heure est-il ?"
   }
  },
  {
-  "title": "Coucher de soleil à la Senhora do Monte",
+  "title": "Autour de chez moi",
   "phrases": [
    {
-    "fr": "C'est le miradouro le plus haut de Lisbonne.",
-    "pt": "É o miradouro mais alto de Lisboa."
+    "fr": "Il y a un konbini près de chez moi.",
+    "ja": "家の近くにコンビニがあります。",
+    "ro": "Ie no chikaku ni konbini ga arimasu.",
+    "lit": "maison · [de] · proximité · [lieu] · konbini · [sujet] · il y a, objet (poli)"
    },
    {
-    "fr": "On y va pour le coucher du soleil ?",
-    "pt": "Vamos lá ver o pôr do sol?"
+    "fr": "Il y a aussi un petit parc.",
+    "ja": "小さい公園もあります。",
+    "ro": "Chiisai kōen mo arimasu.",
+    "lit": "petit · parc · [aussi] · il y a, objet (poli)"
    },
    {
-    "fr": "Il faut monter en passant par Graça.",
-    "pt": "Temos de subir pela Graça."
+    "fr": "Il y a un chat dans le parc.",
+    "ja": "公園に猫がいます。",
+    "ro": "Kōen ni neko ga imasu.",
+    "lit": "parc · [lieu] · chat · [sujet] · il y a, être vivant (poli)"
    },
    {
-    "fr": "D'ici, on voit toute la ville.",
-    "pt": "Daqui vê-se a cidade toda."
+    "fr": "Il y a beaucoup de monde à la gare.",
+    "ja": "駅に人がたくさんいます。",
+    "ro": "Eki ni hito ga takusan imasu.",
+    "lit": "gare · [lieu] · gens · [sujet] · beaucoup · il y a, être vivant (poli)"
    },
    {
-    "fr": "Là-bas, c'est le château Saint-Georges.",
-    "pt": "Ali é o Castelo de São Jorge."
+    "fr": "Est-ce qu'il y a une banque ?",
+    "ja": "銀行はありますか？",
+    "ro": "Ginkō wa arimasu ka?",
+    "lit": "banque · [thème] · il y a, objet (poli) · [question]"
    },
    {
-    "fr": "Le ciel devient tout orange.",
-    "pt": "O céu está a ficar cor de laranja."
+    "fr": "Il n'y a pas de supermarché.",
+    "ja": "スーパーはありません。",
+    "ro": "Sūpā wa arimasen.",
+    "lit": "supermarché · [thème] · il n'y a pas, objet (poli)"
    },
    {
-    "fr": "Un musicien joue de la guitare à côté.",
-    "pt": "Está ali um músico a tocar guitarra."
+    "fr": "Mon grand frère est à la maison.",
+    "ja": "兄は家にいます。",
+    "ro": "Ani wa ie ni imasu.",
+    "lit": "grand frère · [thème] · maison · [lieu] · être là, être vivant (poli)"
    },
    {
-    "fr": "On reste encore un petit peu ?",
-    "pt": "Ficamos mais um bocadinho?"
+    "fr": "Il y a une télé dans ma chambre.",
+    "ja": "部屋にテレビがあります。",
+    "ro": "Heya ni terebi ga arimasu.",
+    "lit": "chambre · [lieu] · télé · [sujet] · il y a, objet (poli)"
    },
    {
-    "fr": "Il commence à faire frais.",
-    "pt": "Começa a estar fresco."
+    "fr": "Il y a un policier au petit poste de police.",
+    "ja": "交番に警察官がいます。",
+    "ro": "Kōban ni keisatsukan ga imasu.",
+    "lit": "poste de police · [lieu] · policier · [sujet] · il y a, être vivant (poli)"
    },
    {
-    "fr": "Quelle belle fin de journée !",
-    "pt": "Que fim de tarde tão bonito!"
+    "fr": "Il y a du lait dans le frigo.",
+    "ja": "冷蔵庫に牛乳があります。",
+    "ro": "Reizōko ni gyūnyū ga arimasu.",
+    "lit": "frigo · [lieu] · lait · [sujet] · il y a, objet (poli)"
    }
-  ]
+  ],
+  "tip": {
+   "title": "« Arimasu » et « imasu » : il y a, pour les objets et pour les êtres vivants",
+   "example": "Il y a un chat dans le parc. — 公園に猫が<b>います</b>。",
+   "exampleRo": "Kōen ni neko ga imasu.",
+   "lit": "parc · [lieu] · chat · [sujet] · il y a, être vivant (poli)",
+   "body": "Le japonais a deux verbes pour dire il y a. « Arimasu » s'utilise pour les objets, les plantes et les lieux : « Konbini ga arimasu », il y a un konbini. « Imasu » s'utilise pour les êtres vivants qui bougent, les personnes et les animaux. « Kōen ni neko ga imasu » se dit littéralement : parc, dans, chat, sujet, il y a. Le schéma est toujours le même : le lieu avec « ni », puis la chose avec « ga », et le verbe à la fin. À la forme négative, on obtient « arimasen » et « imasen » : « Sūpā wa arimasen », il n'y a pas de supermarché. Ces mêmes verbes servent aussi à dire où se trouve quelqu'un : « Ani wa ie ni imasu », mon grand frère est à la maison. Astuce : si ça respire et bouge tout seul, c'est « imasu », sinon, c'est « arimasu »."
+  }
+ },
+ {
+  "title": "Il fait chaud, il fait froid",
+  "phrases": [
+   {
+    "fr": "Aujourd'hui, il fait très chaud.",
+    "ja": "今日はとても暑いです。",
+    "ro": "Kyō wa totemo atsui desu.",
+    "lit": "aujourd'hui · [thème] · très · chaud · être (poli)"
+   },
+   {
+    "fr": "L'hiver à Tokyo est froid.",
+    "ja": "東京の冬は寒いです。",
+    "ro": "Tōkyō no fuyu wa samui desu.",
+    "lit": "Tokyo · [de] · hiver · [thème] · froid · être (poli)"
+   },
+   {
+    "fr": "Le ciel est bleu.",
+    "ja": "空が青いです。",
+    "ro": "Sora ga aoi desu.",
+    "lit": "ciel · [sujet] · bleu · être (poli)"
+   },
+   {
+    "fr": "Le vent est fort.",
+    "ja": "風が強いです。",
+    "ro": "Kaze ga tsuyoi desu.",
+    "lit": "vent · [sujet] · fort · être (poli)"
+   },
+   {
+    "fr": "Une glace bien froide, c'est délicieux.",
+    "ja": "冷たいアイスはおいしいです。",
+    "ro": "Tsumetai aisu wa oishii desu.",
+    "lit": "froid · glace · [thème] · délicieux · être (poli)"
+   },
+   {
+    "fr": "Ce parapluie est cher.",
+    "ja": "この傘は高いです。",
+    "ro": "Kono kasa wa takai desu.",
+    "lit": "ce · parapluie · [thème] · cher · être (poli)"
+   },
+   {
+    "fr": "Ce parapluie-là est bon marché.",
+    "ja": "あの傘は安いです。",
+    "ro": "Ano kasa wa yasui desu.",
+    "lit": "ce là-bas · parapluie · [thème] · bon marché · être (poli)"
+   },
+   {
+    "fr": "Aujourd'hui, il ne fait pas froid.",
+    "ja": "今日は寒くないです。",
+    "ro": "Kyō wa samukunai desu.",
+    "lit": "aujourd'hui · [thème] · pas froid · être (poli)"
+   },
+   {
+    "fr": "En été, les journées sont longues.",
+    "ja": "夏は日が長いです。",
+    "ro": "Natsu wa hi ga nagai desu.",
+    "lit": "été · [thème] · jour · [sujet] · long · être (poli)"
+   },
+   {
+    "fr": "Qu'il fait lourd !",
+    "ja": "蒸し暑いですね！",
+    "ro": "Mushiatsui desu ne!",
+    "lit": "chaud et humide · être (poli) · [n'est-ce pas]"
+   }
+  ],
+  "tip": {
+   "title": "Les adjectifs en « -i » : takai, oishii",
+   "example": "Une glace bien froide, c'est délicieux. — <b>冷たい</b>アイスは<b>おいしい</b>です。",
+   "exampleRo": "Tsumetai aisu wa oishii desu.",
+   "lit": "froid · glace · [thème] · délicieux · être (poli)",
+   "body": "Beaucoup d'adjectifs japonais se terminent par « i » : « takai », cher, « yasui », bon marché, « oishii », délicieux, « samui », froid. On peut les placer devant un nom : « tsumetai aisu », une glace froide. On peut aussi les placer en fin de phrase, suivis de « desu » : « Kono kasa wa takai desu », ce parapluie est cher. « Tsumetai aisu wa oishii desu » se dit littéralement : froide glace, quant à elle, délicieuse, être. Leur particularité, c'est qu'ils se conjuguent un peu comme des verbes. Pour la négation, on remplace le « i » final par « kunai » : « samui » devient « samukunai », pas froid. Ainsi, « Kyō wa samukunai desu » veut dire : aujourd'hui, il ne fait pas froid. Astuce : un « i » à la fin, c'est le signe d'un adjectif qui sait se conjuguer tout seul."
+  }
+ },
+ {
+  "title": "Le jardin de Shinjuku",
+  "phrases": [
+   {
+    "fr": "Le jardin de Shinjuku est beau.",
+    "ja": "新宿御苑はきれいです。",
+    "ro": "Shinjuku Gyoen wa kirei desu.",
+    "lit": "Shinjuku-jardin impérial · [thème] · beau · être (poli)"
+   },
+   {
+    "fr": "C'est un endroit calme.",
+    "ja": "静かな所です。",
+    "ro": "Shizuka na tokoro desu.",
+    "lit": "calme-na · endroit · être (poli)"
+   },
+   {
+    "fr": "C'est un jardin très célèbre.",
+    "ja": "とても有名な庭園です。",
+    "ro": "Totemo yūmei na teien desu.",
+    "lit": "très · célèbre-na · jardin · être (poli)"
+   },
+   {
+    "fr": "Ici, ce n'est pas animé.",
+    "ja": "ここはにぎやかじゃありません。",
+    "ro": "Koko wa nigiyaka ja arimasen.",
+    "lit": "ici · [thème] · animé · ne pas être (poli)"
+   },
+   {
+    "fr": "Les allées sont très propres.",
+    "ja": "道がとてもきれいです。",
+    "ro": "Michi ga totemo kirei desu.",
+    "lit": "chemin · [sujet] · très · propre · être (poli)"
+   },
+   {
+    "fr": "Aujourd'hui, je suis libre.",
+    "ja": "今日は暇です。",
+    "ro": "Kyō wa hima desu.",
+    "lit": "aujourd'hui · [thème] · libre · être (poli)"
+   },
+   {
+    "fr": "Le métro de Tokyo est pratique.",
+    "ja": "東京の地下鉄は便利です。",
+    "ro": "Tōkyō no chikatetsu wa benri desu.",
+    "lit": "Tokyo · [de] · métro · [thème] · pratique · être (poli)"
+   },
+   {
+    "fr": "Mademoiselle Yamada est une personne gentille.",
+    "ja": "山田さんは親切な人です。",
+    "ro": "Yamada-san wa shinsetsu na hito desu.",
+    "lit": "Yamada-mademoiselle · [thème] · gentil-na · personne · être (poli)"
+   },
+   {
+    "fr": "Quel endroit magnifique !",
+    "ja": "すてきな所ですね！",
+    "ro": "Suteki na tokoro desu ne!",
+    "lit": "magnifique-na · endroit · être (poli) · [n'est-ce pas]"
+   },
+   {
+    "fr": "Le japonais, c'est facile ?",
+    "ja": "日本語は簡単ですか？",
+    "ro": "Nihongo wa kantan desu ka?",
+    "lit": "japonais · [thème] · facile · être (poli) · [question]"
+   }
+  ],
+  "tip": {
+   "title": "Les adjectifs en « -na » : kirei, shizuka",
+   "example": "C'est un endroit calme. — <b>静かな</b>所です。",
+   "exampleRo": "Shizuka na tokoro desu.",
+   "lit": "calme-na · endroit · être (poli)",
+   "body": "Il existe une deuxième famille d'adjectifs, les adjectifs en « na ». Devant un nom, ils prennent « na » : « Shizuka na tokoro desu » se dit littéralement : calme-na, endroit, être, donc c'est un endroit calme. En fin de phrase, on enlève le « na » et on met simplement « desu » : « Shinjuku Gyoen wa kirei desu », le jardin de Shinjuku est beau. Pour la négation, ils se comportent comme des noms, avec « ja arimasen » : « Koko wa nigiyaka ja arimasen », ici, ce n'est pas animé. Parmi les plus utiles : « kirei », beau ou propre, « shizuka », calme, « benri », pratique, « yūmei », célèbre, et « kantan », facile. Attention au piège : « kirei » se termine par un « i », mais c'est bien un adjectif en « na ». Astuce : traitez ces adjectifs comme des noms, avec juste un petit « na » quand ils se collent devant un autre nom."
+  }
+ },
+ {
+  "title": "Des vêtements à Shibuya",
+  "phrases": [
+   {
+    "fr": "Cette jupe est mignonne.",
+    "ja": "このスカートはかわいいです。",
+    "ro": "Kono sukāto wa kawaii desu.",
+    "lit": "ce · jupe · [thème] · mignon · être (poli)"
+   },
+   {
+    "fr": "Cette veste aussi est mignonne.",
+    "ja": "このジャケットもかわいいです。",
+    "ro": "Kono jaketto mo kawaii desu.",
+    "lit": "ce · veste · [aussi] · mignon · être (poli)"
+   },
+   {
+    "fr": "J'achète un pull.",
+    "ja": "セーターを買います。",
+    "ro": "Sētā o kaimasu.",
+    "lit": "pull · [objet] · acheter (poli)"
+   },
+   {
+    "fr": "Moi aussi, j'en achète un.",
+    "ja": "私も買います。",
+    "ro": "Watashi mo kaimasu.",
+    "lit": "moi · [aussi] · acheter (poli)"
+   },
+   {
+    "fr": "Je regarde aussi les chaussures.",
+    "ja": "靴も見ます。",
+    "ro": "Kutsu mo mimasu.",
+    "lit": "chaussures · [aussi] · regarder (poli)"
+   },
+   {
+    "fr": "Vous l'avez aussi en bleu ?",
+    "ja": "青もありますか？",
+    "ro": "Ao mo arimasu ka?",
+    "lit": "bleu · [aussi] · il y a, objet (poli) · [question]"
+   },
+   {
+    "fr": "Oui, et aussi en noir.",
+    "ja": "はい、黒もあります。",
+    "ro": "Hai, kuro mo arimasu.",
+    "lit": "oui · noir · [aussi] · il y a, objet (poli)"
+   },
+   {
+    "fr": "Le manteau aussi est cher.",
+    "ja": "コートも高いです。",
+    "ro": "Kōto mo takai desu.",
+    "lit": "manteau · [aussi] · cher · être (poli)"
+   },
+   {
+    "fr": "Où est la cabine d'essayage ?",
+    "ja": "試着室はどこですか？",
+    "ro": "Shichakushitsu wa doko desu ka?",
+    "lit": "cabine d'essayage · [thème] · où · être (poli) · [question]"
+   },
+   {
+    "fr": "Aujourd'hui aussi, il y a foule à Shibuya.",
+    "ja": "今日も渋谷は人が多いです。",
+    "ro": "Kyō mo Shibuya wa hito ga ōi desu.",
+    "lit": "aujourd'hui · [aussi] · Shibuya · [thème] · gens · [sujet] · nombreux · être (poli)"
+   }
+  ],
+  "tip": {
+   "title": "« Mo » : aussi, moi aussi",
+   "example": "Cette veste aussi est mignonne. — このジャケット<b>も</b>かわいいです。",
+   "exampleRo": "Kono jaketto mo kawaii desu.",
+   "lit": "ce · veste · [aussi] · mignon · être (poli)",
+   "body": "La particule « mo » veut dire aussi. Elle se place juste après le mot concerné, et elle prend la place de « wa », de « ga » ou de « o ». « Kono sukāto wa kawaii desu », cette jupe est mignonne, devient pour la veste : « Kono jaketto mo kawaii desu », littéralement cette veste, aussi, mignonne, être. Pour dire moi aussi, il suffit de dire « watashi mo » : « Watashi mo kaimasu », moi aussi, j'achète. Et avec un objet : « Kutsu mo mimasu », je regarde aussi les chaussures. Attention à la place : en français, aussi peut voyager dans la phrase, mais en japonais, « mo » reste collé au mot qu'il concerne. Dans une phrase négative, il prend le sens de non plus. Astuce : « mo », c'est comme un petit et moi aussi qu'on accroche derrière un mot."
+  }
+ },
+ {
+  "title": "Une soirée à Shinjuku",
+  "phrases": [
+   {
+    "fr": "On mange des ramen ensemble ?",
+    "ja": "一緒にラーメンを食べませんか？",
+    "ro": "Issho ni rāmen o tabemasen ka?",
+    "lit": "ensemble · ramen · [objet] · ne pas manger (poli) · [question]"
+   },
+   {
+    "fr": "Bonne idée, allons-y !",
+    "ja": "いいですね、行きましょう！",
+    "ro": "Ii desu ne, ikimashō!",
+    "lit": "bon · être (poli) · [n'est-ce pas] · allons-y (poli)"
+   },
+   {
+    "fr": "On se retrouve où ?",
+    "ja": "どこで会いましょうか？",
+    "ro": "Doko de aimashō ka?",
+    "lit": "où · [lieu] · retrouvons-nous (poli) · [question]"
+   },
+   {
+    "fr": "Retrouvons-nous à la sortie est de la gare de Shinjuku.",
+    "ja": "新宿駅の東口で会いましょう。",
+    "ro": "Shinjuku-eki no higashiguchi de aimashō.",
+    "lit": "Shinjuku-gare · [de] · est-sortie · [lieu] · retrouvons-nous (poli)"
+   },
+   {
+    "fr": "Sept heures, ça vous va ?",
+    "ja": "七時はどうですか？",
+    "ro": "Shichiji wa dō desu ka?",
+    "lit": "sept-heure · [thème] · comment · être (poli) · [question]"
+   },
+   {
+    "fr": "Ensuite, on va à l'observatoire de la mairie ?",
+    "ja": "それから、都庁の展望台に行きませんか？",
+    "ro": "Sorekara, Tochō no tenbōdai ni ikimasen ka?",
+    "lit": "ensuite · mairie de Tokyo · [de] · observatoire · [direction] · ne pas aller (poli) · [question]"
+   },
+   {
+    "fr": "Prenons un taxi.",
+    "ja": "タクシーに乗りましょう。",
+    "ro": "Takushī ni norimashō.",
+    "lit": "taxi · [dans] · montons (poli)"
+   },
+   {
+    "fr": "On fait une photo ensemble ?",
+    "ja": "一緒に写真を撮りませんか？",
+    "ro": "Issho ni shashin o torimasen ka?",
+    "lit": "ensemble · photo · [objet] · ne pas prendre (poli) · [question]"
+   },
+   {
+    "fr": "Bon, on rentre ?",
+    "ja": "そろそろ帰りましょうか？",
+    "ro": "Sorosoro kaerimashō ka?",
+    "lit": "bientôt · rentrons (poli) · [question]"
+   },
+   {
+    "fr": "Retournons-y la semaine prochaine.",
+    "ja": "来週もまた行きましょう。",
+    "ro": "Raishū mo mata ikimashō.",
+    "lit": "semaine prochaine · [aussi] · encore · allons-y (poli)"
+   }
+  ],
+  "tip": {
+   "title": "« -mashō » et « -masen ka » : proposer et inviter",
+   "example": "On mange des ramen ensemble ? — 一緒にラーメンを<b>食べませんか</b>？",
+   "exampleRo": "Issho ni rāmen o tabemasen ka?",
+   "lit": "ensemble · ramen · [objet] · ne pas manger (poli) · [question]",
+   "body": "Pour inviter quelqu'un poliment, le japonais utilise une question négative : « tabemasen ka », littéralement, ne mangez-vous pas ? « Issho ni rāmen o tabemasen ka » se dit mot à mot : ensemble, ramen, objet, ne pas manger, question ? C'est une manière douce de proposer, qui laisse à l'autre la liberté de refuser. Pour répondre avec enthousiasme, ou pour proposer directement, on utilise « mashō », qui veut dire faisons, ou allons-y : « Ikimashō », allons-y, « Tabemashō », mangeons. On peut aussi y ajouter « ka » : « Kaerimashō ka », et si on rentrait ? En résumé, « masen ka » invite l'autre, et « mashō » lance l'action ensemble. Astuce : pour accepter une invitation, « Ii desu ne, ikimashō », bonne idée, allons-y, marche presque toujours."
+  }
  },
  {
   "title": "Fin du module : un bilan",
   "phrases": [
    {
-    "fr": "Ce premier module se termine ici.",
-    "pt": "Este primeiro módulo acaba aqui."
+    "fr": "Merci beaucoup !",
+    "ja": "ありがとうございます！",
+    "ro": "Arigatō gozaimasu!",
+    "lit": "merci (poli)"
    },
    {
-    "fr": "Maintenant, je commande un café en portugais.",
-    "pt": "Agora já peço um café em português."
+    "fr": "Le premier module se termine.",
+    "ja": "最初のモジュールはこれで終わりです。",
+    "ro": "Saisho no mojūru wa kore de owari desu.",
+    "lit": "premier · [de] · module · [thème] · ceci · [moyen] · fin · être (poli)"
    },
    {
-    "fr": "Je sais déjà demander mon chemin à Lisbonne.",
-    "pt": "Já sei perguntar o caminho em Lisboa."
+    "fr": "Le japonais est difficile, mais amusant.",
+    "ja": "日本語は難しいですが、楽しいです。",
+    "ro": "Nihongo wa muzukashii desu ga, tanoshii desu.",
+    "lit": "japonais · [thème] · difficile · être (poli) · mais · amusant · être (poli)"
    },
    {
-    "fr": "Je comprends l'heure et les prix.",
-    "pt": "Percebo as horas e os preços."
+    "fr": "Excusez-moi, encore une fois, s'il vous plaît.",
+    "ja": "すみません、もう一度お願いします。",
+    "ro": "Sumimasen, mō ichido onegaishimasu.",
+    "lit": "excusez-moi · encore · une fois · je vous le demande (poli)"
    },
    {
-    "fr": "Le portugais n'est pas si difficile.",
-    "pt": "O português não é assim tão difícil."
+    "fr": "Je comprends un peu le japonais.",
+    "ja": "日本語が少しわかります。",
+    "ro": "Nihongo ga sukoshi wakarimasu.",
+    "lit": "japonais · [sujet] · un peu · comprendre (poli)"
    },
    {
-    "fr": "La prononciation reste un vrai défi.",
-    "pt": "A pronúncia ainda é um grande desafio."
+    "fr": "Les particules sont importantes.",
+    "ja": "助詞は大切です。",
+    "ro": "Joshi wa taisetsu desu.",
+    "lit": "particules · [thème] · important · être (poli)"
    },
    {
-    "fr": "Le prochain module parle de voyages.",
-    "pt": "O próximo módulo é sobre viagens."
+    "fr": "« Sumimasen » est un mot très pratique.",
+    "ja": "「すみません」はとても便利な言葉です。",
+    "ro": "« Sumimasen » wa totemo benri na kotoba desu.",
+    "lit": "« sumimasen » · [thème] · très · pratique-na · mot · être (poli)"
    },
    {
-    "fr": "Je vais pratiquer un peu chaque jour.",
-    "pt": "Vou praticar um bocadinho todos os dias."
+    "fr": "Un café, s'il vous plaît.",
+    "ja": "コーヒーをお願いします。",
+    "ro": "Kōhī o onegaishimasu.",
+    "lit": "café · [objet] · je vous le demande (poli)"
    },
    {
-    "fr": "Bravo, tu te débrouilles très bien !",
-    "pt": "Parabéns, estás a ir muito bem!"
+    "fr": "Le prochain module, c'est le voyage.",
+    "ja": "次のモジュールは旅行です。",
+    "ro": "Tsugi no mojūru wa ryokō desu.",
+    "lit": "suivant · [de] · module · [thème] · voyage · être (poli)"
    },
    {
-    "fr": "On se retrouve bientôt pour la suite.",
-    "pt": "Encontramo-nos em breve para continuar."
+    "fr": "Merci pour tout, et à la prochaine !",
+    "ja": "どうもありがとうございました。また会いましょう！",
+    "ro": "Dōmo arigatō gozaimashita. Mata aimashō!",
+    "lit": "vraiment · merci (poli, pour ce qui a été fait) · encore · retrouvons-nous (poli)"
    }
-  ]
+  ],
+  "tip": {
+   "title": "Les mots magiques : sumimasen, onegaishimasu, arigatō gozaimasu",
+   "example": "Excusez-moi, encore une fois, s'il vous plaît. — <b>すみません</b>、もう一度<b>お願いします</b>。",
+   "exampleRo": "Sumimasen, mō ichido onegaishimasu.",
+   "lit": "excusez-moi · encore · une fois · je vous le demande (poli)",
+   "body": "Trois expressions vous ouvriront presque toutes les portes au Japon. « Sumimasen » veut dire excusez-moi, mais aussi pardon, et même merci quand on a dérangé quelqu'un. On l'utilise pour appeler un serveur ou pour se frayer un chemin dans le métro. « Onegaishimasu » veut dire littéralement : je vous fais humblement une demande. On le place après ce qu'on souhaite : « Kōhī o onegaishimasu », un café, s'il vous plaît. « Sumimasen, mō ichido onegaishimasu » se dit mot à mot : excusez-moi, encore, une fois, je vous le demande. Enfin, « arigatō gozaimasu » est le merci poli, souvent accompagné d'une petite inclinaison de la tête. Avec ces trois expressions et tout ce que vous avez appris dans ce module, vous pouvez déjà vous débrouiller à Tokyo, bravo ! Astuce : dans le doute, commencez par « sumimasen », vous ne vous tromperez presque jamais."
+  }
  }
 ];
 
 const level1Module2Lessons = [
  {
-  "title": "Arrivée à l'aéroport de Porto",
+  "title": "Arrivée à l'aéroport du Kansai",
   "phrases": [
    {
-    "fr": "On vient d'atterrir à Porto.",
-    "pt": "Acabámos de aterrar no Porto."
+    "fr": "Votre passeport, s'il vous plaît.",
+    "ja": "パスポートをお願いします。",
+    "ro": "Pasupōto o onegaishimasu.",
+    "lit": "passeport · [objet] · s'il vous plaît (poli)"
    },
    {
-    "fr": "Où est le tapis des bagages ?",
-    "pt": "Onde é o tapete das bagagens?"
+    "fr": "Oui, le voici.",
+    "ja": "はい、どうぞ。",
+    "ro": "Hai, dōzo.",
+    "lit": "oui · je vous en prie"
    },
    {
-    "fr": "Le métro va jusqu'au centre-ville.",
-    "pt": "O metro vai até ao centro da cidade."
+    "fr": "Vous venez pour du tourisme ?",
+    "ja": "観光ですか？",
+    "ro": "Kankō desu ka?",
+    "lit": "tourisme · être (poli) · [question]"
    },
    {
-    "fr": "Il faut acheter une carte Andante ?",
-    "pt": "É preciso comprar um cartão Andante?"
+    "fr": "Oui, c'est pour du tourisme.",
+    "ja": "はい、観光です。",
+    "ro": "Hai, kankō desu.",
+    "lit": "oui · tourisme · être (poli)"
    },
    {
-    "fr": "Oui, à la machine près de la sortie.",
-    "pt": "Sim, na máquina ao pé da saída."
+    "fr": "Je reste dix jours au Japon.",
+    "ja": "日本に十日間います。",
+    "ro": "Nihon ni tōkakan imasu.",
+    "lit": "Japon · [lieu] · dix-jours (durée) · être (vivants, poli)"
    },
    {
-    "fr": "Le trajet prend environ une demi-heure.",
-    "pt": "A viagem demora cerca de meia hora."
+    "fr": "Les bagages sont là-bas.",
+    "ja": "荷物はあそこです。",
+    "ro": "Nimotsu wa asoko desu.",
+    "lit": "bagages · [thème] · là-bas · être (poli)"
    },
    {
-    "fr": "On peut aussi prendre un taxi.",
-    "pt": "Também podemos apanhar um táxi."
+    "fr": "Ma valise est rouge.",
+    "ja": "私のスーツケースは赤いです。",
+    "ro": "Watashi no sūtsukēsu wa akai desu.",
+    "lit": "moi · [possessif] · valise · [thème] · rouge · être (poli)"
    },
    {
-    "fr": "Le taxi est trop cher pour nous.",
-    "pt": "O táxi é demasiado caro para nós."
+    "fr": "Je vais à Kyoto en train.",
+    "ja": "電車で京都へ行きます。",
+    "ro": "Densha de Kyōto e ikimasu.",
+    "lit": "train · [moyen] · Kyoto · [direction] · aller (poli)"
    },
    {
-    "fr": "Alors on prend le métro, la ligne violette.",
-    "pt": "Então apanhamos o metro, a linha violeta."
+    "fr": "Le train part à trois heures.",
+    "ja": "電車は三時に出ます。",
+    "ro": "Densha wa sanji ni demasu.",
+    "lit": "train · [thème] · trois-heures · [moment] · partir (poli)"
    },
    {
-    "fr": "Bienvenue dans le Nord du Portugal !",
-    "pt": "Bem-vindos ao Norte de Portugal!"
+    "fr": "Bienvenue au Japon !",
+    "ja": "日本へようこそ！",
+    "ro": "Nihon e yōkoso!",
+    "lit": "Japon · [direction] · bienvenue"
    }
   ]
  },
  {
-  "title": "Des billets à la gare de São Bento",
+  "title": "Dans le train pour Kyoto",
   "phrases": [
    {
-    "fr": "Je voudrais deux billets pour Guimarães.",
-    "pt": "Queria dois bilhetes para Guimarães."
+    "fr": "Ce train va à Kyoto ?",
+    "ja": "この電車は京都へ行きますか？",
+    "ro": "Kono densha wa Kyōto e ikimasu ka?",
+    "lit": "ce · train · [thème] · Kyoto · [direction] · aller (poli) · [question]"
    },
    {
-    "fr": "Pour quel train, s'il vous plaît ?",
-    "pt": "Para que comboio, por favor?"
+    "fr": "Oui, il y va.",
+    "ja": "はい、行きます。",
+    "ro": "Hai, ikimasu.",
+    "lit": "oui · aller (poli)"
    },
    {
-    "fr": "Le prochain, si possible.",
-    "pt": "O próximo, se possível."
+    "fr": "Je peux m'asseoir ici ?",
+    "ja": "この席、いいですか？",
+    "ro": "Kono seki, ii desu ka?",
+    "lit": "ce · siège · bien · être (poli) · [question]"
    },
    {
-    "fr": "Il part à dix heures et quart.",
-    "pt": "Parte às dez e um quarto."
+    "fr": "Bien sûr, allez-y.",
+    "ja": "ええ、どうぞ。",
+    "ro": "Ee, dōzo.",
+    "lit": "oui · je vous en prie"
    },
    {
-    "fr": "Je voudrais aussi un aller-retour pour Braga.",
-    "pt": "Queria também um bilhete de ida e volta para Braga."
+    "fr": "Le café est à trois cents yens.",
+    "ja": "コーヒーは三百円です。",
+    "ro": "Kōhī wa sanbyaku en desu.",
+    "lit": "café · [thème] · trois-cents-yens · être (poli)"
    },
    {
-    "fr": "Vous avez une réduction pour les jeunes ?",
-    "pt": "Tem desconto para jovens?"
+    "fr": "Un thé vert, s'il vous plaît.",
+    "ja": "お茶をお願いします。",
+    "ro": "Ocha o onegaishimasu.",
+    "lit": "honorable-thé · [objet] · s'il vous plaît (poli)"
    },
    {
-    "fr": "Oui, avec une pièce d'identité.",
-    "pt": "Sim, com um documento de identificação."
+    "fr": "Les kanji sont difficiles.",
+    "ja": "漢字は難しいです。",
+    "ro": "Kanji wa muzukashii desu.",
+    "lit": "kanji · [thème] · difficile · être (poli)"
    },
    {
-    "fr": "On peut payer par carte ici ?",
-    "pt": "Pode-se pagar com cartão aqui?"
+    "fr": "Mais les hiragana sont faciles.",
+    "ja": "でも、ひらがなは易しいです。",
+    "ro": "Demo, hiragana wa yasashii desu.",
+    "lit": "mais · hiragana · [thème] · facile · être (poli)"
    },
    {
-    "fr": "Bien sûr, voici vos billets.",
-    "pt": "Claro, aqui tem os seus bilhetes."
+    "fr": "La prochaine gare, c'est Kyoto.",
+    "ja": "次は京都です。",
+    "ro": "Tsugi wa Kyōto desu.",
+    "lit": "prochain · [thème] · Kyoto · être (poli)"
    },
    {
-    "fr": "Le train part de la voie quatre.",
-    "pt": "O comboio parte da linha quatro."
+    "fr": "On descend ici ?",
+    "ja": "ここで降りますか？",
+    "ro": "Koko de orimasu ka?",
+    "lit": "ici · [lieu] · descendre (poli) · [question]"
    }
   ],
   "tip": {
-   "title": "« Queria… » : demander poliment (l'imparfait de politesse)",
-   "example": "Je voudrais deux billets pour Guimarães. — <b>Queria</b> dois bilhetes para Guimarães.",
-   "body": "Pour demander poliment, les Portugais utilisent l'imparfait « queria » (littéralement « je voulais »), là où le français emploie le conditionnel « je voudrais ». C'est la formule la plus courante au guichet, au café ou au restaurant : « Queria um café, por favor », « Queria uma mesa para dois ». « Quero » (je veux) est possible, mais plus direct ; « queria » sonne toujours aimable."
+   "title": "Trois écritures : hiragana, katakana et kanji",
+   "example": "Le café est à trois cents yens. — <b>コーヒー</b>は<b>三百円</b>です。",
+   "exampleRo": "Kōhī wa sanbyaku en desu.",
+   "lit": "café · [thème] · trois-cents-yens · être (poli)",
+   "body": "Le japonais mélange trois écritures dans une même phrase, et c'est moins effrayant qu'il n'y paraît. Les hiragana, aux formes arrondies, notent des syllabes et servent surtout aux petits mots de grammaire, comme « wa » (thème) ou « desu » (être, poli). Les katakana, plus anguleux, notent les mêmes sons mais servent aux mots venus de l'étranger, comme « kōhī » (café), « basu » (bus) ou « pasupōto » (passeport). Les kanji, eux, sont des caractères qui portent un sens : un seul signe peut vouloir dire montagne, gare ou argent. Dans « Kōhī wa sanbyaku en desu », les trois se côtoient : « kōhī » en katakana, « sanbyaku en » (trois cents yens) en kanji, « wa » et « desu » en hiragana. Mot à mot, cela donne : café, thème, trois cents yens, être poli. Pour parler, vous n'avez pas besoin de tout lire : le rōmaji est là pour vous accompagner. Une astuce pour retenir : hiragana tout rond comme un mot de chez soi, katakana pointu comme un mot venu d'ailleurs, et kanji comme une petite image."
   }
  },
  {
-  "title": "Les azulejos de São Bento",
+  "title": "À la gare de Kyoto",
   "phrases": [
    {
-    "fr": "Regarde le hall de la gare de São Bento !",
-    "pt": "Olha para o átrio da estação de São Bento!"
+    "fr": "La gare de Kyoto est très grande.",
+    "ja": "京都駅はとても大きいです。",
+    "ro": "Kyōto eki wa totemo ōkii desu.",
+    "lit": "Kyoto-gare · [thème] · très · grand · être (poli)"
    },
    {
-    "fr": "Les murs sont couverts d'azulejos.",
-    "pt": "As paredes estão cobertas de azulejos."
+    "fr": "Il y a énormément de gens.",
+    "ja": "人がたくさんいます。",
+    "ro": "Hito ga takusan imasu.",
+    "lit": "gens · [sujet] · beaucoup · il y a (vivants, poli)"
    },
    {
-    "fr": "Ils sont bleus et blancs.",
-    "pt": "São azuis e brancos."
+    "fr": "Les casiers à bagages sont au sous-sol.",
+    "ja": "コインロッカーは地下にあります。",
+    "ro": "Koin rokkā wa chika ni arimasu.",
+    "lit": "casier-à-pièces · [thème] · sous-sol · [lieu] · se trouver (objets, poli)"
    },
    {
-    "fr": "Ils racontent l'histoire du Portugal.",
-    "pt": "Contam a história de Portugal."
+    "fr": "Je laisse ma valise ici.",
+    "ja": "ここにスーツケースを置きます。",
+    "ro": "Koko ni sūtsukēsu o okimasu.",
+    "lit": "ici · [lieu] · valise · [objet] · poser (poli)"
    },
    {
-    "fr": "Il y a environ vingt mille carreaux.",
-    "pt": "Há cerca de vinte mil azulejos."
+    "fr": "Ça coûte sept cents yens.",
+    "ja": "七百円です。",
+    "ro": "Nanahyaku en desu.",
+    "lit": "sept-cents-yens · être (poli)"
    },
    {
-    "fr": "Je n'ai jamais vu une gare aussi belle.",
-    "pt": "Nunca vi uma estação tão bonita."
+    "fr": "Le bus cent un va au Kinkaku-ji.",
+    "ja": "百一番のバスは金閣寺へ行きます。",
+    "ro": "Hyakuichi ban no basu wa Kinkakuji e ikimasu.",
+    "lit": "numéro-cent-un · [possessif] · bus · [thème] · Kinkaku-ji · [direction] · aller (poli)"
    },
    {
-    "fr": "On prend une photo ensemble ?",
-    "pt": "Tiramos uma fotografia juntos?"
+    "fr": "On prend le bus ?",
+    "ja": "バスに乗りましょうか？",
+    "ro": "Basu ni norimashō ka?",
+    "lit": "bus · [dans] · monter (proposition) · [question]"
    },
    {
-    "fr": "Attention, il y a beaucoup de monde ici.",
-    "pt": "Cuidado, está aqui muita gente."
+    "fr": "Non, allons-y en métro.",
+    "ja": "いいえ、地下鉄で行きましょう。",
+    "ro": "Iie, chikatetsu de ikimashō.",
+    "lit": "non · métro · [moyen] · aller (proposition)"
    },
    {
-    "fr": "Les touristes viennent ici même sans prendre le train.",
-    "pt": "Os turistas vêm cá mesmo sem apanhar o comboio."
+    "fr": "Le métro est pratique.",
+    "ja": "地下鉄は便利です。",
+    "ro": "Chikatetsu wa benri desu.",
+    "lit": "métro · [thème] · pratique · être (poli)"
    },
    {
-    "fr": "La Ribeira est à dix minutes à pied.",
-    "pt": "A Ribeira fica a dez minutos a pé."
+    "fr": "Allez, on y va !",
+    "ja": "行きましょう！",
+    "ro": "Ikimashō!",
+    "lit": "aller (proposition)"
    }
   ]
  },
  {
-  "title": "Un alojamento local dans la Ribeira",
+  "title": "Au guichet des billets",
   "phrases": [
    {
-    "fr": "Bonjour, j'ai une réservation au nom de Martin.",
-    "pt": "Bom dia, tenho uma reserva em nome de Martin."
+    "fr": "Excusez-moi, un billet, s'il vous plaît.",
+    "ja": "すみません、切符をください。",
+    "ro": "Sumimasen, kippu o kudasai.",
+    "lit": "excusez-moi · billet · [objet] · donnez-moi"
    },
    {
-    "fr": "Bienvenue, vous restez trois nuits ?",
-    "pt": "Bem-vindo, fica três noites?"
+    "fr": "Deux billets pour Nara, s'il vous plaît.",
+    "ja": "奈良の切符を二枚ください。",
+    "ro": "Nara no kippu o nimai kudasai.",
+    "lit": "Nara · [possessif] · billet · [objet] · deux-feuilles · donnez-moi"
    },
    {
-    "fr": "Oui, jusqu'à vendredi matin.",
-    "pt": "Sim, até sexta-feira de manhã."
+    "fr": "Un aller simple ?",
+    "ja": "片道ですか？",
+    "ro": "Katamichi desu ka?",
+    "lit": "aller-simple · être (poli) · [question]"
    },
    {
-    "fr": "L'appartement est au troisième étage.",
-    "pt": "O apartamento é no terceiro andar."
+    "fr": "Non, un aller-retour.",
+    "ja": "いいえ、往復です。",
+    "ro": "Iie, ōfuku desu.",
+    "lit": "non · aller-retour · être (poli)"
    },
    {
-    "fr": "Il n'y a pas d'ascenseur, désolé.",
-    "pt": "Não há elevador, desculpe."
+    "fr": "Ça fait deux mille huit cent quatre-vingts yens.",
+    "ja": "二千八百八十円です。",
+    "ro": "Nisen happyaku hachijū en desu.",
+    "lit": "deux-mille-huit-cent-quatre-vingts-yens · être (poli)"
    },
    {
-    "fr": "Ce n'est pas grave, on a peu de bagages.",
-    "pt": "Não faz mal, temos pouca bagagem."
+    "fr": "Tenez, trois mille yens.",
+    "ja": "はい、三千円です。",
+    "ro": "Hai, sanzen en desu.",
+    "lit": "oui · trois-mille-yens · être (poli)"
    },
    {
-    "fr": "La fenêtre donne sur le Douro.",
-    "pt": "A janela dá para o Douro."
+    "fr": "Voici votre monnaie.",
+    "ja": "おつりです。",
+    "ro": "Otsuri desu.",
+    "lit": "honorable-monnaie · être (poli)"
    },
    {
-    "fr": "Voici le code de la porte d'entrée.",
-    "pt": "Aqui está o código da porta da rua."
+    "fr": "Un plan du métro aussi, s'il vous plaît.",
+    "ja": "地下鉄の地図もください。",
+    "ro": "Chikatetsu no chizu mo kudasai.",
+    "lit": "métro · [possessif] · plan · [aussi] · donnez-moi"
    },
    {
-    "fr": "Le petit-déjeuner n'est pas compris.",
-    "pt": "O pequeno-almoço não está incluído."
+    "fr": "Et deux bentō aussi, s'il vous plaît.",
+    "ja": "お弁当も二つください。",
+    "ro": "Obentō mo futatsu kudasai.",
+    "lit": "honorable-bentō · [aussi] · deux (objets) · donnez-moi"
    },
    {
-    "fr": "Il y a une bonne pâtisserie juste en bas.",
-    "pt": "Há uma boa pastelaria mesmo aqui em baixo."
-   }
-  ]
- },
- {
-  "title": "Une valise perdue",
-  "phrases": [
-   {
-    "fr": "Je ne trouve pas ma valise grise.",
-    "pt": "Não encontro a minha mala cinzenta."
-   },
-   {
-    "fr": "Tous les autres passagers sont déjà partis.",
-    "pt": "Os outros passageiros já saíram todos."
-   },
-   {
-    "fr": "Je vais demander au guichet des bagages.",
-    "pt": "Vou perguntar no balcão das bagagens."
-   },
-   {
-    "fr": "Votre valise est restée à Paris.",
-    "pt": "A sua mala ficou em Paris."
-   },
-   {
-    "fr": "Elle va arriver ce soir par le dernier vol.",
-    "pt": "Vai chegar hoje à noite no último voo."
-   },
-   {
-    "fr": "Nous allons la livrer à votre hôtel.",
-    "pt": "Vamos entregá-la no seu hotel."
-   },
-   {
-    "fr": "Je vais remplir ce formulaire tout de suite.",
-    "pt": "Vou preencher já este formulário."
-   },
-   {
-    "fr": "Vous allez recevoir un message sur votre portable.",
-    "pt": "Vai receber uma mensagem no telemóvel."
-   },
-   {
-    "fr": "En attendant, je vais acheter une brosse à dents.",
-    "pt": "Entretanto, vou comprar uma escova de dentes."
-   },
-   {
-    "fr": "Merci, j'espère la revoir demain.",
-    "pt": "Obrigado, espero vê-la amanhã."
+    "fr": "Le train est sur la voie deux.",
+    "ja": "電車は二番線です。",
+    "ro": "Densha wa nibansen desu.",
+    "lit": "train · [thème] · voie-numéro-deux · être (poli)"
    }
   ],
   "tip": {
-   "title": "« Vou + infinitif » : le futur proche",
-   "example": "Je vais demander au guichet des bagages. — <b>Vou perguntar</b> no balcão das bagagens.",
-   "body": "Comme en français avec « aller + infinitif », le portugais forme le futur proche avec le verbe « ir » au présent suivi de l'infinitif. On conjugue : vou, vais, vai, vamos, vão. À l'oral, c'est la façon la plus naturelle de parler du futur : « Vou apanhar o comboio », « Vais gostar do Porto », « Vamos jantar na Ribeira »."
+   "title": "« Kudasai » : donnez-moi, s'il vous plaît",
+   "example": "Deux billets pour Nara, s'il vous plaît. — 奈良の切符を二枚<b>ください</b>。",
+   "exampleRo": "Nara no kippu o nimai kudasai.",
+   "lit": "Nara · [possessif] · billet · [objet] · deux-feuilles · donnez-moi",
+   "body": "« Kudasai » veut dire « donnez-moi, s'il vous plaît », et c'est sans doute le mot le plus utile en voyage. La construction est toute simple : on dit la chose, puis la particule « o » (objet), et on termine par « kudasai ». Comme le verbe japonais, la demande arrive à la fin de la phrase. « Nara no kippu o nimai kudasai » se dit littéralement : Nara, de, billet, objet, deux feuilles, donnez-moi. Remarquez que la quantité, « nimai » (deux, pour des objets plats comme des billets), se place juste avant « kudasai ». Quelques exemples : « Kore o kudasai » (ceci, s'il vous plaît), « Kōhī o kudasai » (un café, s'il vous plaît), « Chizu mo kudasai » (le plan aussi, s'il vous plaît). « Onegaishimasu », que vous connaissez déjà, est plus large et plus doux ; « kudasai » sert surtout à demander un objet concret qu'on vous tend. Une astuce pour retenir : imaginez votre main tendue au guichet au moment où vous prononcez « kudasai »."
   }
  },
  {
-  "title": "Sur le pont Dom Luís",
+  "title": "Une nuit au ryokan",
   "phrases": [
    {
-    "fr": "On traverse le pont Dom Luís à pied ?",
-    "pt": "Atravessamos a ponte Dom Luís a pé?"
+    "fr": "Bonsoir, je suis Martin, j'ai une réservation.",
+    "ja": "こんばんは。予約のマルタンです。",
+    "ro": "Konbanwa. Yoyaku no Marutan desu.",
+    "lit": "bonsoir · réservation · [possessif] · Martin · être (poli)"
    },
    {
-    "fr": "Le pont a deux niveaux.",
-    "pt": "A ponte tem dois tabuleiros."
+    "fr": "Bienvenue, entrez donc.",
+    "ja": "いらっしゃいませ。どうぞ。",
+    "ro": "Irasshaimase. Dōzo.",
+    "lit": "bienvenue (poli) · je vous en prie"
    },
    {
-    "fr": "En haut, c'est le métro qui passe.",
-    "pt": "Em cima passa o metro."
+    "fr": "Ici, on enlève ses chaussures.",
+    "ja": "ここで靴を脱ぎます。",
+    "ro": "Koko de kutsu o nugimasu.",
+    "lit": "ici · [lieu] · chaussures · [objet] · enlever (poli)"
    },
    {
-    "fr": "En bas, ce sont les voitures.",
-    "pt": "Em baixo passam os carros."
+    "fr": "La chambre est très jolie.",
+    "ja": "部屋はとてもきれいです。",
+    "ro": "Heya wa totemo kirei desu.",
+    "lit": "chambre · [thème] · très · joli · être (poli)"
    },
    {
-    "fr": "On monte jusqu'en haut à pied.",
-    "pt": "Vamos subir até lá acima a pé."
+    "fr": "Il y a des tatamis et un futon.",
+    "ja": "畳と布団があります。",
+    "ro": "Tatami to futon ga arimasu.",
+    "lit": "tatami · [et] · futon · [sujet] · il y a (objets, poli)"
    },
    {
-    "fr": "Il y a beaucoup de vent ici.",
-    "pt": "Está muito vento aqui."
+    "fr": "Le dîner est à sept heures.",
+    "ja": "夕食は七時です。",
+    "ro": "Yūshoku wa shichiji desu.",
+    "lit": "dîner · [thème] · sept-heures · être (poli)"
    },
    {
-    "fr": "La vue sur la Ribeira est magnifique.",
-    "pt": "A vista sobre a Ribeira é magnífica."
+    "fr": "Le bain est au premier étage.",
+    "ja": "お風呂は二階です。",
+    "ro": "Ofuro wa nikai desu.",
+    "lit": "honorable-bain · [thème] · deuxième-niveau · être (poli)"
    },
    {
-    "fr": "Des jeunes sautent du pont dans le fleuve !",
-    "pt": "Há miúdos a saltar da ponte para o rio!"
+    "fr": "Au ryokan, on porte un yukata.",
+    "ja": "旅館では浴衣を着ます。",
+    "ro": "Ryokan de wa yukata o kimasu.",
+    "lit": "ryokan · [lieu] · [thème] · yukata · [objet] · porter (poli)"
    },
    {
-    "fr": "C'est dangereux, mais c'est une tradition.",
-    "pt": "É perigoso, mas é uma tradição."
+    "fr": "Le petit-déjeuner est japonais ?",
+    "ja": "朝ご飯は和食ですか？",
+    "ro": "Asagohan wa washoku desu ka?",
+    "lit": "petit-déjeuner · [thème] · cuisine-japonaise · être (poli) · [question]"
    },
    {
-    "fr": "De l'autre côté, c'est Vila Nova de Gaia.",
-    "pt": "Do outro lado é Vila Nova de Gaia."
+    "fr": "Oui, du riz et une soupe miso.",
+    "ja": "はい、ご飯とみそ汁です。",
+    "ro": "Hai, gohan to misoshiru desu.",
+    "lit": "oui · riz · [et] · soupe-miso · être (poli)"
    }
   ]
  },
  {
-  "title": "Les caves de Vila Nova de Gaia",
+  "title": "À l'office du tourisme",
   "phrases": [
    {
-    "fr": "On va visiter une cave de porto.",
-    "pt": "Vamos visitar uma cave de vinho do Porto."
+    "fr": "Où est l'office du tourisme ?",
+    "ja": "観光案内所はどこですか？",
+    "ro": "Kankō annaijo wa doko desu ka?",
+    "lit": "tourisme-bureau-d'information · [thème] · où · être (poli) · [question]"
    },
    {
-    "fr": "La visite guidée commence à trois heures de l'après-midi.",
-    "pt": "A visita guiada começa às três da tarde."
+    "fr": "Il est dans la gare.",
+    "ja": "駅の中です。",
+    "ro": "Eki no naka desu.",
+    "lit": "gare · [possessif] · intérieur · être (poli)"
    },
    {
-    "fr": "Il y a une visite en français ?",
-    "pt": "Há alguma visita em francês?"
+    "fr": "Qu'est-ce qu'il y a à voir à Kyoto ?",
+    "ja": "京都には何がありますか？",
+    "ro": "Kyōto ni wa nani ga arimasu ka?",
+    "lit": "Kyoto · [lieu] · [thème] · quoi · [sujet] · il y a (objets, poli) · [question]"
    },
    {
-    "fr": "Oui, la prochaine est à quatre heures.",
-    "pt": "Sim, a próxima é às quatro."
+    "fr": "Il y a beaucoup de temples.",
+    "ja": "お寺がたくさんあります。",
+    "ro": "Otera ga takusan arimasu.",
+    "lit": "honorable-temple · [sujet] · beaucoup · il y a (objets, poli)"
    },
    {
-    "fr": "Les tonneaux sont énormes.",
-    "pt": "As pipas são enormes."
+    "fr": "Combien coûte l'entrée du Kinkaku-ji ?",
+    "ja": "金閣寺の入場料はいくらですか？",
+    "ro": "Kinkakuji no nyūjōryō wa ikura desu ka?",
+    "lit": "Kinkaku-ji · [possessif] · droit-d'entrée · [thème] · combien · être (poli) · [question]"
    },
    {
-    "fr": "Le vin vieillit ici pendant des années.",
-    "pt": "O vinho envelhece aqui durante anos."
+    "fr": "C'est cinq cents yens.",
+    "ja": "五百円です。",
+    "ro": "Gohyaku en desu.",
+    "lit": "cinq-cents-yens · être (poli)"
    },
    {
-    "fr": "La dégustation est comprise dans le prix.",
-    "pt": "A prova está incluída no preço."
+    "fr": "Quand a lieu la fête de Gion ?",
+    "ja": "祇園祭はいつですか？",
+    "ro": "Gion matsuri wa itsu desu ka?",
+    "lit": "Gion-fête · [thème] · quand · être (poli) · [question]"
    },
    {
-    "fr": "Je préfère le porto blanc.",
-    "pt": "Prefiro o Porto branco."
+    "fr": "C'est en juillet.",
+    "ja": "七月です。",
+    "ro": "Shichigatsu desu.",
+    "lit": "juillet · être (poli)"
    },
    {
-    "fr": "Moi, j'aime surtout le tawny.",
-    "pt": "Eu gosto mais do tawny."
+    "fr": "Qui est la personne sur cette affiche ?",
+    "ja": "このポスターの人は誰ですか？",
+    "ro": "Kono posutā no hito wa dare desu ka?",
+    "lit": "ce · affiche · [possessif] · personne · [thème] · qui · être (poli) · [question]"
    },
    {
-    "fr": "On achète une bouteille pour la famille ?",
-    "pt": "Compramos uma garrafa para a família?"
-   }
-  ]
- },
- {
-  "title": "Payer ses souvenirs dans la Ribeira",
-  "phrases": [
-   {
-    "fr": "Combien coûte ce petit coq en céramique ?",
-    "pt": "Quanto custa este galo de cerâmica?"
-   },
-   {
-    "fr": "Il coûte douze euros.",
-    "pt": "Custa doze euros."
-   },
-   {
-    "fr": "Et ces deux cartes postales ?",
-    "pt": "E estes dois postais?"
-   },
-   {
-    "fr": "Un euro cinquante chacune.",
-    "pt": "Um euro e cinquenta cada um."
-   },
-   {
-    "fr": "Je vous dois combien au total ?",
-    "pt": "Quanto lhe devo no total?"
-   },
-   {
-    "fr": "Ça fait quinze euros, s'il vous plaît.",
-    "pt": "São quinze euros, por favor."
-   },
-   {
-    "fr": "Je peux payer avec un billet de vingt ?",
-    "pt": "Posso pagar com uma nota de vinte?"
-   },
-   {
-    "fr": "Bien sûr, voici votre monnaie.",
-    "pt": "Claro, aqui tem o troco."
-   },
-   {
-    "fr": "Il me reste encore cinq euros.",
-    "pt": "Ainda me sobram cinco euros."
-   },
-   {
-    "fr": "Assez pour un café et une pâtisserie !",
-    "pt": "Chega para um cimbalino e um bolo!"
+    "fr": "C'est une maiko de Gion.",
+    "ja": "祇園の舞妓さんです。",
+    "ro": "Gion no maiko san desu.",
+    "lit": "Gion · [possessif] · maiko · madame · être (poli)"
    }
   ],
   "tip": {
-   "title": "« Quanto custa? » et les nombres",
-   "example": "Combien coûte ce petit coq en céramique ? — <b>Quanto custa</b> este galo de cerâmica?",
-   "body": "Pour demander un prix, on dit « Quanto custa? » pour un objet et « Quanto é? » pour le total. Attention : « um » et « dois » ont une forme féminine, « uma » et « duas » (dois postais, duas bicas). Les centimes se disent avec « e » : « três euros e cinquenta », « um euro e vinte »."
+   "title": "Les mots interrogatifs : doko, nani, itsu, dare, ikura",
+   "example": "Où est l'office du tourisme ? — 観光案内所は<b>どこ</b>ですか？",
+   "exampleRo": "Kankō annaijo wa doko desu ka?",
+   "lit": "tourisme-bureau-d'information · [thème] · où · être (poli) · [question]",
+   "body": "En japonais, poser une question avec un mot interrogatif est d'une grande simplicité : on ne change pas l'ordre des mots, on met le mot interrogatif à la place de la réponse attendue, et on ajoute « ka » (question) à la fin. Voici les cinq indispensables : « doko » (où), « nani » ou « nan » (quoi), « itsu » (quand), « dare » (qui) et « ikura » (combien, pour un prix). « Kankō annaijo wa doko desu ka » se dit littéralement : office du tourisme, thème, où, être poli, question ? Pour répondre, il suffit de remplacer « doko » par le lieu : « Eki no naka desu », c'est dans la gare. De même : « Ikura desu ka ? » (c'est combien ?), « Itsu desu ka ? » (c'est quand ?), « Dare desu ka ? » (qui est-ce ?). Le schéma reste toujours le même : le sujet avec « wa », le mot interrogatif, puis « desu ka ». Une astuce pour retenir « ikura » : c'est aussi le nom des œufs de saumon, un mets plutôt cher, alors on demande toujours combien ça coûte !"
   }
  },
  {
-  "title": "À l'office de tourisme de Porto",
+  "title": "Au Kinkaku-ji, le pavillon d'or",
   "phrases": [
    {
-    "fr": "Bonjour, vous avez un plan de Porto ?",
-    "pt": "Bom dia, tem um mapa do Porto?"
+    "fr": "Le Kinkaku-ji est vraiment beau.",
+    "ja": "金閣寺は本当にきれいです。",
+    "ro": "Kinkakuji wa hontō ni kirei desu.",
+    "lit": "Kinkaku-ji · [thème] · vraiment · beau · être (poli)"
    },
    {
-    "fr": "Bien sûr, il est gratuit.",
-    "pt": "Claro, é gratuito."
+    "fr": "Il est couleur or.",
+    "ja": "金色です。",
+    "ro": "Kin'iro desu.",
+    "lit": "or-couleur · être (poli)"
    },
    {
-    "fr": "Qu'est-ce qu'on peut visiter en deux jours ?",
-    "pt": "O que é que podemos visitar em dois dias?"
+    "fr": "L'étang est très calme.",
+    "ja": "池はとても静かです。",
+    "ro": "Ike wa totemo shizuka desu.",
+    "lit": "étang · [thème] · très · calme · être (poli)"
    },
    {
-    "fr": "Commencez par la Ribeira et la cathédrale.",
-    "pt": "Comece pela Ribeira e pela Sé."
+    "fr": "On prend une photo ?",
+    "ja": "写真を撮りましょうか？",
+    "ro": "Shashin o torimashō ka?",
+    "lit": "photo · [objet] · prendre (proposition) · [question]"
    },
    {
-    "fr": "En fin d'après-midi, allez voir le coucher de soleil à Gaia.",
-    "pt": "Ao fim da tarde, vá ver o pôr do sol em Gaia."
+    "fr": "Aujourd'hui, il y a beaucoup de touristes.",
+    "ja": "今日は観光客が多いです。",
+    "ro": "Kyō wa kankōkyaku ga ōi desu.",
+    "lit": "aujourd'hui · [thème] · touristes · [sujet] · nombreux · être (poli)"
    },
    {
-    "fr": "Et pour aller à Guimarães ?",
-    "pt": "E para ir a Guimarães?"
+    "fr": "On n'entre pas dans le pavillon.",
+    "ja": "建物には入りません。",
+    "ro": "Tatemono ni wa hairimasen.",
+    "lit": "bâtiment · [direction] · [thème] · entrer (négatif, poli)"
    },
    {
-    "fr": "Le train part de São Bento toutes les heures.",
-    "pt": "O comboio sai de São Bento de hora a hora."
+    "fr": "Le jardin aussi est magnifique.",
+    "ja": "庭もすばらしいです。",
+    "ro": "Niwa mo subarashii desu.",
+    "lit": "jardin · [aussi] · magnifique · être (poli)"
    },
    {
-    "fr": "Vous avez des brochures en français ?",
-    "pt": "Tem folhetos em francês?"
+    "fr": "Et si on achetait une amulette ?",
+    "ja": "お守りを買いませんか？",
+    "ro": "Omamori o kaimasen ka?",
+    "lit": "honorable-protection · [objet] · acheter (négatif, poli) · [question]"
    },
    {
-    "fr": "Oui, ici, sur cette table.",
-    "pt": "Sim, aqui, nesta mesa."
+    "fr": "Cette amulette coûte huit cents yens.",
+    "ja": "このお守りは八百円です。",
+    "ro": "Kono omamori wa happyaku en desu.",
+    "lit": "ce · honorable-protection · [thème] · huit-cents-yens · être (poli)"
    },
    {
-    "fr": "Merci, vous m'avez beaucoup aidé.",
-    "pt": "Obrigado, ajudou-me muito."
+    "fr": "C'est un joli souvenir de Kyoto.",
+    "ja": "京都のいいお土産です。",
+    "ro": "Kyōto no ii omiyage desu.",
+    "lit": "Kyoto · [possessif] · bon · souvenir-cadeau · être (poli)"
+   }
+  ]
+ },
+ {
+  "title": "Les mille torii de Fushimi Inari",
+  "phrases": [
+   {
+    "fr": "De Kyoto à Inari, c'est à deux gares.",
+    "ja": "京都から稲荷まで二駅です。",
+    "ro": "Kyōto kara Inari made futaeki desu.",
+    "lit": "Kyoto · [de… à… : depuis] · Inari · [de… à… : jusqu'à] · deux-gares · être (poli)"
+   },
+   {
+    "fr": "En train, c'est cinq minutes.",
+    "ja": "電車で五分です。",
+    "ro": "Densha de gofun desu.",
+    "lit": "train · [moyen] · cinq-minutes · être (poli)"
+   },
+   {
+    "fr": "La gare est juste devant le sanctuaire.",
+    "ja": "駅は神社の前です。",
+    "ro": "Eki wa jinja no mae desu.",
+    "lit": "gare · [thème] · sanctuaire · [possessif] · devant · être (poli)"
+   },
+   {
+    "fr": "Il y a énormément de torii.",
+    "ja": "鳥居がたくさんあります。",
+    "ro": "Torii ga takusan arimasu.",
+    "lit": "torii · [sujet] · beaucoup · il y a (objets, poli)"
+   },
+   {
+    "fr": "Ils sont tous orange.",
+    "ja": "全部オレンジ色です。",
+    "ro": "Zenbu orenji iro desu.",
+    "lit": "tout · orange-couleur · être (poli)"
+   },
+   {
+    "fr": "On monte jusqu'en haut de la montagne ?",
+    "ja": "山の上まで登りましょうか？",
+    "ro": "Yama no ue made noborimashō ka?",
+    "lit": "montagne · [possessif] · dessus · [de… à… : jusqu'à] · grimper (proposition) · [question]"
+   },
+   {
+    "fr": "Du bas jusqu'en haut, ça prend deux heures.",
+    "ja": "下から上まで二時間かかります。",
+    "ro": "Shita kara ue made nijikan kakarimasu.",
+    "lit": "bas · [de… à… : depuis] · haut · [de… à… : jusqu'à] · deux-heures (durée) · prendre du temps (poli)"
+   },
+   {
+    "fr": "Les boutiques ouvrent de neuf heures à cinq heures.",
+    "ja": "店は九時から五時までです。",
+    "ro": "Mise wa kuji kara goji made desu.",
+    "lit": "boutique · [thème] · neuf-heures · [de… à… : depuis] · cinq-heures · [de… à… : jusqu'à] · être (poli)"
+   },
+   {
+    "fr": "Et si on se reposait ici ?",
+    "ja": "ここで休みましょうか？",
+    "ro": "Koko de yasumimashō ka?",
+    "lit": "ici · [lieu] · se reposer (proposition) · [question]"
+   },
+   {
+    "fr": "D'ici, la vue est superbe.",
+    "ja": "ここからの景色はすばらしいです。",
+    "ro": "Koko kara no keshiki wa subarashii desu.",
+    "lit": "ici · [de… à… : depuis] · [possessif] · paysage · [thème] · superbe · être (poli)"
+   }
+  ],
+  "tip": {
+   "title": "« Kara » et « made » : de… à…",
+   "example": "Du bas jusqu'en haut, ça prend deux heures. — 下<b>から</b>上<b>まで</b>二時間かかります。",
+   "exampleRo": "Shita kara ue made nijikan kakarimasu.",
+   "lit": "bas · [de… à… : depuis] · haut · [de… à… : jusqu'à] · deux-heures (durée) · prendre du temps (poli)",
+   "body": "Pour dire « de… à… », le japonais utilise deux particules : « kara », qui marque le point de départ, et « made », qui marque le point d'arrivée. Comme toutes les particules, elles se placent après le mot, et non avant comme nos prépositions. On dit donc « Kyōto kara », littéralement Kyoto depuis, et « Inari made », Inari jusqu'à. « Shita kara ue made nijikan kakarimasu » se décompose ainsi : bas, depuis, haut, jusqu'à, deux heures, ça prend. Le plus pratique, c'est que cela marche aussi bien pour les lieux que pour les heures : « Kuji kara goji made desu », c'est de neuf heures à cinq heures. On peut aussi les utiliser seuls : « Kyōto eki made onegaishimasu », jusqu'à la gare de Kyoto, s'il vous plaît, est la phrase idéale en taxi. Une astuce pour retenir l'ordre : « kara » comme un car qui démarre, « made » comme un arrêt bien marqué au bout du trajet."
+  }
+ },
+ {
+  "title": "Une soirée à Gion",
+  "phrases": [
+   {
+    "fr": "Ce soir, on va à Gion.",
+    "ja": "今晩、祇園へ行きます。",
+    "ro": "Konban, Gion e ikimasu.",
+    "lit": "ce soir · Gion · [direction] · aller (poli)"
+   },
+   {
+    "fr": "Les vieilles maisons sont très belles.",
+    "ja": "古い家はとてもきれいです。",
+    "ro": "Furui ie wa totemo kirei desu.",
+    "lit": "vieux · maison · [thème] · très · beau · être (poli)"
+   },
+   {
+    "fr": "Regarde, il y a une maiko là-bas !",
+    "ja": "あそこに舞妓さんがいます！",
+    "ro": "Asoko ni maiko san ga imasu!",
+    "lit": "là-bas · [lieu] · maiko · madame · [sujet] · il y a (vivants, poli)"
+   },
+   {
+    "fr": "Dans cette rue, les photos sont interdites.",
+    "ja": "この道では写真はだめです。",
+    "ro": "Kono michi de wa shashin wa dame desu.",
+    "lit": "ce · rue · [lieu] · [thème] · photo · [thème] · interdit · être (poli)"
+   },
+   {
+    "fr": "On dîne dans un petit restaurant.",
+    "ja": "小さいレストランで晩ご飯を食べます。",
+    "ro": "Chiisai resutoran de bangohan o tabemasu.",
+    "lit": "petit · restaurant · [lieu] · dîner · [objet] · manger (poli)"
+   },
+   {
+    "fr": "Le tofu de Kyoto est délicieux.",
+    "ja": "京都の豆腐はおいしいです。",
+    "ro": "Kyōto no tōfu wa oishii desu.",
+    "lit": "Kyoto · [possessif] · tofu · [thème] · délicieux · être (poli)"
+   },
+   {
+    "fr": "Le saké aussi est bon.",
+    "ja": "お酒もおいしいです。",
+    "ro": "Osake mo oishii desu.",
+    "lit": "honorable-alcool · [aussi] · bon · être (poli)"
+   },
+   {
+    "fr": "Je ne bois pas beaucoup.",
+    "ja": "あまり飲みません。",
+    "ro": "Amari nomimasen.",
+    "lit": "pas beaucoup · boire (négatif, poli)"
+   },
+   {
+    "fr": "La rivière Kamo est juste là.",
+    "ja": "鴨川はすぐそこです。",
+    "ro": "Kamogawa wa sugu soko desu.",
+    "lit": "Kamo-rivière · [thème] · tout près · là · être (poli)"
+   },
+   {
+    "fr": "Et si on marchait un peu ?",
+    "ja": "少し歩きませんか？",
+    "ro": "Sukoshi arukimasen ka?",
+    "lit": "un peu · marcher (négatif, poli) · [question]"
+   }
+  ]
+ },
+ {
+  "title": "Une journée chez les daims de Nara",
+  "phrases": [
+   {
+    "fr": "Hier, je suis allé à Nara.",
+    "ja": "昨日、奈良へ行きました。",
+    "ro": "Kinō, Nara e ikimashita.",
+    "lit": "hier · Nara · [direction] · aller (passé, poli)"
+   },
+   {
+    "fr": "J'ai vu beaucoup de daims.",
+    "ja": "鹿をたくさん見ました。",
+    "ro": "Shika o takusan mimashita.",
+    "lit": "daim · [objet] · beaucoup · voir (passé, poli)"
+   },
+   {
+    "fr": "J'ai acheté des galettes pour les daims.",
+    "ja": "鹿せんべいを買いました。",
+    "ro": "Shika senbei o kaimashita.",
+    "lit": "daim-galette · [objet] · acheter (passé, poli)"
+   },
+   {
+    "fr": "Un daim a fait une révérence.",
+    "ja": "鹿がおじぎをしました。",
+    "ro": "Shika ga ojigi o shimashita.",
+    "lit": "daim · [sujet] · révérence · [objet] · faire (passé, poli)"
+   },
+   {
+    "fr": "Ensuite, j'ai vu le Tōdai-ji.",
+    "ja": "それから、東大寺を見ました。",
+    "ro": "Sorekara, Tōdaiji o mimashita.",
+    "lit": "ensuite · Tōdai-ji · [objet] · voir (passé, poli)"
+   },
+   {
+    "fr": "Le grand bouddha est immense.",
+    "ja": "大仏はとても大きいです。",
+    "ro": "Daibutsu wa totemo ōkii desu.",
+    "lit": "grand-bouddha · [thème] · très · grand · être (poli)"
+   },
+   {
+    "fr": "Je n'ai pas pris de photo.",
+    "ja": "写真は撮りませんでした。",
+    "ro": "Shashin wa torimasen deshita.",
+    "lit": "photo · [thème] · prendre (négatif passé, poli)"
+   },
+   {
+    "fr": "Je n'ai pas mangé à midi.",
+    "ja": "昼ご飯は食べませんでした。",
+    "ro": "Hirugohan wa tabemasen deshita.",
+    "lit": "déjeuner · [thème] · manger (négatif passé, poli)"
+   },
+   {
+    "fr": "Je suis rentré à Kyoto à six heures.",
+    "ja": "六時に京都へ帰りました。",
+    "ro": "Rokuji ni Kyōto e kaerimashita.",
+    "lit": "six-heures · [moment] · Kyoto · [direction] · rentrer (passé, poli)"
+   },
+   {
+    "fr": "C'était une très bonne journée.",
+    "ja": "とてもいい一日でした。",
+    "ro": "Totemo ii ichinichi deshita.",
+    "lit": "très · bon · une-journée · être (passé, poli)"
+   }
+  ],
+  "tip": {
+   "title": "Le passé poli : « -mashita » et « -masen deshita »",
+   "example": "J'ai vu beaucoup de daims. — 鹿をたくさん<b>見ました</b>。",
+   "exampleRo": "Shika o takusan mimashita.",
+   "lit": "daim · [objet] · beaucoup · voir (passé, poli)",
+   "body": "Bonne nouvelle : le passé poli japonais est très régulier. Il suffit de remplacer la terminaison « -masu » par « -mashita ». « Mimasu », je vois, devient « mimashita », j'ai vu ; « ikimasu », je vais, devient « ikimashita », je suis allé. Pour la négation, on part de « -masen » et on ajoute simplement « deshita » : « tabemasen », je ne mange pas, devient « tabemasen deshita », je n'ai pas mangé. « Shika o takusan mimashita » se dit littéralement : daim, objet, beaucoup, avoir vu poliment. Et comme en japonais le verbe ne change jamais selon la personne, « mimashita » veut dire aussi bien j'ai vu, tu as vu ou nous avons vu : c'est le contexte qui décide. Enfin, « desu » a lui aussi son passé : « deshita », c'était, comme dans « Ii ichinichi deshita », c'était une bonne journée. Une astuce pour retenir : « shita » sonne comme une porte qui se referme, l'action est terminée."
+  }
+ },
+ {
+  "title": "Un bagage égaré",
+  "phrases": [
+   {
+    "fr": "Excusez-moi, ma valise n'est pas arrivée.",
+    "ja": "すみません、スーツケースが来ませんでした。",
+    "ro": "Sumimasen, sūtsukēsu ga kimasen deshita.",
+    "lit": "excusez-moi · valise · [sujet] · venir (négatif passé, poli)"
+   },
+   {
+    "fr": "Votre nom, s'il vous plaît.",
+    "ja": "お名前をお願いします。",
+    "ro": "Onamae o onegaishimasu.",
+    "lit": "honorable-nom · [objet] · s'il vous plaît (poli)"
+   },
+   {
+    "fr": "Je m'appelle Claire Dubois.",
+    "ja": "クレール・デュボワです。",
+    "ro": "Kurēru Dyubowa desu.",
+    "lit": "Claire Dubois · être (poli)"
+   },
+   {
+    "fr": "La valise est de quelle couleur ?",
+    "ja": "スーツケースは何色ですか？",
+    "ro": "Sūtsukēsu wa naniiro desu ka?",
+    "lit": "valise · [thème] · quelle-couleur · être (poli) · [question]"
+   },
+   {
+    "fr": "Elle est bleue.",
+    "ja": "青いです。",
+    "ro": "Aoi desu.",
+    "lit": "bleu · être (poli)"
+   },
+   {
+    "fr": "Et elle est assez grande.",
+    "ja": "かなり大きいです。",
+    "ro": "Kanari ōkii desu.",
+    "lit": "assez · grand · être (poli)"
+   },
+   {
+    "fr": "J'ai pris l'avion à Paris.",
+    "ja": "パリで飛行機に乗りました。",
+    "ro": "Pari de hikōki ni norimashita.",
+    "lit": "Paris · [lieu] · avion · [dans] · monter (passé, poli)"
+   },
+   {
+    "fr": "Nous la livrerons à votre hôtel demain.",
+    "ja": "明日、ホテルに届けます。",
+    "ro": "Ashita, hoteru ni todokemasu.",
+    "lit": "demain · hôtel · [direction] · livrer (poli)"
+   },
+   {
+    "fr": "Voici l'adresse de mon hôtel.",
+    "ja": "これはホテルの住所です。",
+    "ro": "Kore wa hoteru no jūsho desu.",
+    "lit": "ceci · [thème] · hôtel · [possessif] · adresse · être (poli)"
+   },
+   {
+    "fr": "Merci, me voilà rassurée.",
+    "ja": "ありがとうございます。安心しました。",
+    "ro": "Arigatō gozaimasu. Anshin shimashita.",
+    "lit": "merci (très poli) · soulagement · faire (passé, poli)"
+   }
+  ]
+ },
+ {
+  "title": "Dōtonbori, le soir",
+  "phrases": [
+   {
+    "fr": "Je veux voir Dōtonbori.",
+    "ja": "道頓堀を見たいです。",
+    "ro": "Dōtonbori o mitai desu.",
+    "lit": "Dōtonbori · [objet] · voir-vouloir · être (poli)"
+   },
+   {
+    "fr": "Les néons sont vraiment lumineux.",
+    "ja": "ネオンは本当に明るいです。",
+    "ro": "Neon wa hontō ni akarui desu.",
+    "lit": "néon · [thème] · vraiment · lumineux · être (poli)"
+   },
+   {
+    "fr": "Je veux une photo devant la grande enseigne.",
+    "ja": "大きい看板の前で写真を撮りたいです。",
+    "ro": "Ōkii kanban no mae de shashin o toritai desu.",
+    "lit": "grand · enseigne · [possessif] · devant · [lieu] · photo · [objet] · prendre-vouloir · être (poli)"
+   },
+   {
+    "fr": "J'ai un petit creux.",
+    "ja": "おなかがすきました。",
+    "ro": "Onaka ga sukimashita.",
+    "lit": "ventre · [sujet] · se vider (passé, poli)"
+   },
+   {
+    "fr": "Qu'est-ce que tu veux manger ?",
+    "ja": "何を食べたいですか？",
+    "ro": "Nani o tabetai desu ka?",
+    "lit": "quoi · [objet] · manger-vouloir · être (poli) · [question]"
+   },
+   {
+    "fr": "Je veux manger des takoyaki.",
+    "ja": "たこ焼きを食べたいです。",
+    "ro": "Takoyaki o tabetai desu.",
+    "lit": "takoyaki · [objet] · manger-vouloir · être (poli)"
+   },
+   {
+    "fr": "Moi, je veux boire une bière.",
+    "ja": "私はビールを飲みたいです。",
+    "ro": "Watashi wa bīru o nomitai desu.",
+    "lit": "moi · [thème] · bière · [objet] · boire-vouloir · être (poli)"
+   },
+   {
+    "fr": "Je ne veux pas faire une longue queue.",
+    "ja": "長い列には並びたくないです。",
+    "ro": "Nagai retsu ni wa narabitakunai desu.",
+    "lit": "long · file · [lieu] · [thème] · faire-la-queue-ne-pas-vouloir · être (poli)"
+   },
+   {
+    "fr": "Je veux monter sur le bateau.",
+    "ja": "船に乗りたいです。",
+    "ro": "Fune ni noritai desu.",
+    "lit": "bateau · [dans] · monter-vouloir · être (poli)"
+   },
+   {
+    "fr": "Osaka est vraiment animée.",
+    "ja": "大阪は本当ににぎやかです。",
+    "ro": "Ōsaka wa hontō ni nigiyaka desu.",
+    "lit": "Osaka · [thème] · vraiment · animé · être (poli)"
+   }
+  ],
+  "tip": {
+   "title": "« -tai desu » : dire ce qu'on veut faire",
+   "example": "Je veux manger des takoyaki. — たこ焼きを<b>食べたい</b>です。",
+   "exampleRo": "Takoyaki o tabetai desu.",
+   "lit": "takoyaki · [objet] · manger-vouloir · être (poli)",
+   "body": "Pour dire « je veux faire quelque chose », le japonais n'utilise pas un verbe vouloir séparé : il colle l'envie directement au verbe. On prend la forme en « -masu », on enlève « -masu », et on met « -tai » à la place. « Tabemasu », manger, devient « tabetai », vouloir manger ; « mimasu », voir, devient « mitai », vouloir voir. On ajoute ensuite « desu » pour rester poli. « Takoyaki o tabetai desu » se dit littéralement : takoyaki, objet, manger-vouloir, être poli. Pour la négation, « -tai » devient « -takunai » : « Narabitakunai desu », je ne veux pas faire la queue. Et pour demander à quelqu'un ce qu'il veut, on ajoute simplement « ka » : « Nani o tabetai desu ka ? », qu'est-ce que tu veux manger ? Attention, on utilise surtout « -tai » pour parler de soi, ou dans une question directe à la personne concernée. Une astuce pour retenir : « tai » ressemble à « j'ai envie », un petit cri de désir au bout du verbe."
+  }
+ },
+ {
+  "title": "Takoyaki et okonomiyaki",
+  "phrases": [
+   {
+    "fr": "Deux barquettes de takoyaki, s'il vous plaît.",
+    "ja": "たこ焼きを二つください。",
+    "ro": "Takoyaki o futatsu kudasai.",
+    "lit": "takoyaki · [objet] · deux (objets) · donnez-moi"
+   },
+   {
+    "fr": "Attention, c'est brûlant !",
+    "ja": "とても熱いです！",
+    "ro": "Totemo atsui desu!",
+    "lit": "très · chaud · être (poli)"
+   },
+   {
+    "fr": "À l'intérieur, c'est du poulpe.",
+    "ja": "中はたこです。",
+    "ro": "Naka wa tako desu.",
+    "lit": "intérieur · [thème] · poulpe · être (poli)"
+   },
+   {
+    "fr": "Ce soir, on mange des okonomiyaki.",
+    "ja": "今晩はお好み焼きを食べます。",
+    "ro": "Konban wa okonomiyaki o tabemasu.",
+    "lit": "ce soir · [thème] · okonomiyaki · [objet] · manger (poli)"
+   },
+   {
+    "fr": "On les fait cuire soi-même.",
+    "ja": "自分で焼きます。",
+    "ro": "Jibun de yakimasu.",
+    "lit": "soi-même · [moyen] · faire cuire (poli)"
+   },
+   {
+    "fr": "Je mets du chou et du porc.",
+    "ja": "キャベツと豚肉を入れます。",
+    "ro": "Kyabetsu to butaniku o iremasu.",
+    "lit": "chou · [et] · porc · [objet] · mettre (poli)"
+   },
+   {
+    "fr": "Ensuite, on verse la sauce.",
+    "ja": "それから、ソースをかけます。",
+    "ro": "Sorekara, sōsu o kakemasu.",
+    "lit": "ensuite · sauce · [objet] · verser (poli)"
+   },
+   {
+    "fr": "Ça sent vraiment bon.",
+    "ja": "いいにおいです。",
+    "ro": "Ii nioi desu.",
+    "lit": "bon · odeur · être (poli)"
+   },
+   {
+    "fr": "C'est la spécialité d'Osaka.",
+    "ja": "大阪の名物です。",
+    "ro": "Ōsaka no meibutsu desu.",
+    "lit": "Osaka · [possessif] · spécialité · être (poli)"
+   },
+   {
+    "fr": "J'ai envie d'en remanger demain.",
+    "ja": "明日もまた食べたいです。",
+    "ro": "Ashita mo mata tabetai desu.",
+    "lit": "demain · [aussi] · encore · manger-vouloir · être (poli)"
    }
   ]
  },
@@ -1365,552 +2347,961 @@ const level1Module2Lessons = [
   "title": "À la pharmacie",
   "phrases": [
    {
-    "fr": "J'ai pris un coup de soleil à la plage de Viana.",
-    "pt": "Apanhei um escaldão na praia de Viana."
+    "fr": "Il y a une pharmacie près d'ici ?",
+    "ja": "この近くに薬局がありますか？",
+    "ro": "Kono chikaku ni yakkyoku ga arimasu ka?",
+    "lit": "ce · environs · [lieu] · pharmacie · [sujet] · il y a (objets, poli) · [question]"
    },
    {
-    "fr": "Vous avez une crème pour les brûlures ?",
-    "pt": "Tem algum creme para queimaduras?"
+    "fr": "Oui, à côté de la gare.",
+    "ja": "はい、駅の隣にあります。",
+    "ro": "Hai, eki no tonari ni arimasu.",
+    "lit": "oui · gare · [possessif] · à côté · [lieu] · se trouver (objets, poli)"
    },
    {
-    "fr": "Oui, celle-ci est très efficace.",
-    "pt": "Sim, este é muito eficaz."
+    "fr": "J'ai mal à la tête.",
+    "ja": "頭が痛いです。",
+    "ro": "Atama ga itai desu.",
+    "lit": "tête · [sujet] · douloureux · être (poli)"
    },
    {
-    "fr": "Mettez-la trois fois par jour.",
-    "pt": "Ponha três vezes por dia."
+    "fr": "J'ai aussi un peu de fièvre.",
+    "ja": "少し熱もあります。",
+    "ro": "Sukoshi netsu mo arimasu.",
+    "lit": "un peu · fièvre · [aussi] · il y a (objets, poli)"
    },
    {
-    "fr": "J'ai aussi un peu mal à la tête.",
-    "pt": "Também me dói um bocadinho a cabeça."
+    "fr": "Depuis quand ?",
+    "ja": "いつからですか？",
+    "ro": "Itsu kara desu ka?",
+    "lit": "quand · [de… à… : depuis] · être (poli) · [question]"
    },
    {
-    "fr": "Prenez ces comprimés après le repas.",
-    "pt": "Tome estes comprimidos depois da refeição."
+    "fr": "Depuis hier soir.",
+    "ja": "昨日の夜からです。",
+    "ro": "Kinō no yoru kara desu.",
+    "lit": "hier · [possessif] · soir · [de… à… : depuis] · être (poli)"
    },
    {
-    "fr": "Il faut une ordonnance ?",
-    "pt": "É preciso receita?"
+    "fr": "C'est ce médicament-ci qu'il vous faut.",
+    "ja": "この薬がいいです。",
+    "ro": "Kono kusuri ga ii desu.",
+    "lit": "ce · médicament · [sujet] · bon · être (poli)"
    },
    {
-    "fr": "Non, ils sont en vente libre.",
-    "pt": "Não, são de venda livre."
+    "fr": "On en prend un après chaque repas.",
+    "ja": "食後に一錠飲みます。",
+    "ro": "Shokugo ni ichijō nomimasu.",
+    "lit": "après-repas · [moment] · un-comprimé · avaler (poli)"
    },
    {
-    "fr": "Et surtout, buvez beaucoup d'eau.",
-    "pt": "E sobretudo, beba muita água."
+    "fr": "Mon ami, lui, a mal au ventre.",
+    "ja": "友達はおなかが痛いです。",
+    "ro": "Tomodachi wa onaka ga itai desu.",
+    "lit": "ami · [thème] · ventre · [sujet] · douloureux · être (poli)"
    },
    {
-    "fr": "Évitez le soleil pendant deux jours.",
-    "pt": "Evite o sol durante dois dias."
+    "fr": "Qui va à la pharmacie ?",
+    "ja": "誰が薬局へ行きますか？",
+    "ro": "Dare ga yakkyoku e ikimasu ka?",
+    "lit": "qui · [sujet] · pharmacie · [direction] · aller (poli) · [question]"
+   }
+  ],
+  "tip": {
+   "title": "« Ga » : la particule du sujet, et la différence avec « wa »",
+   "example": "J'ai mal à la tête. — 頭<b>が</b>痛いです。",
+   "exampleRo": "Atama ga itai desu.",
+   "lit": "tête · [sujet] · douloureux · être (poli)",
+   "body": "Vous connaissez « wa », qui annonce le thème, ce dont on parle, un peu comme « quant à ». « Ga », lui, désigne le sujet précis d'une action ou d'un état, souvent une information nouvelle sur laquelle on met l'accent. « Atama ga itai desu » se dit littéralement : tête, sujet, douloureux, être poli ; autrement dit, c'est la tête qui fait mal. Les deux peuvent même cohabiter : « Tomodachi wa onaka ga itai desu », quant à mon ami, c'est le ventre qui lui fait mal. Retenez trois cas où « ga » s'impose : après un mot interrogatif, comme « Dare ga ikimasu ka ? », qui y va ; avec « arimasu » et « imasu » pour dire ce qui se trouve quelque part, comme « Yakkyoku ga arimasu » ; et pour les sensations, comme « Onaka ga itai desu ». Dans le doute, pas de panique : on vous comprendra toujours, même si vous confondez. Une astuce pour retenir : « wa » allume le décor de la scène, « ga » pointe le doigt sur l'acteur."
+  }
+ },
+ {
+  "title": "Changer de l'argent",
+  "phrases": [
+   {
+    "fr": "Je voudrais changer des euros en yens.",
+    "ja": "ユーロを円に両替したいです。",
+    "ro": "Yūro o en ni ryōgae shitai desu.",
+    "lit": "euro · [objet] · yen · [direction] · change · faire-vouloir · être (poli)"
+   },
+   {
+    "fr": "Le bureau de change est au premier étage.",
+    "ja": "両替所は二階です。",
+    "ro": "Ryōgaejo wa nikai desu.",
+    "lit": "bureau-de-change · [thème] · deuxième-niveau · être (poli)"
+   },
+   {
+    "fr": "Cent euros, ça fait combien de yens ?",
+    "ja": "百ユーロは何円ですか？",
+    "ro": "Hyaku yūro wa nan'en desu ka?",
+    "lit": "cent-euros · [thème] · combien-de-yens · être (poli) · [question]"
+   },
+   {
+    "fr": "Environ seize mille yens.",
+    "ja": "約一万六千円です。",
+    "ro": "Yaku ichiman rokusen en desu.",
+    "lit": "environ · seize-mille-yens · être (poli)"
+   },
+   {
+    "fr": "Au Japon, on paie souvent en liquide.",
+    "ja": "日本では現金をよく使います。",
+    "ro": "Nihon de wa genkin o yoku tsukaimasu.",
+    "lit": "Japon · [lieu] · [thème] · argent-liquide · [objet] · souvent · utiliser (poli)"
+   },
+   {
+    "fr": "Il y a une banque près de la gare.",
+    "ja": "駅の近くに銀行があります。",
+    "ro": "Eki no chikaku ni ginkō ga arimasu.",
+    "lit": "gare · [possessif] · environs · [lieu] · banque · [sujet] · il y a (objets, poli)"
+   },
+   {
+    "fr": "Cette carte ne marche pas ?",
+    "ja": "このカードはだめですか？",
+    "ro": "Kono kādo wa dame desu ka?",
+    "lit": "ce · carte · [thème] · pas bon · être (poli) · [question]"
+   },
+   {
+    "fr": "Alors je paie en espèces.",
+    "ja": "じゃあ、現金で払います。",
+    "ro": "Jā, genkin de haraimasu.",
+    "lit": "alors · argent-liquide · [moyen] · payer (poli)"
+   },
+   {
+    "fr": "Je n'ai pas de petite monnaie.",
+    "ja": "小銭がありません。",
+    "ro": "Kozeni ga arimasen.",
+    "lit": "petite-monnaie · [sujet] · il y a (négatif, poli)"
+   },
+   {
+    "fr": "Un billet de dix mille yens, ça va ?",
+    "ja": "一万円札でいいですか？",
+    "ro": "Ichiman en satsu de ii desu ka?",
+    "lit": "dix-mille-yens-billet · [moyen] · bien · être (poli) · [question]"
    }
   ]
  },
  {
-  "title": "Une croisière sur le Douro",
+  "title": "En bus ou en taxi ?",
   "phrases": [
    {
-    "fr": "La croisière des six ponts part à onze heures.",
-    "pt": "O cruzeiro das seis pontes parte às onze."
+    "fr": "Je vais à l'hôtel en bus.",
+    "ja": "バスでホテルへ行きます。",
+    "ro": "Basu de hoteru e ikimasu.",
+    "lit": "bus · [moyen] · hôtel · [direction] · aller (poli)"
    },
    {
-    "fr": "On monte à bord du rabelo ?",
-    "pt": "Embarcamos no rabelo?"
+    "fr": "L'arrêt de bus est en face.",
+    "ja": "バス停は向こうです。",
+    "ro": "Basutei wa mukō desu.",
+    "lit": "bus-arrêt · [thème] · en face · être (poli)"
    },
    {
-    "fr": "Le rabelo est un bateau traditionnel.",
-    "pt": "O rabelo é um barco tradicional."
+    "fr": "Le bus coûte deux cent trente yens.",
+    "ja": "バスは二百三十円です。",
+    "ro": "Basu wa nihyaku sanjū en desu.",
+    "lit": "bus · [thème] · deux-cent-trente-yens · être (poli)"
    },
    {
-    "fr": "Autrefois, il transportait le vin.",
-    "pt": "Antigamente transportava o vinho."
+    "fr": "On monte par la porte arrière.",
+    "ja": "後ろのドアから乗ります。",
+    "ro": "Ushiro no doa kara norimasu.",
+    "lit": "arrière · [possessif] · porte · [de… à… : depuis] · monter (poli)"
    },
    {
-    "fr": "On passe sous tous les ponts de Porto.",
-    "pt": "Passamos debaixo de todas as pontes do Porto."
+    "fr": "Oh non, le bus est plein.",
+    "ja": "あ、バスは満員です。",
+    "ro": "A, basu wa man'in desu.",
+    "lit": "oh · bus · [thème] · plein · être (poli)"
    },
    {
-    "fr": "Le guide parle en portugais et en français.",
-    "pt": "O guia fala em português e em francês."
+    "fr": "Alors, prenons un taxi.",
+    "ja": "じゃあ、タクシーに乗りましょう。",
+    "ro": "Jā, takushī ni norimashō.",
+    "lit": "alors · taxi · [dans] · monter (proposition)"
    },
    {
-    "fr": "Mets ta casquette, il fait chaud.",
-    "pt": "Põe o teu boné, está calor."
+    "fr": "La portière est automatique.",
+    "ja": "ドアは自動です。",
+    "ro": "Doa wa jidō desu.",
+    "lit": "portière · [thème] · automatique · être (poli)"
    },
    {
-    "fr": "Regarde les maisons colorées de la Ribeira.",
-    "pt": "Olha para as casas coloridas da Ribeira."
+    "fr": "À la gare de Kyoto, s'il vous plaît.",
+    "ja": "京都駅までお願いします。",
+    "ro": "Kyōto eki made onegaishimasu.",
+    "lit": "Kyoto-gare · [de… à… : jusqu'à] · s'il vous plaît (poli)"
    },
    {
-    "fr": "La croisière dure cinquante minutes.",
-    "pt": "O cruzeiro dura cinquenta minutos."
+    "fr": "La carte de crédit, c'est possible ?",
+    "ja": "クレジットカードは大丈夫ですか？",
+    "ro": "Kurejitto kādo wa daijōbu desu ka?",
+    "lit": "carte-de-crédit · [thème] · ça va · être (poli) · [question]"
    },
    {
-    "fr": "Un jour, on va remonter toute la vallée du Douro.",
-    "pt": "Um dia, vamos subir o vale do Douro todo."
+    "fr": "Oui, aucun problème.",
+    "ja": "はい、大丈夫です。",
+    "ro": "Hai, daijōbu desu.",
+    "lit": "oui · ça va · être (poli)"
    }
-  ]
+  ],
+  "tip": {
+   "title": "Les mots étrangers en katakana : hoteru, basu, takushī",
+   "example": "Je vais à l'hôtel en bus. — <b>バス</b>で<b>ホテル</b>へ行きます。",
+   "exampleRo": "Basu de hoteru e ikimasu.",
+   "lit": "bus · [moyen] · hôtel · [direction] · aller (poli)",
+   "body": "Le japonais a emprunté des milliers de mots à l'étranger, et il les écrit en katakana. C'est une excellente nouvelle pour vous : beaucoup de ces mots vous sembleront familiers, à condition de les écouter avec une oreille japonaise. En effet, une syllabe japonaise se termine presque toujours par une voyelle, alors on en ajoute une là où le mot d'origine n'en a pas. Le bus devient « basu », l'hôtel devient « hoteru », le taxi devient « takushī ». Comme le son « l » n'existe pas, il devient un « r ». « Basu de hoteru e ikimasu » se dit littéralement : bus, moyen, hôtel, direction, aller poliment. Le japonais a même emprunté quelques mots au français, comme « kurowassan », le croissant. D'autres exemples utiles en voyage : « doa » (la porte), « kādo » (la carte), « sūtsukēsu » (la valise). Une astuce : quand un mot vous manque, essayez de dire le mot français lentement en ajoutant un petit « u » ou un « o » à la fin ; ça marche étonnamment souvent."
+  }
  },
  {
-  "title": "Louer une voiture",
+  "title": "Un retard de shinkansen",
   "phrases": [
    {
-    "fr": "J'ai réservé une petite voiture pour trois jours.",
-    "pt": "Reservei um carro pequeno para três dias."
+    "fr": "Le shinkansen est en retard.",
+    "ja": "新幹線が遅れました。",
+    "ro": "Shinkansen ga okuremashita.",
+    "lit": "shinkansen · [sujet] · prendre du retard (passé, poli)"
    },
    {
-    "fr": "Votre permis de conduire, s'il vous plaît.",
-    "pt": "A sua carta de condução, por favor."
-   },
-   {
-    "fr": "L'assurance complète coûte dix euros par jour.",
-    "pt": "O seguro completo custa dez euros por dia."
-   },
-   {
-    "fr": "Le réservoir est plein au départ.",
-    "pt": "O depósito está cheio à partida."
-   },
-   {
-    "fr": "Il faut aussi le rendre plein.",
-    "pt": "Também tem de o devolver cheio."
-   },
-   {
-    "fr": "Les autoroutes ont des péages électroniques.",
-    "pt": "As autoestradas têm portagens eletrónicas."
-   },
-   {
-    "fr": "La voiture a déjà le badge Via Verde.",
-    "pt": "O carro já tem Via Verde."
-   },
-   {
-    "fr": "Je vais à Viana do Castelo par la côte.",
-    "pt": "Vou a Viana do Castelo pela costa."
-   },
-   {
-    "fr": "Attention, ici on roule vite.",
-    "pt": "Cuidado, aqui conduz-se depressa."
-   },
-   {
-    "fr": "Bonne route et bon séjour !",
-    "pt": "Boa viagem e boa estadia!"
-   }
-  ]
- },
- {
-  "title": "Un comboio en retard",
-  "phrases": [
-   {
-    "fr": "Le train pour Braga a du retard.",
-    "pt": "O comboio para Braga está atrasado."
+    "fr": "Le vent est fort aujourd'hui.",
+    "ja": "今日は風が強いです。",
+    "ro": "Kyō wa kaze ga tsuyoi desu.",
+    "lit": "aujourd'hui · [thème] · vent · [sujet] · fort · être (poli)"
    },
    {
     "fr": "Combien de minutes de retard ?",
-    "pt": "Quantos minutos de atraso?"
+    "ja": "何分遅れますか？",
+    "ro": "Nanpun okuremasu ka?",
+    "lit": "combien-de-minutes · prendre du retard (poli) · [question]"
    },
    {
-    "fr": "Environ vingt-cinq minutes, d'après l'écran.",
-    "pt": "Cerca de vinte e cinco minutos, segundo o ecrã."
+    "fr": "Environ trente minutes.",
+    "ja": "三十分ぐらいです。",
+    "ro": "Sanjuppun gurai desu.",
+    "lit": "trente-minutes · environ · être (poli)"
    },
    {
-    "fr": "On sait pourquoi ?",
-    "pt": "Sabe-se porquê?"
+    "fr": "Au Japon, c'est rare.",
+    "ja": "日本ではめずらしいです。",
+    "ro": "Nihon de wa mezurashii desu.",
+    "lit": "Japon · [lieu] · [thème] · rare · être (poli)"
    },
    {
-    "fr": "Il y a un problème sur la ligne.",
-    "pt": "Há um problema na linha."
+    "fr": "Je vais rater ma correspondance.",
+    "ja": "乗り換えに間に合いません。",
+    "ro": "Norikae ni maniaimasen.",
+    "lit": "correspondance · [pour] · être à temps (négatif, poli)"
    },
    {
-    "fr": "On va manquer le début de la visite.",
-    "pt": "Vamos perder o início da visita."
+    "fr": "Allons au guichet.",
+    "ja": "窓口へ行きましょう。",
+    "ro": "Madoguchi e ikimashō.",
+    "lit": "guichet · [direction] · aller (proposition)"
    },
    {
-    "fr": "Je vais prévenir le guide par téléphone.",
-    "pt": "Vou avisar o guia por telefone."
+    "fr": "Le prochain train est à quelle heure ?",
+    "ja": "次の電車は何時ですか？",
+    "ro": "Tsugi no densha wa nanji desu ka?",
+    "lit": "prochain · [possessif] · train · [thème] · quelle-heure · être (poli) · [question]"
    },
    {
-    "fr": "On boit un café en attendant ?",
-    "pt": "Bebemos um café enquanto esperamos?"
+    "fr": "C'est à quatre heures dix.",
+    "ja": "四時十分です。",
+    "ro": "Yoji juppun desu.",
+    "lit": "quatre-heures · dix-minutes · être (poli)"
    },
    {
-    "fr": "Il y a une machine sur le quai.",
-    "pt": "Há uma máquina na plataforma."
-   },
-   {
-    "fr": "Ah, le train arrive enfin !",
-    "pt": "Ah, o comboio está finalmente a chegar!"
+    "fr": "Bon, j'attends au café.",
+    "ja": "じゃあ、喫茶店で待ちます。",
+    "ro": "Jā, kissaten de machimasu.",
+    "lit": "alors · café · [lieu] · attendre (poli)"
    }
   ]
  },
  {
-  "title": "En train régional jusqu'à Braga",
+  "title": "Perdu dans Osaka",
   "phrases": [
    {
-    "fr": "Aujourd'hui, on va à Braga en train.",
-    "pt": "Hoje vamos a Braga de comboio."
+    "fr": "Excusez-moi, je me suis perdu.",
+    "ja": "すみません、道に迷いました。",
+    "ro": "Sumimasen, michi ni mayoimashita.",
+    "lit": "excusez-moi · chemin · [lieu] · s'égarer (passé, poli)"
    },
    {
-    "fr": "On part de Porto à neuf heures.",
-    "pt": "Saímos do Porto às nove."
+    "fr": "Le château d'Osaka, c'est par où ?",
+    "ja": "大阪城はどちらですか？",
+    "ro": "Ōsakajō wa dochira desu ka?",
+    "lit": "Osaka-château · [thème] · quelle direction · être (poli) · [question]"
    },
    {
-    "fr": "Ma sœur habite à Braga depuis un an.",
-    "pt": "A minha irmã vive em Braga há um ano."
+    "fr": "Attendez un petit instant, s'il vous plaît.",
+    "ja": "ちょっと待ってください。",
+    "ro": "Chotto matte kudasai.",
+    "lit": "un peu · attendre (forme en -te) · s'il vous plaît"
    },
    {
-    "fr": "Elle est née à Guimarães.",
-    "pt": "Ela nasceu em Guimarães."
+    "fr": "Montrez-moi sur le plan, s'il vous plaît.",
+    "ja": "地図で教えてください。",
+    "ro": "Chizu de oshiete kudasai.",
+    "lit": "plan · [moyen] · indiquer (forme en -te) · s'il vous plaît"
    },
    {
-    "fr": "On arrive à Braga vers dix heures.",
-    "pt": "Chegamos a Braga por volta das dez."
+    "fr": "Répétez encore une fois, s'il vous plaît.",
+    "ja": "もう一度言ってください。",
+    "ro": "Mō ichido itte kudasai.",
+    "lit": "encore · une-fois · dire (forme en -te) · s'il vous plaît"
    },
    {
-    "fr": "À Braga, on monte au Bom Jesus.",
-    "pt": "Em Braga, subimos ao Bom Jesus."
+    "fr": "Parlez lentement, s'il vous plaît.",
+    "ja": "ゆっくり話してください。",
+    "ro": "Yukkuri hanashite kudasai.",
+    "lit": "lentement · parler (forme en -te) · s'il vous plaît"
    },
    {
-    "fr": "L'escalier du sanctuaire est très célèbre.",
-    "pt": "A escadaria do santuário é muito famosa."
+    "fr": "Allez tout droit.",
+    "ja": "まっすぐ行ってください。",
+    "ro": "Massugu itte kudasai.",
+    "lit": "tout droit · aller (forme en -te) · s'il vous plaît"
    },
    {
-    "fr": "On peut aussi prendre le funiculaire.",
-    "pt": "Também podemos apanhar o funicular."
+    "fr": "Au feu, tournez à droite.",
+    "ja": "信号を右に曲がってください。",
+    "ro": "Shingō o migi ni magatte kudasai.",
+    "lit": "feu · [objet : lieu traversé] · droite · [direction] · tourner (forme en -te) · s'il vous plaît"
    },
    {
-    "fr": "Ce soir, on rentre à Porto.",
-    "pt": "Hoje à noite voltamos para o Porto."
+    "fr": "Le temple est loin d'ici ?",
+    "ja": "お寺はここから遠いですか？",
+    "ro": "Otera wa koko kara tōi desu ka?",
+    "lit": "honorable-temple · [thème] · ici · [à partir de] · loin · être (poli) · [question]"
    },
    {
-    "fr": "Demain, on part pour Viana do Castelo.",
-    "pt": "Amanhã partimos para Viana do Castelo."
+    "fr": "Non, c'est à dix minutes à pied.",
+    "ja": "いいえ、歩いて十分です。",
+    "ro": "Iie, aruite juppun desu.",
+    "lit": "non · en marchant · dix-minutes · être (poli)"
    }
   ],
   "tip": {
-   "title": "« Em », « para », « a », « de » avec les villes",
-   "example": "Ma sœur habite à Braga depuis un an. — A minha irmã vive <b>em</b> Braga há um ano.",
-   "body": "Là où le français dit toujours « à », le portugais distingue : « em » pour l'endroit où l'on est (estou em Braga), « a » pour une destination de courte durée (vou a Guimarães), « para » pour une destination où l'on reste ou rentre (volto para casa), et « de » pour la provenance (sou de Lyon). Porto prend l'article : « no Porto », « ao Porto », « para o Porto », « do Porto »."
+   "title": "La forme en « -te » + « kudasai » : demander poliment",
+   "example": "Répétez encore une fois, s'il vous plaît. — もう一度<b>言ってください</b>。",
+   "exampleRo": "Mō ichido itte kudasai.",
+   "lit": "encore · une-fois · dire (forme en -te) · s'il vous plaît",
+   "body": "Vous savez déjà demander un objet avec « kudasai ». Pour demander à quelqu'un de faire une action, on place devant « kudasai » le verbe à une forme spéciale, la forme en « -te ». Pour beaucoup de verbes, c'est facile : « tabemasu », manger, donne « tabete » ; « mimasu », regarder, donne « mite ». D'autres changent un peu : « machimasu », attendre, donne « matte » ; « iimasu », dire, donne « itte » ; « hanashimasu », parler, donne « hanashite ». « Mō ichido itte kudasai » se dit littéralement : encore, une fois, dire, s'il vous plaît. Petite curiosité : « ikimasu », aller, donne aussi « itte », d'où « Massugu itte kudasai », allez tout droit ; c'est le contexte qui fait la différence. Gardez sous la main ces trois phrases de survie : « Chotto matte kudasai », attendez un instant, « Yukkuri hanashite kudasai », parlez lentement, et « Mō ichido itte kudasai ». Une astuce pour retenir : la forme en « -te » tend la main vers l'autre, et « kudasai » dit merci d'avance."
   }
  },
  {
-  "title": "Une rencontre au Bom Jesus",
+  "title": "Des souvenirs pour la famille",
   "phrases": [
    {
-    "fr": "Excusez-moi, vous pouvez nous prendre en photo ?",
-    "pt": "Desculpe, pode tirar-nos uma fotografia?"
+    "fr": "Je veux acheter des souvenirs.",
+    "ja": "お土産を買いたいです。",
+    "ro": "Omiyage o kaitai desu.",
+    "lit": "souvenir-cadeau · [objet] · acheter-vouloir · être (poli)"
    },
    {
-    "fr": "Avec plaisir ! Vous venez d'où ?",
-    "pt": "Com todo o gosto! De onde são?"
+    "fr": "Les gâteaux de Kyoto ont beaucoup de succès.",
+    "ja": "京都のお菓子は人気があります。",
+    "ro": "Kyōto no okashi wa ninki ga arimasu.",
+    "lit": "Kyoto · [possessif] · honorable-gâteau · [thème] · popularité · [sujet] · il y a (objets, poli)"
    },
    {
-    "fr": "On est français, de Lyon.",
-    "pt": "Somos franceses, de Lyon."
+    "fr": "Ces yatsuhashi, s'il vous plaît.",
+    "ja": "この八つ橋をください。",
+    "ro": "Kono yatsuhashi o kudasai.",
+    "lit": "ce · yatsuhashi · [objet] · donnez-moi"
    },
    {
-    "fr": "Moi, je suis d'ici, de Braga.",
-    "pt": "Eu sou daqui, de Braga."
+    "fr": "C'est un cadeau pour ma famille.",
+    "ja": "家族のお土産です。",
+    "ro": "Kazoku no omiyage desu.",
+    "lit": "famille · [possessif] · souvenir-cadeau · être (poli)"
    },
    {
-    "fr": "Vous parlez bien portugais !",
-    "pt": "Falam bem português!"
+    "fr": "Pouvez-vous l'emballer, s'il vous plaît ?",
+    "ja": "包んでください。",
+    "ro": "Tsutsunde kudasai.",
+    "lit": "emballer (forme en -te) · s'il vous plaît"
    },
    {
-    "fr": "Merci, on apprend depuis quelques mois.",
-    "pt": "Obrigado, estamos a aprender há uns meses."
+    "fr": "Un sac de plus, s'il vous plaît.",
+    "ja": "袋をもう一枚ください。",
+    "ro": "Fukuro o mō ichimai kudasai.",
+    "lit": "sac · [objet] · encore · une-feuille · donnez-moi"
    },
    {
-    "fr": "Vous êtes montés par l'escalier ?",
-    "pt": "Subiram pela escadaria?"
+    "fr": "Cet éventail est très joli.",
+    "ja": "この扇子はとてもきれいです。",
+    "ro": "Kono sensu wa totemo kirei desu.",
+    "lit": "ce · éventail · [thème] · très · joli · être (poli)"
    },
    {
-    "fr": "Oui, et on est très fatigués !",
-    "pt": "Sim, e estamos muito cansados!"
+    "fr": "Il coûte trois mille cinq cents yens.",
+    "ja": "三千五百円です。",
+    "ro": "Sanzen gohyaku en desu.",
+    "lit": "trois-mille-cinq-cents-yens · être (poli)"
    },
    {
-    "fr": "Tu veux prendre un café avec nous ?",
-    "pt": "Queres tomar um café connosco?"
+    "fr": "Hum, c'est un peu cher.",
+    "ja": "うーん、ちょっと高いです。",
+    "ro": "Ūn, chotto takai desu.",
+    "lit": "hum · un peu · cher · être (poli)"
    },
    {
-    "fr": "Bonne idée, je connais un bon café juste à côté.",
-    "pt": "Boa ideia, conheço um bom café aqui perto."
+    "fr": "Tant pis, je l'achète !",
+    "ja": "でも、買います！",
+    "ro": "Demo, kaimasu!",
+    "lit": "mais · acheter (poli)"
    }
   ]
- },
- {
-  "title": "Le château de Guimarães",
-  "phrases": [
-   {
-    "fr": "Guimarães est le berceau du Portugal.",
-    "pt": "Guimarães é o berço de Portugal."
-   },
-   {
-    "fr": "Le premier roi est né ici.",
-    "pt": "O primeiro rei nasceu aqui."
-   },
-   {
-    "fr": "Le château est sur une petite colline.",
-    "pt": "O castelo fica numa pequena colina."
-   },
-   {
-    "fr": "On peut marcher sur les remparts.",
-    "pt": "Podemos andar nas muralhas."
-   },
-   {
-    "fr": "Fais attention aux marches, elles sont hautes.",
-    "pt": "Tem cuidado com os degraus, são altos."
-   },
-   {
-    "fr": "Le centre historique est très bien conservé.",
-    "pt": "O centro histórico está muito bem conservado."
-   },
-   {
-    "fr": "Sur ce mur, on peut lire « Aqui nasceu Portugal ».",
-    "pt": "Neste muro, lê-se «Aqui nasceu Portugal»."
-   },
-   {
-    "fr": "On déjeune sur la place de l'Oliveira ?",
-    "pt": "Almoçamos no Largo da Oliveira?"
-   },
-   {
-    "fr": "Les terrasses sont pleines de monde.",
-    "pt": "As esplanadas estão cheias de gente."
-   },
-   {
-    "fr": "Guimarães est petite mais charmante.",
-    "pt": "Guimarães é pequena, mas encantadora."
-   }
-  ]
- },
- {
-  "title": "Les spécialités du Nord",
-  "phrases": [
-   {
-    "fr": "Qu'est-ce qu'on mange à Porto ?",
-    "pt": "O que é que se come no Porto?"
-   },
-   {
-    "fr": "Il faut goûter la francesinha.",
-    "pt": "Tem de provar a francesinha."
-   },
-   {
-    "fr": "C'est un sandwich avec de la viande et du fromage.",
-    "pt": "É uma sandes com carne e queijo."
-   },
-   {
-    "fr": "Et il est couvert d'une sauce piquante.",
-    "pt": "E vem coberta com um molho picante."
-   },
-   {
-    "fr": "C'est très lourd pour le déjeuner !",
-    "pt": "É muito pesado para o almoço!"
-   },
-   {
-    "fr": "Les habitants de Porto s'appellent les tripeiros.",
-    "pt": "Os habitantes do Porto chamam-se tripeiros."
-   },
-   {
-    "fr": "C'est à cause des tripas à moda do Porto.",
-    "pt": "É por causa das tripas à moda do Porto."
-   },
-   {
-    "fr": "Moi, je vais prendre un caldo verde.",
-    "pt": "Eu vou pedir um caldo verde."
-   },
-   {
-    "fr": "C'est une soupe au chou et au chorizo.",
-    "pt": "É uma sopa de couve com chouriço."
-   },
-   {
-    "fr": "Pour finir, un petit verre de porto ?",
-    "pt": "Para terminar, um cálice de Porto?"
-   }
-  ]
- },
- {
-  "title": "Une randonnée à Ponte de Lima",
-  "phrases": [
-   {
-    "fr": "Ponte de Lima est l'une des plus vieilles villes du Portugal.",
-    "pt": "Ponte de Lima é uma das vilas mais antigas de Portugal."
-   },
-   {
-    "fr": "On va marcher le long du fleuve Lima.",
-    "pt": "Vamos caminhar ao longo do rio Lima."
-   },
-   {
-    "fr": "Le sentier passe par le vieux pont romain.",
-    "pt": "O trilho passa pela velha ponte romana."
-   },
-   {
-    "fr": "Tu as apporté de l'eau et des sandwichs ?",
-    "pt": "Trouxeste água e sandes?"
-   },
-   {
-    "fr": "Oui, et aussi des fruits.",
-    "pt": "Sim, e também fruta."
-   },
-   {
-    "fr": "La randonnée fait douze kilomètres.",
-    "pt": "O percurso tem doze quilómetros."
-   },
-   {
-    "fr": "On s'arrête dans ce village pour manger ?",
-    "pt": "Paramos nesta aldeia para comer?"
-   },
-   {
-    "fr": "J'ai déjà mal aux pieds.",
-    "pt": "Já me doem os pés."
-   },
-   {
-    "fr": "Courage, il ne reste que trois kilomètres.",
-    "pt": "Coragem, só faltam três quilómetros."
-   },
-   {
-    "fr": "Ce soir, on va dormir comme des loirs.",
-    "pt": "Hoje à noite vamos dormir como pedras."
-   }
-  ]
- },
- {
-  "title": "Un vol annulé",
-  "phrases": [
-   {
-    "fr": "Notre vol pour Paris est annulé.",
-    "pt": "O nosso voo para Paris foi cancelado."
-   },
-   {
-    "fr": "Tous les avions sont bloqués à cause du brouillard.",
-    "pt": "Os aviões estão todos parados por causa do nevoeiro."
-   },
-   {
-    "fr": "Regarde les panneaux d'affichage.",
-    "pt": "Olha para os painéis."
-   },
-   {
-    "fr": "Il y a des informations au comptoir.",
-    "pt": "Há informações no balcão."
-   },
-   {
-    "fr": "Les employés sont très gentils.",
-    "pt": "Os funcionários são muito simpáticos."
-   },
-   {
-    "fr": "Ils nous donnent des bons pour le dîner.",
-    "pt": "Dão-nos vales para o jantar."
-   },
-   {
-    "fr": "Il y a aussi deux hôtels près de l'aéroport.",
-    "pt": "Também há dois hotéis perto do aeroporto."
-   },
-   {
-    "fr": "On part demain matin à sept heures.",
-    "pt": "Partimos amanhã de manhã às sete."
-   },
-   {
-    "fr": "Au moins, on reste un jour de plus à Porto !",
-    "pt": "Pelo menos ficamos mais um dia no Porto!"
-   },
-   {
-    "fr": "On va manger une dernière francesinha.",
-    "pt": "Vamos comer uma última francesinha."
-   }
-  ],
-  "tip": {
-   "title": "Les pluriels en « -ões », « -ães » et « -ais / -éis »",
-   "example": "Tous les avions sont bloqués à cause du brouillard. — Os <b>aviões</b> estão todos parados por causa do nevoeiro.",
-   "body": "Les mots en « -ão » ont trois pluriels possibles, à apprendre au cas par cas : le plus fréquent est « -ões » (avião → aviões, informação → informações), puis « -ães » (pão → pães, cão → cães) et « -ãos » (mão → mãos). Les mots en « -al » font « -ais » (jornal → jornais) et ceux en « -el » font « -éis » (hotel → hotéis, painel → painéis). En français, on ajoute simplement un « s » à l'écrit, mais en portugais le pluriel s'entend."
-  }
  },
  {
   "title": "Fin du module : un bilan de voyage",
   "phrases": [
    {
-    "fr": "Ce module nous a fait découvrir le Nord du Portugal.",
-    "pt": "Este módulo deu-nos a conhecer o Norte de Portugal."
+    "fr": "C'était un beau voyage, hein ?",
+    "ja": "いい旅行でしたね。",
+    "ro": "Ii ryokō deshita ne.",
+    "lit": "bon · voyage · être (passé, poli) · [n'est-ce pas]"
    },
    {
-    "fr": "On a pris l'avion, le train et le bateau.",
-    "pt": "Andámos de avião, de comboio e de barco."
+    "fr": "Les daims de Nara sont mignons, hein ?",
+    "ja": "奈良の鹿はかわいいですね。",
+    "ro": "Nara no shika wa kawaii desu ne.",
+    "lit": "Nara · [possessif] · daim · [thème] · mignon · être (poli) · [n'est-ce pas]"
    },
    {
-    "fr": "On sait maintenant acheter un billet en portugais.",
-    "pt": "Agora já sabemos comprar um bilhete em português."
+    "fr": "Et les takoyaki sont délicieux, tu sais !",
+    "ja": "たこ焼きもおいしいですよ。",
+    "ro": "Takoyaki mo oishii desu yo.",
+    "lit": "takoyaki · [aussi] · délicieux · être (poli) · [tu sais]"
    },
    {
-    "fr": "On sait aussi demander un prix.",
-    "pt": "Também sabemos perguntar um preço."
+    "fr": "J'ai retenu beaucoup de mots japonais.",
+    "ja": "日本語の言葉をたくさん覚えました。",
+    "ro": "Nihongo no kotoba o takusan oboemashita.",
+    "lit": "japonais · [possessif] · mot · [objet] · beaucoup · retenir (passé, poli)"
    },
    {
-    "fr": "Les petits problèmes de voyage ne nous font plus peur.",
-    "pt": "Os pequenos problemas de viagem já não nos assustam."
+    "fr": "Les katakana, maintenant, ça va.",
+    "ja": "カタカナはもう大丈夫です。",
+    "ro": "Katakana wa mō daijōbu desu.",
+    "lit": "katakana · [thème] · désormais · ça va · être (poli)"
    },
    {
-    "fr": "Porto, Braga et Guimarães n'ont plus de secrets pour nous.",
-    "pt": "O Porto, Braga e Guimarães já não têm segredos para nós."
+    "fr": "Le japonais, c'est difficile, hein ?",
+    "ja": "日本語は難しいですね。",
+    "ro": "Nihongo wa muzukashii desu ne.",
+    "lit": "japonais · [thème] · difficile · être (poli) · [n'est-ce pas]"
    },
    {
-    "fr": "Le prochain module sera consacré aux conversations entre amis.",
-    "pt": "O próximo módulo vai ser sobre conversas entre amigos."
+    "fr": "Mais c'est passionnant, je t'assure !",
+    "ja": "でも、おもしろいですよ。",
+    "ro": "Demo, omoshiroi desu yo.",
+    "lit": "mais · intéressant · être (poli) · [tu sais]"
    },
    {
-    "fr": "Ton portugais devient de plus en plus naturel.",
-    "pt": "O teu português está cada vez mais natural."
+    "fr": "J'ai souvent utilisé « kudasai ».",
+    "ja": "「ください」をよく使いました。",
+    "ro": "« Kudasai » o yoku tsukaimashita.",
+    "lit": "kudasai · [objet] · souvent · utiliser (passé, poli)"
    },
    {
-    "fr": "Bravo pour tout ce travail !",
-    "pt": "Parabéns por todo este trabalho!"
+    "fr": "La prochaine fois, je veux rester plus longtemps.",
+    "ja": "今度はもっと長くいたいです。",
+    "ro": "Kondo wa motto nagaku itai desu.",
+    "lit": "la prochaine fois · [thème] · plus · longtemps · rester-vouloir · être (poli)"
    },
    {
-    "fr": "À bientôt, et bonne continuation !",
-    "pt": "Até breve, e boa continuação!"
+    "fr": "On aimerait bien revenir un jour, hein ?",
+    "ja": "またいつか来たいですね。",
+    "ro": "Mata itsuka kitai desu ne.",
+    "lit": "encore · un jour · venir-vouloir · être (poli) · [n'est-ce pas]"
    }
-  ]
+  ],
+  "tip": {
+   "title": "« Yo » et « ne » : les petites particules de fin de phrase",
+   "example": "Mais c'est passionnant, je t'assure ! — でも、おもしろいです<b>よ</b>。",
+   "exampleRo": "Demo, omoshiroi desu yo.",
+   "lit": "mais · intéressant · être (poli) · [tu sais]",
+   "body": "Les Japonais terminent très souvent leurs phrases par une petite particule qui ajoute une émotion, un peu comme notre « hein » ou notre « tu sais ». « Ne » cherche l'accord de l'autre : on partage un sentiment, comme dans « Muzukashii desu ne », c'est difficile, hein ? « Yo », au contraire, apporte une information que l'autre ne connaît pas encore, avec une pointe d'insistance. « Demo, omoshiroi desu yo » se dit littéralement : mais, intéressant, être poli, tu sais. Vous entendrez aussi « Oishii desu yo », c'est bon, je vous assure, ou « Ii ryokō deshita ne », c'était un beau voyage, n'est-ce pas ? Attention à ne pas abuser de « yo » : trop souvent répété, il peut sonner un peu donneur de leçons. « Ne », lui, rend la conversation chaleureuse et vous fera paraître tout de suite plus naturel. Une astuce pour retenir : « ne », c'est nous deux, d'accord ensemble ; « yo », c'est moi qui te l'apprends."
+  }
  }
 ];
 
 const level1Module3Lessons = [
  {
-  "title": "Se présenter à Coimbra",
+  "title": "Se présenter à Yokohama",
   "phrases": [
    {
-    "fr": "Salut, tu t'appelles comment ?",
-    "pt": "Olá, como te chamas?"
+    "fr": "Enchantée, je m'appelle Marie.",
+    "ja": "はじめまして、マリーです。",
+    "ro": "Hajimemashite, Marī desu.",
+    "lit": "enchanté (première fois) · Marie · être (poli)"
    },
    {
-    "fr": "Moi, c'est Inês, et toi ?",
-    "pt": "Chamo-me Inês, e tu?"
+    "fr": "Je suis française, je viens de Lyon.",
+    "ja": "フランス人です。リヨンから来ました。",
+    "ro": "Furansujin desu. Riyon kara kimashita.",
+    "lit": "Français-personne · être (poli) · Lyon · [depuis] · venir (passé poli)"
    },
    {
-    "fr": "Moi, je suis Rui, ravi de te connaître.",
-    "pt": "Eu sou o Rui, muito prazer."
+    "fr": "Moi, c'est Kenji Tanaka.",
+    "ja": "田中健二です。",
+    "ro": "Tanaka Kenji desu.",
+    "lit": "Tanaka Kenji · être (poli)"
    },
    {
-    "fr": "Tu es étudiant ici, à Coimbra ?",
-    "pt": "És estudante aqui em Coimbra?"
+    "fr": "Vous êtes de Yokohama ?",
+    "ja": "横浜の人ですか？",
+    "ro": "Yokohama no hito desu ka?",
+    "lit": "Yokohama · [possessif] · personne · être (poli) · [question]"
    },
    {
-    "fr": "Oui, j'étudie le droit à l'université.",
-    "pt": "Sim, estudo Direito na universidade."
+    "fr": "Oui, je suis né à Yokohama.",
+    "ja": "はい、横浜生まれです。",
+    "ro": "Hai, Yokohama umare desu.",
+    "lit": "oui · Yokohama · naissance · être (poli)"
    },
    {
-    "fr": "C'est pour ça que tu portes la cape noire ?",
-    "pt": "É por isso que usas a capa preta?"
+    "fr": "Vous êtes venue au Japon pour le travail ?",
+    "ja": "仕事で日本に来ましたか？",
+    "ro": "Shigoto de Nihon ni kimashita ka?",
+    "lit": "travail · [moyen] · Japon · [direction] · venir (passé poli) · [question]"
    },
    {
-    "fr": "Exactement, c'est la tradition des étudiants.",
-    "pt": "Exatamente, é a tradição académica."
+    "fr": "Oui, je travaille pour une entreprise de Yokohama.",
+    "ja": "はい、横浜の会社員です。",
+    "ro": "Hai, Yokohama no kaishain desu.",
+    "lit": "oui · Yokohama · [possessif] · employé d'entreprise · être (poli)"
    },
    {
-    "fr": "Et toi, tu es d'où ?",
-    "pt": "E tu, de onde és?"
+    "fr": "C'est la première fois que je viens au Japon.",
+    "ja": "日本は初めてです。",
+    "ro": "Nihon wa hajimete desu.",
+    "lit": "Japon · [thème] · première fois · être (poli)"
    },
    {
-    "fr": "Je suis d'Aveiro, mais j'habite ici maintenant.",
-    "pt": "Sou de Aveiro, mas agora moro cá."
+    "fr": "Je parle un petit peu japonais.",
+    "ja": "日本語を少し話します。",
+    "ro": "Nihongo o sukoshi hanashimasu.",
+    "lit": "japonais · [objet] · un peu · parler (poli)"
    },
    {
-    "fr": "Super, on est presque voisins.",
-    "pt": "Que bom, somos quase vizinhos."
+    "fr": "Je compte sur votre bienveillance.",
+    "ja": "どうぞよろしくお願いします。",
+    "ro": "Dōzo yoroshiku onegaishimasu.",
+    "lit": "je vous en prie · bien · je vous le demande (poli)"
+   }
+  ]
+ },
+ {
+  "title": "Les collègues du bureau",
+  "phrases": [
+   {
+    "fr": "Voici Monsieur Satō, mon chef.",
+    "ja": "こちらは佐藤さんです。私の上司です。",
+    "ro": "Kochira wa Satō-san desu. Watashi no jōshi desu.",
+    "lit": "ce côté-ci · [thème] · Satō-monsieur · être (poli) · moi · [possessif] · chef · être (poli)"
+   },
+   {
+    "fr": "Madame Yamada est très gentille.",
+    "ja": "山田さんはとても親切です。",
+    "ro": "Yamada-san wa totemo shinsetsu desu.",
+    "lit": "Yamada-madame · [thème] · très · gentil · être (poli)"
+   },
+   {
+    "fr": "Kenta, on déjeune ensemble ?",
+    "ja": "健太くん、一緒に昼ご飯を食べませんか？",
+    "ro": "Kenta-kun, issho ni hirugohan o tabemasen ka?",
+    "lit": "Kenta-kun · ensemble · déjeuner · [objet] · manger (négatif poli) · [question]"
+   },
+   {
+    "fr": "Kenta vient d'entrer dans l'entreprise.",
+    "ja": "健太くんは新入社員です。",
+    "ro": "Kenta-kun wa shinnyū shain desu.",
+    "lit": "Kenta-kun · [thème] · nouvel employé · être (poli)"
+   },
+   {
+    "fr": "La fille de Monsieur Satō s'appelle Yui.",
+    "ja": "佐藤さんの娘さんはゆいちゃんです。",
+    "ro": "Satō-san no musume-san wa Yui-chan desu.",
+    "lit": "Satō-monsieur · [possessif] · fille-honorable · [thème] · Yui-chan · être (poli)"
+   },
+   {
+    "fr": "La petite Yui a cinq ans.",
+    "ja": "ゆいちゃんは五歳です。",
+    "ro": "Yui-chan wa gosai desu.",
+    "lit": "Yui-chan · [thème] · cinq-ans · être (poli)"
+   },
+   {
+    "fr": "Le client arrive à trois heures.",
+    "ja": "お客様は三時に来ます。",
+    "ro": "Okyakusama wa sanji ni kimasu.",
+    "lit": "honorable-client-sama · [thème] · trois-heures · [temps] · venir (poli)"
+   },
+   {
+    "fr": "Notre directeur s'appelle Monsieur Mori.",
+    "ja": "部長は森さんです。",
+    "ro": "Buchō wa Mori-san desu.",
+    "lit": "directeur · [thème] · Mori-monsieur · être (poli)"
+   },
+   {
+    "fr": "Appelez-moi simplement Marie.",
+    "ja": "マリーと呼んでください。",
+    "ro": "Marī to yonde kudasai.",
+    "lit": "Marie · [citation] · appeler (forme -te) · s'il vous plaît"
+   },
+   {
+    "fr": "Madame Yamada, merci encore pour aujourd'hui.",
+    "ja": "山田さん、今日もありがとうございます。",
+    "ro": "Yamada-san, kyō mo arigatō gozaimasu.",
+    "lit": "Yamada-madame · aujourd'hui · [aussi] · merci (très poli)"
+   }
+  ],
+  "tip": {
+   "title": "« San, kun, chan, sama » : les suffixes après les noms",
+   "example": "La fille de Monsieur Satō s'appelle Yui. — 佐藤<b>さん</b>の娘<b>さん</b>はゆい<b>ちゃん</b>です。",
+   "exampleRo": "Satō-san no musume-san wa Yui-chan desu.",
+   "lit": "Satō-monsieur · [possessif] · fille-honorable · [thème] · Yui-chan · être (poli)",
+   "body": "En japonais, on ajoute presque toujours un petit suffixe après le nom des autres personnes. Le plus courant est « san » : il remplace à la fois monsieur, madame et mademoiselle, et il se colle au nom de famille comme au prénom. Notre phrase se dit littéralement : Satō-monsieur, de, fille-honorable, thème, Yui-petite, être. « Kun » s'emploie pour les garçons et les jeunes collègues, comme « Kenta-kun », tandis que « chan » est affectueux et va aux enfants et aux proches, comme « Yui-chan ». « Sama » est le plus respectueux : on l'entend pour les clients, « okyakusama ». Attention, on ne met jamais de suffixe à son propre nom : on dit simplement « Marī desu ». Pour retenir, imaginez une échelle : « chan » en bas pour les petits, « kun » et « san » au milieu, et « sama » tout en haut pour les clients."
+  }
+ },
+ {
+  "title": "Parler de son travail",
+  "phrases": [
+   {
+    "fr": "Quel est votre métier ?",
+    "ja": "お仕事は何ですか？",
+    "ro": "Oshigoto wa nan desu ka?",
+    "lit": "honorable-travail · [thème] · quoi · être (poli) · [question]"
+   },
+   {
+    "fr": "Je suis ingénieure.",
+    "ja": "エンジニアです。",
+    "ro": "Enjinia desu.",
+    "lit": "ingénieur · être (poli)"
+   },
+   {
+    "fr": "Moi, je suis employé de banque.",
+    "ja": "私は銀行員です。",
+    "ro": "Watashi wa ginkōin desu.",
+    "lit": "moi · [thème] · employé de banque · être (poli)"
+   },
+   {
+    "fr": "Où se trouve votre entreprise ?",
+    "ja": "会社はどこですか？",
+    "ro": "Kaisha wa doko desu ka?",
+    "lit": "entreprise · [thème] · où · être (poli) · [question]"
+   },
+   {
+    "fr": "Elle est près de la gare de Yokohama.",
+    "ja": "横浜駅の近くです。",
+    "ro": "Yokohama eki no chikaku desu.",
+    "lit": "Yokohama-gare · [possessif] · proximité · être (poli)"
+   },
+   {
+    "fr": "Je prends le train chaque matin.",
+    "ja": "毎朝、電車に乗ります。",
+    "ro": "Maiasa, densha ni norimasu.",
+    "lit": "chaque matin · train · [dans] · monter (poli)"
+   },
+   {
+    "fr": "Je commence le travail à neuf heures.",
+    "ja": "九時から働きます。",
+    "ro": "Kuji kara hatarakimasu.",
+    "lit": "neuf-heures · [depuis] · travailler (poli)"
+   },
+   {
+    "fr": "Le travail finit à sept heures du soir.",
+    "ja": "仕事は夜七時までです。",
+    "ro": "Shigoto wa yoru shichiji made desu.",
+    "lit": "travail · [thème] · soir · sept-heures · [jusqu'à] · être (poli)"
+   },
+   {
+    "fr": "Votre travail est intéressant ?",
+    "ja": "仕事はおもしろいですか？",
+    "ro": "Shigoto wa omoshiroi desu ka?",
+    "lit": "travail · [thème] · intéressant · être (poli) · [question]"
+   },
+   {
+    "fr": "Oui, mais c'est un peu dur.",
+    "ja": "はい、でも少し大変です。",
+    "ro": "Hai, demo sukoshi taihen desu.",
+    "lit": "oui · mais · un peu · pénible · être (poli)"
+   }
+  ]
+ },
+ {
+  "title": "Ce qu'on aime manger",
+  "phrases": [
+   {
+    "fr": "Vous aimez la cuisine japonaise ?",
+    "ja": "日本料理が好きですか？",
+    "ro": "Nihon ryōri ga suki desu ka?",
+    "lit": "Japon-cuisine · [sujet] · aimé · être (poli) · [question]"
+   },
+   {
+    "fr": "Oui, j'adore les sushis.",
+    "ja": "はい、お寿司が大好きです。",
+    "ro": "Hai, osushi ga daisuki desu.",
+    "lit": "oui · honorable-sushi · [sujet] · très aimé · être (poli)"
+   },
+   {
+    "fr": "Le nattō, je déteste ça.",
+    "ja": "納豆は嫌いです。",
+    "ro": "Nattō wa kirai desu.",
+    "lit": "nattō · [thème] · détesté · être (poli)"
+   },
+   {
+    "fr": "Quel plat n'aimez-vous pas ?",
+    "ja": "嫌いな料理は何ですか？",
+    "ro": "Kirai na ryōri wa nan desu ka?",
+    "lit": "détesté · [na] · plat · [thème] · quoi · être (poli) · [question]"
+   },
+   {
+    "fr": "Je n'aime pas trop le poisson cru.",
+    "ja": "生の魚はあまり好きじゃありません。",
+    "ro": "Nama no sakana wa amari suki ja arimasen.",
+    "lit": "cru · [possessif] · poisson · [thème] · pas tellement · aimé · ne pas être (poli)"
+   },
+   {
+    "fr": "Ma femme adore les douceurs.",
+    "ja": "妻は甘いものが大好きです。",
+    "ro": "Tsuma wa amai mono ga daisuki desu.",
+    "lit": "ma femme · [thème] · sucré · chose · [sujet] · très aimé · être (poli)"
+   },
+   {
+    "fr": "Quel est votre plat préféré ?",
+    "ja": "好きな料理は何ですか？",
+    "ro": "Suki na ryōri wa nan desu ka?",
+    "lit": "aimé · [na] · plat · [thème] · quoi · être (poli) · [question]"
+   },
+   {
+    "fr": "C'est la soupe miso de ma mère.",
+    "ja": "母の味噌汁です。",
+    "ro": "Haha no misoshiru desu.",
+    "lit": "ma mère · [possessif] · soupe miso · être (poli)"
+   },
+   {
+    "fr": "Et la bière, vous aimez ?",
+    "ja": "ビールは好きですか？",
+    "ro": "Bīru wa suki desu ka?",
+    "lit": "bière · [thème] · aimé · être (poli) · [question]"
+   },
+   {
+    "fr": "Oui, une bière bien fraîche, c'est parfait !",
+    "ja": "はい、冷たいビールは最高です！",
+    "ro": "Hai, tsumetai bīru wa saikō desu!",
+    "lit": "oui · froid · bière · [thème] · le top · être (poli)"
+   }
+  ],
+  "tip": {
+   "title": "« Suki » et « kirai » : dire ce qu'on aime",
+   "example": "Oui, j'adore les sushis. — はい、お寿司が<b>大好き</b>です。",
+   "exampleRo": "Hai, osushi ga daisuki desu.",
+   "lit": "oui · honorable-sushi · [sujet] · très aimé · être (poli)",
+   "body": "En japonais, « aimer » n'est pas un verbe : « suki » est un adjectif qui veut dire « aimé », « qui plaît ». On ne dit donc pas « j'aime les sushis », mais plutôt « les sushis me plaisent ». C'est pour cela que la chose aimée prend la particule « ga », et non « o ». Notre phrase se décompose ainsi : oui, honorable sushi, sujet, très aimé, être. Le petit « dai » devant « suki » renforce le sens : « daisuki », c'est adorer. Le contraire est « kirai », détesté, un mot assez fort ; pour rester poli, on dit souvent « amari suki ja arimasen », pas tellement aimé. Quelques exemples : « Bīru ga suki desu », j'aime la bière, « Nattō wa kirai desu », je déteste le nattō, et « Suki na ryōri wa nan desu ka ? », quel est votre plat préféré ? Pour retenir, pensez à l'expression « ça me plaît » : la chose qui plaît est le sujet, donc elle prend « ga »."
+  }
+ },
+ {
+  "title": "Une soirée à l'izakaya",
+  "phrases": [
+   {
+    "fr": "Ce soir, on va à l'izakaya ?",
+    "ja": "今晩、居酒屋に行きませんか？",
+    "ro": "Konban, izakaya ni ikimasen ka?",
+    "lit": "ce soir · izakaya · [direction] · aller (négatif poli) · [question]"
+   },
+   {
+    "fr": "Bonne idée, allons-y tous ensemble !",
+    "ja": "いいですね。みんなで行きましょう！",
+    "ro": "Ii desu ne. Minna de ikimashō!",
+    "lit": "bien · être (poli) · [n'est-ce pas] · tout le monde · [avec] · aller (proposition)"
+   },
+   {
+    "fr": "Deux pressions, s'il vous plaît.",
+    "ja": "生ビールを二つください。",
+    "ro": "Nama bīru o futatsu kudasai.",
+    "lit": "bière pression · [objet] · deux (objets) · donnez-moi"
+   },
+   {
+    "fr": "À la santé de toute l'équipe !",
+    "ja": "みなさん、乾杯！",
+    "ro": "Minasan, kanpai!",
+    "lit": "tout le monde · coupe vidée (santé)"
+   },
+   {
+    "fr": "Les brochettes de poulet sont délicieuses.",
+    "ja": "焼き鳥がおいしいですね。",
+    "ro": "Yakitori ga oishii desu ne.",
+    "lit": "brochettes de poulet · [sujet] · délicieux · être (poli) · [n'est-ce pas]"
+   },
+   {
+    "fr": "Encore un peu d'edamame ?",
+    "ja": "枝豆、もう少しどうですか？",
+    "ro": "Edamame, mō sukoshi dō desu ka?",
+    "lit": "edamame · encore · un peu · comment · être (poli) · [question]"
+   },
+   {
+    "fr": "On commande du saké chaud ?",
+    "ja": "熱燗を頼みましょうか？",
+    "ro": "Atsukan o tanomimashō ka?",
+    "lit": "saké chaud · [objet] · commander (proposition) · [question]"
+   },
+   {
+    "fr": "Tous les collègues sont là ce soir.",
+    "ja": "今晩は同僚がみんないます。",
+    "ro": "Konban wa dōryō ga minna imasu.",
+    "lit": "ce soir · [thème] · collègues · [sujet] · tous · être présent (poli)"
+   },
+   {
+    "fr": "Le patron de l'izakaya est très drôle.",
+    "ja": "居酒屋のマスターはとてもおもしろいです。",
+    "ro": "Izakaya no masutā wa totemo omoshiroi desu.",
+    "lit": "izakaya · [possessif] · patron · [thème] · très · amusant · être (poli)"
+   },
+   {
+    "fr": "On partage l'addition ?",
+    "ja": "割り勘にしましょうか？",
+    "ro": "Warikan ni shimashō ka?",
+    "lit": "addition partagée · [résultat] · faire (proposition) · [question]"
+   }
+  ]
+ },
+ {
+  "title": "Au karaoké",
+  "phrases": [
+   {
+    "fr": "Après, on va au karaoké ?",
+    "ja": "このあと、カラオケに行きませんか？",
+    "ro": "Kono ato, karaoke ni ikimasen ka?",
+    "lit": "ce · après · karaoké · [direction] · aller (négatif poli) · [question]"
+   },
+   {
+    "fr": "Je chante vraiment mal.",
+    "ja": "歌がとても下手です。",
+    "ro": "Uta ga totemo heta desu.",
+    "lit": "chant · [sujet] · très · maladroit · être (poli)"
+   },
+   {
+    "fr": "Mais non, vous chantez bien !",
+    "ja": "いいえ、歌が上手ですよ！",
+    "ro": "Iie, uta ga jōzu desu yo!",
+    "lit": "non · chant · [sujet] · habile · être (poli) · [tu sais]"
+   },
+   {
+    "fr": "Monsieur Satō chante vraiment bien.",
+    "ja": "佐藤さんは歌がとても上手です。",
+    "ro": "Satō-san wa uta ga totemo jōzu desu.",
+    "lit": "Satō-monsieur · [thème] · chant · [sujet] · très · habile · être (poli)"
+   },
+   {
+    "fr": "Vous savez jouer de la guitare ?",
+    "ja": "ギターができますか？",
+    "ro": "Gitā ga dekimasu ka?",
+    "lit": "guitare · [sujet] · savoir faire (poli) · [question]"
+   },
+   {
+    "fr": "Oui, je sais en jouer un peu.",
+    "ja": "はい、少しできます。",
+    "ro": "Hai, sukoshi dekimasu.",
+    "lit": "oui · un peu · savoir faire (poli)"
+   },
+   {
+    "fr": "La danse, je ne sais pas du tout.",
+    "ja": "ダンスは全然できません。",
+    "ro": "Dansu wa zenzen dekimasen.",
+    "lit": "danse · [thème] · pas du tout · savoir faire (négatif poli)"
+   },
+   {
+    "fr": "La petite Yui dessine très bien.",
+    "ja": "ゆいちゃんは絵がとても上手です。",
+    "ro": "Yui-chan wa e ga totemo jōzu desu.",
+    "lit": "Yui-chan · [thème] · dessin · [sujet] · très · habile · être (poli)"
+   },
+   {
+    "fr": "Votre japonais est vraiment bon !",
+    "ja": "日本語が本当に上手ですね！",
+    "ro": "Nihongo ga hontō ni jōzu desu ne!",
+    "lit": "japonais · [sujet] · vraiment · habile · être (poli) · [n'est-ce pas]"
+   },
+   {
+    "fr": "Oh non, j'ai encore beaucoup à apprendre.",
+    "ja": "いいえ、まだまだです。",
+    "ro": "Iie, mada mada desu.",
+    "lit": "non · encore encore · être (poli)"
+   }
+  ],
+  "tip": {
+   "title": "« Jōzu », « heta » et « dekimasu » : dire ce qu'on sait faire",
+   "example": "Monsieur Satō chante vraiment bien. — 佐藤さんは歌がとても<b>上手</b>です。",
+   "exampleRo": "Satō-san wa uta ga totemo jōzu desu.",
+   "lit": "Satō-monsieur · [thème] · chant · [sujet] · très · habile · être (poli)",
+   "body": "Pour dire que quelqu'un fait bien quelque chose, le japonais utilise « jōzu », habile, et son contraire « heta », maladroit. Comme « suki », ce sont des adjectifs, et l'activité prend la particule « ga ». Notre phrase se dit mot à mot : Satō-monsieur, thème, chant, sujet, très, habile, être. On parle d'abord de la personne avec « wa », puis du domaine avec « ga ». Pour dire qu'on sait faire, ou qu'on peut faire quelque chose, on emploie « dekimasu », avec « ga » lui aussi : « Gitā ga dekimasu », je sais jouer de la guitare, et « Dansu wa dekimasen », la danse, je ne sais pas. Petit point de culture très important : on ne dit jamais de soi-même qu'on est « jōzu ». Si on vous complimente avec « Nihongo ga jōzu desu ne », répondez modestement « Iie, mada mada desu », non, pas encore. Pour retenir : « jōzu » rime avec réussi, « heta » sonne comme une petite chute."
+  }
+ },
+ {
+  "title": "Parler de ses loisirs",
+  "phrases": [
+   {
+    "fr": "Que faites-vous le week-end, en général ?",
+    "ja": "週末は何をしますか？",
+    "ro": "Shūmatsu wa nani o shimasu ka?",
+    "lit": "week-end · [thème] · quoi · [objet] · faire (poli) · [question]"
+   },
+   {
+    "fr": "Je joue souvent au tennis.",
+    "ja": "よくテニスをします。",
+    "ro": "Yoku tenisu o shimasu.",
+    "lit": "souvent · tennis · [objet] · faire (poli)"
+   },
+   {
+    "fr": "À la maison, je lis des mangas.",
+    "ja": "うちで漫画を読みます。",
+    "ro": "Uchi de manga o yomimasu.",
+    "lit": "maison · [lieu] · manga · [objet] · lire (poli)"
+   },
+   {
+    "fr": "Le dimanche, je cours le long de la mer.",
+    "ja": "日曜日は海のそばを走ります。",
+    "ro": "Nichiyōbi wa umi no soba o hashirimasu.",
+    "lit": "dimanche · [thème] · mer · [possessif] · bord · [parcours] · courir (poli)"
+   },
+   {
+    "fr": "Vous allez parfois au cinéma ?",
+    "ja": "ときどき映画館に行きますか？",
+    "ro": "Tokidoki eigakan ni ikimasu ka?",
+    "lit": "parfois · cinéma · [direction] · aller (poli) · [question]"
+   },
+   {
+    "fr": "Je fais du yoga avec une amie.",
+    "ja": "友達とヨガをします。",
+    "ro": "Tomodachi to yoga o shimasu.",
+    "lit": "ami · [avec] · yoga · [objet] · faire (poli)"
+   },
+   {
+    "fr": "Le week-end dernier, je suis allée à Kamakura.",
+    "ja": "先週末、鎌倉に行きました。",
+    "ro": "Senshūmatsu, Kamakura ni ikimashita.",
+    "lit": "week-end dernier · Kamakura · [direction] · aller (passé poli)"
+   },
+   {
+    "fr": "J'ai pris plein de photos là-bas.",
+    "ja": "そこで写真をたくさん撮りました。",
+    "ro": "Soko de shashin o takusan torimashita.",
+    "lit": "là · [lieu] · photo · [objet] · beaucoup · prendre (passé poli)"
+   },
+   {
+    "fr": "Mon passe-temps, c'est la photo.",
+    "ja": "趣味は写真です。",
+    "ro": "Shumi wa shashin desu.",
+    "lit": "passe-temps · [thème] · photo · être (poli)"
+   },
+   {
+    "fr": "Et vous, quel est votre passe-temps ?",
+    "ja": "ご趣味は何ですか？",
+    "ro": "Goshumi wa nan desu ka?",
+    "lit": "honorable-passe-temps · [thème] · quoi · être (poli) · [question]"
    }
   ]
  },
@@ -1918,1807 +3309,2031 @@ const level1Module3Lessons = [
   "title": "Parler de sa famille",
   "phrases": [
    {
-    "fr": "Tu as des frères ou des sœurs, toi ?",
-    "pt": "Tens irmãos?"
+    "fr": "Combien êtes-vous dans votre famille ?",
+    "ja": "何人家族ですか？",
+    "ro": "Nannin kazoku desu ka?",
+    "lit": "combien-personnes · famille · être (poli) · [question]"
    },
    {
-    "fr": "J'ai un grand frère et une sœur.",
-    "pt": "Tenho um irmão mais velho e uma irmã."
+    "fr": "Nous sommes quatre à la maison.",
+    "ja": "四人家族です。",
+    "ro": "Yonin kazoku desu.",
+    "lit": "quatre-personnes · famille · être (poli)"
    },
    {
-    "fr": "Ma sœur fait ses études à Coimbra.",
-    "pt": "A minha irmã estuda em Coimbra."
+    "fr": "Ma mère est enseignante.",
+    "ja": "母は教師です。",
+    "ro": "Haha wa kyōshi desu.",
+    "lit": "ma mère · [thème] · enseignant · être (poli)"
    },
    {
-    "fr": "Et ton frère, il fait quoi ?",
-    "pt": "E o teu irmão, o que faz?"
+    "fr": "Et votre mère, que fait-elle ?",
+    "ja": "お母さんのお仕事は何ですか？",
+    "ro": "Okāsan no oshigoto wa nan desu ka?",
+    "lit": "votre mère · [possessif] · honorable-travail · [thème] · quoi · être (poli) · [question]"
    },
    {
-    "fr": "Il est pêcheur à Figueira da Foz.",
-    "pt": "É pescador na Figueira da Foz."
+    "fr": "Mon père est salarié à Yokohama.",
+    "ja": "父は横浜の会社員です。",
+    "ro": "Chichi wa Yokohama no kaishain desu.",
+    "lit": "mon père · [thème] · Yokohama · [possessif] · employé d'entreprise · être (poli)"
    },
    {
-    "fr": "Mes parents vivent à Aveiro.",
-    "pt": "Os meus pais vivem em Aveiro."
+    "fr": "Votre père va bien ?",
+    "ja": "お父さんはお元気ですか？",
+    "ro": "Otōsan wa ogenki desu ka?",
+    "lit": "votre père · [thème] · honorable-santé · être (poli) · [question]"
    },
    {
-    "fr": "Tu vois souvent ta famille ?",
-    "pt": "Vês muitas vezes a tua família?"
+    "fr": "J'ai un grand frère et une petite sœur.",
+    "ja": "兄と妹がいます。",
+    "ro": "Ani to imōto ga imasu.",
+    "lit": "mon grand frère · [et] · ma petite sœur · [sujet] · il y a (êtres vivants, poli)"
    },
    {
-    "fr": "Le dimanche, on déjeune tous ensemble.",
-    "pt": "Ao domingo, almoçamos todos juntos."
+    "fr": "Votre grand frère est à Tokyo ?",
+    "ja": "お兄さんは東京ですか？",
+    "ro": "Onīsan wa Tōkyō desu ka?",
+    "lit": "votre grand frère · [thème] · Tokyo · être (poli) · [question]"
    },
    {
-    "fr": "Ma grand-mère prépare un cochon de lait délicieux.",
-    "pt": "A minha avó faz um leitão delicioso."
+    "fr": "Non, il est à Kamakura.",
+    "ja": "いいえ、鎌倉にいます。",
+    "ro": "Iie, Kamakura ni imasu.",
+    "lit": "non · Kamakura · [lieu] · être présent (poli)"
    },
    {
-    "fr": "Ta famille a l'air très unie.",
-    "pt": "A tua família parece muito unida."
+    "fr": "Ma petite sœur a vingt ans.",
+    "ja": "妹は二十歳です。",
+    "ro": "Imōto wa hatachi desu.",
+    "lit": "ma petite sœur · [thème] · vingt ans · être (poli)"
    }
   ],
   "tip": {
-   "title": "« O meu, a minha » : les possessifs avec article",
-   "example": "Ma sœur fait ses études à Coimbra. — <b>A minha</b> irmã estuda em Coimbra.",
-   "body": "Au Portugal, le possessif est presque toujours précédé de l'article défini : on dit littéralement « la ma sœur ». Le possessif s'accorde avec l'objet possédé, comme en français : o meu irmão, a minha casa, os teus pais, as tuas amigas. Retenir le réflexe : article + possessif + nom."
+   "title": "La famille : « haha » pour ma mère, « okāsan » pour la vôtre",
+   "example": "Ma mère est enseignante. — <b>母</b>は教師です。",
+   "exampleRo": "Haha wa kyōshi desu.",
+   "lit": "ma mère · [thème] · enseignant · être (poli)",
+   "body": "En japonais, les mots de la famille changent selon qu'il s'agit de la vôtre ou de celle des autres. Pour parler de sa propre famille, on reste humble et on emploie des mots simples : « haha », ma mère, « chichi », mon père, « ani », mon grand frère. Pour la famille de quelqu'un d'autre, on utilise des mots plus respectueux, souvent avec « o » devant et « san » derrière : « okāsan », votre mère, « otōsan », votre père, « onīsan », votre grand frère. Notre phrase se dit littéralement : ma mère, thème, enseignant, être. Remarquez qu'il n'y a pas besoin de « ma » : le mot « haha » contient déjà l'idée que c'est la mienne. À l'inverse, « Okāsan wa ogenki desu ka ? » veut dire : votre mère va bien ? À la maison, on appelle quand même sa propre mère « okāsan ». Pour retenir : la forme courte et sèche pour les miens, la forme longue et polie, avec « san », pour les vôtres."
   }
  },
  {
-  "title": "Décrire son métier",
+  "title": "Parler de ses enfants",
   "phrases": [
    {
-    "fr": "Tu fais quoi comme métier, toi ?",
-    "pt": "O que fazes na vida?"
+    "fr": "Vous avez des enfants ?",
+    "ja": "お子さんはいますか？",
+    "ro": "Okosan wa imasu ka?",
+    "lit": "honorable-enfant · [thème] · il y a (êtres vivants, poli) · [question]"
    },
    {
-    "fr": "Je suis infirmière à l'hôpital de Coimbra.",
-    "pt": "Sou enfermeira no hospital de Coimbra."
+    "fr": "Oui, un garçon et une fille.",
+    "ja": "はい、息子と娘がいます。",
+    "ro": "Hai, musuko to musume ga imasu.",
+    "lit": "oui · mon fils · [et] · ma fille · [sujet] · il y a (êtres vivants, poli)"
    },
    {
-    "fr": "Ton travail te plaît ?",
-    "pt": "Gostas do teu trabalho?"
+    "fr": "Mon fils a sept ans.",
+    "ja": "息子は七歳です。",
+    "ro": "Musuko wa nanasai desu.",
+    "lit": "mon fils · [thème] · sept-ans · être (poli)"
    },
    {
-    "fr": "Beaucoup, mais c'est fatigant.",
-    "pt": "Gosto muito, mas é cansativo."
+    "fr": "Il est fou des trains.",
+    "ja": "電車が大好きです。",
+    "ro": "Densha ga daisuki desu.",
+    "lit": "train · [sujet] · très aimé · être (poli)"
    },
    {
-    "fr": "Et toi, tu travailles dans quoi ?",
-    "pt": "E tu, trabalhas em quê?"
+    "fr": "Ma fille est encore toute petite.",
+    "ja": "娘はまだ小さいです。",
+    "ro": "Musume wa mada chiisai desu.",
+    "lit": "ma fille · [thème] · encore · petit · être (poli)"
    },
    {
-    "fr": "Je suis prof dans une école à Aveiro.",
-    "pt": "Sou professor numa escola em Aveiro."
+    "fr": "Le dimanche, nous allons tous au parc.",
+    "ja": "日曜日はみんなで公園に行きます。",
+    "ro": "Nichiyōbi wa minna de kōen ni ikimasu.",
+    "lit": "dimanche · [thème] · tout le monde · [avec] · parc · [direction] · aller (poli)"
    },
    {
-    "fr": "Tes élèves sont sympas ?",
-    "pt": "Os teus alunos são simpáticos?"
+    "fr": "On déjeune chez mes grands-parents.",
+    "ja": "祖父母の家で昼ご飯を食べます。",
+    "ro": "Sofubo no ie de hirugohan o tabemasu.",
+    "lit": "mes grands-parents · [possessif] · maison · [lieu] · déjeuner · [objet] · manger (poli)"
    },
    {
-    "fr": "Pour la plupart, oui, ils sont très curieux.",
-    "pt": "A maioria sim, são muito curiosos."
+    "fr": "Ma grand-mère cuisine à merveille.",
+    "ja": "祖母は料理がとても上手です。",
+    "ro": "Sobo wa ryōri ga totemo jōzu desu.",
+    "lit": "ma grand-mère · [thème] · cuisine · [sujet] · très · habile · être (poli)"
    },
    {
-    "fr": "Tu travailles aussi le week-end ?",
-    "pt": "Também trabalhas ao fim de semana?"
+    "fr": "Votre fille est vraiment mignonne.",
+    "ja": "娘さんは本当にかわいいですね。",
+    "ro": "Musume-san wa hontō ni kawaii desu ne.",
+    "lit": "votre fille · [thème] · vraiment · mignon · être (poli) · [n'est-ce pas]"
    },
    {
-    "fr": "Non, heureusement, j'ai mon week-end libre.",
-    "pt": "Não, felizmente tenho o fim de semana livre."
+    "fr": "Merci, mais elle est très bruyante !",
+    "ja": "ありがとうございます。でも、とてもうるさいですよ。",
+    "ro": "Arigatō gozaimasu. Demo, totemo urusai desu yo.",
+    "lit": "merci (très poli) · mais · très · bruyant · être (poli) · [tu sais]"
    }
   ]
  },
  {
-  "title": "Parler de ses loisirs",
+  "title": "Au téléphone : que faites-vous ?",
   "phrases": [
    {
-    "fr": "Tu fais quoi de ton temps libre ?",
-    "pt": "O que fazes nos tempos livres?"
+    "fr": "Allô, ici Marie.",
+    "ja": "もしもし、マリーです。",
+    "ro": "Moshi moshi, Marī desu.",
+    "lit": "allô · Marie · être (poli)"
    },
    {
-    "fr": "J'aime faire du vélo le long de la lagune.",
-    "pt": "Gosto de andar de bicicleta junto à ria."
+    "fr": "Qu'est-ce que vous faites en ce moment ?",
+    "ja": "今、何をしていますか？",
+    "ro": "Ima, nani o shite imasu ka?",
+    "lit": "maintenant · quoi · [objet] · faire (forme -te) · être en train (poli) · [question]"
    },
    {
-    "fr": "Moi, je préfère lire et aller au cinéma.",
-    "pt": "Eu prefiro ler e ir ao cinema."
+    "fr": "Je regarde la mer à Kamakura.",
+    "ja": "鎌倉で海を見ています。",
+    "ro": "Kamakura de umi o mite imasu.",
+    "lit": "Kamakura · [lieu] · mer · [objet] · regarder (forme -te) · être en train (poli)"
    },
    {
-    "fr": "Tu fais un peu de sport ?",
-    "pt": "Fazes algum desporto?"
+    "fr": "Mon mari est en train de cuisiner.",
+    "ja": "夫は料理をしています。",
+    "ro": "Otto wa ryōri o shite imasu.",
+    "lit": "mon mari · [thème] · cuisine · [objet] · faire (forme -te) · être en train (poli)"
    },
    {
-    "fr": "Je fais du surf à Figueira da Foz.",
-    "pt": "Faço surf na Figueira da Foz."
+    "fr": "Les enfants dorment déjà.",
+    "ja": "子どもはもう寝ています。",
+    "ro": "Kodomo wa mō nete imasu.",
+    "lit": "enfants · [thème] · déjà · dormir (forme -te) · être en train (poli)"
    },
    {
-    "fr": "Sérieux ? Les vagues là-bas sont géniales.",
-    "pt": "A sério? As ondas lá são ótimas."
+    "fr": "J'habite à Yokohama.",
+    "ja": "横浜に住んでいます。",
+    "ro": "Yokohama ni sunde imasu.",
+    "lit": "Yokohama · [lieu] · habiter (forme -te) · être (état, poli)"
    },
    {
-    "fr": "J'y vais presque tous les samedis.",
-    "pt": "Vou lá quase todos os sábados."
+    "fr": "Mon grand frère est marié.",
+    "ja": "兄は結婚しています。",
+    "ro": "Ani wa kekkon shite imasu.",
+    "lit": "mon grand frère · [thème] · mariage · faire (forme -te) · être (état, poli)"
    },
    {
-    "fr": "Un jour, je vais essayer avec toi.",
-    "pt": "Um dia vou experimentar contigo."
+    "fr": "Vous connaissez Monsieur Mori ?",
+    "ja": "森さんを知っていますか？",
+    "ro": "Mori-san o shitte imasu ka?",
+    "lit": "Mori-monsieur · [objet] · savoir (forme -te) · être (état, poli) · [question]"
    },
    {
-    "fr": "Marché conclu, je te prête une planche.",
-    "pt": "Combinado, eu empresto-te uma prancha."
+    "fr": "Aujourd'hui, il pleut sur Yokohama.",
+    "ja": "今日、横浜は雨が降っています。",
+    "ro": "Kyō, Yokohama wa ame ga futte imasu.",
+    "lit": "aujourd'hui · Yokohama · [thème] · pluie · [sujet] · tomber (forme -te) · être en train (poli)"
    },
    {
-    "fr": "Comme c'est gentil, merci !",
-    "pt": "Que simpático, obrigada!"
-   }
-  ]
- },
- {
-  "title": "Inviter à dîner dans la Bairrada",
-  "phrases": [
-   {
-    "fr": "Tu as des projets pour samedi soir ?",
-    "pt": "Tens planos para sábado à noite?"
-   },
-   {
-    "fr": "Pas encore, pourquoi ?",
-    "pt": "Ainda não, porquê?"
-   },
-   {
-    "fr": "Je veux t'inviter à dîner dans la Bairrada.",
-    "pt": "Quero convidar-te para jantar na Bairrada."
-   },
-   {
-    "fr": "Tu aimes le cochon de lait ?",
-    "pt": "Gostas de leitão?"
-   },
-   {
-    "fr": "J'adore, surtout avec un vin pétillant.",
-    "pt": "Adoro, sobretudo com espumante."
-   },
-   {
-    "fr": "D'abord, on va prendre quelques petites entrées.",
-    "pt": "Primeiro, vamos comer uns petiscos."
-   },
-   {
-    "fr": "Je passe te chercher à sept heures et demie.",
-    "pt": "Passo a buscar-te às sete e meia."
-   },
-   {
-    "fr": "Tu veux que j'apporte quelque chose ?",
-    "pt": "Queres que leve alguma coisa?"
-   },
-   {
-    "fr": "Pas besoin, viens juste avec de l'appétit.",
-    "pt": "Não é preciso, só tens de vir com fome."
-   },
-   {
-    "fr": "Bon, alors à samedi !",
-    "pt": "Então, até sábado!"
+    "fr": "Je vous rappelle ce soir.",
+    "ja": "今晩、また電話します。",
+    "ro": "Konban, mata denwa shimasu.",
+    "lit": "ce soir · de nouveau · téléphone · faire (poli)"
    }
   ],
   "tip": {
-   "title": "« Gostar de » : aimer quelque chose",
-   "example": "Tu aimes le cochon de lait ? — <b>Gostas de</b> leitão?",
-   "body": "En portugais, « aimer quelque chose » se dit gostar de : la préposition de est obligatoire, et elle se contracte avec l'article (de + o = do, de + a = da). Gosto de fado, gostas do Porto?, gosto muito da praia. Devant un verbe, on garde de + infinitif : gosto de nadar."
+   "title": "« -te imasu » : être en train de, ou un état",
+   "example": "Je regarde la mer à Kamakura. — 鎌倉で海を<b>見ています</b>。",
+   "exampleRo": "Kamakura de umi o mite imasu.",
+   "lit": "Kamakura · [lieu] · mer · [objet] · regarder (forme -te) · être en train (poli)",
+   "body": "Vous connaissez déjà la forme en « -te » grâce à « -te kudasai ». En lui ajoutant « imasu », on obtient une construction très utile. Premier sens : une action en cours, comme notre « être en train de ». Notre phrase se décompose ainsi : Kamakura, lieu, mer, objet, regardant, être en train. « Mimasu », c'est « je regarde » en général, tandis que « mite imasu », c'est « je suis en train de regarder », là, maintenant. De même, « Otto wa ryōri o shite imasu » : mon mari est en train de cuisiner. Deuxième sens, plus surprenant : un état qui dure, le résultat d'une action. « Kekkon shite imasu » ne veut pas dire « il est en train de se marier », mais « il est marié ». Et « Yokohama ni sunde imasu », c'est « j'habite à Yokohama ». Pour retenir, imaginez une photo : « -te imasu » décrit ce qu'on voit sur l'image à cet instant, une action ou une situation."
   }
  },
  {
-  "title": "Faire connaissance à une fête",
+  "title": "Les saisons au Japon",
   "phrases": [
    {
-    "fr": "Tu connais quelqu'un à cette fête ?",
-    "pt": "Conheces alguém nesta festa?"
+    "fr": "Quelle saison aimez-vous ?",
+    "ja": "どの季節が好きですか？",
+    "ro": "Dono kisetsu ga suki desu ka?",
+    "lit": "quel · saison · [sujet] · aimé · être (poli) · [question]"
    },
    {
-    "fr": "Seulement Marta, c'est elle qui reçoit.",
-    "pt": "Só a Marta, a dona da casa."
+    "fr": "J'aime le printemps et ses cerisiers.",
+    "ja": "春と桜が好きです。",
+    "ro": "Haru to sakura ga suki desu.",
+    "lit": "printemps · [et] · cerisier · [sujet] · aimé · être (poli)"
    },
    {
-    "fr": "Moi, je suis dans sa classe à la fac.",
-    "pt": "Eu sou colega dela na faculdade."
+    "fr": "L'été à Kamakura est très chaud.",
+    "ja": "鎌倉の夏はとても暑いです。",
+    "ro": "Kamakura no natsu wa totemo atsui desu.",
+    "lit": "Kamakura · [possessif] · été · [thème] · très · chaud · être (poli)"
    },
    {
-    "fr": "La musique est vraiment bonne, non ?",
-    "pt": "A música está muito boa, não está?"
+    "fr": "En été, on se baigne dans la mer.",
+    "ja": "夏は海で泳ぎます。",
+    "ro": "Natsu wa umi de oyogimasu.",
+    "lit": "été · [thème] · mer · [lieu] · nager (poli)"
    },
    {
-    "fr": "Oui, et la maison a une vue superbe.",
-    "pt": "Sim, e a casa tem uma vista linda."
+    "fr": "L'automne, c'est la saison des feuilles rouges.",
+    "ja": "秋は紅葉の季節です。",
+    "ro": "Aki wa kōyō no kisetsu desu.",
+    "lit": "automne · [thème] · feuilles rouges · [possessif] · saison · être (poli)"
    },
    {
-    "fr": "Je peux te servir un verre ?",
-    "pt": "Posso servir-te uma bebida?"
+    "fr": "À Kamakura, les érables rouges sont superbes.",
+    "ja": "鎌倉の紅葉はとてもきれいです。",
+    "ro": "Kamakura no kōyō wa totemo kirei desu.",
+    "lit": "Kamakura · [possessif] · feuilles rouges · [thème] · très · beau · être (poli)"
    },
    {
-    "fr": "Un jus d'orange, s'il te plaît.",
-    "pt": "Um sumo de laranja, por favor."
+    "fr": "L'hiver à Yokohama n'est pas très froid.",
+    "ja": "横浜の冬はあまり寒くありません。",
+    "ro": "Yokohama no fuyu wa amari samuku arimasen.",
+    "lit": "Yokohama · [possessif] · hiver · [thème] · pas tellement · froid · ne pas être (poli)"
    },
    {
-    "fr": "On va danser un peu ?",
-    "pt": "Vamos dançar um bocado?"
+    "fr": "Il fait lourd aujourd'hui, hein ?",
+    "ja": "今日は蒸し暑いですね。",
+    "ro": "Kyō wa mushiatsui desu ne.",
+    "lit": "aujourd'hui · [thème] · chaud et humide · être (poli) · [n'est-ce pas]"
    },
    {
-    "fr": "Pas maintenant, je suis en train de manger.",
-    "pt": "Agora não, estou a comer."
+    "fr": "La saison des pluies commence en juin.",
+    "ja": "梅雨は六月からです。",
+    "ro": "Tsuyu wa rokugatsu kara desu.",
+    "lit": "saison des pluies · [thème] · juin · [depuis] · être (poli)"
    },
    {
-    "fr": "Je danse avec toi après, promis.",
-    "pt": "Depois danço contigo, prometo."
+    "fr": "Vivement les cerisiers en fleur !",
+    "ja": "早く桜が見たいです。",
+    "ro": "Hayaku sakura ga mitai desu.",
+    "lit": "vite · cerisier · [objet du désir] · vouloir voir (poli)"
    }
   ]
  },
  {
-  "title": "Parler de la météo",
+  "title": "Yokohama ou Kamakura ?",
   "phrases": [
    {
-    "fr": "Il fait vraiment chaud aujourd'hui !",
-    "pt": "Hoje está mesmo muito calor!"
+    "fr": "Yokohama est plus grand que Kamakura.",
+    "ja": "横浜は鎌倉より大きいです。",
+    "ro": "Yokohama wa Kamakura yori ōkii desu.",
+    "lit": "Yokohama · [thème] · Kamakura · [plus que] · grand · être (poli)"
    },
    {
-    "fr": "C'est vrai, on va à la plage de Costa Nova ?",
-    "pt": "Pois é, vamos à praia da Costa Nova?"
+    "fr": "Kamakura est plus calme que Yokohama.",
+    "ja": "鎌倉は横浜より静かです。",
+    "ro": "Kamakura wa Yokohama yori shizuka desu.",
+    "lit": "Kamakura · [thème] · Yokohama · [plus que] · calme · être (poli)"
    },
    {
-    "fr": "Bonne idée, mais il y a toujours du vent là-bas.",
-    "pt": "Boa ideia, mas lá há sempre vento."
+    "fr": "La mer ou la montagne, que préférez-vous ?",
+    "ja": "海と山と、どちらが好きですか？",
+    "ro": "Umi to yama to, dochira ga suki desu ka?",
+    "lit": "mer · [et] · montagne · [et] · lequel · [sujet] · aimé · être (poli) · [question]"
    },
    {
-    "fr": "Prends une veste, le soir il fait frais.",
-    "pt": "Leva um casaco, à noite fica fresco."
+    "fr": "Moi, je préfère la mer.",
+    "ja": "海のほうが好きです。",
+    "ro": "Umi no hō ga suki desu.",
+    "lit": "mer · [possessif] · côté · [sujet] · aimé · être (poli)"
    },
    {
-    "fr": "Demain, il va pleuvoir, d'après la télé.",
-    "pt": "Amanhã vai chover, segundo a televisão."
+    "fr": "Le train est plus rapide que le bus.",
+    "ja": "電車はバスより速いです。",
+    "ro": "Densha wa basu yori hayai desu.",
+    "lit": "train · [thème] · bus · [plus que] · rapide · être (poli)"
    },
    {
-    "fr": "Dommage, je voulais aller à Figueira.",
-    "pt": "Que pena, queria ir à Figueira."
+    "fr": "Thé vert ou café, qu'est-ce qui vous ferait plaisir ?",
+    "ja": "緑茶とコーヒーと、どちらがいいですか？",
+    "ro": "Ryokucha to kōhī to, dochira ga ii desu ka?",
+    "lit": "thé vert · [et] · café · [et] · lequel · [sujet] · bien · être (poli) · [question]"
    },
    {
-    "fr": "Tu es plutôt été ou hiver, toi ?",
-    "pt": "És mais de verão ou de inverno?"
+    "fr": "Plutôt du thé vert, merci.",
+    "ja": "緑茶のほうがいいです。",
+    "ro": "Ryokucha no hō ga ii desu.",
+    "lit": "thé vert · [possessif] · côté · [sujet] · bien · être (poli)"
    },
    {
-    "fr": "Je suis plutôt été, j'adore le soleil.",
-    "pt": "Sou de verão, adoro o sol."
+    "fr": "Ce restaurant-ci est moins cher.",
+    "ja": "こちらの店のほうが安いです。",
+    "ro": "Kochira no mise no hō ga yasui desu.",
+    "lit": "ce côté-ci · [possessif] · restaurant · [possessif] · côté · [sujet] · bon marché · être (poli)"
    },
    {
-    "fr": "Moi, j'aime l'automne à Coimbra.",
-    "pt": "Eu gosto do outono em Coimbra."
+    "fr": "J'aime mieux le printemps que l'été.",
+    "ja": "夏より春のほうが好きです。",
+    "ro": "Natsu yori haru no hō ga suki desu.",
+    "lit": "été · [plus que] · printemps · [possessif] · côté · [sujet] · aimé · être (poli)"
    },
    {
-    "fr": "Les après-midi de septembre y sont parfaits.",
-    "pt": "As tardes de setembro lá são perfeitas."
-   }
-  ]
- },
- {
-  "title": "Parler de télévision",
-  "phrases": [
-   {
-    "fr": "Qu'est-ce que tu es en train de regarder ?",
-    "pt": "O que estás a ver?"
-   },
-   {
-    "fr": "Une très bonne série portugaise.",
-    "pt": "Uma série portuguesa muito boa."
-   },
-   {
-    "fr": "Elle s'appelle comment ?",
-    "pt": "Como se chama?"
-   },
-   {
-    "fr": "C'est quoi, ton émission préférée ?",
-    "pt": "Qual é o teu programa preferido?"
-   },
-   {
-    "fr": "J'aime les concours de cuisine.",
-    "pt": "Gosto dos concursos de culinária."
-   },
-   {
-    "fr": "Il passe quand, le prochain épisode ?",
-    "pt": "Quando dá o próximo episódio?"
-   },
-   {
-    "fr": "Ce soir, à neuf heures.",
-    "pt": "Hoje à noite, às nove horas."
-   },
-   {
-    "fr": "Tu regardes les séries où, à la télé ?",
-    "pt": "Onde vês as séries, na televisão?"
-   },
-   {
-    "fr": "Non, je regarde tout sur l'ordinateur.",
-    "pt": "Não, vejo tudo no computador."
-   },
-   {
-    "fr": "On regarde le prochain épisode ensemble ?",
-    "pt": "Vemos juntos o próximo episódio?"
+    "fr": "Finalement, les deux sont bien !",
+    "ja": "どちらもいいですね。",
+    "ro": "Dochira mo ii desu ne.",
+    "lit": "lequel · [aussi] · bien · être (poli) · [n'est-ce pas]"
    }
   ],
   "tip": {
-   "title": "Les mots interrogatifs « O que, Qual, Como, Onde, Quando »",
-   "example": "C'est quoi, ton émission préférée ? — <b>Qual</b> é o teu programa preferido?",
-   "body": "O que = « qu'est-ce que » (O que fazes?), como = « comment » (Como te chamas?), onde = « où » (Onde moras?), quando = « quand » (Quando chegas?). Qual = « quel / lequel » s'emploie devant le verbe ser pour choisir parmi plusieurs options : Qual é o teu prato preferido? Attention : après un mot interrogatif, le pronom passe devant le verbe : Como te chamas?"
+   "title": "Comparer : « yori » et « no hō ga »",
+   "example": "J'aime mieux le printemps que l'été. — 夏<b>より</b>春<b>のほうが</b>好きです。",
+   "exampleRo": "Natsu yori haru no hō ga suki desu.",
+   "lit": "été · [plus que] · printemps · [possessif] · côté · [sujet] · aimé · être (poli)",
+   "body": "Pour comparer, le japonais n'a pas de mot pour « plus » placé devant l'adjectif. Il utilise la particule « yori », qui veut dire « par rapport à », et qui se place après l'élément qu'on dépasse. « Yokohama wa Kamakura yori ōkii desu » se dit littéralement : Yokohama, thème, Kamakura, par rapport à, grand, être. Autrement dit, Yokohama est plus grand que Kamakura. Pour désigner le gagnant, on ajoute « no hō ga », qui signifie « le côté de ». Notre phrase se décompose ainsi : l'été, par rapport à, le côté du printemps, sujet, aimé, être. Pour demander une préférence, on dit « A to B to, dochira ga suki desu ka ? », A et B, lequel préférez-vous ? On répond simplement : « Umi no hō ga suki desu », je préfère la mer. Pour retenir, imaginez une balance : « yori » marque le plateau qui monte, et « no hō ga » celui qui penche, le vainqueur."
   }
  },
  {
-  "title": "Parler de ses vacances",
+  "title": "Une invitation chez des amis",
   "phrases": [
    {
-    "fr": "Tu sais déjà où tu pars en vacances ?",
-    "pt": "Já sabes para onde vais de férias?"
+    "fr": "Vous venez dîner à la maison samedi ?",
+    "ja": "土曜日、うちで晩ご飯を食べませんか？",
+    "ro": "Doyōbi, uchi de bangohan o tabemasen ka?",
+    "lit": "samedi · maison · [lieu] · dîner · [objet] · manger (négatif poli) · [question]"
    },
    {
-    "fr": "Je vais passer le mois d'août à Costa Nova.",
-    "pt": "Vou passar o mês de agosto na Costa Nova."
+    "fr": "Avec joie, c'est très gentil.",
+    "ja": "ぜひ。ありがとうございます。",
+    "ro": "Zehi. Arigatō gozaimasu.",
+    "lit": "absolument · merci (très poli)"
    },
    {
-    "fr": "Trop bien ! Les maisons à rayures sont magnifiques.",
-    "pt": "Que giro! As casas às riscas são lindas."
+    "fr": "C'est où, chez vous ?",
+    "ja": "おうちはどこですか？",
+    "ro": "Ouchi wa doko desu ka?",
+    "lit": "honorable-maison · [thème] · où · être (poli) · [question]"
    },
    {
-    "fr": "Ma tante a une maison là-bas.",
-    "pt": "A minha tia tem lá uma casa."
+    "fr": "Tout près de la gare de Kita-Kamakura.",
+    "ja": "北鎌倉駅のすぐ近くです。",
+    "ro": "Kita-Kamakura eki no sugu chikaku desu.",
+    "lit": "Kita-Kamakura-gare · [possessif] · tout · proximité · être (poli)"
    },
    {
-    "fr": "Tu y vas avec qui ?",
-    "pt": "Vais com quem?"
+    "fr": "À quelle heure est-ce que je viens ?",
+    "ja": "何時に行きましょうか？",
+    "ro": "Nanji ni ikimashō ka?",
+    "lit": "quelle-heure · [temps] · aller (proposition) · [question]"
    },
    {
-    "fr": "Avec mes cousins et mon chien.",
-    "pt": "Com os meus primos e o meu cão."
+    "fr": "Vers six heures, ça vous va ?",
+    "ja": "六時ごろはどうですか？",
+    "ro": "Rokuji goro wa dō desu ka?",
+    "lit": "six-heures · environ · [thème] · comment · être (poli) · [question]"
    },
    {
-    "fr": "Et toi, tu vas rester à Coimbra ?",
-    "pt": "E tu, vais ficar em Coimbra?"
+    "fr": "Qu'est-ce que je peux apporter ?",
+    "ja": "何を持って行きましょうか？",
+    "ro": "Nani o motte ikimashō ka?",
+    "lit": "quoi · [objet] · tenir (forme -te) · aller (proposition) · [question]"
    },
    {
-    "fr": "Non, je vais visiter la Bairrada avec des amis.",
-    "pt": "Não, vou visitar a Bairrada com amigos."
+    "fr": "Rien du tout, ce n'est pas la peine.",
+    "ja": "何もいりませんよ。",
+    "ro": "Nani mo irimasen yo.",
+    "lit": "rien · [aussi] · être nécessaire (négatif poli) · [tu sais]"
    },
    {
-    "fr": "On va faire la route des vins.",
-    "pt": "Vamos fazer a rota dos vinhos."
+    "fr": "Ma femme va préparer un sukiyaki.",
+    "ja": "妻がすき焼きを作ります。",
+    "ro": "Tsuma ga sukiyaki o tsukurimasu.",
+    "lit": "ma femme · [sujet] · sukiyaki · [objet] · préparer (poli)"
    },
    {
-    "fr": "Envoie-moi des photos, d'accord ?",
-    "pt": "Manda-me fotografias, está bem?"
+    "fr": "Je me réjouis déjà pour samedi.",
+    "ja": "土曜日が楽しみです。",
+    "ro": "Doyōbi ga tanoshimi desu.",
+    "lit": "samedi · [sujet] · plaisir attendu · être (poli)"
    }
   ]
  },
  {
-  "title": "Un coup de fil à un ami",
+  "title": "Décliner et donner une raison",
   "phrases": [
    {
-    "fr": "Salut Miguel, ça va ?",
-    "pt": "Olá, Miguel, tudo bem?"
+    "fr": "Désolée, samedi, ça va être difficile…",
+    "ja": "すみません、土曜日はちょっと…。",
+    "ro": "Sumimasen, doyōbi wa chotto…",
+    "lit": "pardon · samedi · [thème] · un peu…"
    },
    {
-    "fr": "Très bien, et toi ?",
-    "pt": "Tudo ótimo, e contigo?"
+    "fr": "C'est que j'ai du travail ce jour-là.",
+    "ja": "その日は仕事がありますから。",
+    "ro": "Sono hi wa shigoto ga arimasu kara.",
+    "lit": "ce · jour · [thème] · travail · [sujet] · il y a (poli) · [parce que]"
    },
    {
-    "fr": "On ne s'est pas parlé depuis une éternité !",
-    "pt": "Há imenso tempo que não falamos!"
+    "fr": "Pourquoi apprenez-vous le japonais ?",
+    "ja": "どうして日本語を勉強していますか？",
+    "ro": "Dōshite Nihongo o benkyō shite imasu ka?",
+    "lit": "pourquoi · japonais · [objet] · étude · faire (forme -te) · être en train (poli) · [question]"
    },
    {
-    "fr": "C'est vrai, j'ai beaucoup de travail en ce moment.",
-    "pt": "Pois é, ando com muito trabalho."
+    "fr": "Parce que j'adore les mangas.",
+    "ja": "漫画が大好きですから。",
+    "ro": "Manga ga daisuki desu kara.",
+    "lit": "manga · [sujet] · très aimé · être (poli) · [parce que]"
    },
    {
-    "fr": "Tu viens à Coimbra ce week-end ?",
-    "pt": "Vens a Coimbra este fim de semana?"
+    "fr": "Il fait froid, fermons la fenêtre.",
+    "ja": "寒いですから、窓を閉めましょう。",
+    "ro": "Samui desu kara, mado o shimemashō.",
+    "lit": "froid · être (poli) · [parce que] · fenêtre · [objet] · fermer (proposition)"
    },
    {
-    "fr": "Peut-être que je passe samedi.",
-    "pt": "Se calhar apareço no sábado."
+    "fr": "Je me lève tôt demain, alors pas d'alcool pour moi.",
+    "ja": "明日は早いですから、お酒は飲みません。",
+    "ro": "Ashita wa hayai desu kara, osake wa nomimasen.",
+    "lit": "demain · [thème] · tôt · être (poli) · [parce que] · alcool · [thème] · boire (négatif poli)"
    },
    {
-    "fr": "Super, on peut dîner ensemble.",
-    "pt": "Ótimo, podemos jantar juntos."
+    "fr": "Il est tard, alors je vais y aller.",
+    "ja": "もう遅いですから、そろそろ失礼します。",
+    "ro": "Mō osoi desu kara, sorosoro shitsurei shimasu.",
+    "lit": "déjà · tard · être (poli) · [parce que] · bientôt · impolitesse · faire (poli)"
    },
    {
-    "fr": "Je t'appelle demain pour qu'on s'organise.",
-    "pt": "Ligo-te amanhã para combinar."
+    "fr": "Quel dommage, une autre fois alors.",
+    "ja": "残念ですね。また今度。",
+    "ro": "Zannen desu ne. Mata kondo.",
+    "lit": "regrettable · être (poli) · [n'est-ce pas] · de nouveau · la prochaine fois"
    },
    {
-    "fr": "D'accord, j'attends de tes nouvelles.",
-    "pt": "Está bem, fico à espera."
+    "fr": "Et dimanche, ça vous irait ?",
+    "ja": "日曜日はどうですか？",
+    "ro": "Nichiyōbi wa dō desu ka?",
+    "lit": "dimanche · [thème] · comment · être (poli) · [question]"
    },
    {
-    "fr": "Je t'embrasse, à bientôt !",
-    "pt": "Um abraço, até breve!"
-   }
-  ]
- },
- {
-  "title": "Parler de son animal",
-  "phrases": [
-   {
-    "fr": "Tu as un animal à la maison ?",
-    "pt": "Tens algum animal de estimação?"
-   },
-   {
-    "fr": "J'ai une chatte qui s'appelle Mimi.",
-    "pt": "Tenho uma gata chamada Mimi."
-   },
-   {
-    "fr": "Elle est câline ?",
-    "pt": "É meiga?"
-   },
-   {
-    "fr": "Très, elle dort toujours sur mon canapé.",
-    "pt": "Muito, dorme sempre no meu sofá."
-   },
-   {
-    "fr": "Moi, j'ai un chien très joueur.",
-    "pt": "Eu tenho um cão muito brincalhão."
-   },
-   {
-    "fr": "Tu emmènes ton chien à la plage ?",
-    "pt": "Levas o teu cão à praia?"
-   },
-   {
-    "fr": "Oui, à la plage de Figueira, en hiver.",
-    "pt": "Sim, à praia da Figueira, no inverno."
-   },
-   {
-    "fr": "En été, les chiens n'ont pas le droit d'entrer.",
-    "pt": "No verão, os cães não podem entrar."
-   },
-   {
-    "fr": "Il adore courir dans le sable.",
-    "pt": "Ele adora correr na areia."
-   },
-   {
-    "fr": "Un jour, je te présente mon chien.",
-    "pt": "Um dia apresento-te o meu cão."
-   }
-  ]
- },
- {
-  "title": "Décrire son logement",
-  "phrases": [
-   {
-    "fr": "Tu habites où, à Coimbra ?",
-    "pt": "Onde moras em Coimbra?"
-   },
-   {
-    "fr": "J'habite près de la Quebra-Costas.",
-    "pt": "Moro perto da Quebra-Costas."
-   },
-   {
-    "fr": "Cette rue est vraiment en pente !",
-    "pt": "Essa rua é mesmo inclinada!"
-   },
-   {
-    "fr": "Eh oui, je la monte tous les jours.",
-    "pt": "Pois é, subo-a todos os dias."
-   },
-   {
-    "fr": "Ton appartement est grand ?",
-    "pt": "O teu apartamento é grande?"
-   },
-   {
-    "fr": "Il a deux chambres et un balcon.",
-    "pt": "Tem dois quartos e uma varanda."
-   },
-   {
-    "fr": "Tu vis seul ou en colocation ?",
-    "pt": "Vives sozinho ou com colegas?"
-   },
-   {
-    "fr": "Je partage l'appart avec trois étudiants.",
-    "pt": "Partilho a casa com três estudantes."
-   },
-   {
-    "fr": "Le loyer est cher ?",
-    "pt": "A renda é cara?"
-   },
-   {
-    "fr": "Je paie trois cents euros par mois.",
-    "pt": "Pago trezentos euros por mês."
-   }
-  ]
- },
- {
-  "title": "Parler de football",
-  "phrases": [
-   {
-    "fr": "Tu es supporter de quel club ?",
-    "pt": "És de que clube?"
-   },
-   {
-    "fr": "Je suis pour l'Académica, évidemment !",
-    "pt": "Sou da Académica, claro!"
-   },
-   {
-    "fr": "Mon père est pour Benfica.",
-    "pt": "O meu pai é do Benfica."
-   },
-   {
-    "fr": "Et mon frère est pour le Sporting.",
-    "pt": "E o meu irmão é do Sporting."
-   },
-   {
-    "fr": "À la maison, il y a toujours des disputes !",
-    "pt": "Em casa há sempre discussões!"
-   },
-   {
-    "fr": "Tu vas voir le match dimanche ?",
-    "pt": "Vais ver o jogo no domingo?"
-   },
-   {
-    "fr": "Je vais au stade avec des amis.",
-    "pt": "Vou ao estádio com uns amigos."
-   },
-   {
-    "fr": "L'Académica joue contre qui ?",
-    "pt": "A Académica joga contra quem?"
-   },
-   {
-    "fr": "Contre Porto, ça va être difficile.",
-    "pt": "Contra o Porto, vai ser difícil."
-   },
-   {
-    "fr": "On va gagner, j'en suis sûr !",
-    "pt": "Vamos ganhar, tenho a certeza!"
-   }
-  ]
- },
- {
-  "title": "Un café entre collègues",
-  "phrases": [
-   {
-    "fr": "On descend prendre un café ?",
-    "pt": "Vamos tomar um café?"
-   },
-   {
-    "fr": "Bonne idée, j'ai besoin d'une pause.",
-    "pt": "Boa ideia, preciso de uma pausa."
-   },
-   {
-    "fr": "Où est-ce que tu vas d'habitude ?",
-    "pt": "Onde é que costumas ir?"
-   },
-   {
-    "fr": "À la pâtisserie juste à côté.",
-    "pt": "À pastelaria aqui ao lado."
-   },
-   {
-    "fr": "Ils ont d'excellents ovos moles.",
-    "pt": "Têm uns ovos moles ótimos."
-   },
-   {
-    "fr": "Qu'est-ce que tu vas prendre ?",
-    "pt": "O que é que vais pedir?"
-   },
-   {
-    "fr": "Un grand café au lait, j'ai sommeil.",
-    "pt": "Um galão, estou com sono."
-   },
-   {
-    "fr": "Pour moi, un café et un gâteau.",
-    "pt": "Para mim, um café e um bolo."
-   },
-   {
-    "fr": "Combien ça fait en tout ?",
-    "pt": "Quanto é tudo?"
-   },
-   {
-    "fr": "Aujourd'hui, c'est moi qui paie.",
-    "pt": "Hoje pago eu."
+    "fr": "Dimanche, pas de problème !",
+    "ja": "日曜日は大丈夫です！",
+    "ro": "Nichiyōbi wa daijōbu desu!",
+    "lit": "dimanche · [thème] · sans problème · être (poli)"
    }
   ],
   "tip": {
-   "title": "« É que » dans les questions : « Onde é que moras? »",
-   "example": "Où est-ce que tu vas d'habitude ? — <b>Onde é que</b> costumas ir?",
-   "body": "À l'oral, les Portugais ajoutent très souvent é que après le mot interrogatif, exactement comme notre « est-ce que » : Onde é que moras?, O que é que queres?, Quando é que chegas? Le sens ne change pas, la question sonne simplement plus naturelle et plus orale. L'ordre des mots reste simple : mot interrogatif + é que + verbe."
+   "title": "« Kara » : parce que, donner une raison",
+   "example": "Parce que j'adore les mangas. — 漫画が大好きです<b>から</b>。",
+   "exampleRo": "Manga ga daisuki desu kara.",
+   "lit": "manga · [sujet] · très aimé · être (poli) · [parce que]",
+   "body": "Vous connaissez déjà « kara » au sens de « depuis » ou « à partir de ». Placé à la fin d'une phrase, il prend un autre sens : « parce que ». La grande différence avec le français, c'est l'ordre : en japonais, la raison vient d'abord, puis « kara », puis la conséquence. « Samui desu kara, mado o shimemashō » se dit littéralement : froid, être, parce que, fenêtre, objet, fermons. En français, on dirait : il fait froid, donc fermons la fenêtre. Notre phrase, elle, se décompose ainsi : manga, sujet, très aimé, être, parce que. Elle répond à la question « Dōshite ? », pourquoi ? On peut aussi s'arrêter juste après « kara » pour s'excuser en douceur : « Sono hi wa shigoto ga arimasu kara », c'est que j'ai du travail ce jour-là, et l'autre comprend tout seul. Pour retenir : « kara » est comme une flèche qui part de la cause et pointe vers ce qui suit."
   }
  },
  {
-  "title": "Parler de musique",
+  "title": "Le grand bouddha de Kamakura",
   "phrases": [
    {
-    "fr": "Tu écoutes quel genre de musique ?",
-    "pt": "Que tipo de música ouves?"
+    "fr": "Voici le grand bouddha de Kamakura.",
+    "ja": "これが鎌倉の大仏です。",
+    "ro": "Kore ga Kamakura no Daibutsu desu.",
+    "lit": "ceci · [sujet] · Kamakura · [possessif] · grand bouddha · être (poli)"
    },
    {
-    "fr": "J'écoute de tout, mais j'adore le fado.",
-    "pt": "Ouço de tudo, mas adoro fado."
+    "fr": "Il est vraiment immense !",
+    "ja": "本当に大きいですね！",
+    "ro": "Hontō ni ōkii desu ne!",
+    "lit": "vraiment · grand · être (poli) · [n'est-ce pas]"
    },
    {
-    "fr": "Tu connais le fado de Coimbra ?",
-    "pt": "Conheces o fado de Coimbra?"
+    "fr": "L'entrée coûte trois cents yens.",
+    "ja": "入場料は三百円です。",
+    "ro": "Nyūjōryō wa sanbyaku en desu.",
+    "lit": "droit d'entrée · [thème] · trois-cents-yens · être (poli)"
    },
    {
-    "fr": "Oui, les étudiants le chantent en cape noire.",
-    "pt": "Sim, os estudantes cantam-no de capa preta."
+    "fr": "Il y a beaucoup de visiteurs aujourd'hui.",
+    "ja": "今日は観光客が多いですね。",
+    "ro": "Kyō wa kankōkyaku ga ōi desu ne.",
+    "lit": "aujourd'hui · [thème] · touristes · [sujet] · nombreux · être (poli) · [n'est-ce pas]"
    },
    {
-    "fr": "Tu joues d'un instrument, toi ?",
-    "pt": "E tu, tocas algum instrumento?"
+    "fr": "Prenons une photo devant le bouddha.",
+    "ja": "大仏の前で写真を撮りましょう。",
+    "ro": "Daibutsu no mae de shashin o torimashō.",
+    "lit": "grand bouddha · [possessif] · devant · [lieu] · photo · [objet] · prendre (proposition)"
    },
    {
-    "fr": "Je joue de la guitare portugaise depuis deux ans.",
-    "pt": "Toco guitarra portuguesa há dois anos."
+    "fr": "Pardon, prenez-nous en photo, s'il vous plaît.",
+    "ja": "すみません、写真を撮ってください。",
+    "ro": "Sumimasen, shashin o totte kudasai.",
+    "lit": "pardon · photo · [objet] · prendre (forme -te) · s'il vous plaît"
    },
    {
-    "fr": "Que c'est beau ! C'est difficile ?",
-    "pt": "Que bonito! É difícil?"
+    "fr": "Ensuite, on va au temple Hase-dera ?",
+    "ja": "それから、長谷寺に行きませんか？",
+    "ro": "Sore kara, Hasedera ni ikimasen ka?",
+    "lit": "ensuite · Hase-temple · [direction] · aller (négatif poli) · [question]"
    },
    {
-    "fr": "Un peu, mais j'aime vraiment ça.",
-    "pt": "Um bocado, mas gosto muito."
+    "fr": "Le temple est à cinq minutes à pied.",
+    "ja": "長谷寺は歩いて五分です。",
+    "ro": "Hasedera wa aruite gofun desu.",
+    "lit": "Hase-temple · [thème] · en marchant · cinq-minutes · être (poli)"
    },
    {
-    "fr": "Il y a une sérénade vendredi soir.",
-    "pt": "Há uma serenata na sexta à noite."
+    "fr": "En juin, les hortensias y sont magnifiques.",
+    "ja": "六月はあじさいがとてもきれいです。",
+    "ro": "Rokugatsu wa ajisai ga totemo kirei desu.",
+    "lit": "juin · [thème] · hortensias · [sujet] · très · beau · être (poli)"
    },
    {
-    "fr": "On y va ensemble ? Il paraît que c'est magnifique.",
-    "pt": "Vamos juntos? Dizem que é lindo."
+    "fr": "Kamakura est vraiment une ville agréable.",
+    "ja": "鎌倉は本当にいい町です。",
+    "ro": "Kamakura wa hontō ni ii machi desu.",
+    "lit": "Kamakura · [thème] · vraiment · bon · ville · être (poli)"
    }
   ]
  },
  {
-  "title": "Parler de ses goûts culinaires",
+  "title": "Une journée au bord de la mer",
   "phrases": [
    {
-    "fr": "Tu cuisines beaucoup à la maison ?",
-    "pt": "Cozinhas muito em casa?"
+    "fr": "Hier, nous sommes allés à la plage de Yuigahama.",
+    "ja": "昨日、由比ヶ浜に行きました。",
+    "ro": "Kinō, Yuigahama ni ikimashita.",
+    "lit": "hier · Yuigahama · [direction] · aller (passé poli)"
    },
    {
-    "fr": "Seulement le week-end, je n'ai pas le temps.",
-    "pt": "Só ao fim de semana, não tenho tempo."
+    "fr": "Il faisait un temps splendide.",
+    "ja": "とてもいい天気でした。",
+    "ro": "Totemo ii tenki deshita.",
+    "lit": "très · bon · temps · être (passé poli)"
    },
    {
-    "fr": "Quel plat tu aimes le plus ?",
-    "pt": "De que prato gostas mais?"
+    "fr": "La mer était un peu froide.",
+    "ja": "海は少し冷たかったです。",
+    "ro": "Umi wa sukoshi tsumetakatta desu.",
+    "lit": "mer · [thème] · un peu · froid (passé) · (poli)"
    },
    {
-    "fr": "J'adore la caldeirada d'anguilles d'Aveiro.",
-    "pt": "Adoro a caldeirada de enguias de Aveiro."
+    "fr": "Le sable était brûlant.",
+    "ja": "砂はとても熱かったです。",
+    "ro": "Suna wa totemo atsukatta desu.",
+    "lit": "sable · [thème] · très · brûlant (passé) · (poli)"
    },
    {
-    "fr": "Moi, je ne mange pas de poisson, je préfère la viande.",
-    "pt": "Eu não como peixe, prefiro carne."
+    "fr": "Le coucher de soleil était superbe.",
+    "ja": "夕日はとてもきれいでした。",
+    "ro": "Yūhi wa totemo kirei deshita.",
+    "lit": "soleil couchant · [thème] · très · beau · être (passé poli)"
    },
    {
-    "fr": "Alors tu dois goûter le cochon de lait.",
-    "pt": "Então tens de provar o leitão."
+    "fr": "Le bol de shirasu était délicieux.",
+    "ja": "しらす丼はおいしかったです。",
+    "ro": "Shirasudon wa oishikatta desu.",
+    "lit": "bol de shirasu · [thème] · délicieux (passé) · (poli)"
    },
    {
-    "fr": "Tu préfères le sucré ou le salé ?",
-    "pt": "És mais de doce ou de salgado?"
+    "fr": "Et ce n'était pas cher du tout.",
+    "ja": "全然高くなかったです。",
+    "ro": "Zenzen takaku nakatta desu.",
+    "lit": "pas du tout · cher · ne pas (passé) · (poli)"
    },
    {
-    "fr": "Le sucré, sans hésiter ! J'adore les ovos moles.",
-    "pt": "Doce, sem dúvida! Adoro ovos moles."
+    "fr": "Il y avait beaucoup de monde ?",
+    "ja": "人が多かったですか？",
+    "ro": "Hito ga ōkatta desu ka?",
+    "lit": "gens · [sujet] · nombreux (passé) · (poli) · [question]"
    },
    {
-    "fr": "C'est trop sucré pour moi.",
-    "pt": "São doces demais para mim."
+    "fr": "Non, la plage était tranquille.",
+    "ja": "いいえ、浜辺は静かでした。",
+    "ro": "Iie, hamabe wa shizuka deshita.",
+    "lit": "non · plage · [thème] · calme · être (passé poli)"
    },
    {
-    "fr": "Chacun a ses goûts, après tout.",
-    "pt": "Afinal, cada um tem o seu gosto."
-   }
-  ]
- },
- {
-  "title": "Faire un compliment",
-  "phrases": [
-   {
-    "fr": "Tu es très élégante aujourd'hui !",
-    "pt": "Estás muito elegante hoje!"
-   },
-   {
-    "fr": "Merci, c'est gentil de ta part.",
-    "pt": "Obrigada, és muito simpático."
-   },
-   {
-    "fr": "Ce pull te va très bien.",
-    "pt": "Essa camisola fica-te muito bem."
-   },
-   {
-    "fr": "Il vient d'une petite boutique d'Aveiro.",
-    "pt": "É de uma loja pequena em Aveiro."
-   },
-   {
-    "fr": "Ta maison est très accueillante.",
-    "pt": "A tua casa é muito acolhedora."
-   },
-   {
-    "fr": "Tu cuisines vraiment bien, bravo !",
-    "pt": "Cozinhas mesmo bem, parabéns!"
-   },
-   {
-    "fr": "Ton portugais est excellent !",
-    "pt": "O teu português está ótimo!"
-   },
-   {
-    "fr": "Vraiment ? Je fais encore beaucoup de fautes.",
-    "pt": "A sério? Ainda dou muitos erros."
-   },
-   {
-    "fr": "Ce n'est pas grave, on comprend tout.",
-    "pt": "Não faz mal, percebe-se tudo."
-   },
-   {
-    "fr": "Merci, ça me donne du courage.",
-    "pt": "Obrigado, isso dá-me coragem."
-   }
-  ]
- },
- {
-  "title": "Exprimer un désaccord poliment",
-  "phrases": [
-   {
-    "fr": "Désolé, mais je ne suis pas d'accord.",
-    "pt": "Desculpa, mas não concordo."
-   },
-   {
-    "fr": "Ah bon ? Pourquoi ?",
-    "pt": "A sério? Porquê?"
-   },
-   {
-    "fr": "Je trouve l'idée un petit peu risquée.",
-    "pt": "Acho a ideia um bocadinho arriscada."
-   },
-   {
-    "fr": "Je comprends, mais ça vaut la peine d'essayer.",
-    "pt": "Percebo, mas vale a pena tentar."
-   },
-   {
-    "fr": "Bon, tu as peut-être raison.",
-    "pt": "Pronto, se calhar tens razão."
-   },
-   {
-    "fr": "On peut réfléchir encore un peu ?",
-    "pt": "Podemos pensar mais um pouco?"
-   },
-   {
-    "fr": "Bien sûr, rien ne presse.",
-    "pt": "Claro, não há pressa nenhuma."
-   },
-   {
-    "fr": "Parlons-en calmement.",
-    "pt": "Vamos falar disso com calma."
-   },
-   {
-    "fr": "Tu m'attends juste une petite minute ?",
-    "pt": "Esperas só um minutinho?"
-   },
-   {
-    "fr": "Au fond, on pense presque la même chose.",
-    "pt": "No fundo, pensamos quase o mesmo."
+    "fr": "On s'est vraiment bien amusés.",
+    "ja": "本当に楽しかったです。",
+    "ro": "Hontō ni tanoshikatta desu.",
+    "lit": "vraiment · amusant (passé) · (poli)"
    }
   ],
   "tip": {
-   "title": "Les diminutifs en « -inho / -inha »",
-   "example": "Je trouve l'idée un petit peu risquée. — Acho a ideia um <b>bocadinho</b> arriscada.",
-   "body": "Les Portugais adorent les diminutifs : on remplace la voyelle finale par -inho ou -inha pour dire « petit » ou pour adoucir une phrase. Um bocado devient um bocadinho (« un petit peu »), um minuto devient um minutinho, um café devient um cafezinho. C'est très fréquent à l'oral, souvent pour être gentil ou poli plutôt que pour parler de taille."
+   "title": "Le passé des adjectifs : takakatta, kirei deshita",
+   "example": "La mer était un peu froide. — 海は少し<b>冷たかった</b>です。",
+   "exampleRo": "Umi wa sukoshi tsumetakatta desu.",
+   "lit": "mer · [thème] · un peu · froid (passé) · (poli)",
+   "body": "En japonais, ce n'est pas seulement le verbe qui se met au passé : les adjectifs en « -i » se conjuguent eux-mêmes ! On remplace le « i » final par « katta ». « Tsumetai », froid, devient « tsumetakatta », était froid. On garde ensuite « desu » juste pour la politesse, sans le mettre au passé. Notre phrase se dit donc littéralement : mer, thème, un peu, froid-passé, poli. De même, « oishii » donne « oishikatta », c'était délicieux, et « tanoshii » donne « tanoshikatta », c'était amusant. Attention à l'exception : « ii », bon, devient « yokatta ». Pour les adjectifs en « -na », comme « kirei » ou « shizuka », c'est plus simple : on met « desu » au passé, « deshita ». « Yūhi wa kirei deshita », le coucher de soleil était beau. Pour retenir : les adjectifs en « -i » portent le passé sur leur dos avec « katta », les adjectifs en « -na » le confient à « deshita »."
   }
  },
  {
-  "title": "Se dire au revoir après une soirée",
+  "title": "Arriver chez quelqu'un",
   "phrases": [
    {
-    "fr": "Quelle soirée agréable !",
-    "pt": "Que noite tão agradável!"
+    "fr": "Bienvenue, entrez donc !",
+    "ja": "いらっしゃい。どうぞ、上がってください。",
+    "ro": "Irasshai. Dōzo, agatte kudasai.",
+    "lit": "bienvenue · je vous en prie · monter (forme -te) · s'il vous plaît"
    },
    {
-    "fr": "Merci pour l'invitation, c'était génial.",
-    "pt": "Obrigado pelo convite, foi ótimo."
+    "fr": "Merci, pardon de vous déranger.",
+    "ja": "お邪魔します。",
+    "ro": "Ojama shimasu.",
+    "lit": "honorable-dérangement · faire (poli)"
    },
    {
-    "fr": "Il faut qu'on remette ça bientôt.",
-    "pt": "Temos de repetir em breve."
+    "fr": "J'enlève mes chaussures ici ?",
+    "ja": "靴はここで脱ぎますか？",
+    "ro": "Kutsu wa koko de nugimasu ka?",
+    "lit": "chaussures · [thème] · ici · [lieu] · enlever (poli) · [question]"
    },
    {
-    "fr": "La prochaine fois, on se retrouve chez moi.",
-    "pt": "Da próxima vez é lá em casa."
+    "fr": "Oui, voici des pantoufles.",
+    "ja": "はい、スリッパをどうぞ。",
+    "ro": "Hai, surippa o dōzo.",
+    "lit": "oui · pantoufles · [objet] · je vous en prie"
    },
    {
-    "fr": "Et toi, tu rentres comment ?",
-    "pt": "E tu, como vais para casa?"
+    "fr": "Quelle jolie maison !",
+    "ja": "すてきなお宅ですね。",
+    "ro": "Suteki na otaku desu ne.",
+    "lit": "charmant · [na] · honorable-maison · être (poli) · [n'est-ce pas]"
    },
    {
-    "fr": "À pied, j'habite tout près.",
-    "pt": "Vou a pé, moro aqui perto."
+    "fr": "Asseyez-vous ici, je vous en prie.",
+    "ja": "どうぞ、こちらに座ってください。",
+    "ro": "Dōzo, kochira ni suwatte kudasai.",
+    "lit": "je vous en prie · ce côté-ci · [lieu] · s'asseoir (forme -te) · s'il vous plaît"
    },
    {
-    "fr": "Attention à la Quebra-Costas la nuit !",
-    "pt": "Cuidado com a Quebra-Costas à noite!"
+    "fr": "Je vous sers un peu de thé ?",
+    "ja": "お茶はいかがですか？",
+    "ro": "Ocha wa ikaga desu ka?",
+    "lit": "honorable-thé · [thème] · comment (poli) · être (poli) · [question]"
    },
    {
-    "fr": "Envoie-moi un message après, d'accord ?",
-    "pt": "Depois manda-me uma mensagem, está bem?"
+    "fr": "Merci pour ce repas, je commence.",
+    "ja": "いただきます。",
+    "ro": "Itadakimasu.",
+    "lit": "recevoir humblement (poli)"
    },
    {
-    "fr": "Bonne nuit, et merci pour tout.",
-    "pt": "Boa noite e obrigado por tudo."
+    "fr": "Tout est vraiment délicieux.",
+    "ja": "全部本当においしいです。",
+    "ro": "Zenbu hontō ni oishii desu.",
+    "lit": "tout · vraiment · délicieux · être (poli)"
    },
    {
-    "fr": "Au revoir, à la prochaine !",
-    "pt": "Adeus, até à próxima!"
+    "fr": "C'était un vrai festin, merci.",
+    "ja": "ごちそうさまでした。",
+    "ro": "Gochisōsama deshita.",
+    "lit": "honorable-festin · être (passé poli)"
    }
   ]
  },
  {
-  "title": "Fin du module : un bilan",
+  "title": "Offrir un cadeau",
   "phrases": [
    {
-    "fr": "Ce module était très complet.",
-    "pt": "Este módulo foi muito completo."
+    "fr": "Voici un petit quelque chose pour vous.",
+    "ja": "つまらないものですが、どうぞ。",
+    "ro": "Tsumaranai mono desu ga, dōzo.",
+    "lit": "sans intérêt · chose · être (poli) · [mais] · je vous en prie"
    },
    {
-    "fr": "On sait déjà parler de beaucoup de sujets.",
-    "pt": "Já sabemos falar de muitos assuntos."
+    "fr": "Oh, il ne fallait pas, merci beaucoup !",
+    "ja": "あ、すみません。ありがとうございます。",
+    "ro": "A, sumimasen. Arigatō gozaimasu.",
+    "lit": "ah · pardon · merci (très poli)"
    },
    {
-    "fr": "La famille, le travail, la cuisine et le foot.",
-    "pt": "A família, o trabalho, a comida e o futebol."
+    "fr": "J'ai offert du vin à Madame Yamada.",
+    "ja": "山田さんにワインをあげました。",
+    "ro": "Yamada-san ni wain o agemashita.",
+    "lit": "Yamada-madame · [à] · vin · [objet] · donner (passé poli)"
    },
    {
-    "fr": "Le premier niveau est presque terminé.",
-    "pt": "O primeiro nível está quase no fim."
+    "fr": "Monsieur Satō m'a offert un éventail.",
+    "ja": "佐藤さんが扇子をくれました。",
+    "ro": "Satō-san ga sensu o kuremashita.",
+    "lit": "Satō-monsieur · [sujet] · éventail · [objet] · donner à moi (passé poli)"
    },
    {
-    "fr": "Mon portugais progresse tous les jours.",
-    "pt": "O meu português melhora todos os dias."
+    "fr": "Mon mari m'a offert des fleurs.",
+    "ja": "夫に花をもらいました。",
+    "ro": "Otto ni hana o moraimashita.",
+    "lit": "mon mari · [de la part de] · fleurs · [objet] · recevoir (passé poli)"
    },
    {
-    "fr": "J'arrive déjà à discuter avec des Portugais.",
-    "pt": "Já consigo conversar com portugueses."
+    "fr": "Mon fils m'a fait un dessin.",
+    "ja": "息子が絵をくれました。",
+    "ro": "Musuko ga e o kuremashita.",
+    "lit": "mon fils · [sujet] · dessin · [objet] · donner à moi (passé poli)"
    },
    {
-    "fr": "Au prochain niveau, on va parler du passé.",
-    "pt": "No próximo nível, vamos falar do passado."
+    "fr": "Qu'est-ce qu'on offre à Kenta pour son anniversaire ?",
+    "ja": "健太くんの誕生日に何をあげましょうか？",
+    "ro": "Kenta-kun no tanjōbi ni nani o agemashō ka?",
+    "lit": "Kenta-kun · [possessif] · anniversaire · [temps] · quoi · [objet] · donner (proposition) · [question]"
    },
    {
-    "fr": "Les phrases vont être un peu plus longues.",
-    "pt": "As frases vão ser um pouco mais longas."
+    "fr": "Pourquoi pas un livre ?",
+    "ja": "本はどうですか？",
+    "ro": "Hon wa dō desu ka?",
+    "lit": "livre · [thème] · comment · être (poli) · [question]"
    },
    {
-    "fr": "Bravo pour ce beau travail !",
-    "pt": "Parabéns por este bom trabalho!"
+    "fr": "En France, on ouvre les cadeaux tout de suite.",
+    "ja": "フランスではプレゼントをすぐ開けます。",
+    "ro": "Furansu de wa purezento o sugu akemasu.",
+    "lit": "France · [lieu] · [thème] · cadeau · [objet] · tout de suite · ouvrir (poli)"
    },
    {
-    "fr": "À tout de suite pour le niveau suivant !",
-    "pt": "Até já, no próximo nível!"
+    "fr": "Au Japon, on les ouvre souvent plus tard.",
+    "ja": "日本ではよくあとで開けます。",
+    "ro": "Nihon de wa yoku ato de akemasu.",
+    "lit": "Japon · [lieu] · [thème] · souvent · plus tard · ouvrir (poli)"
+   }
+  ],
+  "tip": {
+   "title": "Donner et recevoir : « agemasu », « kuremasu », « moraimasu »",
+   "example": "Monsieur Satō m'a offert un éventail. — 佐藤さんが扇子を<b>くれました</b>。",
+   "exampleRo": "Satō-san ga sensu o kuremashita.",
+   "lit": "Satō-monsieur · [sujet] · éventail · [objet] · donner à moi (passé poli)",
+   "body": "En français, on a un seul verbe « donner ». Le japonais en a deux, selon la direction du cadeau, plus un verbe pour « recevoir ». « Agemasu » veut dire donner vers l'extérieur, de moi vers les autres : « Yamada-san ni wain o agemashita », j'ai offert du vin à Madame Yamada. « Kuremasu », au contraire, veut dire donner vers moi, ou vers ma famille. Notre phrase se décompose ainsi : Satō-monsieur, sujet, éventail, objet, donner-à-moi, passé poli. Pas besoin de dire « me » : le verbe « kuremashita » indique déjà que le cadeau est arrivé chez moi. Enfin, « moraimasu » veut dire recevoir, et la personne qui donne prend « ni » : « Otto ni hana o moraimashita », j'ai reçu des fleurs de mon mari. Pour retenir, pensez à une porte : « agemasu » sort de chez moi, « kuremasu » entre chez moi, et « moraimasu », c'est moi qui tends les mains pour recevoir."
+  }
+ },
+ {
+  "title": "Se dire au revoir après la soirée",
+  "phrases": [
+   {
+    "fr": "Oh, il est déjà onze heures !",
+    "ja": "あ、もう十一時ですね。",
+    "ro": "A, mō jūichiji desu ne.",
+    "lit": "ah · déjà · onze-heures · être (poli) · [n'est-ce pas]"
+   },
+   {
+    "fr": "Je rentre bientôt, à cause du dernier train.",
+    "ja": "終電がありますから、そろそろ帰ります。",
+    "ro": "Shūden ga arimasu kara, sorosoro kaerimasu.",
+    "lit": "dernier train · [sujet] · il y a (poli) · [parce que] · bientôt · rentrer (poli)"
+   },
+   {
+    "fr": "Merci infiniment pour aujourd'hui.",
+    "ja": "今日は本当にありがとうございました。",
+    "ro": "Kyō wa hontō ni arigatō gozaimashita.",
+    "lit": "aujourd'hui · [thème] · vraiment · merci (passé, très poli)"
+   },
+   {
+    "fr": "Votre cuisine était délicieuse.",
+    "ja": "お料理、とてもおいしかったです。",
+    "ro": "Oryōri, totemo oishikatta desu.",
+    "lit": "honorable-cuisine · très · délicieux (passé) · (poli)"
+   },
+   {
+    "fr": "Revenez quand vous voulez.",
+    "ja": "またいつでも来てください。",
+    "ro": "Mata itsu demo kite kudasai.",
+    "lit": "de nouveau · n'importe quand · venir (forme -te) · s'il vous plaît"
+   },
+   {
+    "fr": "La prochaine fois, venez chez nous.",
+    "ja": "今度はうちに来てください。",
+    "ro": "Kondo wa uchi ni kite kudasai.",
+    "lit": "la prochaine fois · [thème] · maison · [direction] · venir (forme -te) · s'il vous plaît"
+   },
+   {
+    "fr": "Rentrez bien, soyez prudents.",
+    "ja": "気をつけて帰ってください。",
+    "ro": "Ki o tsukete kaette kudasai.",
+    "lit": "attention · [objet] · porter (forme -te) · rentrer (forme -te) · s'il vous plaît"
+   },
+   {
+    "fr": "Mes amitiés à votre épouse.",
+    "ja": "奥さんによろしくお伝えください。",
+    "ro": "Okusan ni yoroshiku otsutae kudasai.",
+    "lit": "votre épouse · [à] · bien · honorable-transmettre · s'il vous plaît"
+   },
+   {
+    "fr": "Bonne nuit à tous !",
+    "ja": "みなさん、おやすみなさい。",
+    "ro": "Minasan, oyasuminasai.",
+    "lit": "tout le monde · bonne nuit"
+   },
+   {
+    "fr": "Allez, à lundi au bureau !",
+    "ja": "じゃあ、また月曜日に会社で。",
+    "ro": "Jā, mata getsuyōbi ni kaisha de.",
+    "lit": "alors · de nouveau · lundi · [temps] · bureau · [lieu]"
    }
   ]
+ },
+ {
+  "title": "Fin du module : bilan du niveau 1",
+  "phrases": [
+   {
+    "fr": "Le niveau débutant est terminé !",
+    "ja": "初級が終わりました！",
+    "ro": "Shokyū ga owarimashita!",
+    "lit": "niveau débutant · [sujet] · se terminer (passé poli)"
+   },
+   {
+    "fr": "Le japonais, c'est difficile, n'est-ce pas ?",
+    "ja": "日本語は難しいですね。",
+    "ro": "Nihongo wa muzukashii desu ne.",
+    "lit": "japonais · [thème] · difficile · être (poli) · [n'est-ce pas]"
+   },
+   {
+    "fr": "Oui, c'est vrai, mais c'est passionnant.",
+    "ja": "そうですね。でも、おもしろいです。",
+    "ro": "Sō desu ne. Demo, omoshiroi desu.",
+    "lit": "ainsi · être (poli) · [n'est-ce pas] · mais · intéressant · être (poli)"
+   },
+   {
+    "fr": "Je comprends les phrases simples en japonais.",
+    "ja": "日本語の簡単な文がわかります。",
+    "ro": "Nihongo no kantan na bun ga wakarimasu.",
+    "lit": "japonais · [possessif] · simple · [na] · phrase · [sujet] · comprendre (poli)"
+   },
+   {
+    "fr": "Je sais me présenter en japonais.",
+    "ja": "日本語で自己紹介ができます。",
+    "ro": "Nihongo de jiko shōkai ga dekimasu.",
+    "lit": "japonais · [moyen] · présentation de soi · [sujet] · savoir faire (poli)"
+   },
+   {
+    "fr": "Je connais les hiragana et les katakana.",
+    "ja": "ひらがなとカタカナがわかります。",
+    "ro": "Hiragana to katakana ga wakarimasu.",
+    "lit": "hiragana · [et] · katakana · [sujet] · comprendre (poli)"
+   },
+   {
+    "fr": "Les particules sont plus faciles qu'avant.",
+    "ja": "助詞は前より簡単です。",
+    "ro": "Joshi wa mae yori kantan desu.",
+    "lit": "particules · [thème] · avant · [plus que] · facile · être (poli)"
+   },
+   {
+    "fr": "Ah bon ? Vraiment ?",
+    "ja": "へえ、本当ですか？",
+    "ro": "Hē, hontō desu ka?",
+    "lit": "oh · vrai · être (poli) · [question]"
+   },
+   {
+    "fr": "Bientôt, le niveau intermédiaire !",
+    "ja": "もうすぐ中級です。",
+    "ro": "Mō sugu chūkyū desu.",
+    "lit": "bientôt · niveau intermédiaire · être (poli)"
+   },
+   {
+    "fr": "Continuons nos efforts ensemble !",
+    "ja": "これからも一緒にがんばりましょう！",
+    "ro": "Kore kara mo issho ni ganbarimashō!",
+    "lit": "à partir de maintenant · [aussi] · ensemble · faire des efforts (proposition)"
+   }
+  ],
+  "tip": {
+   "title": "« Sō desu ne » et les petites réactions qui rythment la conversation",
+   "example": "Oui, c'est vrai, mais c'est passionnant. — <b>そうですね</b>。でも、おもしろいです。",
+   "exampleRo": "Sō desu ne. Demo, omoshiroi desu.",
+   "lit": "ainsi · être (poli) · [n'est-ce pas] · mais · intéressant · être (poli)",
+   "body": "Une conversation japonaise est pleine de petites réactions qui montrent qu'on écoute. La plus célèbre est « sō desu ne ». Mot à mot, elle veut dire : ainsi, être, n'est-ce pas ? Autrement dit : oui, c'est vrai, je suis d'accord avec vous. Dans notre phrase, quelqu'un dit que le japonais est difficile, et on répond « Sō desu ne », avant d'ajouter « demo, omoshiroi desu », mais c'est passionnant. Dite lentement, en allongeant le « ne », elle sert aussi à gagner du temps, comme notre « voyons voir ». D'autres réactions sont très utiles : « Sō desu ka », ah bon, je vois, « Hē », oh, vraiment, et « Naruhodo », je comprends, c'est logique. Les Japonais en placent beaucoup plus que nous, c'est une forme de politesse. Pour retenir : en japonais, écouter, c'est aussi parler un peu. Bravo pour ce premier niveau, à très vite pour la suite !"
+  }
  }
 ];
 
 const level2Module1Lessons = [
  {
-  "title": "Demander son NIF aux Finanças",
+  "title": "Emménager à Osaka",
   "phrases": [
    {
-    "fr": "Ce matin, je suis allé aux Finanças d'Oeiras pour mon NIF.",
-    "pt": "Esta manhã fui às Finanças de Oeiras tratar do NIF."
+    "fr": "La semaine dernière, j'ai emménagé dans un appartement à Osaka.",
+    "ja": "先週、大阪のアパートに引っ越しました。",
+    "ro": "Senshū, Ōsaka no apāto ni hikkoshimashita."
    },
    {
-    "fr": "Il faut prendre un ticket à l'entrée et attendre son tour.",
-    "pt": "É preciso tirar uma senha à entrada e esperar pela vez."
+    "fr": "La pièce est étroite, mais très lumineuse.",
+    "ja": "部屋は狭いですが、とても明るいです。",
+    "ro": "Heya wa semai desu ga, totemo akarui desu."
    },
    {
-    "fr": "Bonjour, je viens demander un numéro fiscal.",
-    "pt": "Bom dia, venho pedir um número de contribuinte."
+    "fr": "La gare de Tennōji est à cinq minutes à pied.",
+    "ja": "天王寺駅まで歩いて五分です。",
+    "ro": "Tennōji eki made aruite gofun desu."
    },
    {
-    "fr": "Vous avez votre passeport et un justificatif d'adresse ?",
-    "pt": "Tem o passaporte e um comprovativo de morada?"
+    "fr": "Le loyer est de soixante-cinq mille yens par mois.",
+    "ja": "家賃は一か月六万五千円です。",
+    "ro": "Yachin wa ikkagetsu rokuman gosen en desu."
    },
    {
-    "fr": "J'ai seulement le passeport, l'adresse figure dans ce contrat.",
-    "pt": "Só tenho o passaporte, a morada está neste contrato."
+    "fr": "Enlève tes chaussures dans l'entrée, s'il te plaît.",
+    "ja": "靴は玄関で脱いでください。",
+    "ro": "Kutsu wa genkan de nuide kudasai."
    },
    {
-    "fr": "Ça ira, asseyez-vous un instant, s'il vous plaît.",
-    "pt": "Serve, sente-se só um momento, se faz favor."
+    "fr": "Le propriétaire m'a remis deux clés.",
+    "ja": "大家さんが鍵を二つくれました。",
+    "ro": "Ōya-san ga kagi o futatsu kuremashita."
    },
    {
-    "fr": "Sans NIF, on ne peut presque rien faire au Portugal.",
-    "pt": "Sem NIF, quase não se pode fazer nada em Portugal."
+    "fr": "Les murs sont fins, alors faites attention au bruit.",
+    "ja": "壁が薄いですから、音に気をつけてください。",
+    "ro": "Kabe ga usui desu kara, oto ni ki o tsukete kudasai."
    },
    {
-    "fr": "Même pour un forfait de téléphone, on vous le demande.",
-    "pt": "Até para um contrato de telemóvel pedem o NIF."
+    "fr": "Il n'y a pas encore de rideaux aux fenêtres.",
+    "ja": "窓にまだカーテンがありません。",
+    "ro": "Mado ni mada kāten ga arimasen."
    },
    {
-    "fr": "Voici votre document, gardez-le précieusement.",
-    "pt": "Aqui tem o seu documento, guarde-o bem."
+    "fr": "Demain, j'irai acheter un frigo et un lave-linge.",
+    "ja": "明日、冷蔵庫と洗濯機を買いに行きます。",
+    "ro": "Ashita, reizōko to sentakki o kai ni ikimasu."
    },
    {
-    "fr": "Finalement, ça a été plus rapide que je ne le pensais.",
-    "pt": "Afinal foi mais rápido do que eu pensava."
+    "fr": "Je m'habitue peu à peu à la vie ici.",
+    "ja": "ここの生活にだんだん慣れてきました。",
+    "ro": "Koko no seikatsu ni dandan narete kimashita."
    }
   ]
  },
  {
-  "title": "Ouvrir un compte à la banque",
+  "title": "À la mairie du quartier",
   "phrases": [
    {
-    "fr": "Bonjour, je voudrais ouvrir un compte dans cette agence.",
-    "pt": "Bom dia, queria abrir uma conta nesta agência."
+    "fr": "Demain, je passe à la mairie avant d'aller au travail.",
+    "ja": "明日、仕事に行く前に市役所に寄ります。",
+    "ro": "Ashita, shigoto ni iku mae ni shiyakusho ni yorimasu."
    },
    {
-    "fr": "J'ai déjà parlé avec votre collègue la semaine dernière.",
-    "pt": "Já falei com a sua colega na semana passada."
+    "fr": "Aujourd'hui, je compte déclarer ma nouvelle adresse.",
+    "ja": "今日、住所の届け出をするつもりです。",
+    "ro": "Kyō, jūsho no todokede o suru tsumori desu."
    },
    {
-    "fr": "Vous avez apporté votre NIF et une pièce d'identité ?",
-    "pt": "Trouxe o NIF e um documento de identificação?"
+    "fr": "Peut-on changer l'adresse de la carte de résident ici ?",
+    "ja": "在留カードの住所は、ここで変えることができますか。",
+    "ro": "Zairyū kādo no jūsho wa, koko de kaeru koto ga dekimasu ka."
    },
    {
-    "fr": "Oui, et j'ai rempli le formulaire en ligne hier soir.",
-    "pt": "Sim, e preenchi o formulário online ontem à noite."
+    "fr": "Oui, remplissez d'abord ce formulaire.",
+    "ja": "はい、まずこの用紙に書いてください。",
+    "ro": "Hai, mazu kono yōshi ni kaite kudasai."
    },
    {
-    "fr": "Parfait, vous recevrez la carte d'ici une dizaine de jours.",
-    "pt": "Ótimo, vai receber o cartão dentro de uns dez dias."
+    "fr": "Prenez un ticket numéroté et patientez, s'il vous plaît.",
+    "ja": "番号札を取って、お待ちください。",
+    "ro": "Bangōfuda o totte, omachi kudasai."
    },
    {
-    "fr": "Avec cette carte, je pourrai payer partout ?",
-    "pt": "Com este cartão posso pagar em todo o lado?"
+    "fr": "Je ne sais pas lire les kanji difficiles.",
+    "ja": "難しい漢字を読むことができません。",
+    "ro": "Muzukashii kanji o yomu koto ga dekimasen."
    },
    {
-    "fr": "Oui, et retirer de l'argent à n'importe quel Multibanco.",
-    "pt": "Sim, e levantar dinheiro em qualquer multibanco."
+    "fr": "Voulez-vous que je vous aide à écrire ?",
+    "ja": "書くのを手伝いましょうか。",
+    "ro": "Kaku no o tetsudaimashō ka."
    },
    {
-    "fr": "Combien coûte ce compte par mois ?",
-    "pt": "Quanto custa esta conta por mês?"
+    "fr": "Il suffit de signer ici.",
+    "ja": "ここにサインをするだけです。",
+    "ro": "Koko ni sain o suru dake desu."
    },
    {
-    "fr": "Quatre euros, mais la première année est gratuite.",
-    "pt": "Quatro euros, mas o primeiro ano é grátis."
+    "fr": "L'essentiel, c'est d'avoir toujours sa carte sur soi.",
+    "ja": "大切なのは、カードをいつも持つことです。",
+    "ro": "Taisetsu na no wa, kādo o itsumo motsu koto desu."
    },
    {
-    "fr": "Merci, vous m'avez vraiment bien aidé ce matin.",
-    "pt": "Obrigado, ajudou-me muito esta manhã."
+    "fr": "La semaine prochaine, je compte m'inscrire aussi à l'assurance santé nationale.",
+    "ja": "来週、国民健康保険にも入るつもりです。",
+    "ro": "Raishū, kokumin kenkō hoken ni mo hairu tsumori desu."
    }
   ],
   "tip": {
-   "title": "Le « pretérito perfeito » des verbes réguliers",
-   "example": "J'ai déjà parlé avec votre collègue la semaine dernière. — Já <b>falei</b> com a sua colega na semana passada.",
-   "body": "Pour une action terminée, le portugais utilise un temps simple, le pretérito perfeito, là où le français emploie le passé composé : un seul mot suffit. Verbes en -ar : falei, falaste, falou, falámos, falaram ; en -er : comi, comeste, comeu ; en -ir : abri, abriste, abriu. Au Portugal, la forme « nós » du passé prend un accent : « falámos » (nous avons parlé) se distingue ainsi du présent « falamos »."
+   "title": "La forme du dictionnaire : le verbe « nu », sans politesse",
+   "example": "Aujourd'hui, je compte déclarer ma nouvelle adresse. — 今日、住所の届け出を<b>する</b>つもりです。",
+   "exampleRo": "Kyō, jūsho no todokede o suru tsumori desu.",
+   "lit": "aujourd'hui · adresse · [possessif] · déclaration · [objet] · faire (forme du dictionnaire) · intention · être (poli)",
+   "body": "Jusqu'ici, vous avez toujours conjugué les verbes en « -masu ». Mais chaque verbe a aussi une forme « nue », sans politesse, celle qu'on trouve dans le dictionnaire : « suru » pour « shimasu » (faire), « iku » pour « ikimasu » (aller), « taberu » pour « tabemasu » (manger). Cette forme sert entre amis, mais surtout devant des petits mots qui la réclament, même dans une phrase polie : « tsumori desu » (j'ai l'intention de), « mae ni » (avant de), « koto ga dekimasu » (pouvoir faire). Ainsi, « todokede o suru tsumori desu » se dit littéralement : déclaration, faire, intention, c'est. Autres exemples : « neru mae ni » (avant de dormir), « yomu koto ga dekimasu » (je sais lire). Astuce : la politesse se place toujours à la toute fin de la phrase, donc le verbe du milieu peut rester nu."
   }
  },
  {
-  "title": "Au centro de saúde",
+  "title": "Ouvrir un compte en banque",
   "phrases": [
    {
-    "fr": "J'ai pris rendez-vous au centro de saúde de Cacilhas.",
-    "pt": "Marquei consulta no centro de saúde de Cacilhas."
+    "fr": "Je souhaiterais ouvrir un compte avec ma carte de résident.",
+    "ja": "在留カードで口座を作りたいです。",
+    "ro": "Zairyū kādo de kōza o tsukuritai desu."
    },
    {
-    "fr": "Bonjour, j'ai une consultation avec la médecin de famille à neuf heures.",
-    "pt": "Bom dia, tenho consulta com a médica de família às nove horas."
+    "fr": "Avez-vous votre sceau personnel ?",
+    "ja": "印鑑をお持ちですか。",
+    "ro": "Inkan o omochi desu ka."
    },
    {
-    "fr": "Vous avez votre numéro d'utente ?",
-    "pt": "Tem o seu número de utente?"
+    "fr": "Non. Est-ce qu'une signature convient aussi ?",
+    "ja": "いいえ。サインでも大丈夫ですか。",
+    "ro": "Iie. Sain demo daijōbu desu ka."
    },
    {
-    "fr": "Oui, on me l'a attribué ici le mois dernier.",
-    "pt": "Sim, deram-me o número aqui no mês passado."
+    "fr": "Oui, mais il faut aussi un numéro de téléphone japonais.",
+    "ja": "はい、でも日本の電話番号も必要です。",
+    "ro": "Hai, demo Nihon no denwa bangō mo hitsuyō desu."
    },
    {
-    "fr": "Qu'est-ce qui vous amène aujourd'hui ?",
-    "pt": "O que é que o traz cá hoje?"
+    "fr": "Mon entreprise versera mon salaire sur ce compte.",
+    "ja": "会社がこの口座に給料を振り込みます。",
+    "ro": "Kaisha ga kono kōza ni kyūryō o furikomimasu."
    },
    {
-    "fr": "Depuis trois jours, j'ai mal à la gorge et de la fièvre.",
-    "pt": "Há três dias que tenho dores de garganta e febre."
+    "fr": "La carte de retrait arrivera par la poste d'ici une semaine environ.",
+    "ja": "キャッシュカードは一週間ぐらいで郵便で届きます。",
+    "ro": "Kyasshu kādo wa isshūkan gurai de yūbin de todokimasu."
    },
    {
-    "fr": "Ouvrez la bouche et dites « ah », s'il vous plaît.",
-    "pt": "Abra a boca e diga «ah», se faz favor."
+    "fr": "Peut-on retirer de l'argent au distributeur le dimanche aussi ?",
+    "ja": "日曜日も機械でお金を下ろすことができますか。",
+    "ro": "Nichiyōbi mo kikai de okane o orosu koto ga dekimasu ka."
    },
    {
-    "fr": "C'est une simple infection, rien d'inquiétant.",
-    "pt": "É uma simples infeção, nada de preocupante."
+    "fr": "Oui, mais il y a des frais de cent dix yens.",
+    "ja": "はい、でも手数料が百十円かかります。",
+    "ro": "Hai, demo tesūryō ga hyakujū en kakarimasu."
    },
    {
-    "fr": "Prenez ce médicament après les repas pendant une semaine.",
-    "pt": "Tome este medicamento depois das refeições durante uma semana."
+    "fr": "Au Japon, on paie encore souvent en liquide.",
+    "ja": "日本ではまだよく現金で払います。",
+    "ro": "Nihon de wa mada yoku genkin de haraimasu."
    },
    {
-    "fr": "La pharmacie juste en face reste ouverte jusqu'à vingt heures.",
-    "pt": "A farmácia mesmo em frente está aberta até às vinte horas."
+    "fr": "Merci, je reviendrai avec mon sceau la prochaine fois.",
+    "ja": "ありがとうございます。今度は印鑑を持ってきます。",
+    "ro": "Arigatō gozaimasu. Kondo wa inkan o motte kimasu."
    }
   ]
  },
  {
-  "title": "Le café du quartier à Campo de Ourique",
+  "title": "Le tri des déchets",
   "phrases": [
    {
-    "fr": "Tous les matins, je bois une bica au café du coin.",
-    "pt": "Todas as manhãs tomo uma bica no café da esquina."
+    "fr": "À Osaka, le tri des déchets est très strict.",
+    "ja": "大阪はごみの分別がとても厳しいです。",
+    "ro": "Ōsaka wa gomi no bunbetsu ga totemo kibishii desu."
    },
    {
-    "fr": "Le patron connaît déjà ma commande par cœur.",
-    "pt": "O dono já sabe o meu pedido de cor."
+    "fr": "Les ordures ménagères se sortent le lundi et le jeudi.",
+    "ja": "普通ごみは月曜日と木曜日に出します。",
+    "ro": "Futsū gomi wa getsuyōbi to mokuyōbi ni dashimasu."
    },
    {
-    "fr": "Bonjour, comme d'habitude, une bica et une tosta mista ?",
-    "pt": "Bom dia, o costume, uma bica e uma tosta mista?"
+    "fr": "Les bouteilles en plastique, c'est le mercredi.",
+    "ja": "ペットボトルは水曜日です。",
+    "ro": "Petto botoru wa suiyōbi desu."
    },
    {
-    "fr": "Aujourd'hui, je préfère un galão bien chaud.",
-    "pt": "Hoje prefiro um galão bem quente."
+    "fr": "Enlevez le bouchon et l'étiquette, s'il vous plaît.",
+    "ja": "キャップとラベルを取ってください。",
+    "ro": "Kyappu to raberu o totte kudasai."
    },
    {
-    "fr": "Tu as vu le match du Benfica hier soir ?",
-    "pt": "Viste o jogo do Benfica ontem à noite?"
+    "fr": "Rince les canettes avant de les jeter.",
+    "ja": "缶は洗ってから捨ててください。",
+    "ro": "Kan wa aratte kara sutete kudasai."
    },
    {
-    "fr": "Oui, ils ont gagné à la dernière minute.",
-    "pt": "Vi, ganharam no último minuto."
+    "fr": "Les poubelles doivent être sorties avant huit heures du matin.",
+    "ja": "ごみは朝八時までに出してください。",
+    "ro": "Gomi wa asa hachiji made ni dashite kudasai."
    },
    {
-    "fr": "Ici, dans le quartier, tout le monde se connaît.",
-    "pt": "Aqui no bairro toda a gente se conhece."
+    "fr": "Pour les encombrants, on appelle la mairie pour faire une demande.",
+    "ja": "大きいごみは市役所に電話して申し込みます。",
+    "ro": "Ōkii gomi wa shiyakusho ni denwa shite mōshikomimasu."
    },
    {
-    "fr": "Le marché de Campo de Ourique est juste à côté.",
-    "pt": "O mercado de Campo de Ourique fica mesmo ao lado."
+    "fr": "Le voisin m'a montré le calendrier des collectes.",
+    "ja": "隣の人がごみの日のカレンダーを見せてくれました。",
+    "ro": "Tonari no hito ga gomi no hi no karendā o misete kuremashita."
    },
    {
-    "fr": "Je te dois combien pour les deux cafés ?",
-    "pt": "Quanto te devo pelos dois cafés?"
+    "fr": "Je l'ai collé sur la porte du frigo.",
+    "ja": "冷蔵庫のドアに貼りました。",
+    "ro": "Reizōko no doa ni harimashita."
    },
    {
-    "fr": "Un euro quarante, et à demain !",
-    "pt": "Um euro e quarenta, e até amanhã!"
+    "fr": "Au début, c'est pénible, mais on s'y habitue vite.",
+    "ja": "最初は大変ですが、すぐ慣れます。",
+    "ro": "Saisho wa taihen desu ga, sugu naremasu."
    }
   ]
  },
  {
-  "title": "Hier au travail",
+  "title": "Un matin pressé",
   "phrases": [
    {
-    "fr": "Hier, je suis allé au bureau à pied depuis la gare do Oriente.",
-    "pt": "Ontem fui a pé da estação do Oriente até ao escritório."
+    "fr": "Le matin, je me lève à six heures et je prends une douche.",
+    "ja": "朝は六時に起きて、シャワーを浴びます。",
+    "ro": "Asa wa rokuji ni okite, shawā o abimasu."
    },
    {
-    "fr": "Le matin, j'ai eu trois réunions d'affilée.",
-    "pt": "De manhã tive três reuniões seguidas."
+    "fr": "Ensuite, je fais du café et je lis les nouvelles.",
+    "ja": "それから、コーヒーをいれて、ニュースを読みます。",
+    "ro": "Sore kara, kōhī o irete, nyūsu o yomimasu."
    },
    {
-    "fr": "Tu as fait une pause pour déjeuner ?",
-    "pt": "Fizeste uma pausa para almoçar?"
+    "fr": "Je sors les poubelles, puis je pars à la gare.",
+    "ja": "ごみを出して、駅へ行きます。",
+    "ro": "Gomi o dashite, eki e ikimasu."
    },
    {
-    "fr": "À peine, j'ai mangé une sandes devant l'ordinateur.",
-    "pt": "Mal, comi uma sandes em frente ao computador."
+    "fr": "Je prends la ligne Midōsuji et je change à Umeda.",
+    "ja": "御堂筋線に乗って、梅田で乗り換えます。",
+    "ro": "Midōsuji-sen ni notte, Umeda de norikaemasu."
    },
    {
-    "fr": "L'après-midi, j'ai été en visioconférence avec des clients de Setúbal.",
-    "pt": "À tarde estive em videoconferência com clientes de Setúbal."
+    "fr": "J'achète un onigiri au konbini et je le mange au bureau.",
+    "ja": "コンビニでおにぎりを買って、会社で食べます。",
+    "ro": "Konbini de onigiri o katte, kaisha de tabemasu."
    },
    {
-    "fr": "Et qu'est-ce que tu as fait après le travail ?",
-    "pt": "E o que é que fizeste depois do trabalho?"
+    "fr": "Ce matin, je ne me suis pas réveillé et j'ai couru jusqu'à la gare.",
+    "ja": "今朝は寝坊して、駅まで走りました。",
+    "ro": "Kesa wa nebō shite, eki made hashirimashita."
    },
    {
-    "fr": "Je suis allé courir au bord du Tage.",
-    "pt": "Fui correr à beira do Tejo."
+    "fr": "Je me suis habillé en vitesse et je suis sorti de chez moi.",
+    "ja": "急いで着替えて、家を出ました。",
+    "ro": "Isoide kigaete, ie o demashita."
    },
    {
-    "fr": "Ma cheffe a été très contente de mon rapport.",
-    "pt": "A minha chefe ficou muito contente com o meu relatório."
+    "fr": "Heureusement, je suis arrivé juste à temps.",
+    "ja": "幸い、時間に間に合いました。",
+    "ro": "Saiwai, jikan ni maniaimashita."
    },
    {
-    "fr": "Bref, j'ai été débordé toute la journée.",
-    "pt": "Enfim, estive cheio de trabalho o dia todo."
+    "fr": "Le soir, je rentre, je prends un bain et je me couche tôt.",
+    "ja": "夜は家に帰って、お風呂に入って、早く寝ます。",
+    "ro": "Yoru wa ie ni kaette, ofuro ni haitte, hayaku nemasu."
    },
    {
-    "fr": "Aujourd'hui, j'espère quitter le bureau plus tôt.",
-    "pt": "Hoje espero sair do escritório mais cedo."
+    "fr": "Demain, je vais me lever un peu plus tôt.",
+    "ja": "明日はもう少し早く起きます。",
+    "ro": "Ashita wa mō sukoshi hayaku okimasu."
    }
   ],
   "tip": {
-   "title": "Les passés irréguliers « fui, fiz, tive, estive »",
-   "example": "Le matin, j'ai eu trois réunions d'affilée. — De manhã <b>tive</b> três reuniões seguidas.",
-   "body": "Les verbes les plus fréquents ont un passé irrégulier à apprendre par cœur. « Ir » et « ser » partagent les mêmes formes : fui, foste, foi, fomos, foram ; « fazer » donne fiz, fizeste, fez ; « ter » donne tive, tiveste, teve ; « estar » donne estive, estiveste, esteve. Exemples : « Fui ao médico », « Fiz o jantar », « Estive em casa ». Attention : « foi » peut signifier « il est allé » ou « il a été », c'est le contexte qui tranche."
+   "title": "La forme en « -te » pour enchaîner les actions",
+   "example": "Le soir, je rentre, je prends un bain et je me couche tôt. — 夜は家に<b>帰って</b>、お風呂に<b>入って</b>、早く寝ます。",
+   "exampleRo": "Yoru wa ie ni kaette, ofuro ni haitte, hayaku nemasu.",
+   "lit": "soir · [thème] · maison · [direction] · rentrer (forme -te) · bain · [dans] · entrer (forme -te) · tôt · se coucher (poli)",
+   "body": "Vous connaissez déjà la forme en « -te » avec « kudasai ». Elle sert aussi à enchaîner plusieurs actions, comme nos virgules et nos « puis ». Seul le dernier verbe porte le temps et la politesse : les autres restent en « -te », comme en attente. « Yoru wa ie ni kaette, ofuro ni haitte, hayaku nemasu » se dit littéralement : soir, maison vers, rentrer et, bain dans, entrer et, tôt, se coucher. Autres exemples : « okite, shawā o abimasu » (je me lève et je me douche), « katte, tabemasu » (j'achète et je mange). Astuce : imaginez des wagons en « -te » accrochés à une locomotive en « -masu », qui décide de tout le train."
   }
  },
  {
-  "title": "Une panne de courant",
+  "title": "Entre colocataires",
   "phrases": [
    {
-    "fr": "J'étais en train de cuisiner quand le courant a sauté.",
-    "pt": "Estava a cozinhar quando a luz foi abaixo."
+    "fr": "Ce soir, tu ne viens pas au sentō ?",
+    "ja": "今夜、銭湯に行かない？",
+    "ro": "Kon'ya, sentō ni ikanai?"
    },
    {
-    "fr": "Tout l'immeuble est plongé dans le noir.",
-    "pt": "O prédio inteiro ficou às escuras."
+    "fr": "Non, je n'y vais pas, je suis vraiment crevé.",
+    "ja": "ううん、行かない。すごく疲れてるから。",
+    "ro": "Uun, ikanai. Sugoku tsukareteru kara."
    },
    {
-    "fr": "Le voisin est en train de vérifier le tableau électrique.",
-    "pt": "O vizinho está a ver o quadro elétrico."
+    "fr": "Tu ne manges pas ? Il reste du curry, tu sais.",
+    "ja": "食べないの？カレーが残ってるよ。",
+    "ro": "Tabenai no? Karē ga nokotteru yo."
    },
    {
-    "fr": "Tu as une lampe de poche quelque part ?",
-    "pt": "Tens uma lanterna em algum lado?"
+    "fr": "Je n'ai pas faim, merci quand même.",
+    "ja": "お腹すいてない。でも、ありがとう。",
+    "ro": "Onaka suitenai. Demo, arigatō."
    },
    {
-    "fr": "Oui, dans le tiroir de la cuisine, à gauche.",
-    "pt": "Tenho, na gaveta da cozinha, à esquerda."
+    "fr": "Je ne comprends pas bien cette lettre de la mairie.",
+    "ja": "市役所の手紙、よく分からない。",
+    "ro": "Shiyakusho no tegami, yoku wakaranai."
    },
    {
-    "fr": "J'appelle le fournisseur d'électricité pour savoir ce qui se passe.",
-    "pt": "Vou ligar para a companhia da luz para saber o que se passa."
+    "fr": "Ne t'inquiète pas, on va la lire ensemble.",
+    "ja": "心配しないで。一緒に読もう。",
+    "ro": "Shinpai shinaide. Issho ni yomō."
    },
    {
-    "fr": "Ils sont en train de réparer un câble dans la rue.",
-    "pt": "Estão a reparar um cabo na rua."
+    "fr": "N'ouvre pas la fenêtre, d'accord ? Il pleut aujourd'hui.",
+    "ja": "窓は開けないでね。今日は雨だから。",
+    "ro": "Mado wa akenaide ne. Kyō wa ame da kara."
    },
    {
-    "fr": "Le frigo commence à se réchauffer, quelle galère.",
-    "pt": "O frigorífico está a começar a aquecer, que chatice."
+    "fr": "Ne fumez pas dans l'appartement, s'il vous plaît.",
+    "ja": "部屋でたばこを吸わないでください。",
+    "ro": "Heya de tabako o suwanaide kudasai."
    },
    {
-    "fr": "On dîne aux chandelles, alors ?",
-    "pt": "Então jantamos à luz das velas?"
+    "fr": "Je n'ai pas encore décidé, je te recontacte demain.",
+    "ja": "まだ決めてない。明日連絡するね。",
+    "ro": "Mada kimetenai. Ashita renraku suru ne."
    },
    {
-    "fr": "La lumière est revenue pile au moment du dessert.",
-    "pt": "A luz voltou mesmo na hora da sobremesa."
+    "fr": "T'en fais pas, ce n'est pas bien grave.",
+    "ja": "大丈夫、大したことないよ。",
+    "ro": "Daijōbu, taishita koto nai yo."
    }
   ],
   "tip": {
-   "title": "« Estar a + infinitif » : être en train de",
-   "example": "J'étais en train de cuisiner quand le courant a sauté. — <b>Estava a cozinhar</b> quando a luz foi abaixo.",
-   "body": "Pour une action en cours, le portugais du Portugal utilise « estar a » suivi de l'infinitif, exactement comme « être en train de ». Exemples : « Estou a trabalhar », « Estás a ouvir? », « Está a chover ». Au Portugal, on n'emploie pas la forme en -ando dans ce cas : on dit « estou a comer ». À l'imparfait, « estava a » plante le décor d'une action interrompue par une autre."
+   "title": "La forme en « -nai » : la négation familière",
+   "example": "Ce soir, tu ne viens pas au sentō ? — 今夜、銭湯に<b>行かない</b>？",
+   "exampleRo": "Kon'ya, sentō ni ikanai?",
+   "lit": "ce soir · bain public · [direction] · aller (forme -nai) · (intonation montante)",
+   "body": "Entre amis, « ikimasen » (je ne vais pas) devient simplement « ikanai ». Pour les verbes en « -u », on remplace le « u » final par « anai » : « kaku » devient « kakanai », « yomu » devient « yomanai », et « kau » devient « kawanai ». Pour les verbes en « -ru » comme « taberu », on enlève « ru » et on ajoute « nai » : « tabenai ». Les deux irréguliers : « suru » donne « shinai », et « kuru » donne « konai ». Avec une intonation montante, « Sentō ni ikanai ? » se dit littéralement : bain public vers, ne pas aller ? C'est une invitation, comme notre « tu ne viendrais pas ? ». Astuce : ajoutez « -de kudasai » et vous obtenez une demande polie de ne pas faire : « suwanaide kudasai », ne fumez pas, s'il vous plaît."
   }
  },
  {
-  "title": "Un dimanche à Cascais",
+  "title": "À la clinique",
   "phrases": [
    {
-    "fr": "Dimanche, on a pris le train pour Cascais.",
-    "pt": "No domingo apanhámos o comboio para Cascais."
+    "fr": "Depuis hier, j'ai de la fièvre et mal à la gorge.",
+    "ja": "昨日から熱があって、喉が痛いです。",
+    "ro": "Kinō kara netsu ga atte, nodo ga itai desu."
    },
    {
-    "fr": "Le trajet le long de la mer est magnifique.",
-    "pt": "A viagem ao longo do mar é lindíssima."
+    "fr": "C'est votre première visite dans cette clinique ?",
+    "ja": "このクリニックは初めてですか。",
+    "ro": "Kono kurinikku wa hajimete desu ka."
    },
    {
-    "fr": "On s'est promenés jusqu'à la Boca do Inferno.",
-    "pt": "Passeámos até à Boca do Inferno."
+    "fr": "Oui, voici ma carte d'assurance maladie.",
+    "ja": "はい、これが保険証です。",
+    "ro": "Hai, kore ga hokenshō desu."
    },
    {
-    "fr": "Il y avait beaucoup de familles sur la plage.",
-    "pt": "Havia muitas famílias na praia."
+    "fr": "Remplissez ce questionnaire en attendant, s'il vous plaît.",
+    "ja": "待っている間に、この問診票を書いてください。",
+    "ro": "Matte iru aida ni, kono monshinhyō o kaite kudasai."
    },
    {
-    "fr": "Tu as goûté les glaces de chez Santini ?",
-    "pt": "Provaste os gelados do Santini?"
+    "fr": "Ouvrez la bouche et dites « a ».",
+    "ja": "口を開けて、「あー」と言ってください。",
+    "ro": "Kuchi o akete, \"ā\" to itte kudasai."
    },
    {
-    "fr": "Oui, j'ai pris fraise et citron.",
-    "pt": "Provei, pedi morango e limão."
+    "fr": "C'est juste un rhume, ne vous inquiétez pas.",
+    "ja": "ただの風邪ですね。心配ありません。",
+    "ro": "Tada no kaze desu ne. Shinpai arimasen."
    },
    {
-    "fr": "L'après-midi, on a fait la sieste sur le sable.",
-    "pt": "À tarde dormimos uma sesta na areia."
+    "fr": "Reposez-vous bien pendant deux ou trois jours.",
+    "ja": "二、三日ゆっくり休んでください。",
+    "ro": "Ni-sannichi yukkuri yasunde kudasai."
    },
    {
-    "fr": "Le dimanche, j'aime ne rien prévoir du tout.",
-    "pt": "Ao domingo gosto de não planear nada."
+    "fr": "Je vous donne une ordonnance : apportez-la à la pharmacie d'à côté.",
+    "ja": "処方箋を出しますから、隣の薬局に持っていってください。",
+    "ro": "Shohōsen o dashimasu kara, tonari no yakkyoku ni motte itte kudasai."
    },
    {
-    "fr": "On est rentrés à Lisbonne au coucher du soleil.",
-    "pt": "Voltámos para Lisboa ao pôr do sol."
+    "fr": "Combien coûte la consultation ?",
+    "ja": "診察代はいくらですか。",
+    "ro": "Shinsatsudai wa ikura desu ka."
    },
    {
-    "fr": "Le train du retour était plein à craquer.",
-    "pt": "O comboio de volta vinha cheio que nem um ovo."
+    "fr": "Avec l'assurance, cela fait mille deux cents yens.",
+    "ja": "保険で千二百円です。",
+    "ro": "Hoken de sen nihyaku en desu."
    }
   ]
  },
  {
-  "title": "Les voisins et la copropriété",
+  "title": "À la pharmacie",
   "phrases": [
    {
-    "fr": "Ce soir, il y a une réunion de copropriété dans le hall.",
-    "pt": "Hoje à noite há reunião de condomínio na entrada do prédio."
+    "fr": "Je cherche un médicament contre le rhume.",
+    "ja": "風邪薬を探しています。",
+    "ro": "Kazegusuri o sagashite imasu."
    },
    {
-    "fr": "L'administrateur veut repeindre la façade cette année.",
-    "pt": "O administrador quer pintar a fachada este ano."
+    "fr": "Avez-vous de la fièvre ou de la toux ?",
+    "ja": "熱や咳がありますか。",
+    "ro": "Netsu ya seki ga arimasu ka."
    },
    {
-    "fr": "Combien ça va coûter à chaque appartement ?",
-    "pt": "Quanto vai custar a cada apartamento?"
+    "fr": "Je tousse un peu, surtout la nuit.",
+    "ja": "少し咳が出ます。特に夜です。",
+    "ro": "Sukoshi seki ga demasu. Toku ni yoru desu."
    },
    {
-    "fr": "Environ deux cents euros, payables en trois fois.",
-    "pt": "Cerca de duzentos euros, pagos em três prestações."
+    "fr": "Ce sirop marche très bien, vous savez.",
+    "ja": "このシロップはよく効きますよ。",
+    "ro": "Kono shiroppu wa yoku kikimasu yo."
    },
    {
-    "fr": "La voisine du troisième se plaint toujours du bruit.",
-    "pt": "A vizinha do terceiro queixa-se sempre do barulho."
+    "fr": "Prenez-le trois fois par jour, après les repas.",
+    "ja": "一日三回、食後に飲んでください。",
+    "ro": "Ichinichi sankai, shokugo ni nonde kudasai."
    },
    {
-    "fr": "Pourtant, son chien aboie toute la journée !",
-    "pt": "Mas o cão dela ladra o dia inteiro!"
+    "fr": "Je prends déjà un médicament pour l'estomac.",
+    "ja": "胃の薬をもう飲んでいます。",
+    "ro": "I no kusuri o mō nonde imasu."
    },
    {
-    "fr": "Le monsieur du rez-de-chaussée arrose nos plantes en été.",
-    "pt": "O senhor do rés-do-chão rega as nossas plantas no verão."
+    "fr": "Dans ce cas, je vais demander au pharmacien.",
+    "ja": "それなら、薬剤師に聞いてみます。",
+    "ro": "Sore nara, yakuzaishi ni kiite mimasu."
    },
    {
-    "fr": "On a vraiment de la chance avec nos voisins.",
-    "pt": "Temos mesmo sorte com os vizinhos."
+    "fr": "Cette pharmacie vend aussi des cosmétiques et des boissons.",
+    "ja": "このドラッグストアは化粧品や飲み物も売っています。",
+    "ro": "Kono doraggu sutoa wa keshōhin ya nomimono mo utte imasu."
    },
    {
-    "fr": "Il faut aussi réparer l'ascenseur, qui tombe souvent en panne.",
-    "pt": "Também é preciso arranjar o elevador, que avaria muitas vezes."
+    "fr": "Avez-vous une carte de fidélité ?",
+    "ja": "ポイントカードはお持ちですか。",
+    "ro": "Pointo kādo wa omochi desu ka."
    },
    {
-    "fr": "Bon, on vote et on rentre dîner.",
-    "pt": "Bem, votamos e vamos jantar."
+    "fr": "Non, mais j'aimerais bien en faire une.",
+    "ja": "いいえ、でも作りたいです。",
+    "ro": "Iie, demo tsukuritai desu."
    }
   ]
  },
  {
-  "title": "Le marché de Setúbal",
+  "title": "Au supermarché du quartier",
   "phrases": [
    {
-    "fr": "Le samedi, je vais au marché du Livramento, à Setúbal.",
-    "pt": "Ao sábado vou ao Mercado do Livramento, em Setúbal."
+    "fr": "Le supermarché près de chez moi est ouvert jusqu'à vingt-deux heures.",
+    "ja": "家の近くのスーパーは夜十時まで開いています。",
+    "ro": "Ie no chikaku no sūpā wa yoru jūji made aite imasu."
    },
    {
-    "fr": "Ici, le poisson arrive directement du port.",
-    "pt": "Aqui o peixe chega diretamente do porto."
+    "fr": "À partir de dix-neuf heures, les bentō deviennent moins chers.",
+    "ja": "夜七時から、お弁当が安くなります。",
+    "ro": "Yoru shichiji kara, obentō ga yasuku narimasu."
    },
    {
-    "fr": "Bonjour, ces dorades sont d'aujourd'hui ?",
-    "pt": "Bom dia, estas douradas são de hoje?"
+    "fr": "On y colle des étiquettes « moitié prix ».",
+    "ja": "半額のシールが貼ってあります。",
+    "ro": "Hangaku no shīru ga hatte arimasu."
    },
    {
-    "fr": "Elles sont arrivées ce matin, toutes fraîches.",
-    "pt": "Chegaram esta manhã, fresquinhas."
+    "fr": "Ces fraises de Nara sont sucrées et délicieuses.",
+    "ja": "この奈良のいちごは甘くておいしいです。",
+    "ro": "Kono Nara no ichigo wa amakute oishii desu."
    },
    {
-    "fr": "Donnez-m'en deux bien nettoyées, s'il vous plaît.",
-    "pt": "Dê-me duas bem arranjadas, se faz favor."
+    "fr": "Où se trouve le rayon du tofu ?",
+    "ja": "豆腐の売り場はどこですか。",
+    "ro": "Tōfu no uriba wa doko desu ka."
    },
    {
-    "fr": "Je vais vous les écailler tout de suite.",
-    "pt": "Vou escamá-las já."
+    "fr": "Au fond, à côté du lait.",
+    "ja": "奥の、牛乳の隣です。",
+    "ro": "Oku no, gyūnyū no tonari desu."
    },
    {
-    "fr": "Il me faut aussi des tomates et un bouquet de coriandre.",
-    "pt": "Também preciso de tomate e de um molho de coentros."
+    "fr": "Vous voulez un sac en plastique ?",
+    "ja": "レジ袋はご利用ですか。",
+    "ro": "Rejibukuro wa goriyō desu ka."
    },
    {
-    "fr": "Ça fait neuf euros vingt en tout.",
-    "pt": "São nove euros e vinte ao todo."
+    "fr": "Non merci, j'ai apporté mon propre sac.",
+    "ja": "いいえ、マイバッグがあります。",
+    "ro": "Iie, mai baggu ga arimasu."
    },
    {
-    "fr": "Vous avez la monnaie sur vingt euros ?",
-    "pt": "Tem troco para vinte euros?"
+    "fr": "Est-ce qu'on peut payer avec son téléphone ?",
+    "ja": "スマホで払うことができますか。",
+    "ro": "Sumaho de harau koto ga dekimasu ka."
    },
    {
-    "fr": "J'adore l'odeur et l'animation de ce marché.",
-    "pt": "Adoro o cheiro e a animação deste mercado."
+    "fr": "Oui, et en plus vous cumulez des points.",
+    "ja": "はい、ポイントもたまりますよ。",
+    "ro": "Hai, pointo mo tamarimasu yo."
    }
   ]
  },
  {
-  "title": "À la pastelaria",
+  "title": "Le sentō du quartier",
   "phrases": [
    {
-    "fr": "Cette pastelaria fait les meilleurs pastéis de nata d'Oeiras.",
-    "pt": "Esta pastelaria faz os melhores pastéis de nata de Oeiras."
+    "fr": "Il y a un vieux sentō à deux pas de chez moi.",
+    "ja": "家のすぐ近くに古い銭湯があります。",
+    "ro": "Ie no sugu chikaku ni furui sentō ga arimasu."
    },
    {
-    "fr": "Ils sortent du four toutes les heures.",
-    "pt": "Saem do forno de hora a hora."
+    "fr": "L'entrée coûte cinq cent vingt yens pour un adulte.",
+    "ja": "入浴料は大人五百二十円です。",
+    "ro": "Nyūyokuryō wa otona gohyaku nijū en desu."
    },
    {
-    "fr": "Je vais prendre deux pastéis et un jus d'orange pressée.",
-    "pt": "Vou querer dois pastéis e um sumo de laranja natural."
+    "fr": "Le rideau bleu, c'est pour les hommes, le rouge pour les femmes.",
+    "ja": "青いのれんは男湯、赤いのれんは女湯です。",
+    "ro": "Aoi noren wa otokoyu, akai noren wa onnayu desu."
    },
    {
-    "fr": "Je mets un peu de cannelle sur ton pastel ?",
-    "pt": "Ponho um bocadinho de canela no teu pastel?"
+    "fr": "Avant d'entrer dans l'eau, on se lave soigneusement.",
+    "ja": "お湯に入る前に、体をよく洗います。",
+    "ro": "Oyu ni hairu mae ni, karada o yoku araimasu."
    },
    {
-    "fr": "Oui, et un peu de sucre glace aussi.",
-    "pt": "Quero, e também um pouco de açúcar em pó."
+    "fr": "Ne mettez pas votre serviette dans l'eau, s'il vous plaît.",
+    "ja": "タオルはお湯に入れないでください。",
+    "ro": "Taoru wa oyu ni irenaide kudasai."
    },
    {
-    "fr": "C'est pour manger ici ou à emporter ?",
-    "pt": "É para comer aqui ou para levar?"
+    "fr": "L'eau est vraiment brûlante aujourd'hui !",
+    "ja": "今日のお湯は本当に熱いですね。",
+    "ro": "Kyō no oyu wa hontō ni atsui desu ne."
    },
    {
-    "fr": "Sur place, on s'assoit près de la vitrine.",
-    "pt": "Para aqui, sentamo-nos ao pé da montra."
+    "fr": "Au mur, il y a une grande peinture du mont Fuji.",
+    "ja": "壁に大きな富士山の絵があります。",
+    "ro": "Kabe ni ōkina Fujisan no e ga arimasu."
    },
    {
-    "fr": "Mon voisin vient ici tous les matins depuis vingt ans.",
-    "pt": "O meu vizinho vem cá todas as manhãs há vinte anos."
+    "fr": "Les habitués bavardent tranquillement entre eux.",
+    "ja": "常連さんたちがのんびり話しています。",
+    "ro": "Jōren-san-tachi ga nonbiri hanashite imasu."
    },
    {
-    "fr": "Ils font aussi un excellent bolo de arroz.",
-    "pt": "Também fazem um bolo de arroz muito bom."
+    "fr": "Après le bain, on boit un lait au café bien frais.",
+    "ja": "お風呂の後は、冷たいコーヒー牛乳を飲みます。",
+    "ro": "Ofuro no ato wa, tsumetai kōhī gyūnyū o nomimasu."
    },
    {
-    "fr": "Franchement, j'en mangerais bien un deuxième.",
-    "pt": "Sinceramente, comia mais um."
+    "fr": "C'est le moment le plus heureux de ma semaine.",
+    "ja": "これが一週間で一番幸せな時間です。",
+    "ro": "Kore ga isshūkan de ichiban shiawase na jikan desu."
    }
   ]
  },
  {
-  "title": "Des travaux à la maison",
+  "title": "Un petit boulot à Kobe",
   "phrases": [
    {
-    "fr": "Ça fait deux semaines qu'on refait la salle de bains.",
-    "pt": "Andamos a remodelar a casa de banho há duas semanas."
+    "fr": "Je travaille à mi-temps dans un café de Kobe.",
+    "ja": "神戸のカフェでアルバイトをしています。",
+    "ro": "Kōbe no kafe de arubaito o shite imasu."
    },
    {
-    "fr": "Les ouvriers commencent à huit heures du matin.",
-    "pt": "Os trabalhadores começam às oito da manhã."
+    "fr": "Je travaille trois jours par semaine, de midi à dix-huit heures.",
+    "ja": "週に三日、十二時から六時まで働いています。",
+    "ro": "Shū ni mikka, jūniji kara rokuji made hataraite imasu."
    },
    {
-    "fr": "Le bruit de la perceuse me rend fou.",
-    "pt": "O barulho do berbequim dá cabo de mim."
+    "fr": "Le salaire horaire est de mille cent cinquante yens.",
+    "ja": "時給は千百五十円です。",
+    "ro": "Jikyū wa sen hyaku gojū en desu."
    },
    {
-    "fr": "Il a fallu une autorisation de la Junta de Freguesia.",
-    "pt": "Foi preciso uma autorização da Junta de Freguesia."
+    "fr": "Le gérant est exigeant, mais gentil.",
+    "ja": "店長は厳しいですが、優しいです。",
+    "ro": "Tenchō wa kibishii desu ga, yasashii desu."
    },
    {
-    "fr": "Le plombier a découvert une fuite derrière le mur.",
-    "pt": "O canalizador encontrou uma fuga atrás da parede."
+    "fr": "On dit « irasshaimase » à chaque client.",
+    "ja": "お客さんに「いらっしゃいませ」と言います。",
+    "ro": "Okyakusan ni \"irasshaimase\" to iimasu."
    },
    {
-    "fr": "Ça va retarder le chantier d'une semaine.",
-    "pt": "Isso vai atrasar as obras uma semana."
+    "fr": "Au début, je me trompais souvent dans les commandes.",
+    "ja": "最初は、よく注文を間違えました。",
+    "ro": "Saisho wa, yoku chūmon o machigaemashita."
    },
    {
-    "fr": "En attendant, on se douche à la salle de sport.",
-    "pt": "Entretanto, tomamos banho no ginásio."
+    "fr": "Maintenant, je sais préparer un bon café au lait.",
+    "ja": "今は、おいしいカフェラテをいれることができます。",
+    "ro": "Ima wa, oishii kafe rate o ireru koto ga dekimasu."
    },
    {
-    "fr": "Tu as fini par choisir le carrelage ?",
-    "pt": "Afinal sempre escolheste os azulejos?"
+    "fr": "Mes collègues sont tous étudiants à l'université.",
+    "ja": "同僚はみんな大学生です。",
+    "ro": "Dōryō wa minna daigakusei desu."
    },
    {
-    "fr": "Oui, des azulejos bleus et blancs, très traditionnels.",
-    "pt": "Escolhi, azulejos azuis e brancos, muito tradicionais."
+    "fr": "Après le service, on mange souvent ensemble.",
+    "ja": "仕事の後、よく一緒にご飯を食べます。",
+    "ro": "Shigoto no ato, yoku issho ni gohan o tabemasu."
    },
    {
-    "fr": "J'ai hâte de voir tout ça terminé.",
-    "pt": "Estou ansioso por ver tudo acabado."
+    "fr": "Grâce à ce travail, mon japonais s'améliore de jour en jour.",
+    "ja": "この仕事のおかげで、日本語がどんどん上手になります。",
+    "ro": "Kono shigoto no okage de, nihongo ga dondon jōzu ni narimasu."
    }
   ]
  },
  {
-  "title": "Mon enfance à Almada",
+  "title": "Le week-end dernier à Kobe",
   "phrases": [
    {
-    "fr": "J'ai grandi à Almada, tout près de Cacilhas.",
-    "pt": "Cresci em Almada, pertinho de Cacilhas."
+    "fr": "Le week-end dernier, tu as fait quoi ?",
+    "ja": "先週末、何した？",
+    "ro": "Senshūmatsu, nani shita?"
    },
    {
-    "fr": "Quand j'étais petit, je prenais le cacilheiro avec mon grand-père.",
-    "pt": "Quando era pequeno, apanhava o cacilheiro com o meu avô."
+    "fr": "Je suis allé à Kobe avec des amis.",
+    "ja": "友達と神戸に行った。",
+    "ro": "Tomodachi to Kōbe ni itta."
    },
    {
-    "fr": "Il me montrait Lisbonne de l'autre côté du Tage.",
-    "pt": "Mostrava-me Lisboa do outro lado do Tejo."
+    "fr": "On a mangé du bœuf de Kobe à Sannomiya.",
+    "ja": "三宮で神戸牛を食べたよ。",
+    "ro": "Sannomiya de Kōbegyū o tabeta yo."
    },
    {
-    "fr": "Le dimanche, on allait manger du poisson grillé sur le quai.",
-    "pt": "Ao domingo íamos comer peixe grelhado no cais."
+    "fr": "C'était cher, mais vraiment délicieux.",
+    "ja": "高かったけど、本当においしかった。",
+    "ro": "Takakatta kedo, hontō ni oishikatta."
    },
    {
-    "fr": "Tu jouais dans la rue avec les enfants du quartier ?",
-    "pt": "Brincavas na rua com os miúdos do bairro?"
+    "fr": "Ensuite, on s'est baladés au parc Meriken, près du port.",
+    "ja": "それから、港のメリケンパークを散歩した。",
+    "ro": "Sore kara, minato no Meriken pāku o sanpo shita."
    },
    {
-    "fr": "Oui, on jouait au foot jusqu'à la tombée de la nuit.",
-    "pt": "Brincava, jogávamos à bola até anoitecer."
+    "fr": "Tu as vu la tour du port de Kobe ?",
+    "ja": "神戸ポートタワー、見た？",
+    "ro": "Kōbe pōto tawā, mita?"
    },
    {
-    "fr": "Ma mère nous appelait par la fenêtre pour le dîner.",
-    "pt": "A minha mãe chamava-nos da janela para jantar."
+    "fr": "Oui, et le soir, on est allés au mont Rokkō.",
+    "ja": "うん。夜は六甲山に行った。",
+    "ro": "Un. Yoru wa Rokkōsan ni itta."
    },
    {
-    "fr": "L'été, on passait nos journées à la Costa da Caparica.",
-    "pt": "No verão passávamos os dias na Costa da Caparica."
+    "fr": "La vue de nuit était superbe.",
+    "ja": "夜景がすごくきれいだった。",
+    "ro": "Yakei ga sugoku kirei datta."
    },
    {
-    "fr": "À cette époque, tout était plus simple.",
-    "pt": "Naquela altura era tudo mais simples."
+    "fr": "Moi, je ne suis allé nulle part, j'ai fait le ménage.",
+    "ja": "僕はどこにも行かなかった。掃除をした。",
+    "ro": "Boku wa doko ni mo ikanakatta. Sōji o shita."
    },
    {
-    "fr": "J'y retourne encore souvent pour voir ma famille.",
-    "pt": "Ainda lá volto muitas vezes para ver a família."
+    "fr": "Tu n'es jamais monté au mont Rokkō ?",
+    "ja": "六甲山に行ったことない？",
+    "ro": "Rokkōsan ni itta koto nai?"
    }
   ],
   "tip": {
-   "title": "Le « pretérito imperfeito » pour les habitudes passées",
-   "example": "Quand j'étais petit, je prenais le cacilheiro avec mon grand-père. — Quando <b>era</b> pequeno, <b>apanhava</b> o cacilheiro com o meu avô.",
-   "body": "Pour une habitude passée ou une description, le portugais emploie le pretérito imperfeito, comme l'imparfait français. Terminaisons : -ava pour les verbes en -ar (eu apanhava, nós jogávamos), -ia pour les verbes en -er et -ir (eu comia, ele vivia). « Ser » et « ir » sont irréguliers : « era », « ia ». Exemple : « Ao domingo íamos à praia » (le dimanche, on allait à la plage)."
+   "title": "La forme en « -ta » : le passé familier",
+   "example": "Je suis allé à Kobe avec des amis. — 友達と神戸に<b>行った</b>。",
+   "exampleRo": "Tomodachi to Kōbe ni itta.",
+   "lit": "amis · [avec] · Kobe · [direction] · aller (passé familier)",
+   "body": "Entre amis, « ikimashita » (je suis allé) devient « itta ». Bonne nouvelle : si vous connaissez la forme en « -te », vous connaissez déjà la forme en « -ta », il suffit de changer la dernière voyelle. « Itte » donne « itta », « tabete » donne « tabeta », « shite » donne « shita ». Ainsi, « Tomodachi to Kōbe ni itta » se dit littéralement : amis avec, Kobe vers, être allé. Pour les adjectifs, on garde « takakatta » (c'était cher), et pour les noms ou les adjectifs en « -na », on dit « datta » : « kirei datta », c'était beau. Astuce : suivi de « koto ga aru », ce passé veut dire « avoir déjà fait » : « itta koto aru ? », tu y es déjà allé ?"
   }
  },
  {
-  "title": "La salle de sport au Parque das Nações",
+  "title": "Les voisins de l'immeuble",
   "phrases": [
    {
-    "fr": "Je me suis inscrit dans une salle de sport au Parque das Nações.",
-    "pt": "Inscrevi-me num ginásio no Parque das Nações."
+    "fr": "Pour saluer mes voisins après le déménagement, je leur ai apporté des serviettes.",
+    "ja": "引っ越しのあいさつに、タオルを持っていきました。",
+    "ro": "Hikkoshi no aisatsu ni, taoru o motte ikimashita."
    },
    {
-    "fr": "L'abonnement coûte trente-cinq euros par mois.",
-    "pt": "A mensalidade custa trinta e cinco euros."
+    "fr": "La dame de l'étage du dessus est très aimable.",
+    "ja": "上の階の奥さんはとても親切です。",
+    "ro": "Ue no kai no okusan wa totemo shinsetsu desu."
    },
    {
-    "fr": "J'y vais trois fois par semaine, après le bureau.",
-    "pt": "Vou lá três vezes por semana, depois do escritório."
+    "fr": "Elle m'a donné des légumes de la campagne.",
+    "ja": "田舎の野菜をくれました。",
+    "ro": "Inaka no yasai o kuremashita."
    },
    {
-    "fr": "L'entraîneur m'a préparé un programme sur mesure.",
-    "pt": "O treinador preparou-me um plano à medida."
+    "fr": "Le vieux monsieur d'en face promène son chien tous les matins.",
+    "ja": "向かいのおじいさんは毎朝犬の散歩をしています。",
+    "ro": "Mukai no ojiisan wa maiasa inu no sanpo o shite imasu."
    },
    {
-    "fr": "Tu as déjà essayé le cours de pilates du mardi ?",
-    "pt": "Já experimentaste a aula de pilates de terça?"
+    "fr": "À Osaka, les gens adressent volontiers la parole aux inconnus.",
+    "ja": "大阪の人は知らない人にもよく話しかけます。",
+    "ro": "Ōsaka no hito wa shiranai hito ni mo yoku hanashikakemasu."
    },
    {
-    "fr": "Oui, mais j'ai eu des courbatures pendant trois jours.",
-    "pt": "Já, mas fiquei com dores musculares durante três dias."
+    "fr": "Les commerçants disent souvent « maido » au lieu de « konnichiwa ».",
+    "ja": "お店の人は、よく「こんにちは」の代わりに「まいど」と言います。",
+    "ro": "Omise no hito wa, yoku \"konnichiwa\" no kawari ni \"maido\" to iimasu."
    },
    {
-    "fr": "Le matin, je préfère courir le long du fleuve.",
-    "pt": "De manhã prefiro correr junto ao rio."
+    "fr": "Hier soir, la musique d'à côté était un peu forte.",
+    "ja": "昨日の夜、隣の音楽が少しうるさかったです。",
+    "ro": "Kinō no yoru, tonari no ongaku ga sukoshi urusakatta desu."
    },
    {
-    "fr": "La vue sur le pont Vasco da Gama est superbe.",
-    "pt": "A vista para a ponte Vasco da Gama é espetacular."
+    "fr": "Je suis allé lui en parler poliment.",
+    "ja": "丁寧に話しに行きました。",
+    "ro": "Teinei ni hanashi ni ikimashita."
    },
    {
-    "fr": "N'oublie pas ta serviette et ta gourde.",
-    "pt": "Não te esqueças da toalha e da garrafa de água."
+    "fr": "Il s'est excusé tout de suite.",
+    "ja": "すぐに謝ってくれました。",
+    "ro": "Sugu ni ayamatte kuremashita."
    },
    {
-    "fr": "Je me sens bien mieux depuis que j'y vais.",
-    "pt": "Sinto-me muito melhor desde que comecei a ir."
+    "fr": "Depuis, on se salue à chaque fois.",
+    "ja": "それからは、毎回あいさつをしています。",
+    "ro": "Sore kara wa, maikai aisatsu o shite imasu."
    }
   ]
  },
  {
-  "title": "Un jour férié : le vingt-cinq avril",
+  "title": "Souvenirs d'enfance",
   "phrases": [
    {
-    "fr": "Le vingt-cinq avril, c'est le jour de la Liberté.",
-    "pt": "O vinte e cinco de Abril é o Dia da Liberdade."
+    "fr": "Quand j'étais petit, j'habitais à la campagne en France.",
+    "ja": "子供のころ、フランスの田舎に住んでいました。",
+    "ro": "Kodomo no koro, Furansu no inaka ni sunde imashita."
    },
    {
-    "fr": "Ce jour-là, beaucoup de gens portent un œillet rouge.",
-    "pt": "Nesse dia, muita gente usa um cravo vermelho."
+    "fr": "Je jouais dehors tous les jours avec mon grand frère.",
+    "ja": "毎日、兄と外で遊んでいました。",
+    "ro": "Mainichi, ani to soto de asonde imashita."
    },
    {
-    "fr": "À Almada, la mairie organise des concerts gratuits.",
-    "pt": "Em Almada, a câmara organiza concertos gratuitos."
+    "fr": "Et vous, monsieur Tanaka, où avez-vous grandi ?",
+    "ja": "田中さんはどこで育ちましたか。",
+    "ro": "Tanaka-san wa doko de sodachimashita ka."
    },
    {
-    "fr": "Beaucoup de bureaux sont fermés, mais les cafés restent ouverts.",
-    "pt": "Muitos serviços estão fechados, mas os cafés continuam abertos."
+    "fr": "J'ai grandi près d'une rue commerçante d'Osaka.",
+    "ja": "大阪の商店街の近くで育ちました。",
+    "ro": "Ōsaka no shōtengai no chikaku de sodachimashita."
    },
    {
-    "fr": "Mes grands-parents se souviennent bien de mille neuf cent soixante-quatorze.",
-    "pt": "Os meus avós lembram-se bem de mil novecentos e setenta e quatro."
+    "fr": "Mes parents tenaient une petite boutique de takoyaki.",
+    "ja": "両親が小さいたこ焼き屋をやっていました。",
+    "ro": "Ryōshin ga chiisai takoyakiya o yatte imashita."
    },
    {
-    "fr": "Ils me racontaient souvent comment s'était passée cette journée.",
-    "pt": "Contavam-me muitas vezes como tinha sido esse dia."
+    "fr": "Après l'école, j'aidais souvent au magasin.",
+    "ja": "学校の後、よく店を手伝いました。",
+    "ro": "Gakkō no ato, yoku mise o tetsudaimashita."
    },
    {
-    "fr": "Tu profites du férié pour te reposer ?",
-    "pt": "Aproveitas o feriado para descansar?"
+    "fr": "Enfant, je n'aimais pas du tout les légumes.",
+    "ja": "子供のころは、野菜が全然好きじゃありませんでした。",
+    "ro": "Kodomo no koro wa, yasai ga zenzen suki ja arimasen deshita."
    },
    {
-    "fr": "Non, on fait un pique-nique au Parque dos Poetas, à Oeiras.",
-    "pt": "Não, vamos fazer um piquenique no Parque dos Poetas, em Oeiras."
+    "fr": "Le soir, ma grand-mère me racontait des contes d'autrefois.",
+    "ja": "祖母は夜に昔話をしてくれました。",
+    "ro": "Sobo wa yoru ni mukashibanashi o shite kuremashita."
    },
    {
-    "fr": "Quel dommage quand un férié tombe un samedi !",
-    "pt": "Que pena quando um feriado calha a um sábado!"
+    "fr": "Les étés étaient longs et très chauds.",
+    "ja": "夏は長くて、とても暑かったです。",
+    "ro": "Natsu wa nagakute, totemo atsukatta desu."
    },
    {
-    "fr": "Le soir, on chante « Grândola, Vila Morena » tous ensemble.",
-    "pt": "À noite cantamos todos juntos a «Grândola, Vila Morena»."
+    "fr": "Que de souvenirs, ça me rend nostalgique.",
+    "ja": "本当に懐かしいですね。",
+    "ro": "Hontō ni natsukashii desu ne."
    }
   ]
  },
  {
-  "title": "Les Santos Populares",
+  "title": "Un typhon approche",
   "phrases": [
    {
-    "fr": "En juin, Lisbonne fête Santo António.",
-    "pt": "Em junho, Lisboa festeja o Santo António."
+    "fr": "Un gros typhon arrive demain soir sur le Kansai.",
+    "ja": "明日の夜、大きい台風が関西に来ます。",
+    "ro": "Ashita no yoru, ōkii taifū ga Kansai ni kimasu."
    },
    {
-    "fr": "Les rues se couvrent de guirlandes colorées.",
-    "pt": "As ruas enchem-se de enfeites coloridos."
+    "fr": "Les trains vont sans doute s'arrêter.",
+    "ja": "電車はたぶん止まるでしょう。",
+    "ro": "Densha wa tabun tomaru deshō."
    },
    {
-    "fr": "Tout le quartier sent la sardine grillée.",
-    "pt": "O bairro todo cheira a sardinha assada."
+    "fr": "Rentrez tout ce qui traîne sur le balcon.",
+    "ja": "ベランダの物を中に入れてください。",
+    "ro": "Beranda no mono o naka ni irete kudasai."
    },
    {
-    "fr": "Tu veux une sardine sur une tranche de pain ?",
-    "pt": "Queres uma sardinha no pão?"
+    "fr": "J'ai acheté de l'eau et des piles au konbini.",
+    "ja": "コンビニで水と電池を買いました。",
+    "ro": "Konbini de mizu to denchi o kaimashita."
    },
    {
-    "fr": "Avec plaisir, et un verre de vin rouge aussi.",
-    "pt": "Com todo o gosto, e um copo de tinto também."
+    "fr": "J'ai aussi rechargé mon portable.",
+    "ja": "スマホも充電しました。",
+    "ro": "Sumaho mo jūden shimashita."
    },
    {
-    "fr": "J'ai acheté un manjerico pour ma voisine.",
-    "pt": "Comprei um manjerico para a minha vizinha."
+    "fr": "L'entreprise a prévenu : demain, télétravail.",
+    "ja": "会社から「明日は在宅勤務」と連絡がありました。",
+    "ro": "Kaisha kara \"ashita wa zaitaku kinmu\" to renraku ga arimashita."
    },
    {
-    "fr": "Il y a toujours un petit poème planté dans le pot.",
-    "pt": "O vaso traz sempre uma quadra."
+    "fr": "Le vent souffle déjà très fort.",
+    "ja": "もう風がとても強いです。",
+    "ro": "Mō kaze ga totemo tsuyoi desu."
    },
    {
-    "fr": "On a dansé jusqu'à trois heures du matin.",
-    "pt": "Dançámos até às três da manhã."
+    "fr": "Ne sortez pas pendant le typhon.",
+    "ja": "台風の間は外に出ないでください。",
+    "ro": "Taifū no aida wa soto ni denaide kudasai."
    },
    {
-    "fr": "Le soir du douze juin, personne ne dort.",
-    "pt": "Na noite de doze de junho ninguém dorme."
+    "fr": "Où se trouve le centre d'évacuation le plus proche ?",
+    "ja": "一番近い避難所はどこですか。",
+    "ro": "Ichiban chikai hinanjo wa doko desu ka."
    },
    {
-    "fr": "Heureusement, le lendemain est férié à Lisbonne.",
-    "pt": "Felizmente, no dia seguinte é feriado em Lisboa."
+    "fr": "C'est l'école primaire, derrière la mairie.",
+    "ja": "市役所の裏の小学校です。",
+    "ro": "Shiyakusho no ura no shōgakkō desu."
    }
   ]
  },
  {
-  "title": "Un jour de pluie",
+  "title": "Le lendemain du typhon",
   "phrases": [
    {
-    "fr": "Il pleut des cordes depuis ce matin.",
-    "pt": "Está a chover a potes desde manhã."
+    "fr": "Le typhon est passé dans la nuit.",
+    "ja": "台風は夜の間に過ぎました。",
+    "ro": "Taifū wa yoru no aida ni sugimashita."
    },
    {
-    "fr": "J'ai oublié mon parapluie dans le cacilheiro.",
-    "pt": "Esqueci-me do guarda-chuva no cacilheiro."
+    "fr": "Ce matin, le ciel est d'un bleu parfait.",
+    "ja": "今朝は空が真っ青です。",
+    "ro": "Kesa wa sora ga massao desu."
    },
    {
-    "fr": "Aujourd'hui, la traversée du Tage a été très agitée.",
-    "pt": "Hoje a travessia do Tejo foi muito agitada."
+    "fr": "Des branches sont tombées un peu partout dans la rue.",
+    "ja": "道のあちこちに枝が落ちています。",
+    "ro": "Michi no achikochi ni eda ga ochite imasu."
    },
    {
-    "fr": "Le bateau tanguait beaucoup à cause du vent.",
-    "pt": "O barco abanava muito por causa do vento."
+    "fr": "Il y a eu une coupure de courant d'environ trois heures.",
+    "ja": "三時間ぐらい停電しました。",
+    "ro": "Sanjikan gurai teiden shimashita."
    },
    {
-    "fr": "Tu es arrivé trempé au bureau ?",
-    "pt": "Chegaste encharcado ao escritório?"
+    "fr": "Heureusement, notre maison n'a subi aucun dégât.",
+    "ja": "幸い、家には被害がありませんでした。",
+    "ro": "Saiwai, ie ni wa higai ga arimasen deshita."
    },
    {
-    "fr": "Complètement, même mes chaussettes étaient mouillées.",
-    "pt": "Completamente, até as meias estavam molhadas."
+    "fr": "Le parapluie de la voisine s'est envolé.",
+    "ja": "隣の奥さんの傘が飛んでいきました。",
+    "ro": "Tonari no okusan no kasa ga tonde ikimashita."
    },
    {
-    "fr": "Prends le bus, c'est mieux par ce temps.",
-    "pt": "Apanha o autocarro, é melhor com este tempo."
+    "fr": "Tout le quartier nettoie la rue ensemble.",
+    "ja": "町内のみんなで道を掃除しています。",
+    "ro": "Chōnai no minna de michi o sōji shite imasu."
    },
    {
-    "fr": "Les rues de Cacilhas sont pleines de flaques.",
-    "pt": "As ruas de Cacilhas estão cheias de poças."
+    "fr": "Je vais aider aussi, attendez-moi une seconde.",
+    "ja": "私も手伝います。ちょっと待ってください。",
+    "ro": "Watashi mo tetsudaimasu. Chotto matte kudasai."
    },
    {
-    "fr": "Au moins, ça fait du bien aux jardins.",
-    "pt": "Ao menos faz bem aos jardins."
+    "fr": "Les trains ont recommencé à circuler vers midi.",
+    "ja": "電車は昼ごろ動き始めました。",
+    "ro": "Densha wa hiru goro ugokihajimemashita."
    },
    {
-    "fr": "Ce soir, je reste au chaud avec un thé.",
-    "pt": "Hoje à noite fico em casa com um chá."
+    "fr": "Au Japon, il est important de savoir vivre avec les typhons.",
+    "ja": "日本では、台風とうまく付き合うことが大切です。",
+    "ro": "Nihon de wa, taifū to umaku tsukiau koto ga taisetsu desu."
    }
   ]
  },
  {
-  "title": "Le plat du jour à Setúbal",
+  "title": "Une journée à Kobe",
   "phrases": [
    {
-    "fr": "On déjeune à Setúbal, près du port ?",
-    "pt": "Almoçamos em Setúbal, perto do porto?"
+    "fr": "Samedi prochain, je vais visiter le quartier de Kitano, à Kobe.",
+    "ja": "今度の土曜日、神戸の北野を見に行きます。",
+    "ro": "Kondo no doyōbi, Kōbe no Kitano o mi ni ikimasu."
    },
    {
-    "fr": "Tu dois absolument goûter le choco frito.",
-    "pt": "Tens mesmo de provar o choco frito."
+    "fr": "Depuis Osaka, c'est à une demi-heure de train environ.",
+    "ja": "大阪から電車で三十分ぐらいです。",
+    "ro": "Ōsaka kara densha de sanjuppun gurai desu."
    },
    {
-    "fr": "Bonjour, une table pour deux personnes, s'il vous plaît.",
-    "pt": "Boa tarde, uma mesa para duas pessoas, se faz favor."
+    "fr": "On y trouve beaucoup d'anciennes maisons de style occidental.",
+    "ja": "古い洋館がたくさんあります。",
+    "ro": "Furui yōkan ga takusan arimasu."
    },
    {
-    "fr": "Quel est le plat du jour aujourd'hui ?",
-    "pt": "Qual é o prato do dia hoje?"
+    "fr": "Les rues montent beaucoup, venez avec de bonnes chaussures.",
+    "ja": "坂が多いですから、歩きやすい靴で来てください。",
+    "ro": "Saka ga ōi desu kara, arukiyasui kutsu de kite kudasai."
    },
    {
-    "fr": "Aujourd'hui, c'est du poisson grillé avec des pommes de terre.",
-    "pt": "Hoje é peixe grelhado com batata cozida."
+    "fr": "Ensuite, on descendra à Nankinmachi pour grignoter dans la rue.",
+    "ja": "それから、南京町に下りて食べ歩きをします。",
+    "ro": "Sore kara, Nankinmachi ni orite tabearuki o shimasu."
    },
    {
-    "fr": "Je préfère le choco frito avec une salade.",
-    "pt": "Prefiro o choco frito com salada."
+    "fr": "Le soir, les lumières du port sont magnifiques.",
+    "ja": "夜は港の明かりがとてもきれいです。",
+    "ro": "Yoru wa minato no akari ga totemo kirei desu."
    },
    {
-    "fr": "Et pour boire, un pichet de vin blanc de la maison.",
-    "pt": "E para beber, um jarro de vinho branco da casa."
+    "fr": "Après le grand séisme, la ville de Kobe a fait peau neuve.",
+    "ja": "大震災の後、神戸の町はきれいに生まれ変わりました。",
+    "ro": "Daishinsai no ato, Kōbe no machi wa kirei ni umarekawarimashita."
    },
    {
-    "fr": "Le serveur a apporté du pain, des olives et du fromage.",
-    "pt": "O empregado trouxe pão, azeitonas e queijo."
+    "fr": "Près de la mer, il y a un musée consacré au séisme.",
+    "ja": "海の近くに、震災の博物館があります。",
+    "ro": "Umi no chikaku ni, shinsai no hakubutsukan ga arimasu."
    },
    {
-    "fr": "Attention, au Portugal, les amuse-bouches posés sur la table se paient.",
-    "pt": "Atenção, em Portugal as entradas que vêm para a mesa pagam-se."
+    "fr": "N'oubliez pas d'acheter des gâteaux de Kobe.",
+    "ja": "神戸のケーキを買うのを忘れないでください。",
+    "ro": "Kōbe no kēki o kau no o wasurenaide kudasai."
    },
    {
-    "fr": "L'addition, s'il vous plaît, on règle par carte.",
-    "pt": "A conta, se faz favor, pagamos com cartão."
+    "fr": "Kobe et Osaka sont proches, mais l'ambiance est complètement différente.",
+    "ja": "神戸と大阪は近いですが、雰囲気が全然違います。",
+    "ro": "Kōbe to Ōsaka wa chikai desu ga, fun'iki ga zenzen chigaimasu."
    }
   ]
  },
  {
-  "title": "Un anniversaire surprise",
+  "title": "Des okonomiyaki à la maison",
   "phrases": [
    {
-    "fr": "Samedi, c'est l'anniversaire de ma sœur Inês.",
-    "pt": "No sábado a minha irmã Inês faz anos."
+    "fr": "Ce soir, on fait des okonomiyaki à la maison.",
+    "ja": "今晩、家でお好み焼きを作ります。",
+    "ro": "Konban, ie de okonomiyaki o tsukurimasu."
    },
    {
-    "fr": "On lui prépare un dîner surprise à Oeiras.",
-    "pt": "Vamos fazer-lhe um jantar surpresa em Oeiras."
+    "fr": "Coupe le chou en petits morceaux, s'il te plaît.",
+    "ja": "キャベツを細かく切ってください。",
+    "ro": "Kyabetsu o komakaku kitte kudasai."
    },
    {
-    "fr": "Tu peux t'occuper du gâteau ?",
-    "pt": "Podes tratar do bolo?"
+    "fr": "On mélange la farine, l'œuf et le bouillon dashi.",
+    "ja": "小麦粉と卵とだしを混ぜます。",
+    "ro": "Komugiko to tamago to dashi o mazemasu."
    },
    {
-    "fr": "Bien sûr, je le commande à la pastelaria d'en bas.",
-    "pt": "Claro, encomendo-o na pastelaria aqui de baixo."
+    "fr": "On chauffe la plaque et on met un peu d'huile.",
+    "ja": "ホットプレートを温めて、油を少し引きます。",
+    "ro": "Hotto purēto o atatamete, abura o sukoshi hikimasu."
    },
    {
-    "fr": "Qu'est-ce qu'on lui offre cette année ?",
-    "pt": "O que é que lhe oferecemos este ano?"
+    "fr": "On pose des tranches de porc sur la pâte.",
+    "ja": "生地の上に豚肉をのせます。",
+    "ro": "Kiji no ue ni butaniku o nosemasu."
    },
    {
-    "fr": "Elle rêve d'un massage dans un spa à Cascais.",
-    "pt": "Ela sonha com uma massagem num spa em Cascais."
+    "fr": "Allez, c'est le moment de la retourner !",
+    "ja": "さあ、ひっくり返しますよ！",
+    "ro": "Sā, hikkurikaeshimasu yo!"
    },
    {
-    "fr": "Tout le monde arrive à vingt heures pile.",
-    "pt": "Toda a gente chega às vinte horas em ponto."
+    "fr": "À Osaka, chaque famille a sa propre recette.",
+    "ja": "大阪では、家ごとに作り方が違います。",
+    "ro": "Ōsaka de wa, ie goto ni tsukurikata ga chigaimasu."
    },
    {
-    "fr": "Éteignez les lumières, elle monte l'escalier !",
-    "pt": "Apaguem as luzes, ela está a subir as escadas!"
+    "fr": "Mettez beaucoup de sauce et de mayonnaise.",
+    "ja": "ソースとマヨネーズをたっぷりかけてください。",
+    "ro": "Sōsu to mayonēzu o tappuri kakete kudasai."
    },
    {
-    "fr": "On a chanté joyeux anniversaire tous en chœur.",
-    "pt": "Cantámos os parabéns todos juntos."
+    "fr": "Les copeaux de bonite dansent avec la chaleur.",
+    "ja": "かつお節が熱で踊っています。",
+    "ro": "Katsuobushi ga netsu de odotte imasu."
    },
    {
-    "fr": "Elle a soufflé ses trente bougies d'un seul coup.",
-    "pt": "Apagou as trinta velas de uma só vez."
+    "fr": "Franchement, c'est meilleur que celui du restaurant !",
+    "ja": "正直、お店のよりおいしいです！",
+    "ro": "Shōjiki, omise no yori oishii desu!"
    }
   ]
  },
  {
-  "title": "Le déménagement",
+  "title": "Est-ce que je peux… ?",
   "phrases": [
    {
-    "fr": "On quitte Campo de Ourique pour s'installer à Almada.",
-    "pt": "Vamos mudar-nos de Campo de Ourique para Almada."
+    "fr": "Puis-je garer mon vélo devant l'immeuble ?",
+    "ja": "マンションの前に自転車を置いてもいいですか。",
+    "ro": "Manshon no mae ni jitensha o oite mo ii desu ka."
    },
    {
-    "fr": "Là-bas, le loyer est beaucoup moins cher.",
-    "pt": "Lá a renda é muito mais barata."
+    "fr": "Non, utilisez le parking à vélos derrière, s'il vous plaît.",
+    "ja": "いいえ、裏の駐輪場を使ってください。",
+    "ro": "Iie, ura no chūrinjō o tsukatte kudasai."
    },
    {
-    "fr": "Appelle-moi quand le camion arrive.",
-    "pt": "Liga-me quando o camião chegar."
+    "fr": "Ai-je le droit d'avoir un chat dans l'appartement ?",
+    "ja": "部屋で猫を飼ってもいいですか。",
+    "ro": "Heya de neko o katte mo ii desu ka."
    },
    {
-    "fr": "Je t'aide à porter les cartons, ne t'inquiète pas.",
-    "pt": "Ajudo-te a levar as caixas, não te preocupes."
+    "fr": "Désolé, les animaux sont interdits ici.",
+    "ja": "すみません、ここはペット禁止です。",
+    "ro": "Sumimasen, koko wa petto kinshi desu."
    },
    {
-    "fr": "Passe-moi le ruban adhésif, s'il te plaît.",
-    "pt": "Passa-me a fita-cola, por favor."
+    "fr": "Aujourd'hui, est-ce que je peux finir une heure plus tôt ?",
+    "ja": "今日、一時間早く帰ってもいいですか。",
+    "ro": "Kyō, ichijikan hayaku kaette mo ii desu ka."
    },
    {
-    "fr": "Attention, ce carton-là contient la vaisselle.",
-    "pt": "Cuidado, essa caixa tem a loiça."
+    "fr": "J'ai un rendez-vous à la clinique à dix-sept heures.",
+    "ja": "五時にクリニックの予約があります。",
+    "ro": "Goji ni kurinikku no yoyaku ga arimasu."
    },
    {
-    "fr": "Il faut changer l'adresse à la loja do cidadão.",
-    "pt": "É preciso mudar a morada na loja do cidadão."
+    "fr": "Bien sûr, vas-y, aucun souci.",
+    "ja": "もちろん、いいですよ。",
+    "ro": "Mochiron, ii desu yo."
    },
    {
-    "fr": "Et demander un certificat de résidence à la Junta de Freguesia.",
-    "pt": "E pedir um atestado de residência à Junta de Freguesia."
+    "fr": "Je peux prendre un de ces prospectus ?",
+    "ja": "このチラシを一枚もらってもいいですか。",
+    "ro": "Kono chirashi o ichimai moratte mo ii desu ka."
    },
    {
-    "fr": "Les nouveaux voisins nous ont apporté des gâteaux.",
-    "pt": "Os vizinhos novos trouxeram-nos uns bolos."
+    "fr": "Est-ce que je peux régler le loyer par virement ?",
+    "ja": "家賃は振り込みで払ってもいいですか。",
+    "ro": "Yachin wa furikomi de haratte mo ii desu ka."
    },
    {
-    "fr": "Je te montre la vue depuis le balcon ?",
-    "pt": "Mostro-te a vista da varanda?"
+    "fr": "Oui, mais n'oubliez pas d'indiquer votre numéro d'appartement.",
+    "ja": "はい、でも部屋番号を書くのを忘れないでください。",
+    "ro": "Hai, demo heya bangō o kaku no o wasurenaide kudasai."
    }
   ],
   "tip": {
-   "title": "Les pronoms après le verbe : « Liga-me », « Ajudo-te »",
-   "example": "Je t'aide à porter les cartons, ne t'inquiète pas. — <b>Ajudo-te</b> a levar as caixas, não te preocupes.",
-   "body": "Dans une phrase affirmative, le portugais du Portugal place le pronom complément après le verbe, relié par un trait d'union : « Liga-me », « Ajudo-te », « Chamo-me Ana ». C'est l'inverse du français « je t'aide ». Après une négation, un mot interrogatif ou « já », le pronom repasse devant : « Não te preocupes », « Quem te disse? ». On ne commence jamais une phrase par « me » ou « te »."
+   "title": "« -te mo ii desu ka » : demander la permission",
+   "example": "Ai-je le droit d'avoir un chat dans l'appartement ? — 部屋で猫を<b>飼ってもいいですか</b>。",
+   "exampleRo": "Heya de neko o katte mo ii desu ka.",
+   "lit": "appartement · [lieu] · chat · [objet] · élever (forme -te) · même si · bien · être (poli) · [question]",
+   "body": "Pour demander la permission, le japonais utilise une petite formule très logique : la forme en « -te », puis « mo ii desu ka ». « Mo » veut dire « même si », et « ii » veut dire « bien ». « Neko o katte mo ii desu ka » se dit donc littéralement : chat, élever même si, c'est bien ? Autrement dit : est-ce que ça va si j'ai un chat ? Autres exemples : « suwatte mo ii desu ka » (puis-je m'asseoir ?), « shashin o totte mo ii desu ka » (puis-je prendre une photo ?). Pour répondre oui, on dit simplement « ii desu yo », c'est bien. Astuce : retenez « mo ii » comme un petit « ça ira ? » collé au verbe."
   }
  },
  {
   "title": "Fin du module : un bilan",
   "phrases": [
    {
-    "fr": "Ce module touche à sa fin, bravo !",
-    "pt": "Este módulo está a chegar ao fim, parabéns!"
+    "fr": "Ce module nous a fait vivre le quotidien d'Osaka et de Kobe.",
+    "ja": "このモジュールでは、大阪と神戸の毎日の生活を体験しました。",
+    "ro": "Kono mojūru de wa, Ōsaka to Kōbe no mainichi no seikatsu o taiken shimashita."
    },
    {
-    "fr": "Tu sais maintenant raconter ta journée d'hier.",
-    "pt": "Agora já sabes contar o teu dia de ontem."
+    "fr": "Nous savons désormais nous débrouiller à la mairie, à la banque et à la clinique.",
+    "ja": "市役所や銀行やクリニックで話すことができるようになりました。",
+    "ro": "Shiyakusho ya ginkō ya kurinikku de hanasu koto ga dekiru yō ni narimashita."
    },
    {
-    "fr": "Tu arrives aussi à décrire ce que tu faisais enfant.",
-    "pt": "Também consegues descrever o que fazias em criança."
+    "fr": "Les formes familières du japonais ne nous font plus peur.",
+    "ja": "日本語の普通形も、もう怖くありません。",
+    "ro": "Nihongo no futsūkei mo, mō kowaku arimasen."
    },
    {
-    "fr": "Les démarches aux Finanças ne te font plus peur.",
-    "pt": "As burocracias nas Finanças já não te assustam."
+    "fr": "Forme du dictionnaire, en « -te », en « -nai » et en « -ta » : quatre formes essentielles.",
+    "ja": "辞書形、て形、ない形、た形は、とても大切な形です。",
+    "ro": "Jishokei, tekei, naikei, takei wa, totemo taisetsu na katachi desu."
    },
    {
-    "fr": "Et commander une bica est devenu un réflexe.",
-    "pt": "E pedir uma bica tornou-se um hábito."
+    "fr": "Grâce à elles, on comprend aussi les conversations entre amis.",
+    "ja": "これで、友達同士の会話も分かります。",
+    "ro": "Kore de, tomodachi dōshi no kaiwa mo wakarimasu."
    },
    {
-    "fr": "Tu as remarqué les pronoms placés après le verbe ?",
-    "pt": "Reparaste nos pronomes depois do verbo?"
+    "fr": "Demander poliment la permission est devenu facile.",
+    "ja": "丁寧に許可をもらうのも簡単になりました。",
+    "ro": "Teinei ni kyoka o morau no mo kantan ni narimashita."
    },
    {
-    "fr": "Au début ça surprend, puis ça devient naturel.",
-    "pt": "Ao início parece estranho, depois torna-se natural."
+    "fr": "Dans le prochain module, nous voyagerons à Hokkaido et dans le Tohoku.",
+    "ja": "次のモジュールでは、北海道や東北を旅します。",
+    "ro": "Tsugi no mojūru de wa, Hokkaidō ya Tōhoku o tabi shimasu."
    },
    {
-    "fr": "Ton portugais sonne de plus en plus lisboète.",
-    "pt": "O teu português soa cada vez mais lisboeta."
+    "fr": "Réécoutez tranquillement les leçons difficiles.",
+    "ja": "難しいレッスンは、もう一度ゆっくり聞いてください。",
+    "ro": "Muzukashii ressun wa, mō ichido yukkuri kiite kudasai."
    },
    {
-    "fr": "Continue à écouter un peu de portugais chaque jour.",
-    "pt": "Continua a ouvir um bocadinho de português todos os dias."
+    "fr": "Le secret, c'est de continuer un peu chaque jour.",
+    "ja": "毎日少しずつ続けることが大切です。",
+    "ro": "Mainichi sukoshi zutsu tsuzukeru koto ga taisetsu desu."
    },
    {
-    "fr": "On se retrouve au prochain module pour la suite !",
-    "pt": "Encontramo-nos no próximo módulo para continuar!"
+    "fr": "Bravo pour ce travail, et à très vite pour la suite !",
+    "ja": "お疲れさまでした。また次で会いましょう！",
+    "ro": "Otsukaresama deshita. Mata tsugi de aimashō!"
    }
   ]
  }
@@ -3726,837 +5341,1027 @@ const level2Module1Lessons = [
 
 const level2Module2Lessons = [
  {
-  "title": "Arrivée à Faro",
+  "title": "Arrivée à Sapporo",
   "phrases": [
    {
-    "fr": "L'avion a atterri à Faro avec vingt minutes de retard.",
-    "pt": "O avião aterrou em Faro com vinte minutos de atraso."
+    "fr": "Nous avons atterri à l'aéroport de Shin-Chitose ce matin.",
+    "ja": "今朝、新千歳空港に着きました。",
+    "ro": "Kesa, Shinchitose kūkō ni tsukimashita."
    },
    {
-    "fr": "Il faisait déjà chaud quand nous sommes sortis de l'aéroport.",
-    "pt": "Já fazia calor quando saímos do aeroporto."
+    "fr": "Il fait bien plus froid ici qu'à Tokyo, hein ?",
+    "ja": "東京よりずっと寒いですね。",
+    "ro": "Tōkyō yori zutto samui desu ne."
    },
    {
-    "fr": "On a attendu le bus pour le centre pendant un quart d'heure.",
-    "pt": "Esperámos pelo autocarro para o centro durante um quarto de hora."
+    "fr": "Prenons le train rapide jusqu'à Sapporo.",
+    "ja": "札幌まで快速電車に乗りましょう。",
+    "ro": "Sapporo made kaisoku densha ni norimashō."
    },
    {
-    "fr": "Le chauffeur du bus nous a indiqué le bon arrêt.",
-    "pt": "O motorista do autocarro indicou-nos a paragem certa."
+    "fr": "Le trajet prend à peu près quarante minutes.",
+    "ja": "四十分ぐらいかかります。",
+    "ro": "Yonjuppun gurai kakarimasu."
    },
    {
-    "fr": "Notre hôtel se trouvait juste à côté de la marina.",
-    "pt": "O nosso hotel ficava mesmo ao lado da marina."
+    "fr": "Il y a beaucoup de neige des deux côtés des voies.",
+    "ja": "線路の両側に雪がたくさん積もっています。",
+    "ro": "Senro no ryōgawa ni yuki ga takusan tsumotte imasu."
    },
    {
-    "fr": "La réceptionniste nous a donné un plan de la vieille ville.",
-    "pt": "A rececionista deu-nos um mapa da cidade velha."
+    "fr": "J'ai oublié mes gants dans l'avion.",
+    "ja": "飛行機に手袋を忘れました。",
+    "ro": "Hikōki ni tebukuro o wasuremashita."
    },
    {
-    "fr": "On a posé nos valises et on est tout de suite ressortis.",
-    "pt": "Deixámos as malas e saímos logo."
+    "fr": "J'en achèterai des neufs à la gare de Sapporo.",
+    "ja": "札幌駅で新しいのを買います。",
+    "ro": "Sapporo eki de atarashii no o kaimasu."
    },
    {
-    "fr": "Les rues pavées de la vieille ville étaient très calmes.",
-    "pt": "As ruas calcetadas da cidade velha estavam muito calmas."
+    "fr": "Notre hôtel est tout près de la tour de télévision.",
+    "ja": "ホテルはテレビ塔のすぐ近くです。",
+    "ro": "Hoteru wa terebitō no sugu chikaku desu."
    },
    {
-    "fr": "Pour le premier soir, on a dîné sur une terrasse près du port.",
-    "pt": "Na primeira noite, jantámos numa esplanada perto do porto."
+    "fr": "Ce soir, on mange un ramen au miso.",
+    "ja": "今晩は味噌ラーメンを食べます。",
+    "ro": "Konban wa miso rāmen o tabemasu."
    },
    {
-    "fr": "Ce séjour dans le sud commence vraiment bien.",
-    "pt": "Esta estadia no sul está a começar muito bem."
+    "fr": "Sapporo est la vraie patrie du ramen au miso.",
+    "ja": "札幌は味噌ラーメンの本場です。",
+    "ro": "Sapporo wa miso rāmen no honba desu."
    }
   ]
  },
  {
-  "title": "Promenade dans Tavira",
+  "title": "Le festival de neige de Sapporo",
   "phrases": [
    {
-    "fr": "Ce matin, on s'est promenés le long de la rivière à Tavira.",
-    "pt": "Hoje de manhã, passeámos ao longo do rio em Tavira."
+    "fr": "Le festival de neige commence demain au parc Ōdōri.",
+    "ja": "雪まつりは明日、大通公園で始まります。",
+    "ro": "Yuki matsuri wa ashita, Ōdōri kōen de hajimarimasu."
    },
    {
-    "fr": "Le vieux pont romain traverse le Gilão au cœur de la ville.",
-    "pt": "A velha ponte romana atravessa o Gilão no centro da cidade."
+    "fr": "D'immenses sculptures de neige bordent l'avenue.",
+    "ja": "大きな雪像が通りに並んでいます。",
+    "ro": "Ōkina setsuzō ga tōri ni narande imasu."
    },
    {
-    "fr": "Les maisons blanches ont des toits en forme de pyramide.",
-    "pt": "As casas brancas têm telhados em forma de pirâmide."
+    "fr": "Cette sculpture a la forme d'un château célèbre.",
+    "ja": "この雪像は有名なお城の形です。",
+    "ro": "Kono setsuzō wa yūmei na oshiro no katachi desu."
    },
    {
-    "fr": "On a compté plus de vingt églises dans cette petite ville.",
-    "pt": "Contámos mais de vinte igrejas nesta pequena cidade."
+    "fr": "Ils ont mis un mois entier à la construire.",
+    "ja": "一か月かけて作りました。",
+    "ro": "Ikkagetsu kakete tsukurimashita."
    },
    {
-    "fr": "Du haut du château, on voyait toute la ville et la mer.",
-    "pt": "Do alto do castelo, víamos a cidade toda e o mar."
+    "fr": "Le soir, les sculptures éclairées sont superbes.",
+    "ja": "夜は雪像にライトが当たって、とてもきれいです。",
+    "ro": "Yoru wa setsuzō ni raito ga atatte, totemo kirei desu."
    },
    {
-    "fr": "Une vieille dame arrosait ses fleurs à la fenêtre.",
-    "pt": "Uma senhora de idade estava a regar as flores à janela."
+    "fr": "Il y a plein de stands de nourriture chaude.",
+    "ja": "温かい食べ物の屋台がたくさんあります。",
+    "ro": "Atatakai tabemono no yatai ga takusan arimasu."
    },
    {
-    "fr": "On s'est arrêtés dans une pâtisserie pour prendre un café.",
-    "pt": "Parámos numa pastelaria para tomar um café."
+    "fr": "J'ai bu de l'amazake pour me réchauffer.",
+    "ja": "甘酒を飲んで、体を温めました。",
+    "ro": "Amazake o nonde, karada o atatamemashita."
    },
    {
-    "fr": "J'ai goûté un petit gâteau aux amandes et à la figue.",
-    "pt": "Provei um bolinho de amêndoa e figo."
+    "fr": "Les enfants s'amusent sur un toboggan de glace.",
+    "ja": "子供たちが氷の滑り台で遊んでいます。",
+    "ro": "Kodomotachi ga kōri no suberidai de asonde imasu."
    },
    {
-    "fr": "Il faisait tellement chaud qu'on marchait à l'ombre.",
-    "pt": "Estava tanto calor que andávamos à sombra."
+    "fr": "J'ai les pieds complètement glacés.",
+    "ja": "足がとても冷たいです。",
+    "ro": "Ashi ga totemo tsumetai desu."
    },
    {
-    "fr": "Tavira est encore plus charmante que je ne l'imaginais.",
-    "pt": "Tavira é ainda mais encantadora do que eu imaginava."
+    "fr": "On rentre à l'hôtel pour prendre un bain bien chaud.",
+    "ja": "ホテルに帰って、熱いお風呂に入ります。",
+    "ro": "Hoteru ni kaette, atsui ofuro ni hairimasu."
    }
   ]
  },
  {
-  "title": "Les falaises de Ponta da Piedade",
+  "title": "Conduire sous la neige",
   "phrases": [
    {
-    "fr": "On vient d'arriver au phare de Ponta da Piedade.",
-    "pt": "Acabámos de chegar ao farol da Ponta da Piedade."
+    "fr": "Nous avons loué une voiture pour trois jours.",
+    "ja": "三日間、車を借りました。",
+    "ro": "Mikkakan, kuruma o karimashita."
    },
    {
-    "fr": "Les falaises dorées tombent à pic dans la mer.",
-    "pt": "As falésias douradas caem a pique sobre o mar."
+    "fr": "Il faut montrer le permis de conduire international.",
+    "ja": "国際運転免許証を見せなければなりません。",
+    "ro": "Kokusai unten menkyoshō o misenakereba narimasen."
    },
    {
-    "fr": "Un escalier en bois descend jusqu'aux rochers.",
-    "pt": "Uma escadaria de madeira desce até às rochas."
+    "fr": "En hiver, on doit rouler avec des pneus neige.",
+    "ja": "冬はスタッドレスタイヤで走らなければなりません。",
+    "ro": "Fuyu wa sutaddoresu taiya de hashiranakereba narimasen."
    },
    {
-    "fr": "Je viens de compter presque deux cents marches.",
-    "pt": "Acabei de contar quase duzentos degraus."
+    "fr": "Il faut rendre la voiture avec le plein d'essence.",
+    "ja": "ガソリンを満タンにして返さなければなりません。",
+    "ro": "Gasorin o mantan ni shite kaesanakereba narimasen."
    },
    {
-    "fr": "L'eau est d'un vert incroyablement transparent.",
-    "pt": "A água é de um verde incrivelmente transparente."
+    "fr": "Au Japon, on roule du côté gauche.",
+    "ja": "日本では左側を走ります。",
+    "ro": "Nihon de wa hidarigawa o hashirimasu."
    },
    {
-    "fr": "Une petite barque vient de passer sous une arche de pierre.",
-    "pt": "Um barquinho acabou de passar por baixo de um arco de pedra."
+    "fr": "Je dois m'habituer à la conduite à gauche.",
+    "ja": "左側通行に慣れなければなりません。",
+    "ro": "Hidarigawa tsūkō ni narenakereba narimasen."
    },
    {
-    "fr": "Les pêcheurs de Lagos proposent des tours dans les grottes.",
-    "pt": "Os pescadores de Lagos fazem passeios às grutas."
+    "fr": "La route est glissante, roulez doucement.",
+    "ja": "道が滑りやすいので、ゆっくり走ってください。",
+    "ro": "Michi ga suberiyasui node, yukkuri hashitte kudasai."
    },
    {
-    "fr": "Malheureusement, le dernier bateau vient de partir.",
-    "pt": "Infelizmente, o último barco acabou de sair."
+    "fr": "À ce panneau, on doit marquer l'arrêt complet.",
+    "ja": "この標識では必ず止まらなければなりません。",
+    "ro": "Kono hyōshiki de wa kanarazu tomaranakereba narimasen."
    },
    {
-    "fr": "On reviendra demain matin, quand la mer sera plus calme.",
-    "pt": "Voltamos amanhã de manhã, quando o mar estiver mais calmo."
+    "fr": "Le GPS de la voiture ne parle que japonais.",
+    "ja": "カーナビは日本語だけです。",
+    "ro": "Kānabi wa nihongo dake desu."
    },
    {
-    "fr": "C'est la plus belle côte que j'aie jamais vue.",
-    "pt": "É a costa mais bonita que já vi."
+    "fr": "Nous devons arriver à Furano avant la nuit.",
+    "ja": "暗くなる前に富良野に着かなければなりません。",
+    "ro": "Kuraku naru mae ni Furano ni tsukanakereba narimasen."
    }
   ],
   "tip": {
-   "title": "« Acabar de » + infinitif : venir de",
-   "example": "Je viens de compter presque deux cents marches. — <b>Acabei de</b> contar quase duzentos degraus.",
-   "body": "Pour dire « venir de faire quelque chose », le portugais n'utilise pas le verbe « vir » mais « acabar de » + infinitif. Au Portugal, on le met très souvent au passé : « Acabei de chegar » (je viens d'arriver), « Acabámos de jantar » (nous venons de dîner). Le présent « Acabo de saber » existe aussi, avec une nuance un peu plus soutenue."
+   "title": "« -nakereba narimasen » : il faut, l'obligation",
+   "example": "Il faut montrer le permis de conduire international. — 国際運転免許証を<b>見せなければなりません</b>。",
+   "exampleRo": "Kokusai unten menkyoshō o misenakereba narimasen.",
+   "lit": "international · permis de conduire · [objet] · montrer-si-ne-pas · ne-pas-aller (poli)",
+   "body": "Pour dire « il faut » ou « je dois », le japonais utilise une tournure surprenante : « nakereba narimasen ». On part de la forme négative en « nai », on remplace le « i » final par « kereba », qui veut dire « si », puis on ajoute « narimasen », « ça ne va pas ». Ainsi « misenakereba narimasen » se dit littéralement : si je ne montre pas, ça ne va pas. Autres exemples : « ikanakereba narimasen », je dois y aller, « tabenakereba narimasen », je dois manger, « kaesanakereba narimasen », je dois rendre. Pour retenir, pensez à une double négation : ne pas le faire, ce n'est pas possible, donc il faut le faire."
   }
  },
  {
-  "title": "Le marché d'Olhão",
+  "title": "Une journée de ski à Furano",
   "phrases": [
    {
-    "fr": "Le samedi, le marché d'Olhão est plein de monde dès sept heures.",
-    "pt": "Ao sábado, o mercado de Olhão está cheio de gente logo às sete horas."
+    "fr": "Furano est réputée pour sa neige poudreuse.",
+    "ja": "富良野はパウダースノーで有名です。",
+    "ro": "Furano wa paudā sunō de yūmei desu."
    },
    {
-    "fr": "Les deux grandes halles en brique rouge font face à la Ria.",
-    "pt": "Os dois grandes edifícios de tijolo vermelho estão virados para a Ria."
+    "fr": "J'ai loué des skis et des chaussures à l'hôtel.",
+    "ja": "ホテルでスキー板とブーツを借りました。",
+    "ro": "Hoteru de sukī ita to būtsu o karimashita."
    },
    {
-    "fr": "L'une est réservée au poisson, l'autre aux fruits et légumes.",
-    "pt": "Um é para o peixe, o outro para a fruta e os legumes."
+    "fr": "Le forfait d'une journée coûte six mille yens.",
+    "ja": "一日券は六千円です。",
+    "ro": "Ichinichiken wa rokusen'en desu."
    },
    {
-    "fr": "Les poissonnières criaient le prix des sardines.",
-    "pt": "As peixeiras gritavam o preço das sardinhas."
+    "fr": "Je ne suis pas très doué à ski.",
+    "ja": "スキーはあまり上手じゃありません。",
+    "ro": "Sukī wa amari jōzu ja arimasen."
    },
    {
-    "fr": "Combien coûte un kilo de palourdes ?",
-    "pt": "Quanto custa um quilo de amêijoas?"
+    "fr": "Je vais skier sur les pistes pour débutants.",
+    "ja": "初心者コースで滑ります。",
+    "ro": "Shoshinsha kōsu de suberimasu."
    },
    {
-    "fr": "Le vendeur m'a fait goûter des figues sèches.",
-    "pt": "O vendedor deu-me a provar figos secos."
+    "fr": "La vue depuis le télésiège est splendide.",
+    "ja": "リフトからの景色がすばらしいです。",
+    "ro": "Rifuto kara no keshiki ga subarashii desu."
    },
    {
-    "fr": "J'ai acheté du fromage de chèvre et un pot de miel.",
-    "pt": "Comprei queijo de cabra e um frasco de mel."
+    "fr": "Je suis tombé trois fois ce matin.",
+    "ja": "今朝、三回転びました。",
+    "ro": "Kesa, sankai korobimashita."
    },
    {
-    "fr": "Ça fait neuf euros et cinquante en tout.",
-    "pt": "São nove euros e cinquenta ao todo."
+    "fr": "Faisons une pause au restaurant en bas des pistes.",
+    "ja": "ふもとのレストハウスで休みましょう。",
+    "ro": "Fumoto no resuto hausu de yasumimashō."
    },
    {
-    "fr": "Vous acceptez la carte bancaire ici ?",
-    "pt": "Aceitam cartão aqui?"
+    "fr": "La soupe au curry d'ici est un régal.",
+    "ja": "ここのスープカレーはとてもおいしいです。",
+    "ro": "Koko no sūpu karē wa totemo oishii desu."
    },
    {
-    "fr": "On a pique-niqué sur le quai avec nos achats du marché.",
-    "pt": "Fizemos um piquenique no cais com as compras do mercado."
+    "fr": "Demain, je prendrai un cours de ski.",
+    "ja": "明日はスキーのレッスンを受けます。",
+    "ro": "Ashita wa sukī no ressun o ukemasu."
    }
   ]
  },
  {
-  "title": "Une journée de plage à Comporta",
+  "title": "Flâner à Otaru",
   "phrases": [
    {
-    "fr": "La plage de Comporta est plus grande que celle de Lagos.",
-    "pt": "A praia da Comporta é maior do que a de Lagos."
+    "fr": "Aujourd'hui, on part à Otaru pour la journée.",
+    "ja": "今日は小樽へ日帰り旅行です。",
+    "ro": "Kyō wa Otaru e higaeri ryokō desu."
    },
    {
-    "fr": "Ici, l'eau est plus froide que dans l'Algarve.",
-    "pt": "Aqui a água é mais fria do que no Algarve."
+    "fr": "À Otaru, on se promène le long du canal, on regarde les boutiques de verre…",
+    "ja": "小樽では運河沿いを散歩したり、ガラスの店を見たりします。",
+    "ro": "Otaru de wa unga zoi o sanpo shitari, garasu no mise o mitari shimasu."
    },
    {
-    "fr": "Mais il y a beaucoup moins de monde sur le sable.",
-    "pt": "Mas há muito menos gente na areia."
+    "fr": "Le soir, on mange des sushis, on boit un peu de saké…",
+    "ja": "夜はお寿司を食べたり、お酒を飲んだりします。",
+    "ro": "Yoru wa osushi o tabetari, osake o nondari shimasu."
    },
    {
-    "fr": "Ce sable blanc est plus fin que celui d'hier.",
-    "pt": "Esta areia branca é mais fina do que a de ontem."
+    "fr": "Ces entrepôts en pierre ont plus de cent ans.",
+    "ja": "石造りの倉庫は百年以上前のものです。",
+    "ro": "Ishizukuri no sōko wa hyakunen ijō mae no mono desu."
    },
    {
-    "fr": "Le vent est pire l'après-midi, il vaut mieux venir le matin.",
-    "pt": "O vento é pior à tarde, é melhor vir de manhã."
+    "fr": "Dans cet atelier, j'ai fabriqué un petit verre.",
+    "ja": "この工房で小さいグラスを作りました。",
+    "ro": "Kono kōbō de chiisai gurasu o tsukurimashita."
    },
    {
-    "fr": "Ce restaurant de plage est meilleur que celui d'à côté.",
-    "pt": "Este restaurante de praia é melhor do que o do lado."
+    "fr": "Dans le train, je regarde le paysage ou je fais une sieste.",
+    "ja": "電車では景色を見たり、昼寝をしたりします。",
+    "ro": "Densha de wa keshiki o mitari, hirune o shitari shimasu."
    },
    {
-    "fr": "Les rizières derrière les dunes sont magnifiques.",
-    "pt": "Os arrozais atrás das dunas são lindíssimos."
+    "fr": "Les boîtes à musique sont la spécialité du quartier.",
+    "ja": "オルゴールはこの辺りの名物です。",
+    "ro": "Orugōru wa kono atari no meibutsu desu."
    },
    {
-    "fr": "N'oublie pas de remettre de la crème solaire.",
-    "pt": "Não te esqueças de pôr outra vez protetor solar."
+    "fr": "Rue Sakaimachi, on a goûté des pâtisseries, acheté des souvenirs…",
+    "ja": "堺町通りでお菓子を食べたり、お土産を買ったりしました。",
+    "ro": "Sakaimachi dōri de okashi o tabetari, omiyage o kattari shimashita."
    },
    {
-    "fr": "J'ai pris un coup de soleil pire que l'an dernier.",
-    "pt": "Apanhei um escaldão pior do que no ano passado."
+    "fr": "Le canal est encore plus joli en fin de journée.",
+    "ja": "運河は夕方のほうがもっときれいです。",
+    "ro": "Unga wa yūgata no hō ga motto kirei desu."
    },
    {
-    "fr": "C'était la meilleure journée de plage de nos vacances.",
-    "pt": "Foi o melhor dia de praia das nossas férias."
+    "fr": "On reprend le train pour Sapporo vers huit heures.",
+    "ja": "八時ごろ電車で札幌に戻ります。",
+    "ro": "Hachiji goro densha de Sapporo ni modorimasu."
    }
   ],
   "tip": {
-   "title": "Les comparatifs « mais… do que », « melhor », « pior »",
-   "example": "Ici, l'eau est plus froide que dans l'Algarve. — Aqui a água é <b>mais</b> fria <b>do que</b> no Algarve.",
-   "body": "Pour comparer, on utilise « mais… do que » (plus… que) et « menos… do que » (moins… que) : « O comboio é mais rápido do que o autocarro ». Comme en français, « bom » et « mau » ont des formes irrégulières : « melhor » (meilleur, mieux) et « pior » (pire) : « Este café é melhor do que aquele ». « Grande » donne aussi « maior » : « A praia é maior do que a de ontem »."
+   "title": "« -tari -tari shimasu » : faire des choses comme…",
+   "example": "À Otaru, on se promène le long du canal, on regarde les boutiques de verre… — 小樽では運河沿いを<b>散歩したり</b>、ガラスの店を<b>見たり</b>します。",
+   "exampleRo": "Otaru de wa unga zoi o sanpo shitari, garasu no mise o mitari shimasu.",
+   "lit": "Otaru · [lieu] [thème] · canal-le long · [objet] · promenade-faire-entre autres · verre · [possessif] · boutique · [objet] · regarder-entre autres · faire (poli)",
+   "body": "Quand on veut citer quelques activités parmi d'autres, sans faire une liste complète, on utilise « tari, tari shimasu ». On prend le verbe au passé familier en « ta », on ajoute « ri », et on termine par « shimasu », faire. « Sanpo shitari, mitari shimasu » se dit littéralement : se promener entre autres, regarder entre autres, faire. C'est l'équivalent de notre « on fait des choses comme ». Par exemple « tabetari nondari shimasu », on mange, on boit, ou « yondari netari shimasu », on lit, on dort. Pour le passé, il suffit de changer la fin en « shimashita ». Astuce : imaginez « tari » comme un petit tiroir qu'on ouvre pour sortir un exemple."
   }
  },
  {
-  "title": "En kayak jusqu'à la grotte de Benagil",
+  "title": "Un train bloqué par la neige",
   "phrases": [
    {
-    "fr": "On a loué deux kayaks sur la plage de Benagil.",
-    "pt": "Alugámos dois caiaques na praia de Benagil."
+    "fr": "Notre train local est à l'arrêt à cause de la neige.",
+    "ja": "雪のせいで、普通列車が止まっています。",
+    "ro": "Yuki no sei de, futsū ressha ga tomatte imasu."
    },
    {
-    "fr": "Le moniteur nous a distribué des gilets de sauvetage.",
-    "pt": "O monitor deu-nos coletes salva-vidas."
+    "fr": "Le contrôleur a annoncé un départ dans une heure.",
+    "ja": "車掌さんは「一時間後に出発します」と言いました。",
+    "ro": "Shashō san wa \"ichijikan go ni shuppatsu shimasu\" to iimashita."
    },
    {
-    "fr": "Il faut ramer une dizaine de minutes jusqu'à la grotte.",
-    "pt": "É preciso remar uns dez minutos até à gruta."
+    "fr": "On n'a pas le choix, on attend.",
+    "ja": "しかたがないので、待ちます。",
+    "ro": "Shikata ga nai node, machimasu."
    },
    {
-    "fr": "Les vagues étaient un peu plus fortes que prévu.",
-    "pt": "As ondas estavam um bocado mais fortes do que o previsto."
+    "fr": "Heureusement, le chauffage du wagon marche.",
+    "ja": "幸い、車内の暖房はついています。",
+    "ro": "Saiwai, shanai no danbō wa tsuite imasu."
    },
    {
-    "fr": "On est entrés dans la grotte en même temps qu'un groupe d'enfants.",
-    "pt": "Entrámos na gruta ao mesmo tempo que um grupo de miúdos."
+    "fr": "Une vieille dame m'a donné une mandarine.",
+    "ja": "おばあさんがみかんをくれました。",
+    "ro": "Obāsan ga mikan o kuremashita."
    },
    {
-    "fr": "La lumière tombait par un grand trou dans la voûte.",
-    "pt": "A luz entrava por um grande buraco no teto."
+    "fr": "Elle va voir sa fille qui habite à Asahikawa.",
+    "ja": "旭川に住んでいる娘さんに会いに行きます。",
+    "ro": "Asahikawa ni sunde iru musume san ni ai ni ikimasu."
    },
    {
-    "fr": "Tout le monde levait la tête, bouche bée.",
-    "pt": "Toda a gente olhava para cima, de boca aberta."
+    "fr": "Je préviens l'auberge qu'on aura du retard.",
+    "ja": "旅館に遅れると連絡します。",
+    "ro": "Ryokan ni okureru to renraku shimasu."
    },
    {
-    "fr": "Mon téléphone est resté au sec dans un sac étanche.",
-    "pt": "O meu telemóvel ficou seco num saco estanque."
+    "fr": "Le train est reparti avec deux heures de retard.",
+    "ja": "列車は二時間遅れで動き出しました。",
+    "ro": "Ressha wa nijikan okure de ugokidashimashita."
    },
    {
-    "fr": "Au retour, j'avais mal aux bras et aux épaules.",
-    "pt": "No regresso, doíam-me os braços e os ombros."
+    "fr": "Ici, en hiver, ce genre de chose arrive souvent.",
+    "ja": "冬はこういうことがよくあります。",
+    "ro": "Fuyu wa kō iu koto ga yoku arimasu."
    },
    {
-    "fr": "Ça valait vraiment la peine de se lever si tôt.",
-    "pt": "Valeu mesmo a pena acordar tão cedo."
+    "fr": "Au bout du compte, ce voyage au ralenti était agréable.",
+    "ja": "結局、のんびりした旅も楽しかったです。",
+    "ro": "Kekkyoku, nonbiri shita tabi mo tanoshikatta desu."
    }
   ]
  },
  {
-  "title": "Un cours de surf à Sagres",
+  "title": "Le marché du matin de Hakodate",
   "phrases": [
    {
-    "fr": "J'ai pris mon tout premier cours de surf à Sagres.",
-    "pt": "Tive a minha primeira aula de surf em Sagres."
+    "fr": "Nous sommes descendus en train jusqu'à Hakodate.",
+    "ja": "函館まで電車で行きました。",
+    "ro": "Hakodate made densha de ikimashita."
    },
    {
-    "fr": "L'école nous a prêté une combinaison et une planche.",
-    "pt": "A escola emprestou-nos um fato de surf e uma prancha."
+    "fr": "Le marché du matin ouvre dès cinq heures.",
+    "ja": "朝市は朝五時から開いています。",
+    "ro": "Asaichi wa asa goji kara aite imasu."
    },
    {
-    "fr": "On a d'abord répété les mouvements sur le sable.",
-    "pt": "Primeiro treinámos os movimentos na areia."
+    "fr": "Les crabes d'ici sont énormes.",
+    "ja": "ここのカニはとても大きいです。",
+    "ro": "Koko no kani wa totemo ōkii desu."
    },
    {
-    "fr": "La monitrice répétait : « Rame, rame, et lève-toi ! »",
-    "pt": "A professora repetia: «Rema, rema, e levanta-te!»"
+    "fr": "Au petit-déjeuner, j'ai mangé un bol de riz aux oursins.",
+    "ja": "朝ごはんにウニ丼を食べました。",
+    "ro": "Asagohan ni unidon o tabemashita."
    },
    {
-    "fr": "L'eau de l'Atlantique était vraiment glacée ce matin-là.",
-    "pt": "A água do Atlântico estava mesmo gelada nessa manhã."
+    "fr": "Le vendeur m'a donné un petit bout de crabe à goûter.",
+    "ja": "店の人に、カニを少しもらいました。",
+    "ro": "Mise no hito ni, kani o sukoshi moraimashita."
    },
    {
-    "fr": "Je suis tombé au moins quinze fois.",
-    "pt": "Caí pelo menos quinze vezes."
+    "fr": "Le soir, on monte au mont Hakodate en téléphérique.",
+    "ja": "夜はロープウェイで函館山に登ります。",
+    "ro": "Yoru wa rōpuwei de Hakodateyama ni noborimasu."
    },
    {
-    "fr": "À la fin, j'ai réussi à tenir debout quelques secondes.",
-    "pt": "No fim, consegui ficar de pé uns segundos."
+    "fr": "La vue nocturne de Hakodate est célèbre dans tout le Japon.",
+    "ja": "函館の夜景は日本中で有名です。",
+    "ro": "Hakodate no yakei wa nihonjū de yūmei desu."
    },
    {
-    "fr": "Les autres élèves m'ont applaudi depuis la plage.",
-    "pt": "Os outros alunos aplaudiram-me da praia."
+    "fr": "Il y avait un monde fou au sommet !",
+    "ja": "山頂は人がとても多かったです。",
+    "ro": "Sanchō wa hito ga totemo ōkatta desu."
    },
    {
-    "fr": "Après le cours, on avait une faim de loup.",
-    "pt": "Depois da aula, estávamos cheios de fome."
+    "fr": "Là-haut, le vent était glacial.",
+    "ja": "上は風がとても冷たかったです。",
+    "ro": "Ue wa kaze ga totemo tsumetakatta desu."
    },
    {
-    "fr": "Je crois que je vais m'inscrire pour toute la semaine.",
-    "pt": "Acho que me vou inscrever para a semana toda."
+    "fr": "Demain, on passe dans le Tohoku en shinkansen.",
+    "ja": "明日は新幹線で東北へ渡ります。",
+    "ro": "Ashita wa shinkansen de Tōhoku e watarimasu."
    }
   ]
  },
  {
-  "title": "Randonnée sur la Rota Vicentina",
+  "title": "Le village thermal de Ginzan",
   "phrases": [
    {
-    "fr": "Aujourd'hui, on marche sur un tronçon de la Rota Vicentina, près de Vila Nova de Milfontes.",
-    "pt": "Hoje vamos caminhar num troço da Rota Vicentina, perto de Vila Nova de Milfontes."
+    "fr": "Ginzan Onsen est un village thermal dans les montagnes de Yamagata.",
+    "ja": "銀山温泉は山形の山の中にある温泉街です。",
+    "ro": "Ginzan onsen wa Yamagata no yama no naka ni aru onsengai desu."
    },
    {
-    "fr": "Le sentier des pêcheurs longe le haut des falaises.",
-    "pt": "O Trilho dos Pescadores segue pelo alto das falésias."
+    "fr": "Je pense que c'est le plus bel endroit du voyage.",
+    "ja": "ここは今回の旅で一番きれいな所だと思います。",
+    "ro": "Koko wa konkai no tabi de ichiban kirei na tokoro da to omoimasu."
    },
    {
-    "fr": "Excusez-moi, c'est par où pour Almograve ?",
-    "pt": "Desculpe, para Almograve é por onde?"
+    "fr": "De vieilles auberges en bois bordent la rivière.",
+    "ja": "古い木造の旅館が川沿いに並んでいます。",
+    "ro": "Furui mokuzō no ryokan ga kawazoi ni narande imasu."
    },
    {
-    "fr": "Suivez les marques bleues et vertes.",
-    "pt": "Siga as marcas azuis e verdes."
+    "fr": "À la nuit tombée, les lampes à gaz s'allument.",
+    "ja": "夜になると、ガス灯がつきます。",
+    "ro": "Yoru ni naru to, gasutō ga tsukimasu."
    },
    {
-    "fr": "Après la petite plage, tournez à gauche.",
-    "pt": "Depois da pequena praia, vire à esquerda."
+    "fr": "Je pense qu'il va encore neiger cette nuit.",
+    "ja": "今夜もまた雪が降ると思います。",
+    "ro": "Kon'ya mo mata yuki ga furu to omoimasu."
    },
    {
-    "fr": "Si vous êtes fatigué, prenez le bus au village.",
-    "pt": "Se estiver cansado, apanhe o autocarro na aldeia."
+    "fr": "Je pense qu'il y aura peu de touristes demain matin.",
+    "ja": "明日の朝は観光客が少ないと思います。",
+    "ro": "Ashita no asa wa kankōkyaku ga sukunai to omoimasu."
    },
    {
-    "fr": "Remplissez votre gourde à la fontaine du village.",
-    "pt": "Encha o cantil na fonte da aldeia."
+    "fr": "Mon ami pense qu'il vaut mieux venir en semaine.",
+    "ja": "友達は平日に来たほうがいいと思っています。",
+    "ro": "Tomodachi wa heijitsu ni kita hō ga ii to omotte imasu."
    },
    {
-    "fr": "Le sable rend la marche beaucoup plus difficile.",
-    "pt": "A areia torna a caminhada muito mais difícil."
+    "fr": "Cette auberge est un peu chère, mais je pense qu'elle le vaut.",
+    "ja": "この旅館は少し高いですが、その価値があると思います。",
+    "ro": "Kono ryokan wa sukoshi takai desu ga, sono kachi ga aru to omoimasu."
    },
    {
-    "fr": "On a vu des cigognes faire leur nid sur les rochers face à la mer.",
-    "pt": "Vimos cegonhas a fazer o ninho nas rochas junto ao mar."
+    "fr": "Le bain de pieds au bord de la rivière est gratuit.",
+    "ja": "川沿いの足湯は無料です。",
+    "ro": "Kawazoi no ashiyu wa muryō desu."
    },
    {
-    "fr": "Au bout de vingt kilomètres, nos pieds n'en pouvaient plus.",
-    "pt": "Ao fim de vinte quilómetros, os nossos pés já não aguentavam mais."
+    "fr": "Je pense qu'on reviendra un jour en été.",
+    "ja": "いつか夏にまた来ると思います。",
+    "ro": "Itsuka natsu ni mata kuru to omoimasu."
    }
   ],
   "tip": {
-   "title": "L'impératif poli : « Siga », « Vire », « Apanhe »",
-   "example": "Après la petite plage, tournez à gauche. — Depois da pequena praia, <b>vire</b> à esquerda.",
-   "body": "Pour s'adresser poliment à quelqu'un (le « vous » de politesse), on part de la 1re personne du présent et on change la voyelle finale : « sigo » → « siga », « viro » → « vire », « apanho » → « apanhe ». C'est la forme des indications dans la rue : « Siga em frente », « Vire à direita », « Apanhe o autocarro ». Au pluriel, on ajoute un -m : « Sigam », « Virem ». Notez qu'au Portugal, on « apanha » un bus ou un train."
+   "title": "« -to omoimasu » : je pense que",
+   "example": "Je pense que c'est le plus bel endroit du voyage. — ここは今回の旅で一番きれいな所<b>だと思います</b>。",
+   "exampleRo": "Koko wa konkai no tabi de ichiban kirei na tokoro da to omoimasu.",
+   "lit": "ici · [thème] · cette fois · [possessif] · voyage · [dans] · le plus · beau · endroit · être (neutre) · [citation] · penser (poli)",
+   "body": "Pour donner son avis, on place « to omoimasu », je pense, tout à la fin de la phrase. Devant « to », la phrase se met à la forme neutre : « da » au lieu de « desu », « furu » au lieu de « furimasu ». « Kirei na tokoro da to omoimasu » se dit littéralement : bel endroit, c'est, entre guillemets, je pense. Le petit mot « to » joue le rôle de guillemets autour de votre pensée. Exemples : « yuki ga furu to omoimasu », je pense qu'il va neiger, ou « takai to omoimasu », je pense que c'est cher. Astuce : en français on commence par « je pense », en japonais on le garde pour la fin, comme une signature."
   }
  },
  {
-  "title": "Le cap Saint-Vincent au coucher du soleil",
+  "title": "Le long de la mer en train local",
   "phrases": [
    {
-    "fr": "Le cap Saint-Vincent est la pointe sud-ouest de l'Europe continentale.",
-    "pt": "O Cabo de São Vicente é a ponta sudoeste da Europa continental."
+    "fr": "La ligne Gonō longe la mer du Japon.",
+    "ja": "五能線は日本海沿いを走ります。",
+    "ro": "Gonōsen wa Nihonkai zoi o hashirimasu."
    },
    {
-    "fr": "Autrefois, les marins croyaient que le monde s'arrêtait ici.",
-    "pt": "Antigamente, os marinheiros achavam que o mundo acabava aqui."
+    "fr": "Ce train local ne passe que quelques fois par jour.",
+    "ja": "この普通列車は一日に数本しかありません。",
+    "ro": "Kono futsū ressha wa ichinichi ni sūhon shika arimasen."
    },
    {
-    "fr": "Le vent soufflait si fort qu'on avait du mal à avancer.",
-    "pt": "O vento soprava com tanta força que mal conseguíamos andar."
+    "fr": "Surtout, ne ratez pas le suivant.",
+    "ja": "次の列車に乗り遅れないでください。",
+    "ro": "Tsugi no ressha ni noriokurenaide kudasai."
    },
    {
-    "fr": "Un vendeur proposait des pulls en laine près du parking.",
-    "pt": "Um vendedor vendia camisolas de lã perto do parque de estacionamento."
+    "fr": "Les vagues se brisent juste à côté des rails.",
+    "ja": "線路のすぐそばで波が砕けています。",
+    "ro": "Senro no sugu soba de nami ga kudakete imasu."
    },
    {
-    "fr": "J'en ai acheté un parce que je grelottais.",
-    "pt": "Comprei uma porque estava cheio de frio."
+    "fr": "Le train ralentit aux plus beaux endroits.",
+    "ja": "景色のいい所では、列車がゆっくり走ります。",
+    "ro": "Keshiki no ii tokoro de wa, ressha ga yukkuri hashirimasu."
    },
    {
-    "fr": "Ce phare est l'un des plus puissants du pays.",
-    "pt": "Este farol é um dos mais potentes do país."
+    "fr": "On s'est arrêtés dans une petite gare sans personnel.",
+    "ja": "小さな無人駅に止まりました。",
+    "ro": "Chiisana mujin'eki ni tomarimashita."
    },
    {
-    "fr": "Des centaines de personnes attendaient le coucher du soleil.",
-    "pt": "Centenas de pessoas esperavam pelo pôr do sol."
+    "fr": "Avant le départ, on a acheté un bentō au calamar.",
+    "ja": "出発前にイカのお弁当を買いました。",
+    "ro": "Shuppatsu mae ni ika no obentō o kaimashita."
    },
    {
-    "fr": "Quand le soleil a disparu, tout le monde a applaudi.",
-    "pt": "Quando o sol desapareceu, toda a gente bateu palmas."
+    "fr": "Le contrôleur nous a raconté l'histoire de la région.",
+    "ja": "車掌さんがこの地方の話をしてくれました。",
+    "ro": "Shashō san ga kono chihō no hanashi o shite kuremashita."
    },
    {
-    "fr": "Ensuite, on a mangé du poisson grillé à Sagres.",
-    "pt": "Depois, jantámos peixe grelhado em Sagres."
+    "fr": "Au loin, on aperçoit le mont Iwaki.",
+    "ja": "遠くに岩木山が見えます。",
+    "ro": "Tōku ni Iwakisan ga miemasu."
    },
    {
-    "fr": "Ce moment restera gravé dans ma mémoire.",
-    "pt": "Este momento vai ficar gravado na minha memória."
+    "fr": "Prendre ce train est déjà un plaisir de voyage en soi.",
+    "ja": "この列車に乗ること自体が旅の楽しみです。",
+    "ro": "Kono ressha ni noru koto jitai ga tabi no tanoshimi desu."
    }
   ]
  },
  {
-  "title": "En bateau dans la Ria Formosa",
+  "title": "Les sanctuaires de Nikko",
   "phrases": [
    {
-    "fr": "On a pris le bateau pour l'île de Culatra au départ d'Olhão.",
-    "pt": "Apanhámos o barco para a ilha da Culatra a partir de Olhão."
+    "fr": "Nikko est à environ deux heures de Tokyo.",
+    "ja": "日光は東京から二時間ぐらいです。",
+    "ro": "Nikkō wa Tōkyō kara nijikan gurai desu."
    },
    {
-    "fr": "La traversée dure environ quarante minutes.",
-    "pt": "A travessia demora cerca de quarenta minutos."
+    "fr": "Le sanctuaire Tōshōgū est couvert de décorations dorées.",
+    "ja": "東照宮は金色の飾りでいっぱいです。",
+    "ro": "Tōshōgū wa kin'iro no kazari de ippai desu."
    },
    {
-    "fr": "La Ria Formosa est une lagune protégée pleine d'oiseaux.",
-    "pt": "A Ria Formosa é uma lagoa protegida cheia de aves."
+    "fr": "Voici les fameux trois singes.",
+    "ja": "これが有名な三猿です。",
+    "ro": "Kore ga yūmei na sanzaru desu."
    },
    {
-    "fr": "Le guide nous a montré des flamants roses au loin.",
-    "pt": "O guia mostrou-nos flamingos ao longe."
+    "fr": "Ne pas voir, ne pas dire, ne pas entendre.",
+    "ja": "見ざる、言わざる、聞かざる。",
+    "ro": "Mizaru, iwazaru, kikazaru."
    },
    {
-    "fr": "À marée basse, des gens ramassaient des palourdes dans la vase.",
-    "pt": "Na maré baixa, havia pessoas a apanhar amêijoas no lodo."
+    "fr": "Il y a une quantité de marches à grimper.",
+    "ja": "上る階段がとても多いです。",
+    "ro": "Noboru kaidan ga totemo ōi desu."
    },
    {
-    "fr": "Il n'y a pas de voitures sur l'île, seulement des chemins de sable.",
-    "pt": "Não há carros na ilha, só caminhos de areia."
+    "fr": "Au-dessus d'une porte, il y a la sculpture du chat endormi.",
+    "ja": "門の上に眠り猫の彫刻があります。",
+    "ro": "Mon no ue ni nemurineko no chōkoku ga arimasu."
    },
    {
-    "fr": "Les maisons des pêcheurs sont peintes de couleurs vives.",
-    "pt": "As casas dos pescadores estão pintadas de cores vivas."
+    "fr": "À l'intérieur, les photos sont interdites.",
+    "ja": "中で写真を撮ってはいけません。",
+    "ro": "Naka de shashin o totte wa ikemasen."
    },
    {
-    "fr": "On a nagé dans une eau calme et tiède.",
-    "pt": "Nadámos numa água calma e morna."
+    "fr": "Ce pont rouge s'appelle le pont Shinkyō.",
+    "ja": "この赤い橋は神橋といいます。",
+    "ro": "Kono akai hashi wa Shinkyō to iimasu."
    },
    {
-    "fr": "Attention, le dernier bateau repart à sept heures et demie.",
-    "pt": "Atenção, o último barco sai às sete e meia."
+    "fr": "Les cèdres de l'allée ont plusieurs siècles.",
+    "ja": "杉並木の杉は何百年も前からあります。",
+    "ro": "Suginamiki no sugi wa nanbyakunen mo mae kara arimasu."
    },
    {
-    "fr": "Sur le chemin du retour, le ciel est devenu tout orange.",
-    "pt": "No caminho de volta, o céu ficou todo cor de laranja."
+    "fr": "On a goûté au yuba, la spécialité de Nikko.",
+    "ja": "日光名物の湯葉を食べました。",
+    "ro": "Nikkō meibutsu no yuba o tabemashita."
    }
   ]
  },
  {
-  "title": "Un dîner de cataplana à Lagos",
+  "title": "Randonnée au lac Chūzenji",
   "phrases": [
    {
-    "fr": "Ce soir, on dîne dans une petite taverne près du port de Lagos.",
-    "pt": "Esta noite vamos jantar numa tasca junto ao porto de Lagos."
+    "fr": "Le bus grimpe la route en lacets d'Irohazaka.",
+    "ja": "バスはいろは坂を上ります。",
+    "ro": "Basu wa Irohazaka o noborimasu."
    },
    {
-    "fr": "Le serveur nous a apporté du pain, des olives et du beurre.",
-    "pt": "O empregado trouxe-nos pão, azeitonas e manteiga."
+    "fr": "Le lac Chūzenji est à presque mille trois cents mètres d'altitude.",
+    "ja": "中禅寺湖は標高千三百メートル近くにあります。",
+    "ro": "Chūzenjiko wa hyōkō sen sanbyaku mētoru chikaku ni arimasu."
    },
    {
-    "fr": "Attention, ces petites entrées ne sont pas gratuites.",
-    "pt": "Atenção, estas entradas não são grátis."
+    "fr": "Aujourd'hui, on longe le lac à pied.",
+    "ja": "今日は湖のまわりを歩きます。",
+    "ro": "Kyō wa mizuumi no mawari o arukimasu."
    },
    {
-    "fr": "On a commandé une cataplana de poisson pour deux.",
-    "pt": "Pedimos uma cataplana de peixe para duas pessoas."
+    "fr": "N'oubliez pas l'eau et l'imperméable.",
+    "ja": "水とレインコートを忘れないでください。",
+    "ro": "Mizu to reinkōto o wasurenaide kudasai."
    },
    {
-    "fr": "Elle arrive dans une casserole en cuivre fermée comme un coquillage.",
-    "pt": "Chega num tacho de cobre fechado como uma concha."
+    "fr": "Après la pluie, le sentier est boueux.",
+    "ja": "雨の後で、道がぬかるんでいます。",
+    "ro": "Ame no ato de, michi ga nukarunde imasu."
    },
    {
-    "fr": "Quand le serveur l'a ouverte, ça sentait merveilleusement bon.",
-    "pt": "Quando o empregado a abriu, cheirava maravilhosamente."
+    "fr": "Attention, des panneaux signalent des ours.",
+    "ja": "気をつけて。クマ注意の看板があります。",
+    "ro": "Ki o tsukete. Kuma chūi no kanban ga arimasu."
    },
    {
-    "fr": "Mon amie a préféré l'arroz de marisco.",
-    "pt": "A minha amiga preferiu o arroz de marisco."
+    "fr": "J'ai accroché une clochette à mon sac à dos.",
+    "ja": "リュックに鈴をつけました。",
+    "ro": "Ryukku ni suzu o tsukemashita."
    },
    {
-    "fr": "Le riz était bien crémeux, comme on le fait ici.",
-    "pt": "O arroz vinha bem malandrinho, como se faz cá."
+    "fr": "Les chutes de Kegon font presque cent mètres de haut.",
+    "ja": "華厳の滝は高さ百メートル近くあります。",
+    "ro": "Kegon no taki wa takasa hyaku mētoru chikaku arimasu."
    },
    {
-    "fr": "Pour le dessert, on a partagé un gâteau à la caroube.",
-    "pt": "Para sobremesa, partilhámos um bolo de alfarroba."
+    "fr": "On descend en ascenseur jusqu'au pied de la cascade.",
+    "ja": "エレベーターで滝の下まで降ります。",
+    "ro": "Erebētā de taki no shita made orimasu."
    },
    {
-    "fr": "L'addition, s'il vous plaît, et un café pour moi.",
-    "pt": "A conta, por favor, e um café para mim."
+    "fr": "J'ai les jambes en compote, mais je suis comblé.",
+    "ja": "足は疲れましたが、満足です。",
+    "ro": "Ashi wa tsukaremashita ga, manzoku desu."
    }
   ]
  },
  {
-  "title": "Évora : le temple romain et la chapelle des os",
+  "title": "Hakone en une journée",
   "phrases": [
    {
-    "fr": "On est arrivés à Évora en fin de matinée.",
-    "pt": "Chegámos a Évora ao fim da manhã."
+    "fr": "Avec le pass de Hakone, on peut prendre tous les transports.",
+    "ja": "箱根フリーパスで、全部の乗り物に乗れます。",
+    "ro": "Hakone furī pasu de, zenbu no norimono ni noremasu."
    },
    {
-    "fr": "Le temple romain est encore debout après deux mille ans.",
-    "pt": "O templo romano ainda está de pé passados dois mil anos."
+    "fr": "Par beau temps, on peut voir le Fuji depuis le téléphérique.",
+    "ja": "晴れた日は、ロープウェイから富士山が見られます。",
+    "ro": "Hareta hi wa, rōpuwei kara Fujisan ga miraremasu."
    },
    {
-    "fr": "Tu as déjà visité la chapelle des os ?",
-    "pt": "Já visitaste a Capela dos Ossos?"
+    "fr": "À Ōwakudani, on peut manger des œufs noirs.",
+    "ja": "大涌谷では黒たまごが食べられます。",
+    "ro": "Ōwakudani de wa kuro tamago ga taberaremasu."
    },
    {
-    "fr": "Non, pas encore, j'y vais cet après-midi.",
-    "pt": "Não, ainda não, vou lá esta tarde."
+    "fr": "D'après la légende, un œuf noir donne sept ans de vie en plus.",
+    "ja": "伝説では、黒たまごを一つ食べると七年長生きします。",
+    "ro": "Densetsu de wa, kuro tamago o hitotsu taberu to nananen nagaiki shimasu."
    },
    {
-    "fr": "À l'entrée, une inscription s'adresse directement aux visiteurs.",
-    "pt": "À entrada, há uma inscrição dirigida aos visitantes."
+    "fr": "Je ne peux pas en manger plus de deux.",
+    "ja": "二つ以上は食べられません。",
+    "ro": "Futatsu ijō wa taberaremasen."
    },
    {
-    "fr": "« Nous, les os qui sommes ici, nous attendons les vôtres. »",
-    "pt": "«Nós, ossos que aqui estamos, pelos vossos esperamos.»"
+    "fr": "Ici, l'odeur de soufre est assez forte.",
+    "ja": "ここは硫黄のにおいがかなり強いです。",
+    "ro": "Koko wa iō no nioi ga kanari tsuyoi desu."
    },
    {
-    "fr": "J'en ai eu des frissons.",
-    "pt": "Fiquei todo arrepiado."
+    "fr": "Est-ce qu'on peut traverser le lac Ashi en bateau pirate ?",
+    "ja": "芦ノ湖は海賊船で渡れますか？",
+    "ro": "Ashinoko wa kaizokusen de wataremasu ka?"
    },
    {
-    "fr": "Les étudiants remplissaient déjà les terrasses du centre.",
-    "pt": "Os estudantes já enchiam as esplanadas do centro."
+    "fr": "Je n'arrive pas à lire ce panneau en kanji.",
+    "ja": "この漢字の看板が読めません。",
+    "ro": "Kono kanji no kanban ga yomemasen."
    },
    {
-    "fr": "Au déjeuner, on a mangé des migas avec du porc.",
-    "pt": "Ao almoço, comemos migas com carne de porco."
+    "fr": "Ici, on peut payer avec la carte de transport.",
+    "ja": "ここは交通カードで払えます。",
+    "ro": "Koko wa kōtsū kādo de haraemasu."
    },
    {
-    "fr": "Il nous reste encore une journée pour visiter les environs.",
-    "pt": "Ainda temos mais um dia para conhecer os arredores."
+    "fr": "Avec ce pass, on peut faire tout le tour de Hakone en une journée.",
+    "ja": "このパスで、一日で箱根を一周できます。",
+    "ro": "Kono pasu de, ichinichi de Hakone o isshū dekimasu."
    }
   ],
   "tip": {
-   "title": "« Já » et « ainda » : déjà et encore",
-   "example": "Tu as déjà visité la chapelle des os ? — <b>Já</b> visitaste a Capela dos Ossos?",
-   "body": "« Já » signifie « déjà » et se place en général devant le verbe : « Já visitaste? » (tu as déjà visité ?). « Ainda » veut dire « encore, toujours » : « Ainda está de pé » (il est toujours debout). Attention aux combinaisons : « ainda não » = pas encore, et « já não » = ne… plus : « Já não chove ». Ces deux mots attirent le pronom devant le verbe : « Já me disseram », « Ainda o tenho »."
+   "title": "La forme potentielle : pouvoir faire",
+   "example": "À Ōwakudani, on peut manger des œufs noirs. — 大涌谷では黒たまごが<b>食べられます</b>。",
+   "exampleRo": "Ōwakudani de wa kuro tamago ga taberaremasu.",
+   "lit": "Ōwakudani · [lieu] [thème] · noir · œuf · [sujet] · pouvoir manger (poli)",
+   "body": "Pour dire « pouvoir faire », le japonais transforme le verbe lui-même. Pour les verbes comme « taberu », manger, on remplace « ru » par « rareru » : « taberareru », et au poli « taberaremasu ». Pour les autres verbes, le son final passe en « e » puis on ajoute « ru » : « yomu » devient « yomeru », « noru » devient « noreru », « aruku » devient « arukeru ». « Kuro tamago ga taberaremasu » se dit littéralement : œuf noir, sujet, mangeable. Remarquez que l'objet prend souvent « ga » au lieu de « o ». Et « suru », faire, devient tout simplement « dekiru ». Astuce : retenez le « e » du potentiel comme le « e » de « c'est possible »."
   }
  },
  {
-  "title": "Monsaraz et le vin de l'Alentejo",
+  "title": "Une nuit dans un ryokan",
   "phrases": [
    {
-    "fr": "Monsaraz est un village fortifié perché sur une colline.",
-    "pt": "Monsaraz é uma aldeia fortificada no alto de um monte."
+    "fr": "L'hôtesse nous accueille agenouillée dans l'entrée.",
+    "ja": "仲居さんが玄関で正座して迎えてくれます。",
+    "ro": "Nakai san ga genkan de seiza shite mukaete kuremasu."
    },
    {
-    "fr": "Ses ruelles en schiste n'ont presque pas changé depuis des siècles.",
-    "pt": "As ruas de xisto quase não mudaram ao longo dos séculos."
+    "fr": "On retire ses chaussures avant de marcher sur les tatamis.",
+    "ja": "畳に上がる前に靴を脱ぎます。",
+    "ro": "Tatami ni agaru mae ni kutsu o nugimasu."
    },
    {
-    "fr": "D'en haut, on voit l'immense lac d'Alqueva.",
-    "pt": "Lá de cima, vê-se o enorme lago do Alqueva."
+    "fr": "De notre chambre, on voit un petit jardin.",
+    "ja": "部屋から小さな庭が見えます。",
+    "ro": "Heya kara chiisana niwa ga miemasu."
    },
    {
-    "fr": "L'après-midi, on a visité une cave près de Reguengos.",
-    "pt": "À tarde, visitámos uma adega perto de Reguengos."
+    "fr": "Du thé vert et des douceurs nous attendent sur la table.",
+    "ja": "テーブルに緑茶とお菓子が置いてあります。",
+    "ro": "Tēburu ni ryokucha to okashi ga oite arimasu."
    },
    {
-    "fr": "Le vigneron nous a expliqué comment on fait le vin en jarre d'argile.",
-    "pt": "O produtor explicou-nos como se faz o vinho de talha."
+    "fr": "On porte le yukata avec le pan gauche par-dessus.",
+    "ja": "浴衣は左側を上にして着ます。",
+    "ro": "Yukata wa hidarigawa o ue ni shite kimasu."
    },
    {
-    "fr": "Ici, on le fait encore comme à l'époque des Romains.",
-    "pt": "Aqui ainda se faz como no tempo dos romanos."
+    "fr": "À sept heures, on dîne dans la chambre.",
+    "ja": "七時に部屋で夕食をいただきます。",
+    "ro": "Shichiji ni heya de yūshoku o itadakimasu."
    },
    {
-    "fr": "J'ai trouvé le rouge plus rond que le blanc.",
-    "pt": "Achei o tinto mais redondo do que o branco."
+    "fr": "Il y a plus de dix petits plats différents.",
+    "ja": "小さな料理が十品以上あります。",
+    "ro": "Chiisana ryōri ga juppin ijō arimasu."
    },
    {
-    "fr": "On a acheté deux bouteilles pour les rapporter chez nous.",
-    "pt": "Comprámos duas garrafas para levar para casa."
+    "fr": "Pendant notre bain, on nous a préparé les futons.",
+    "ja": "お風呂の間に、布団を敷いてくれました。",
+    "ro": "Ofuro no aida ni, futon o shiite kuremashita."
    },
    {
-    "fr": "Le soir, des hommes chantaient du cante alentejano au café du village.",
-    "pt": "À noite, um grupo de homens cantava cante alentejano no café da aldeia."
+    "fr": "Le petit-déjeuner japonais comporte poisson grillé et soupe miso.",
+    "ja": "和朝食には焼き魚と味噌汁があります。",
+    "ro": "Wachōshoku ni wa yakizakana to misoshiru ga arimasu."
    },
    {
-    "fr": "On a dormi dans une maison d'hôtes à l'intérieur des remparts.",
-    "pt": "Ficámos numa casa de turismo rural dentro das muralhas."
+    "fr": "On a dormi comme des loirs sur ces futons.",
+    "ja": "布団でぐっすり眠れました。",
+    "ro": "Futon de gussuri nemuremashita."
    }
   ]
  },
  {
-  "title": "Un échange de langues à l'auberge",
+  "title": "Les règles de l'onsen",
   "phrases": [
    {
-    "fr": "Notre auberge de jeunesse organise un échange de langues le mardi soir.",
-    "pt": "A nossa pousada da juventude organiza um intercâmbio de línguas à terça à noite."
+    "fr": "On se lave entièrement avant d'entrer dans l'eau.",
+    "ja": "お湯に入る前に、体をきれいに洗います。",
+    "ro": "Oyu ni hairu mae ni, karada o kirei ni araimasu."
    },
    {
-    "fr": "Chacun parle sa langue pendant une demi-heure, puis on inverse.",
-    "pt": "Cada um fala a sua língua durante meia hora, e depois trocamos."
+    "fr": "La serviette ne doit pas toucher l'eau du bain.",
+    "ja": "タオルをお湯に入れてはいけません。",
+    "ro": "Taoru o oyu ni irete wa ikemasen."
    },
    {
-    "fr": "Je me suis assis à côté d'une étudiante de Beja.",
-    "pt": "Sentei-me ao lado de uma estudante de Beja."
+    "fr": "Beaucoup de gens la posent sur leur tête.",
+    "ja": "頭の上にタオルをのせる人が多いです。",
+    "ro": "Atama no ue ni taoru o noseru hito ga ōi desu."
    },
    {
-    "fr": "Elle voulait améliorer son français avant de partir en stage.",
-    "pt": "Ela queria melhorar o francês antes de ir fazer um estágio."
+    "fr": "Les bains des hommes et des femmes sont séparés.",
+    "ja": "男湯と女湯は分かれています。",
+    "ro": "Otokoyu to onnayu wa wakarete imasu."
    },
    {
-    "fr": "De mon côté, j'avais du mal avec les sons nasaux du portugais.",
-    "pt": "Da minha parte, tinha dificuldade com os sons nasais do português."
+    "fr": "Le rideau bleu, c'est le côté des hommes.",
+    "ja": "青いのれんが男湯です。",
+    "ro": "Aoi noren ga otokoyu desu."
    },
    {
-    "fr": "Elle m'a appris à prononcer « pão » correctement.",
-    "pt": "Ensinou-me a dizer «pão» como deve ser."
+    "fr": "Depuis le bain en plein air, on voit les montagnes sous la neige.",
+    "ja": "露天風呂から雪の山が見えます。",
+    "ro": "Rotenburo kara yuki no yama ga miemasu."
    },
    {
-    "fr": "On a ri de nos erreurs pendant toute la soirée.",
-    "pt": "Rimo-nos dos nossos erros a noite toda."
+    "fr": "L'eau dépasse les quarante-deux degrés.",
+    "ja": "お湯は四十二度以上あります。",
+    "ro": "Oyu wa yonjūni do ijō arimasu."
    },
    {
-    "fr": "Un pêcheur du coin m'a appris quelques expressions alentejanas.",
-    "pt": "Um pescador da terra ensinou-me umas expressões alentejanas."
+    "fr": "Ne restez pas trop longtemps, vous risquez un malaise.",
+    "ja": "長く入りすぎないでください。のぼせますよ。",
+    "ro": "Nagaku hairisuginaide kudasai. Nobosemasu yo."
    },
    {
-    "fr": "On a échangé nos numéros pour continuer par message.",
-    "pt": "Trocámos números para continuar por mensagem."
+    "fr": "Après le bain, rien de tel qu'un café au lait bien frais !",
+    "ja": "お風呂の後は冷たいコーヒー牛乳です！",
+    "ro": "Ofuro no ato wa tsumetai kōhī gyūnyū desu!"
    },
    {
-    "fr": "J'ai l'impression d'avoir plus progressé ce soir qu'en un mois.",
-    "pt": "Sinto que aprendi mais esta noite do que num mês inteiro."
+    "fr": "Certains onsen refusent les personnes tatouées.",
+    "ja": "タトゥーがあると、入れない温泉もあります。",
+    "ro": "Tatū ga aru to, hairenai onsen mo arimasu."
    }
   ]
  },
  {
-  "title": "Un bus de nuit vers l'Algarve",
+  "title": "Le mont Fuji à Kawaguchiko",
   "phrases": [
    {
-    "fr": "On a pris le dernier bus de la journée pour rejoindre Lagos.",
-    "pt": "Apanhámos o último autocarro do dia para ir para Lagos."
+    "fr": "Ce matin, le mont Fuji se voit très nettement.",
+    "ja": "今朝は富士山がはっきり見えます。",
+    "ro": "Kesa wa Fujisan ga hakkiri miemasu."
    },
    {
-    "fr": "Le départ était prévu à onze heures du soir.",
-    "pt": "A partida estava marcada para as onze da noite."
+    "fr": "Le Fuji se reflète dans le lac.",
+    "ja": "湖に富士山が映っています。",
+    "ro": "Mizuumi ni Fujisan ga utsutte imasu."
    },
    {
-    "fr": "J'ai acheté le billet au guichet de la gare routière.",
-    "pt": "Comprei o bilhete na bilheteira do terminal rodoviário."
+    "fr": "Kawaguchiko est l'un des cinq lacs du Fuji.",
+    "ja": "河口湖は富士五湖の一つです。",
+    "ro": "Kawaguchiko wa Fuji goko no hitotsu desu."
    },
    {
-    "fr": "Le chauffeur a rangé nos sacs à dos dans la soute.",
-    "pt": "O motorista arrumou as nossas mochilas na bagageira."
+    "fr": "On a loué des vélos et fait le tour du lac.",
+    "ja": "自転車を借りて、湖を一周しました。",
+    "ro": "Jitensha o karite, mizuumi o isshū shimashita."
    },
    {
-    "fr": "Pardon, cette place est occupée ?",
-    "pt": "Desculpe, este lugar está ocupado?"
+    "fr": "La vue depuis la pagode Chūreitō est la plus célèbre.",
+    "ja": "忠霊塔からの景色が一番有名です。",
+    "ro": "Chūreitō kara no keshiki ga ichiban yūmei desu."
    },
    {
-    "fr": "Mon voisin ronflait et je n'arrivais pas à dormir.",
-    "pt": "O senhor ao meu lado ressonava e eu não conseguia dormir."
+    "fr": "Pour y arriver, on gravit presque quatre cents marches.",
+    "ja": "四百段近くの階段を上ります。",
+    "ro": "Yonhyakudan chikaku no kaidan o noborimasu."
    },
    {
-    "fr": "On s'est arrêtés vingt minutes sur une aire de service.",
-    "pt": "Parámos vinte minutos numa área de serviço."
+    "fr": "Au printemps, on voit les cerisiers et le Fuji ensemble.",
+    "ja": "春は桜と富士山がいっしょに見えます。",
+    "ro": "Haru wa sakura to Fujisan ga issho ni miemasu."
    },
    {
-    "fr": "J'en ai profité pour boire un café et me dégourdir les jambes.",
-    "pt": "Aproveitei para beber um café e esticar as pernas."
+    "fr": "J'ai pris plus de cent photos ce matin.",
+    "ja": "今朝、写真を百枚以上撮りました。",
+    "ro": "Kesa, shashin o hyakumai ijō torimashita."
    },
    {
-    "fr": "Dehors, on ne voyait que des oliviers sous la lune.",
-    "pt": "Lá fora, só se viam oliveiras ao luar."
+    "fr": "À midi, des nuages ont caché le sommet.",
+    "ja": "昼に、雲が山頂を隠しました。",
+    "ro": "Hiru ni, kumo ga sanchō o kakushimashita."
    },
    {
-    "fr": "On est arrivés à l'aube, complètement épuisés.",
-    "pt": "Chegámos de madrugada, completamente estoirados."
+    "fr": "Ce soir, on mange des hōtō, les grosses nouilles de la région.",
+    "ja": "今晩は名物のほうとうを食べます。",
+    "ro": "Konban wa meibutsu no hōtō o tabemasu."
    }
   ]
  },
  {
-  "title": "Une grève des transports",
+  "title": "Préparer l'ascension du Fuji",
   "phrases": [
    {
-    "fr": "Ce matin, il y a une grève des transports dans toute la région.",
-    "pt": "Hoje de manhã há uma greve dos transportes em toda a região."
+    "fr": "La saison d'ascension du Fuji, c'est surtout juillet et août.",
+    "ja": "富士山の登山シーズンは主に七月と八月です。",
+    "ro": "Fujisan no tozan shīzun wa omo ni shichigatsu to hachigatsu desu."
    },
    {
-    "fr": "Le bus pour Mértola ne passera pas aujourd'hui.",
-    "pt": "O autocarro para Mértola hoje não passa."
+    "fr": "On commence à monter depuis la cinquième station en fin d'après-midi.",
+    "ja": "夕方、五合目から登り始めます。",
+    "ro": "Yūgata, gogōme kara noborihajimemasu."
    },
    {
-    "fr": "On a attendu à l'arrêt pendant plus d'une heure.",
-    "pt": "Esperámos na paragem durante mais de uma hora."
+    "fr": "Si on arrive au refuge à huit heures du soir, on pourra dormir un peu.",
+    "ja": "夜八時に山小屋に着いたら、少し寝られます。",
+    "ro": "Yoru hachiji ni yamagoya ni tsuitara, sukoshi neraremasu."
    },
    {
-    "fr": "Un monsieur nous a expliqué que la grève était pour de meilleurs salaires.",
-    "pt": "Um senhor explicou-nos que a greve era por melhores salários."
+    "fr": "Une fois au sommet, on regardera le lever du soleil.",
+    "ja": "頂上に着いたら、ご来光を見ます。",
+    "ro": "Chōjō ni tsuitara, goraikō o mimasu."
    },
    {
-    "fr": "On a décidé de partager un taxi avec un couple de Faro.",
-    "pt": "Decidimos partilhar um táxi com um casal de Faro."
+    "fr": "S'il pleut, on annule l'ascension.",
+    "ja": "雨が降ったら、登山はやめます。",
+    "ro": "Ame ga futtara, tozan wa yamemasu."
    },
    {
-    "fr": "Le chauffeur est passé par les petites routes de l'intérieur pour éviter les travaux.",
-    "pt": "O taxista passou por estradinhas do interior para fugir às obras."
+    "fr": "Si vous avez mal à la tête, redescendez tout de suite.",
+    "ja": "頭が痛くなったら、すぐに下りてください。",
+    "ro": "Atama ga itaku nattara, sugu ni orite kudasai."
    },
    {
-    "fr": "Le trajet nous a coûté trente euros par personne.",
-    "pt": "A viagem custou-nos trinta euros por pessoa."
+    "fr": "Même en été, il fait près de zéro degré au sommet.",
+    "ja": "夏でも頂上は零度近くになります。",
+    "ro": "Natsu demo chōjō wa reido chikaku ni narimasu."
    },
    {
-    "fr": "Ce n'est pas cher pour une course aussi longue.",
-    "pt": "Não é caro para uma viagem tão longa."
+    "fr": "J'ai acheté un bâton de marche en bois.",
+    "ja": "木の杖を買いました。",
+    "ro": "Ki no tsue o kaimashita."
    },
    {
-    "fr": "On a remercié le chauffeur pour sa patience.",
-    "pt": "Agradecemos ao taxista pela paciência."
+    "fr": "Dans les refuges, on peut faire marquer son bâton au fer chaud.",
+    "ja": "山小屋で杖に焼き印を押してもらえます。",
+    "ro": "Yamagoya de tsue ni yakiin o oshite moraemasu."
    },
    {
-    "fr": "Finalement, on est arrivés à Mértola juste à temps pour goûter une açorda.",
-    "pt": "Afinal, chegámos a Mértola mesmo a tempo para provar uma açorda."
+    "fr": "Une fois rentrés, on file directement à l'onsen !",
+    "ja": "帰ったら、すぐ温泉に行きましょう！",
+    "ro": "Kaettara, sugu onsen ni ikimashō!"
    }
   ],
   "tip": {
-   "title": "« Por » ou « para » ?",
-   "example": "Le chauffeur est passé par les petites routes de l'intérieur pour éviter les travaux. — O taxista passou <b>por</b> estradinhas do interior <b>para</b> fugir às obras.",
-   "body": "« Para » indique le but, la destination ou le destinataire : « o autocarro para Mértola », « para fugir às obras », « um café para mim ». « Por » exprime le passage, la cause, l'échange ou la répartition : « passar por », « trinta euros por pessoa », « obrigado pela paciência ». Avec l'article, « por » se contracte en « pelo, pela, pelos, pelas »."
+   "title": "« -tara » : si, quand, la condition",
+   "example": "S'il pleut, on annule l'ascension. — 雨が<b>降ったら</b>、登山はやめます。",
+   "exampleRo": "Ame ga futtara, tozan wa yamemasu.",
+   "lit": "pluie · [sujet] · tomber-si · ascension · [thème] · arrêter (poli)",
+   "body": "Pour dire « si » ou « quand », on prend le verbe au passé familier en « ta » et on ajoute simplement « ra ». « Futta », il a plu, devient « futtara », s'il pleut. « Ame ga futtara, tozan wa yamemasu » se dit littéralement : pluie, sujet, si elle tombe, ascension, thème, on arrête. La même forme sert aussi pour « quand » : « tsuitara », une fois arrivés, ou « kaettara », une fois rentrés. Ça marche aussi avec les adjectifs : « itakattara », si ça fait mal. Astuce : « tara » veut dire « une fois que c'est fait », comme si l'action était déjà passée dans votre tête."
   }
  },
  {
-  "title": "Un passeport égaré à Mértola",
+  "title": "Une cheville tordue en randonnée",
   "phrases": [
    {
-    "fr": "Je ne trouve mon passeport nulle part.",
-    "pt": "Não encontro o meu passaporte em lado nenhum."
+    "fr": "Je me suis tordu la cheville dans la descente.",
+    "ja": "下りで足首をひねりました。",
+    "ro": "Kudari de ashikubi o hinerimashita."
    },
    {
-    "fr": "Je l'avais encore hier soir à la pension.",
-    "pt": "Ainda o tinha ontem à noite na pensão."
+    "fr": "Tu arrives à marcher ?",
+    "ja": "歩けますか？",
+    "ro": "Arukemasu ka?"
    },
    {
-    "fr": "J'ai vidé mon sac à dos trois fois.",
-    "pt": "Esvaziei a mochila três vezes."
+    "fr": "Un peu, mais ça fait vraiment mal.",
+    "ja": "少しは歩けますが、とても痛いです。",
+    "ro": "Sukoshi wa arukemasu ga, totemo itai desu."
    },
    {
-    "fr": "La patronne de la pension a fouillé la chambre avec moi.",
-    "pt": "A dona da pensão procurou comigo no quarto."
+    "fr": "Asseyons-nous un moment sur ce rocher.",
+    "ja": "ちょっとこの岩に座りましょう。",
+    "ro": "Chotto kono iwa ni suwarimashō."
    },
    {
-    "fr": "Il faut déclarer la perte au poste de police.",
-    "pt": "É preciso participar a perda na esquadra da polícia."
+    "fr": "J'ai une bande dans mon sac à dos.",
+    "ja": "リュックに包帯があります。",
+    "ro": "Ryukku ni hōtai ga arimasu."
    },
    {
-    "fr": "L'agent a rempli un formulaire avec mes coordonnées.",
-    "pt": "O agente preencheu um formulário com os meus dados."
+    "fr": "Un autre randonneur est venu nous aider.",
+    "ja": "ほかの登山者が手伝ってくれました。",
+    "ro": "Hoka no tozansha ga tetsudatte kuremashita."
    },
    {
-    "fr": "Il m'a remis une déclaration de perte à garder sur moi.",
-    "pt": "Deu-me uma declaração de perda para andar comigo."
+    "fr": "On redescend doucement jusqu'au parking.",
+    "ja": "駐車場までゆっくり下ります。",
+    "ro": "Chūshajō made yukkuri orimasu."
    },
    {
-    "fr": "Ensuite, j'ai appelé le consulat pour un document provisoire.",
-    "pt": "Depois, liguei para o consulado por causa de um documento provisório."
+    "fr": "Y a-t-il un médecin ouvert le dimanche près d'ici ?",
+    "ja": "この近くに日曜日もやっている病院はありますか？",
+    "ro": "Kono chikaku ni nichiyōbi mo yatte iru byōin wa arimasu ka?"
    },
    {
-    "fr": "Deux heures plus tard, le restaurant de la veille m'a téléphoné.",
-    "pt": "Duas horas depois, telefonaram-me do restaurante da véspera."
+    "fr": "Le médecin a dit que ce n'était pas cassé.",
+    "ja": "お医者さんは骨折ではないと言いました。",
+    "ro": "Oishasan wa kossetsu de wa nai to iimashita."
    },
    {
-    "fr": "Mon passeport était tombé sous la table où on avait dîné !",
-    "pt": "O meu passaporte tinha caído debaixo da mesa onde jantámos!"
+    "fr": "Je dois me reposer deux ou trois jours.",
+    "ja": "二、三日休まなければなりません。",
+    "ro": "Ni, sannichi yasumanakereba narimasen."
    }
   ]
  },
  {
-  "title": "Au frais dans la serra de Monchique",
+  "title": "Un sac oublié dans le train",
   "phrases": [
    {
-    "fr": "Pour fuir la chaleur, on est montés dans la serra de Monchique.",
-    "pt": "Para fugir ao calor, subimos à Serra de Monchique."
+    "fr": "J'ai laissé mon sac dans le train local.",
+    "ja": "普通電車にかばんを忘れました。",
+    "ro": "Futsū densha ni kaban o wasuremashita."
    },
    {
-    "fr": "La route tourne sans arrêt entre les eucalyptus et les chênes-lièges.",
-    "pt": "A estrada faz curvas sem parar entre eucaliptos e sobreiros."
+    "fr": "Je m'en suis aperçu sur le quai.",
+    "ja": "ホームで気がつきました。",
+    "ro": "Hōmu de ki ga tsukimashita."
    },
    {
-    "fr": "Au sommet de la Fóia, il faisait bien plus frais que sur la côte.",
-    "pt": "No alto da Fóia, estava muito mais fresco do que na costa."
+    "fr": "Allons tout de suite au bureau de la gare.",
+    "ja": "すぐ駅の事務室に行きましょう。",
+    "ro": "Sugu eki no jimushitsu ni ikimashō."
    },
    {
-    "fr": "Par temps clair, on peut voir jusqu'à la mer.",
-    "pt": "Com o céu limpo, consegue-se ver até ao mar."
+    "fr": "Dans quelle voiture étiez-vous ?",
+    "ja": "何号車に乗っていましたか？",
+    "ro": "Nangōsha ni notte imashita ka?"
    },
    {
-    "fr": "Au village, on a goûté une eau-de-vie d'arbouse.",
-    "pt": "Na vila, provámos aguardente de medronho."
+    "fr": "Dans la voiture trois, près de la porte.",
+    "ja": "三号車の、ドアの近くです。",
+    "ro": "Sangōsha no, doa no chikaku desu."
    },
    {
-    "fr": "C'était tellement fort que je me suis mis à tousser.",
-    "pt": "Era tão forte que comecei a tossir."
+    "fr": "Il ressemble à quoi, votre sac ?",
+    "ja": "どんなかばんですか？",
+    "ro": "Donna kaban desu ka?"
    },
    {
-    "fr": "Le patron du café la distille lui-même chaque automne.",
-    "pt": "O dono do café destila-a ele próprio todos os outonos."
+    "fr": "C'est un sac à dos noir avec un porte-clés en forme d'ours.",
+    "ja": "クマのキーホルダーがついた黒いリュックです。",
+    "ro": "Kuma no kīhorudā ga tsuita kuroi ryukku desu."
    },
    {
-    "fr": "Les thermes de Caldas de Monchique sont tout près d'ici.",
-    "pt": "As termas das Caldas de Monchique ficam aqui pertinho."
+    "fr": "L'employé téléphone à la gare du terminus.",
+    "ja": "駅員さんが終点の駅に電話します。",
+    "ro": "Ekiin san ga shūten no eki ni denwa shimasu."
    },
    {
-    "fr": "Une pause à l'ombre des arbres nous a fait beaucoup de bien.",
-    "pt": "Uma pausa à sombra das árvores soube-nos muito bem."
+    "fr": "Il a été retrouvé ! Vous pourrez le récupérer en gare d'Otaru.",
+    "ja": "見つかりました！小樽駅で受け取れます。",
+    "ro": "Mitsukarimashita! Otaru eki de uketoremasu."
    },
    {
-    "fr": "Demain matin, on redescendra vers la côte.",
-    "pt": "Amanhã de manhã, voltamos a descer para a costa."
+    "fr": "Au Japon, les objets perdus réapparaissent presque toujours.",
+    "ja": "日本では、なくした物がたいてい見つかります。",
+    "ro": "Nihon de wa, nakushita mono ga taitei mitsukarimasu."
    }
   ]
  },
@@ -4564,89 +6369,109 @@ const level2Module2Lessons = [
   "title": "Les derniers souvenirs",
   "phrases": [
    {
-    "fr": "Avant de partir, on doit encore acheter quelques souvenirs.",
-    "pt": "Antes de partir, ainda temos de comprar umas lembranças."
+    "fr": "Je dois acheter des souvenirs pour mes collègues.",
+    "ja": "同僚にお土産を買わなければなりません。",
+    "ro": "Dōryō ni omiyage o kawanakereba narimasen."
    },
    {
-    "fr": "Dans cette boutique, tout est fabriqué en liège.",
-    "pt": "Nesta loja, é tudo feito de cortiça."
+    "fr": "Ces biscuits blancs sont le grand classique de Hokkaido.",
+    "ja": "この白いクッキーは北海道の名物です。",
+    "ro": "Kono shiroi kukkī wa Hokkaidō no meibutsu desu."
    },
    {
-    "fr": "Ce sac en liège est léger et très résistant.",
-    "pt": "Esta mala de cortiça é leve e muito resistente."
+    "fr": "Chaque boîte contient douze biscuits emballés un par un.",
+    "ja": "一箱に十二枚入っていて、一枚ずつ包んであります。",
+    "ro": "Hitohako ni jūnimai haitte ite, ichimai zutsu tsutsunde arimasu."
    },
    {
-    "fr": "Je vais prendre ces deux azulejos pour ma mère.",
-    "pt": "Vou levar estes dois azulejos para a minha mãe."
+    "fr": "Ma mère adore le fromage de Furano.",
+    "ja": "母は富良野のチーズが大好きです。",
+    "ro": "Haha wa Furano no chīzu ga daisuki desu."
    },
    {
-    "fr": "Vous pourriez me les emballer séparément ?",
-    "pt": "Podia embrulhá-los em separado?"
+    "fr": "Il faut le garder au frais pendant le voyage.",
+    "ja": "旅行中は冷やしておかなければなりません。",
+    "ro": "Ryokōchū wa hiyashite okanakereba narimasen."
    },
    {
-    "fr": "Pour mon frère, j'ai trouvé une boîte de sardines au look rétro.",
-    "pt": "Para o meu irmão, encontrei uma lata de sardinhas com um ar antigo."
+    "fr": "Pourriez-vous me faire un paquet cadeau ?",
+    "ja": "プレゼント用に包んでもらえますか？",
+    "ro": "Purezento yō ni tsutsunde moraemasu ka?"
    },
    {
-    "fr": "La fleur de sel de Tavira fait un joli cadeau qui ne coûte pas cher.",
-    "pt": "A flor de sal de Tavira é uma boa prenda e não é cara."
+    "fr": "La valise est déjà presque pleine.",
+    "ja": "スーツケースはもうほとんどいっぱいです。",
+    "ro": "Sūtsukēsu wa mō hotondo ippai desu."
    },
    {
-    "fr": "Il me reste encore un peu de place dans la valise, mais pas beaucoup.",
-    "pt": "Ainda me sobra algum espaço na mala, mas pouco."
+    "fr": "On envoie un carton jusqu'à l'aéroport par livraison.",
+    "ja": "段ボールを一つ空港まで宅配便で送ります。",
+    "ro": "Danbōru o hitotsu kūkō made takuhaibin de okurimasu."
    },
    {
-    "fr": "Le vendeur m'a offert un sachet d'amandes caramélisées.",
-    "pt": "O vendedor ofereceu-me um saquinho de amêndoas caramelizadas."
+    "fr": "Ce service de livraison est vraiment pratique.",
+    "ja": "この宅配サービスはとても便利です。",
+    "ro": "Kono takuhai sābisu wa totemo benri desu."
    },
    {
-    "fr": "Chaque objet me rappellera un moment de ce voyage.",
-    "pt": "Cada objeto vai lembrar-me um momento desta viagem."
+    "fr": "Je pense que ce voyage dans le nord va me manquer.",
+    "ja": "北の旅がなつかしくなると思います。",
+    "ro": "Kita no tabi ga natsukashiku naru to omoimasu."
    }
   ]
  },
  {
-  "title": "Fin du module : un bilan de voyage",
+  "title": "Fin du module : un bilan",
   "phrases": [
    {
-    "fr": "Ce module nous a fait découvrir le sud du Portugal, de l'Algarve à l'Alentejo.",
-    "pt": "Este módulo levou-nos a descobrir o sul de Portugal, do Algarve ao Alentejo."
+    "fr": "Ce voyage nous a menés de Hokkaido jusqu'au pied du Fuji.",
+    "ja": "この旅で、北海道から富士山のふもとまで行きました。",
+    "ro": "Kono tabi de, Hokkaidō kara Fujisan no fumoto made ikimashita."
    },
    {
-    "fr": "On sait maintenant demander son chemin et comprendre la réponse.",
-    "pt": "Agora já sabemos pedir indicações e perceber a resposta."
+    "fr": "Je sais maintenant exprimer l'obligation en japonais.",
+    "ja": "日本語で「〜なければなりません」が言えるようになりました。",
+    "ro": "Nihongo de \"nakereba narimasen\" ga ieru yō ni narimashita."
    },
    {
-    "fr": "Les verbes au passé sortent de plus en plus naturellement.",
-    "pt": "Os verbos no passado saem cada vez com mais naturalidade."
+    "fr": "La forme potentielle nous a beaucoup servi en voyage.",
+    "ja": "可能形は旅行でとても役に立ちました。",
+    "ro": "Kanōkei wa ryokō de totemo yaku ni tachimashita."
    },
    {
-    "fr": "On fait encore des erreurs, mais elles ne nous font plus peur.",
-    "pt": "Ainda damos erros, mas já não nos assustam."
+    "fr": "Avec « tara », on peut parler de ce qui arrivera si…",
+    "ja": "「〜たら」で、もしもの話ができます。",
+    "ro": "\"Tara\" de, moshimo no hanashi ga dekimasu."
    },
    {
-    "fr": "« Por » et « para » sont un peu moins mystérieux qu'au début.",
-    "pt": "«Por» e «para» são um pouco menos misteriosos do que no início."
+    "fr": "Je pense que mon japonais a vraiment progressé.",
+    "ja": "私の日本語はかなり上手になったと思います。",
+    "ro": "Watashi no nihongo wa kanari jōzu ni natta to omoimasu."
    },
    {
-    "fr": "Chaque imprévu du voyage nous a fait progresser en portugais.",
-    "pt": "Cada imprevisto da viagem fez-nos avançar no português."
+    "fr": "Les imprévus ne me font plus peur.",
+    "ja": "もう予定外のことも怖くありません。",
+    "ro": "Mō yoteigai no koto mo kowaku arimasen."
    },
    {
-    "fr": "On ose davantage parler avec les gens qu'on rencontre.",
-    "pt": "Temos mais coragem para falar com as pessoas que conhecemos."
+    "fr": "J'ai envie de retourner dans un onsen du Tohoku.",
+    "ja": "また東北の温泉に行きたいです。",
+    "ro": "Mata Tōhoku no onsen ni ikitai desu."
    },
    {
-    "fr": "Bravo pour tout le chemin parcouru dans ce module.",
-    "pt": "Parabéns por todo o caminho percorrido neste módulo."
+    "fr": "Le prochain module parlera de conversation entre amis.",
+    "ja": "次は友達との会話を勉強します。",
+    "ro": "Tsugi wa tomodachi to no kaiwa o benkyō shimasu."
    },
    {
-    "fr": "Prends le temps de réécouter tes leçons préférées.",
-    "pt": "Tira tempo para voltar a ouvir as tuas lições preferidas."
+    "fr": "Prenons le temps de souffler un peu avant la suite.",
+    "ja": "次に進む前に、少し休みましょう。",
+    "ro": "Tsugi ni susumu mae ni, sukoshi yasumimashō."
    },
    {
-    "fr": "Le prochain module nous attend avec de nouvelles conversations.",
-    "pt": "O próximo módulo espera-nos com novas conversas."
+    "fr": "Bravo pour ce beau voyage, et à très bientôt !",
+    "ja": "おつかれさまでした。またすぐに会いましょう！",
+    "ro": "Otsukaresama deshita. Mata sugu ni aimashō!"
    }
   ]
  }
@@ -4654,882 +6479,1082 @@ const level2Module2Lessons = [
 
 const level2Module3Lessons = [
  {
-  "title": "Discuter de l'actualité",
+  "title": "Retrouvailles à Fukuoka",
   "phrases": [
    {
-    "fr": "Tu as lu le journal ce matin au café ?",
-    "pt": "Leste o jornal hoje de manhã no café?"
+    "fr": "Ça fait vraiment longtemps, Kenta !",
+    "ja": "健太さん、本当にお久しぶりです。",
+    "ro": "Kenta-san, hontō ni ohisashiburi desu."
    },
    {
-    "fr": "Oui, on parle beaucoup des nouveaux travaux du métro de Porto.",
-    "pt": "Sim, fala-se muito das novas obras do metro do Porto."
+    "fr": "Je suis arrivé à Fukuoka hier soir.",
+    "ja": "昨日の夜、福岡に着きました。",
+    "ro": "Kinō no yoru, Fukuoka ni tsukimashita."
    },
    {
-    "fr": "Il paraît que la ligne va arriver jusqu'à la Foz.",
-    "pt": "Parece que a linha vai chegar até à Foz."
+    "fr": "Tu n'as pas changé du tout.",
+    "ja": "全然変わっていませんね。",
+    "ro": "Zenzen kawatte imasen ne."
    },
    {
-    "fr": "Ce serait pratique pour les gens du quartier.",
-    "pt": "Seria prático para as pessoas do bairro."
+    "fr": "Tu habites toujours près de la gare de Hakata ?",
+    "ja": "まだ博多駅の近くに住んでいますか？",
+    "ro": "Mada Hakata eki no chikaku ni sunde imasu ka?"
    },
    {
-    "fr": "Mais les travaux vont durer au moins deux ans.",
-    "pt": "Mas as obras vão durar pelo menos dois anos."
+    "fr": "Non, j'ai déménagé à Tenjin l'année dernière.",
+    "ja": "いいえ、去年天神に引っ越しました。",
+    "ro": "Iie, kyonen Tenjin ni hikkoshimashita."
    },
    {
-    "fr": "Le patron de la tasca n'arrêtait pas d'en parler.",
-    "pt": "O dono da tasca não parava de falar disso."
+    "fr": "Tenjin, c'est pratique pour sortir le soir.",
+    "ja": "天神は夜出かけるのに便利です。",
+    "ro": "Tenjin wa yoru dekakeru no ni benri desu."
    },
    {
-    "fr": "Lui, il pense surtout aux clients qu'il va perdre.",
-    "pt": "Ele pensa sobretudo nos clientes que vai perder."
+    "fr": "Tu as le temps de prendre un café maintenant ?",
+    "ja": "今、コーヒーを飲む時間がありますか？",
+    "ro": "Ima, kōhī o nomu jikan ga arimasu ka?"
    },
    {
-    "fr": "Bon, on verra bien comment ça se termine.",
-    "pt": "Bem, logo se vê como acaba."
+    "fr": "Bien sûr, je connais un bon café près d'ici.",
+    "ja": "もちろんです。この近くにいい喫茶店を知っています。",
+    "ro": "Mochiron desu. Kono chikaku ni ii kissaten o shitte imasu."
    },
    {
-    "fr": "Tu as entendu parler de la grève des bus ?",
-    "pt": "Ouviste falar da greve dos autocarros?"
+    "fr": "On a tellement de choses à se raconter.",
+    "ja": "話したいことがたくさんあります。",
+    "ro": "Hanashitai koto ga takusan arimasu."
    },
    {
-    "fr": "Oui, demain je vais devoir aller au travail à pied.",
-    "pt": "Sim, amanhã vou ter de ir a pé para o trabalho."
+    "fr": "Je suis vraiment content de te revoir.",
+    "ja": "また会えて本当にうれしいです。",
+    "ro": "Mata aete hontō ni ureshii desu."
    }
   ]
  },
  {
-  "title": "Donner son avis",
+  "title": "Parler comme entre amis",
   "phrases": [
    {
-    "fr": "À ton avis, quelle est la meilleure tasca du quartier ?",
-    "pt": "Na tua opinião, qual é a melhor tasca do bairro?"
+    "fr": "Salut Yui, tu vas bien ?",
+    "ja": "ゆい、元気？",
+    "ro": "Yui, genki?"
    },
    {
-    "fr": "Je trouve que celle de la rue d'à côté est la plus authentique.",
-    "pt": "Acho que a da rua ao lado é a mais autêntica."
+    "fr": "Ouais, ça va. J'ai fini le boulot.",
+    "ja": "うん、元気。仕事が終わったよ。",
+    "ro": "Un, genki. Shigoto ga owatta yo."
    },
    {
-    "fr": "Tu ne trouves pas que le vin est un peu cher ?",
-    "pt": "Não achas que o vinho é um bocado caro?"
+    "fr": "Ça te dit d'aller manger des ramen ce soir ?",
+    "ja": "今晩、ラーメン食べに行かない？",
+    "ro": "Konban, rāmen tabe ni ikanai?"
    },
    {
-    "fr": "Je ne crois pas, ça reste raisonnable pour Porto.",
-    "pt": "Acho que não, continua a ser razoável para o Porto."
+    "fr": "Bonne idée, j'ai trop faim !",
+    "ja": "いいね、おなかすいた！",
+    "ro": "Ii ne, onaka suita!"
    },
    {
-    "fr": "Qu'est-ce que tu penses des francesinhas d'ici ?",
-    "pt": "O que é que achas das francesinhas daqui?"
+    "fr": "Tu connais une bonne adresse à Nakasu ?",
+    "ja": "中洲でおいしい店、知ってる？",
+    "ro": "Nakasu de oishii mise, shitte ru?"
    },
    {
-    "fr": "Pour moi, la sauce est un peu trop épicée.",
-    "pt": "Para mim, o molho é um bocadinho picante demais."
+    "fr": "Oui, il y a un super stand de ramen tonkotsu.",
+    "ja": "うん、すごくおいしい豚骨ラーメンの屋台があるよ。",
+    "ro": "Un, sugoku oishii tonkotsu rāmen no yatai ga aru yo."
    },
    {
-    "fr": "Je suis d'accord avec toi sur ce point.",
-    "pt": "Concordo contigo nesse ponto."
+    "fr": "On se retrouve à sept heures devant la gare ?",
+    "ja": "七時に駅の前で待ち合わせる？",
+    "ro": "Shichiji ni eki no mae de machiawaseru?"
    },
    {
-    "fr": "Moi, je vois les choses autrement.",
-    "pt": "Eu vejo as coisas de outra maneira."
+    "fr": "Ça marche, je ne serai pas en retard.",
+    "ja": "了解、遅れないよ。",
+    "ro": "Ryōkai, okurenai yo."
    },
    {
-    "fr": "Chacun ses goûts, après tout.",
-    "pt": "Afinal, cada um tem os seus gostos."
+    "fr": "Avec toi, pas besoin de parler poliment.",
+    "ja": "ゆいとは丁寧に話さなくてもいいね。",
+    "ro": "Yui to wa teinei ni hanasanakute mo ii ne."
    },
    {
-    "fr": "En fait, on a raison tous les deux.",
-    "pt": "No fundo, temos os dois razão."
+    "fr": "Bon, à plus tard alors !",
+    "ja": "じゃあ、またあとでね！",
+    "ro": "Jā, mata ato de ne!"
    }
   ],
   "tip": {
-   "title": "« Achar que » : donner son avis",
-   "example": "Je trouve que celle de la rue d'à côté est la plus authentique. — <b>Acho que</b> a da rua ao lado é a mais autêntica.",
-   "body": "Au Portugal, le verbe le plus courant pour donner son avis est « achar que » : « acho que » = je trouve que, je pense que. Pour demander l'avis de quelqu'un : « O que é que achas? » (qu'en penses-tu ?). Pour répondre brièvement : « Acho que sim » (je crois que oui), « Acho que não » (je ne crois pas). Plus soutenu : « penso que » ou « na minha opinião »."
+   "title": "Le registre familier entre amis",
+   "example": "Ça te dit d'aller manger des ramen ce soir ? — 今晩、ラーメン食べに<b>行かない</b>？",
+   "exampleRo": "Konban, rāmen tabe ni ikanai?",
+   "lit": "ce soir · ramen · manger · [but] · aller-pas · [question montante]",
+   "body": "Entre amis ou en famille, les Japonais abandonnent les terminaisons polies « desu » et « masu » et parlent avec les formes simples que vous connaissez déjà : forme du dictionnaire, forme en « -nai », forme en « -ta ». Ainsi « ikimasen ka », on n'y va pas, devient simplement « ikanai », dit avec une intonation montante et sans le « ka » de la question. Konban, rāmen tabe ni ikanai se décompose ainsi : ce soir, ramen, manger, pour, ne pas aller ? Les particules comme « o » disparaissent souvent, « desu » saute ou devient « da », et on ajoute volontiers « yo » ou « ne » : « genki » pour ça va, « un, genki da yo » pour ouais, ça va, « oishii ne » pour c'est bon, hein. Attention, ce registre est réservé aux proches : avec un collègue plus âgé ou un inconnu, restez à la forme polie. Pour retenir : plus on est proche, plus la phrase raccourcit."
   }
  },
  {
-  "title": "Changer de travail",
+  "title": "Une soirée au yatai",
   "phrases": [
    {
-    "fr": "Je pense sérieusement à quitter mon poste à la banque.",
-    "pt": "Estou a pensar seriamente em deixar o meu emprego no banco."
+    "fr": "Les yatai de Nakasu sont alignés le long de la rivière.",
+    "ja": "中洲の屋台は川沿いに並んでいます。",
+    "ro": "Nakasu no yatai wa kawazoi ni narande imasu."
    },
    {
-    "fr": "Depuis quand tu n'es plus heureux là-bas ?",
-    "pt": "Desde quando é que deixaste de estar feliz lá?"
+    "fr": "Il n'y a que huit places, serrons-nous un peu.",
+    "ja": "席は八つしかありませんから、詰めて座りましょう。",
+    "ro": "Seki wa yattsu shika arimasen kara, tsumete suwarimashō."
    },
    {
-    "fr": "Depuis que mon chef a changé, l'ambiance est devenue lourde.",
-    "pt": "Desde que o meu chefe mudou, o ambiente ficou pesado."
+    "fr": "Le patron est bavard et très gentil.",
+    "ja": "店の主人はおしゃべりで、とても親切です。",
+    "ro": "Mise no shujin wa oshaberi de, totemo shinsetsu desu."
    },
    {
-    "fr": "J'ai reçu une offre d'une entreprise de Matosinhos.",
-    "pt": "Recebi uma proposta de uma empresa de Matosinhos."
+    "fr": "Pour moi, des yakitori et une bière pression.",
+    "ja": "私は焼き鳥と生ビールにします。",
+    "ro": "Watashi wa yakitori to nama bīru ni shimasu."
    },
    {
-    "fr": "Le salaire est un peu plus bas, mais les horaires sont meilleurs.",
-    "pt": "O ordenado é um pouco mais baixo, mas o horário é melhor."
+    "fr": "On a discuté avec des employés de bureau assis à côté.",
+    "ja": "隣に座っていた会社員と話しました。",
+    "ro": "Tonari ni suwatte ita kaishain to hanashimashita."
    },
    {
-    "fr": "Et puis je pourrais y aller à vélo par le bord de mer.",
-    "pt": "E além disso podia ir de bicicleta pela marginal."
+    "fr": "Ils nous ont recommandé les ramen d'un yatai voisin.",
+    "ja": "近くの屋台のラーメンを勧めてくれました。",
+    "ro": "Chikaku no yatai no rāmen o susumete kuremashita."
    },
    {
-    "fr": "Tu en as déjà parlé à ta femme ?",
-    "pt": "Já falaste disso com a tua mulher?"
+    "fr": "Ici, le bouillon tonkotsu est très épais.",
+    "ja": "ここの豚骨スープはとても濃いです。",
+    "ro": "Koko no tonkotsu sūpu wa totemo koi desu."
    },
    {
-    "fr": "Oui, elle m'encourage à tenter ma chance.",
-    "pt": "Sim, ela incentiva-me a tentar a sorte."
+    "fr": "On peut commander une portion de nouilles en plus.",
+    "ja": "替え玉を頼むことができます。",
+    "ro": "Kaedama o tanomu koto ga dekimasu."
    },
    {
-    "fr": "Avant de signer, demande à voir le contrat.",
-    "pt": "Antes de assinares, pede para ver o contrato."
+    "fr": "Je n'avais jamais mangé dehors comme ça.",
+    "ja": "こんなふうに外で食べたことはありませんでした。",
+    "ro": "Konna fū ni soto de tabeta koto wa arimasen deshita."
    },
    {
-    "fr": "Je donnerai ma réponse vendredi.",
-    "pt": "Vou dar a minha resposta na sexta-feira."
+    "fr": "C'était une soirée vraiment inoubliable.",
+    "ja": "本当に忘れられない夜でした。",
+    "ro": "Hontō ni wasurerarenai yoru deshita."
    }
   ]
  },
  {
-  "title": "Parler d'environnement",
+  "title": "Le hanami au parc Maizuru",
   "phrases": [
    {
-    "fr": "Tu as vu tout ce plastique sur la plage de Matosinhos ?",
-    "pt": "Viste tanto plástico na praia de Matosinhos?"
+    "fr": "Les cerisiers du parc Maizuru sont en pleine floraison.",
+    "ja": "舞鶴公園の桜が満開です。",
+    "ro": "Maizuru kōen no sakura ga mankai desu."
    },
    {
-    "fr": "C'est triste, surtout après une tempête.",
-    "pt": "É triste, sobretudo depois de um temporal."
+    "fr": "Faisons un hanami samedi avec les collègues.",
+    "ja": "土曜日に同僚とお花見をしましょう。",
+    "ro": "Doyōbi ni dōryō to ohanami o shimashō."
    },
    {
-    "fr": "Samedi, une association organise un nettoyage de la plage.",
-    "pt": "No sábado, uma associação vai organizar uma limpeza da praia."
+    "fr": "Si on n'arrive pas tôt, on n'aura pas de bonne place.",
+    "ja": "早く行かなかったら、いい場所が取れません。",
+    "ro": "Hayaku ikanakattara, ii basho ga toremasen."
    },
    {
-    "fr": "Ça te dirait de venir avec moi ?",
-    "pt": "Queres vir comigo?"
+    "fr": "J'apporte une bâche bleue et des boissons.",
+    "ja": "ブルーシートと飲み物を持っていきます。",
+    "ro": "Burū shīto to nomimono o motte ikimasu."
    },
    {
-    "fr": "Moi, je trie mes déchets depuis des années.",
-    "pt": "Eu separo o lixo há anos."
+    "fr": "Qui s'occupe des bentō ?",
+    "ja": "お弁当はだれが用意しますか？",
+    "ro": "Obentō wa dare ga yōi shimasu ka?"
    },
    {
-    "fr": "Au bureau, on a enfin installé des poubelles de tri.",
-    "pt": "No escritório, finalmente puseram ecopontos."
+    "fr": "Mme Tanaka a dit qu'elle ferait des onigiri.",
+    "ja": "田中さんがおにぎりを作ると言っていました。",
+    "ro": "Tanaka-san ga onigiri o tsukuru to itte imashita."
    },
    {
-    "fr": "Pour aller en ville, je prends le métro plutôt que la voiture.",
-    "pt": "Para ir à Baixa, prefiro apanhar o metro a levar o carro."
+    "fr": "Les pétales tombent comme de la neige.",
+    "ja": "花びらが雪のように散っています。",
+    "ro": "Hanabira ga yuki no yō ni chitte imasu."
    },
    {
-    "fr": "Le Douro est plus propre qu'il y a vingt ans.",
-    "pt": "O Douro está mais limpo do que há vinte anos."
+    "fr": "Le soir, les cerisiers sont illuminés.",
+    "ja": "夜は桜のライトアップがあります。",
+    "ro": "Yoru wa sakura no raitoappu ga arimasu."
    },
    {
-    "fr": "Mais il reste beaucoup à faire pour protéger la côte.",
-    "pt": "Mas ainda há muito a fazer para proteger a costa."
+    "fr": "Le hanami, c'est une bonne excuse pour boire entre amis.",
+    "ja": "お花見は友達と飲むいい口実です。",
+    "ro": "Ohanami wa tomodachi to nomu ii kōjitsu desu."
    },
    {
-    "fr": "Je crois que chaque petit geste compte.",
-    "pt": "Acho que cada pequeno gesto conta."
+    "fr": "N'oubliez pas de remporter vos déchets en partant.",
+    "ja": "帰るとき、ごみを持って帰るのを忘れないでください。",
+    "ro": "Kaeru toki, gomi o motte kaeru no o wasurenaide kudasai."
    }
   ]
  },
  {
-  "title": "Le derby de Porto",
+  "title": "Un week-end incertain",
   "phrases": [
    {
-    "fr": "Tu as regardé le derby entre le FC Porto et Boavista hier soir ?",
-    "pt": "Viste o dérbi entre o FC Porto e o Boavista ontem à noite?"
+    "fr": "Demain, il pleuvra peut-être sur Fukuoka.",
+    "ja": "明日、福岡は雨が降るかもしれません。",
+    "ro": "Ashita, Fukuoka wa ame ga furu kamoshiremasen."
    },
    {
-    "fr": "Bien sûr, je l'ai regardé à la tasca avec mes voisins.",
-    "pt": "Claro, vi-o na tasca com os meus vizinhos."
+    "fr": "Dans ce cas, le hanami sera peut-être annulé.",
+    "ja": "そうしたら、お花見は中止かもしれません。",
+    "ro": "Sō shitara, ohanami wa chūshi kamoshiremasen."
    },
    {
-    "fr": "Le match était super animé !",
-    "pt": "O jogo foi animadíssimo!"
+    "fr": "Kenta arrivera peut-être un peu en retard.",
+    "ja": "健太さんは少し遅れるかもしれません。",
+    "ro": "Kenta-san wa sukoshi okureru kamoshiremasen."
+   },
+   {
+    "fr": "Il a peut-être oublié notre rendez-vous.",
+    "ja": "約束を忘れたかもしれません。",
+    "ro": "Yakusoku o wasureta kamoshiremasen."
+   },
+   {
+    "fr": "Je ne pourrai peut-être pas venir dimanche.",
+    "ja": "日曜日は行けないかもしれません。",
+    "ro": "Nichiyōbi wa ikenai kamoshiremasen."
+   },
+   {
+    "fr": "J'aurai peut-être du travail dimanche aussi.",
+    "ja": "日曜日も仕事があるかもしれません。",
+    "ro": "Nichiyōbi mo shigoto ga aru kamoshiremasen."
+   },
+   {
+    "fr": "Ce restaurant est peut-être fermé le lundi.",
+    "ja": "あのレストランは月曜日、休みかもしれません。",
+    "ro": "Ano resutoran wa getsuyōbi, yasumi kamoshiremasen."
+   },
+   {
+    "fr": "Je vais d'abord leur téléphoner.",
+    "ja": "先に電話してみます。",
+    "ro": "Saki ni denwa shite mimasu."
+   },
+   {
+    "fr": "L'après-midi, ce sera peut-être plus calme.",
+    "ja": "午後のほうが静かかもしれません。",
+    "ro": "Gogo no hō ga shizuka kamoshiremasen."
+   },
+   {
+    "fr": "Décidons ensemble ce soir, d'accord ?",
+    "ja": "今晩、一緒に決めましょうか。",
+    "ro": "Konban, issho ni kimemashō ka."
+   }
+  ],
+  "tip": {
+   "title": "« -kamoshiremasen » : peut-être",
+   "example": "Kenta arrivera peut-être un peu en retard. — 健太さんは少し遅れる<b>かもしれません</b>。",
+   "exampleRo": "Kenta-san wa sukoshi okureru kamoshiremasen.",
+   "lit": "Kenta-monsieur · [thème] · un peu · être en retard · peut-être (poli)",
+   "body": "Pour dire « peut-être », le japonais ajoute « kamoshiremasen » à la fin de la phrase, après un verbe à la forme simple, un adjectif ou un nom. Kenta-san wa sukoshi okureru kamoshiremasen se lit mot à mot : Kenta, thème, un peu, être en retard, peut-être. En français, « peut-être » se promène dans la phrase ; en japonais, il arrive toujours tout à la fin, comme un petit doute qu'on ajoute au dernier moment. Il marche avec tous les temps et avec la négation : « furu kamoshiremasen », il pleuvra peut-être, « ikenai kamoshiremasen », je ne pourrai peut-être pas y aller, « wasureta kamoshiremasen », il a peut-être oublié. Avec un nom, on le colle directement : « yasumi kamoshiremasen », c'est peut-être fermé. Astuce : les Japonais l'adorent pour adoucir un refus, alors pensez-y chaque fois que vous hésitez."
+  }
+ },
+ {
+  "title": "Le festival Hakata Gion Yamakasa",
+  "phrases": [
+   {
+    "fr": "En juillet, Fukuoka fête le Hakata Gion Yamakasa.",
+    "ja": "七月に、福岡で博多祇園山笠があります。",
+    "ro": "Shichigatsu ni, Fukuoka de Hakata Gion Yamakasa ga arimasu."
+   },
+   {
+    "fr": "Des hommes portent d'énormes chars en courant dans les rues.",
+    "ja": "男の人たちが大きな山笠を担いで町を走ります。",
+    "ro": "Otoko no hitotachi ga ōkina yamakasa o katsuide machi o hashirimasu."
+   },
+   {
+    "fr": "La course finale commence à quatre heures cinquante-neuf du matin.",
+    "ja": "最後のレースは朝四時五十九分に始まります。",
+    "ro": "Saigo no rēsu wa asa yoji gojūkyūfun ni hajimarimasu."
+   },
+   {
+    "fr": "Si tu veux la voir, il faut te lever très tôt.",
+    "ja": "それを見たかったら、とても早く起きなければなりません。",
+    "ro": "Sore o mitakattara, totemo hayaku okinakereba narimasen."
+   },
+   {
+    "fr": "Les spectateurs jettent de l'eau sur les porteurs.",
+    "ja": "見物人が担ぎ手に水をかけます。",
+    "ro": "Kenbutsunin ga katsugite ni mizu o kakemasu."
+   },
+   {
+    "fr": "Mon collègue y participe depuis qu'il est enfant.",
+    "ja": "同僚は子どものころから参加しています。",
+    "ro": "Dōryō wa kodomo no koro kara sanka shite imasu."
+   },
+   {
+    "fr": "Les participants portent une tenue traditionnelle.",
+    "ja": "参加者は伝統的な衣装を着ています。",
+    "ro": "Sankasha wa dentōteki na ishō o kite imasu."
+   },
+   {
+    "fr": "Pendant deux semaines, l'ambiance du quartier est incroyable.",
+    "ja": "二週間、町の雰囲気がすごいです。",
+    "ro": "Nishūkan, machi no fun'iki ga sugoi desu."
+   },
+   {
+    "fr": "Je l'ai vu une fois, il y a trois ans.",
+    "ja": "三年前に一度見ました。",
+    "ro": "Sannen mae ni ichido mimashita."
+   },
+   {
+    "fr": "Cette année aussi, je veux absolument y aller.",
+    "ja": "今年もぜひ見に行きたいです。",
+    "ro": "Kotoshi mo zehi mi ni ikitai desu."
+   }
+  ]
+ },
+ {
+  "title": "Porter un yukata",
+  "phrases": [
+   {
+    "fr": "Pour le feu d'artifice, on y va en yukata.",
+    "ja": "花火大会には浴衣を着ていきます。",
+    "ro": "Hanabi taikai ni wa yukata o kite ikimasu."
+   },
+   {
+    "fr": "Je n'ai jamais porté de yukata.",
+    "ja": "浴衣を着たことがありません。",
+    "ro": "Yukata o kita koto ga arimasen."
+   },
+   {
+    "fr": "Ma collègue va m'aider à l'enfiler.",
+    "ja": "同僚が着るのを手伝ってくれます。",
+    "ro": "Dōryō ga kiru no o tetsudatte kuremasu."
+   },
+   {
+    "fr": "Le côté gauche se met par-dessus le droit.",
+    "ja": "左側を右側の上に重ねます。",
+    "ro": "Hidarigawa o migigawa no ue ni kasanemasu."
+   },
+   {
+    "fr": "L'inverse, c'est la façon d'habiller les défunts.",
+    "ja": "逆は亡くなった人の着方です。",
+    "ro": "Gyaku wa nakunatta hito no kikata desu."
+   },
+   {
+    "fr": "Cette ceinture rouge te va très bien.",
+    "ja": "この赤い帯、よく似合っていますね。",
+    "ro": "Kono akai obi, yoku niatte imasu ne."
+   },
+   {
+    "fr": "Les sandales en bois font un peu mal aux pieds.",
+    "ja": "下駄は少し足が痛くなります。",
+    "ro": "Geta wa sukoshi ashi ga itaku narimasu."
+   },
+   {
+    "fr": "On peut louer un yukata près de la gare.",
+    "ja": "駅の近くで浴衣を借りることができます。",
+    "ro": "Eki no chikaku de yukata o kariru koto ga dekimasu."
+   },
+   {
+    "fr": "Prenons une photo ensemble avant de partir.",
+    "ja": "出かける前に、一緒に写真を撮りましょう。",
+    "ro": "Dekakeru mae ni, issho ni shashin o torimashō."
+   },
+   {
+    "fr": "Quand on porte un yukata, on se sent vraiment en été.",
+    "ja": "浴衣を着たら、本当に夏の気分になります。",
+    "ro": "Yukata o kitara, hontō ni natsu no kibun ni narimasu."
+   }
+  ]
+ },
+ {
+  "title": "Parler baseball",
+  "phrases": [
+   {
+    "fr": "Tu es supporter de quelle équipe de baseball ?",
+    "ja": "どの野球チームのファンですか？",
+    "ro": "Dono yakyū chīmu no fan desu ka?"
+   },
+   {
+    "fr": "Moi, je soutiens les Hawks de Fukuoka.",
+    "ja": "私は福岡のホークスを応援しています。",
+    "ro": "Watashi wa Fukuoka no Hōkusu o ōen shite imasu."
+   },
+   {
+    "fr": "Mon collègue de Hiroshima est fan des Carp.",
+    "ja": "広島出身の同僚はカープのファンです。",
+    "ro": "Hiroshima shusshin no dōryō wa Kāpu no fan desu."
+   },
+   {
+    "fr": "Hier soir, les Hawks ont gagné cinq à trois.",
+    "ja": "昨日の夜、ホークスが五対三で勝ちました。",
+    "ro": "Kinō no yoru, Hōkusu ga go tai san de kachimashita."
    },
    {
     "fr": "Le stade était plein à craquer.",
-    "pt": "O estádio estava cheíssimo."
+    "ja": "球場は満員でした。",
+    "ro": "Kyūjō wa man'in deshita."
    },
    {
-    "fr": "Le deuxième but était vraiment superbe.",
-    "pt": "O segundo golo foi lindíssimo."
+    "fr": "À la septième manche, tout le monde lâche des ballons.",
+    "ja": "七回に、みんなで風船を飛ばします。",
+    "ro": "Nanakai ni, minna de fūsen o tobashimasu."
    },
    {
-    "fr": "Mais l'arbitre a pris des décisions bizarres.",
-    "pt": "Mas o árbitro tomou decisões estranhas."
+    "fr": "Les supporters chantent pendant tout le match.",
+    "ja": "ファンは試合中ずっと歌っています。",
+    "ro": "Fan wa shiaichū zutto utatte imasu."
    },
    {
-    "fr": "Mon voisin est supporter de Boavista depuis toujours.",
-    "pt": "O meu vizinho é do Boavista desde sempre."
+    "fr": "Les places au premier rang coûtent cher.",
+    "ja": "一列目の席は高いです。",
+    "ro": "Ichiretsume no seki wa takai desu."
    },
    {
-    "fr": "Il était déçu, mais il a su perdre.",
-    "pt": "Ficou desiludido, mas soube perder."
+    "fr": "Tu veux venir voir un match avec moi le mois prochain ?",
+    "ja": "来月、一緒に試合を見に行きませんか？",
+    "ro": "Raigetsu, issho ni shiai o mi ni ikimasen ka?"
    },
    {
-    "fr": "Pour le prochain derby, on va au stade ensemble ?",
-    "pt": "Vamos juntos ao estádio ver o próximo dérbi?"
-   },
-   {
-    "fr": "Les billets sont chers, mais ça vaut le coup.",
-    "pt": "Os bilhetes são caros, mas vale a pena."
+    "fr": "Avec plaisir, mais je porterai la casquette des Carp !",
+    "ja": "いいですね。でも、カープの帽子をかぶっていきます！",
+    "ro": "Ii desu ne. Demo, Kāpu no bōshi o kabutte ikimasu!"
    }
-  ],
-  "tip": {
-   "title": "Le superlatif en « -íssimo »",
-   "example": "Le match était super animé ! — O jogo foi <b>animadíssimo</b>!",
-   "body": "Pour dire « très, très » avec emphase, on ajoute « -íssimo » à l'adjectif : animado → animadíssimo, lindo → lindíssimo, cheio → cheíssimo. C'est très vivant à l'oral au Portugal, plus expressif que « muito ». Quelques formes sont irrégulières : fácil → facílimo, difícil → dificílimo."
-  }
+  ]
  },
  {
-  "title": "Une série télé",
+  "title": "Le sumō, un sujet de conversation",
+  "phrases": [
+   {
+    "fr": "En novembre, le tournoi de sumō a lieu à Fukuoka.",
+    "ja": "十一月に、福岡で大相撲の九州場所があります。",
+    "ro": "Jūichigatsu ni, Fukuoka de ōzumō no Kyūshū basho ga arimasu."
+   },
+   {
+    "fr": "Tu as regardé le combat d'hier à la télé ?",
+    "ja": "昨日の取組をテレビで見ましたか？",
+    "ro": "Kinō no torikumi o terebi de mimashita ka?"
+   },
+   {
+    "fr": "Oui, le combat a duré moins de dix secondes.",
+    "ja": "はい、十秒もかかりませんでした。",
+    "ro": "Hai, jūbyō mo kakarimasen deshita."
+   },
+   {
+    "fr": "Avant le combat, les lutteurs jettent du sel.",
+    "ja": "取組の前に、力士は塩をまきます。",
+    "ro": "Torikumi no mae ni, rikishi wa shio o makimasu."
+   },
+   {
+    "fr": "Avec le sel, ils purifient le cercle de combat.",
+    "ja": "塩で土俵を清めます。",
+    "ro": "Shio de dohyō o kiyomemasu."
+   },
+   {
+    "fr": "Le lutteur qui sort du cercle a perdu.",
+    "ja": "土俵から出た力士が負けです。",
+    "ro": "Dohyō kara deta rikishi ga make desu."
+   },
+   {
+    "fr": "Ma grand-mère connaît le nom de tous les lutteurs.",
+    "ja": "祖母は力士の名前を全部知っています。",
+    "ro": "Sobo wa rikishi no namae o zenbu shitte imasu."
+   },
+   {
+    "fr": "Je ne comprends pas encore toutes les règles.",
+    "ja": "まだルールが全部わかりません。",
+    "ro": "Mada rūru ga zenbu wakarimasen."
+   },
+   {
+    "fr": "Le grade le plus élevé s'appelle « yokozuna ».",
+    "ja": "一番上の位は横綱といいます。",
+    "ro": "Ichiban ue no kurai wa yokozuna to iimasu."
+   },
+   {
+    "fr": "Le sumō, c'est un bon sujet pour lancer la conversation.",
+    "ja": "相撲の話は、会話のきっかけになります。",
+    "ro": "Sumō no hanashi wa, kaiwa no kikkake ni narimasu."
+   }
+  ]
+ },
+ {
+  "title": "L'anniversaire d'une collègue",
+  "phrases": [
+   {
+    "fr": "Vendredi, c'est l'anniversaire de Mme Mori.",
+    "ja": "金曜日は森さんの誕生日です。",
+    "ro": "Kin'yōbi wa Mori-san no tanjōbi desu."
+   },
+   {
+    "fr": "Et si on lui faisait une surprise ?",
+    "ja": "サプライズをしませんか？",
+    "ro": "Sapuraizu o shimasen ka?"
+   },
+   {
+    "fr": "Pour le cadeau, c'est mille yens par personne.",
+    "ja": "プレゼント代は一人千円ずつです。",
+    "ro": "Purezento dai wa hitori sen'en zutsu desu."
+   },
+   {
+    "fr": "À ton avis, qu'est-ce qu'elle aime ?",
+    "ja": "森さんは何が好きだと思いますか？",
+    "ro": "Mori-san wa nani ga suki da to omoimasu ka?"
+   },
+   {
+    "fr": "Je crois qu'elle adore les fleurs et le thé.",
+    "ja": "花とお茶が大好きだと思います。",
+    "ro": "Hana to ocha ga daisuki da to omoimasu."
+   },
+   {
+    "fr": "J'ai commandé un gâteau à la pâtisserie d'en face.",
+    "ja": "向かいのケーキ屋さんにケーキを注文しました。",
+    "ro": "Mukai no kēkiya-san ni kēki o chūmon shimashita."
+   },
+   {
+    "fr": "Cache la carte, elle arrive !",
+    "ja": "カードを隠してください。森さんが来ます！",
+    "ro": "Kādo o kakushite kudasai. Mori-san ga kimasu!"
+   },
+   {
+    "fr": "Joyeux anniversaire, madame Mori !",
+    "ja": "森さん、お誕生日おめでとうございます！",
+    "ro": "Mori-san, otanjōbi omedetō gozaimasu!"
+   },
+   {
+    "fr": "Elle a été très touchée par la surprise.",
+    "ja": "サプライズにとても感動していました。",
+    "ro": "Sapuraizu ni totemo kandō shite imashita."
+   },
+   {
+    "fr": "Ça fait combien d'années que vous travaillez ensemble ?",
+    "ja": "一緒に働いて何年になりますか？",
+    "ro": "Issho ni hataraite nannen ni narimasu ka?"
+   }
+  ]
+ },
+ {
+  "title": "Les séries du moment",
   "phrases": [
    {
     "fr": "Tu regardes une série en ce moment ?",
-    "pt": "Estás a ver alguma série neste momento?"
+    "ja": "今、何かドラマを見ていますか？",
+    "ro": "Ima, nanika dorama o mite imasu ka?"
    },
    {
-    "fr": "Oui, une série policière portugaise qui se passe à Porto.",
-    "pt": "Sim, uma série policial portuguesa passada no Porto."
+    "fr": "Je regarde une série policière très populaire.",
+    "ja": "人気の刑事ドラマを見ています。",
+    "ro": "Ninki no keiji dorama o mite imasu."
    },
    {
-    "fr": "On reconnaît plein de rues de la Ribeira.",
-    "pt": "Reconhecem-se muitas ruas da Ribeira."
+    "fr": "Justement, l'histoire se passe à Hiroshima.",
+    "ja": "ちょうど広島が舞台です。",
+    "ro": "Chōdo Hiroshima ga butai desu."
    },
    {
-    "fr": "Hier soir, j'ai regardé trois épisodes d'affilée.",
-    "pt": "Ontem à noite vi três episódios seguidos."
+    "fr": "Tu en as déjà vu combien d'épisodes ?",
+    "ja": "もう何話見ましたか？",
+    "ro": "Mō nanwa mimashita ka?"
    },
    {
-    "fr": "Je n'arrivais plus à m'arrêter.",
-    "pt": "Já não conseguia parar."
+    "fr": "J'ai tout regardé le week-end dernier.",
+    "ja": "先週末に全部見ました。",
+    "ro": "Senshūmatsu ni zenbu mimashita."
    },
    {
     "fr": "Ne me raconte pas la fin, s'il te plaît !",
-    "pt": "Não me contes o final, por favor!"
+    "ja": "最後は言わないでください！",
+    "ro": "Saigo wa iwanaide kudasai!"
    },
    {
-    "fr": "Promis, je ne dis rien.",
-    "pt": "Prometo, não digo nada."
+    "fr": "L'acteur principal joue vraiment bien.",
+    "ja": "主役の俳優は演技が本当に上手です。",
+    "ro": "Shuyaku no haiyū wa engi ga hontō ni jōzu desu."
    },
    {
-    "fr": "Les acteurs jouent vraiment bien.",
-    "pt": "Os atores representam mesmo bem."
+    "fr": "La deuxième saison commence en avril.",
+    "ja": "第二シーズンは四月に始まります。",
+    "ro": "Dai ni shīzun wa shigatsu ni hajimarimasu."
    },
    {
-    "fr": "Elle passe à quelle heure à la télé ?",
-    "pt": "A que horas é que dá na televisão?"
+    "fr": "Je préfère les séries courtes, d'une dizaine d'épisodes.",
+    "ja": "十話ぐらいの短いドラマのほうが好きです。",
+    "ro": "Jūwa gurai no mijikai dorama no hō ga suki desu."
    },
    {
-    "fr": "Tous les dimanches, à neuf heures et demie du soir.",
-    "pt": "Todos os domingos, às nove e meia da noite."
+    "fr": "Tu veux la regarder avec moi samedi, chez moi ?",
+    "ja": "土曜日にうちで一緒に見ませんか？",
+    "ro": "Doyōbi ni uchi de issho ni mimasen ka?"
    }
   ]
  },
  {
-  "title": "Le fado et la musique portugaise",
+  "title": "Impressions et rumeurs",
   "phrases": [
    {
-    "fr": "Hier, on est allés dans une maison de fado près de la Ribeira.",
-    "pt": "Ontem fomos a uma casa de fados perto da Ribeira."
+    "fr": "Ce mentaiko a l'air délicieux.",
+    "ja": "この明太子、おいしそうですね。",
+    "ro": "Kono mentaiko, oishisō desu ne."
    },
    {
-    "fr": "Il fallait se taire pendant que la chanteuse chantait.",
-    "pt": "Era preciso estar calado enquanto a fadista cantava."
+    "fr": "Tu as l'air d'avoir sommeil aujourd'hui.",
+    "ja": "今日は眠そうですね。",
+    "ro": "Kyō wa nemusō desu ne."
    },
    {
-    "fr": "Sa voix m'a donné des frissons.",
-    "pt": "A voz dela deu-me arrepios."
+    "fr": "Il paraît que Kenta va se marier.",
+    "ja": "健太さんは結婚するそうです。",
+    "ro": "Kenta-san wa kekkon suru sō desu."
    },
    {
-    "fr": "Le musicien jouait de la guitare portugaise.",
-    "pt": "O músico tocava guitarra portuguesa."
+    "fr": "D'après la météo, il fera beau ce week-end.",
+    "ja": "天気予報によると、週末は晴れるそうです。",
+    "ro": "Tenki yohō ni yoru to, shūmatsu wa hareru sō desu."
    },
    {
-    "fr": "Tu connais les chansons d'Amália Rodrigues ?",
-    "pt": "Conheces as canções da Amália Rodrigues?"
+    "fr": "On dirait qu'il va pleuvoir d'un moment à l'autre.",
+    "ja": "今にも雨が降りそうです。",
+    "ro": "Ima ni mo ame ga furisō desu."
    },
    {
-    "fr": "Ma grand-mère les écoutait tout le temps à la radio.",
-    "pt": "A minha avó ouvia-as sempre na rádio."
+    "fr": "Il paraît qu'un nouveau café a ouvert à Tenjin.",
+    "ja": "天神に新しいカフェができたそうです。",
+    "ro": "Tenjin ni atarashii kafe ga dekita sō desu."
    },
    {
-    "fr": "Le fado parle souvent de saudade et de la mer.",
-    "pt": "O fado fala muitas vezes de saudade e do mar."
+    "fr": "Ce match s'annonce serré.",
+    "ja": "この試合は接戦になりそうです。",
+    "ro": "Kono shiai wa sessen ni narisō desu."
    },
    {
-    "fr": "Moi, j'écoute aussi beaucoup de musique portugaise moderne.",
-    "pt": "Eu também ouço muita música portuguesa moderna."
+    "fr": "Mme Mori a l'air ravie de son cadeau.",
+    "ja": "森さんはプレゼントがとてもうれしそうです。",
+    "ro": "Mori-san wa purezento ga totemo ureshisō desu."
    },
    {
-    "fr": "Il y a un concert gratuit à la Foz ce week-end.",
-    "pt": "Há um concerto grátis na Foz este fim de semana."
+    "fr": "Il paraît que le directeur est muté à Hiroshima.",
+    "ja": "部長は広島に転勤するそうです。",
+    "ro": "Buchō wa Hiroshima ni tenkin suru sō desu."
    },
    {
-    "fr": "Ça te dit qu'on y aille ensemble ?",
-    "pt": "Apetece-te irmos juntos?"
-   }
-  ]
- },
- {
-  "title": "Conseiller un ami stressé",
-  "phrases": [
-   {
-    "fr": "Tu as l'air fatigué ces derniers temps.",
-    "pt": "Andas com ar cansado ultimamente."
-   },
-   {
-    "fr": "Oui, je suis très stressé à cause du travail.",
-    "pt": "Sim, ando muito stressado por causa do trabalho."
-   },
-   {
-    "fr": "Tu dors combien d'heures par nuit ?",
-    "pt": "Quantas horas dormes por noite?"
-   },
-   {
-    "fr": "Cinq ou six, au maximum.",
-    "pt": "Cinco ou seis, no máximo."
-   },
-   {
-    "fr": "Tu devrais prendre quelques jours de congé.",
-    "pt": "Devias tirar uns dias de férias."
-   },
-   {
-    "fr": "Pourquoi tu ne vas pas marcher le long de la mer à la Foz ?",
-    "pt": "Porque é que não vais caminhar à beira-mar na Foz?"
-   },
-   {
-    "fr": "Moi, ça m'aide toujours à me vider la tête.",
-    "pt": "A mim, ajuda-me sempre a desanuviar."
-   },
-   {
-    "fr": "Et arrête de lire tes mails le soir.",
-    "pt": "E deixa de ler os e-mails à noite."
-   },
-   {
-    "fr": "Tu as raison, je vais essayer.",
-    "pt": "Tens razão, vou tentar."
-   },
-   {
-    "fr": "Si tu as besoin de parler, appelle-moi.",
-    "pt": "Se precisares de falar, liga-me."
-   }
-  ]
- },
- {
-  "title": "Entre collègues",
-  "phrases": [
-   {
-    "fr": "On va prendre un café avant la réunion ?",
-    "pt": "Vamos tomar um café antes da reunião?"
-   },
-   {
-    "fr": "Volontiers, j'ai besoin d'un petit café serré.",
-    "pt": "Pode ser, preciso de uma bica."
-   },
-   {
-    "fr": "Tu as vu le nouveau collègue de la comptabilité ?",
-    "pt": "Já viste o novo colega da contabilidade?"
-   },
-   {
-    "fr": "Il vient de Braga et il est très sympathique.",
-    "pt": "É de Braga e é muito simpático."
-   },
-   {
-    "fr": "Ce midi, toute l'équipe déjeune dans une tasca de la Baixa.",
-    "pt": "Hoje ao almoço, a equipa toda vai comer a uma tasca da Baixa."
-   },
-   {
-    "fr": "Tu viens avec nous ?",
-    "pt": "Vens connosco?"
-   },
-   {
-    "fr": "Je ne peux pas, je dois finir ce rapport.",
-    "pt": "Não posso, tenho de acabar este relatório."
-   },
-   {
-    "fr": "Le chef nous a demandé de rester plus tard vendredi.",
-    "pt": "O chefe pediu-nos para ficarmos até mais tarde na sexta."
-   },
-   {
-    "fr": "Encore ? C'est la troisième fois ce mois-ci !",
-    "pt": "Outra vez? É a terceira vez este mês!"
-   },
-   {
-    "fr": "Au moins, il nous paie toujours le dîner.",
-    "pt": "Ao menos, paga-nos sempre o jantar."
-   }
-  ]
- },
- {
-  "title": "Les réseaux sociaux",
-  "phrases": [
-   {
-    "fr": "Tu as vu les photos du marché du Bolhão que j'ai publiées ?",
-    "pt": "Viste as fotografias do Mercado do Bolhão que publiquei?"
-   },
-   {
-    "fr": "Oui, j'ai mis « j'aime » sur toutes.",
-    "pt": "Sim, pus «gosto» em todas."
-   },
-   {
-    "fr": "Je passe trop de temps sur mon téléphone.",
-    "pt": "Passo demasiado tempo no telemóvel."
-   },
-   {
-    "fr": "Le soir, je regarde des vidéos pendant des heures.",
-    "pt": "À noite, fico horas a ver vídeos."
-   },
-   {
-    "fr": "Moi, j'ai supprimé l'application le mois dernier.",
-    "pt": "Eu apaguei a aplicação no mês passado."
-   },
-   {
-    "fr": "Au début, c'était dur, mais maintenant je me sens mieux.",
-    "pt": "Ao início foi difícil, mas agora sinto-me melhor."
-   },
-   {
-    "fr": "Je lis davantage et je dors mieux.",
-    "pt": "Leio mais e durmo melhor."
-   },
-   {
-    "fr": "Mais comment tu sais ce que font tes amis ?",
-    "pt": "Mas como é que sabes o que os teus amigos andam a fazer?"
-   },
-   {
-    "fr": "Je les appelle, tout simplement !",
-    "pt": "Telefono-lhes, simplesmente!"
-   },
-   {
-    "fr": "Bonne idée, je devrais essayer moi aussi.",
-    "pt": "Boa ideia, eu também devia experimentar."
-   }
-  ]
- },
- {
-  "title": "Parler de bénévolat",
-  "phrases": [
-   {
-    "fr": "Le samedi matin, je fais du bénévolat dans une association.",
-    "pt": "Ao sábado de manhã, faço voluntariado numa associação."
-   },
-   {
-    "fr": "Nous distribuons des repas aux personnes sans abri.",
-    "pt": "Distribuímos refeições a pessoas sem-abrigo."
-   },
-   {
-    "fr": "Comment est-ce que tu as commencé ?",
-    "pt": "Como é que começaste?"
-   },
-   {
-    "fr": "Une amie m'en a parlé il y a deux ans.",
-    "pt": "Uma amiga falou-me disso há dois anos."
-   },
-   {
-    "fr": "Au début, j'étais un peu timide.",
-    "pt": "Ao princípio, era um bocado tímido."
-   },
-   {
-    "fr": "Maintenant, je connais tout le monde par son prénom.",
-    "pt": "Agora conheço toda a gente pelo nome."
-   },
-   {
-    "fr": "Ça me donne beaucoup d'énergie pour la semaine.",
-    "pt": "Dá-me muita energia para a semana."
-   },
-   {
-    "fr": "Ils cherchent quelqu'un pour aider en cuisine.",
-    "pt": "Andam à procura de alguém para ajudar na cozinha."
-   },
-   {
-    "fr": "Je pourrais venir avec toi un samedi ?",
-    "pt": "Posso ir contigo num sábado?"
-   },
-   {
-    "fr": "Bien sûr, ils seront ravis.",
-    "pt": "Claro, vão ficar contentíssimos."
-   }
-  ]
- },
- {
-  "title": "Un rêve d'enfance",
-  "phrases": [
-   {
-    "fr": "Quand j'étais petit, je voulais jouer au FC Porto.",
-    "pt": "Quando era pequeno, queria ser jogador do FC Porto."
-   },
-   {
-    "fr": "Je jouais tous les jours dans la rue avec mes cousins.",
-    "pt": "Jogava todos os dias na rua com os meus primos."
-   },
-   {
-    "fr": "Et toi, quel était ton rêve d'enfant ?",
-    "pt": "E tu, qual era o teu sonho de criança?"
-   },
-   {
-    "fr": "Je rêvais d'être pêcheur à Matosinhos, comme mon grand-père.",
-    "pt": "Sonhava ser pescador em Matosinhos, como o meu avô."
-   },
-   {
-    "fr": "Il m'emmenait au port voir rentrer les bateaux.",
-    "pt": "Levava-me ao porto para ver os barcos a chegar."
-   },
-   {
-    "fr": "Aujourd'hui, j'aimerais avoir mon propre bateau.",
-    "pt": "Hoje, gostava de ter o meu próprio barco."
-   },
-   {
-    "fr": "Ce serait génial d'aller pêcher le dimanche.",
-    "pt": "Era fixe ir pescar ao domingo."
-   },
-   {
-    "fr": "Moi, j'aimerais apprendre à jouer de la guitare portugaise.",
-    "pt": "Eu gostava de aprender a tocar guitarra portuguesa."
-   },
-   {
-    "fr": "Il n'est jamais trop tard pour réaliser un rêve.",
-    "pt": "Nunca é tarde demais para realizar um sonho."
-   },
-   {
-    "fr": "Tu pourrais me présenter ton professeur ?",
-    "pt": "Podias apresentar-me o teu professor?"
+    "fr": "Ah bon ? Je n'en savais rien.",
+    "ja": "そうですか。全然知りませんでした。",
+    "ro": "Sō desu ka. Zenzen shirimasen deshita."
    }
   ],
   "tip": {
-   "title": "« Gostava de… » : le conditionnel de politesse à la portugaise",
-   "example": "Aujourd'hui, j'aimerais avoir mon propre bateau. — Hoje, <b>gostava de</b> ter o meu próprio barco.",
-   "body": "À l'oral, au Portugal, on remplace très souvent le conditionnel par l'imparfait : « gostava de » = j'aimerais, « podias » = tu pourrais, « era fixe » = ce serait génial. Les formes « gostaria » et « poderia » existent, mais elles sonnent plus soutenues et s'emploient surtout à l'écrit ou dans un cadre formel : « Gostaria de marcar uma reunião. » Au café, on dit tout simplement : « Queria uma bica, por favor. »"
+   "title": "« -sō desu » : on dirait que, et j'ai entendu dire que",
+   "example": "Il paraît que Kenta va se marier. — 健太さんは結婚する<b>そうです</b>。",
+   "exampleRo": "Kenta-san wa kekkon suru sō desu.",
+   "lit": "Kenta-monsieur · [thème] · se marier · il paraît (poli)",
+   "body": "« Sō desu » a deux usages, et c'est la forme placée juste avant qui permet de les distinguer. Collé au radical d'un verbe, ou à un adjectif privé de son « i » final, il exprime une impression : « oishisō desu », ça a l'air bon, « furisō desu », on dirait qu'il va pleuvoir. Placé après une forme complète, il rapporte une information entendue : Kenta-san wa kekkon suru sō desu se décompose en Kenta, thème, se marier, il paraît. C'est notre « il paraît que », mais placé tout à la fin de la phrase. Comparez « furisō desu », je vois des nuages, il va pleuvoir, et « furu sō desu », la météo annonce de la pluie. Astuce : forme raccourcie, je le vois ; forme entière, on me l'a dit."
   }
  },
  {
-  "title": "Une journée difficile",
+  "title": "Une journée à Hiroshima",
   "phrases": [
    {
-    "fr": "Quelle journée, je suis épuisé !",
-    "pt": "Que dia, estou exausto!"
+    "fr": "De Fukuoka à Hiroshima, il faut environ une heure en shinkansen.",
+    "ja": "福岡から広島まで新幹線で一時間ぐらいです。",
+    "ro": "Fukuoka kara Hiroshima made shinkansen de ichijikan gurai desu."
    },
    {
-    "fr": "Qu'est-ce qui s'est passé ?",
-    "pt": "O que é que aconteceu?"
+    "fr": "Nous sommes d'abord allés au parc du Mémorial pour la paix.",
+    "ja": "まず平和記念公園に行きました。",
+    "ro": "Mazu Heiwa Kinen Kōen ni ikimashita."
    },
    {
-    "fr": "D'abord, j'ai raté le bus de sept heures et quart.",
-    "pt": "Primeiro, perdi o autocarro das sete e um quarto."
+    "fr": "En voyant le Dôme de la bombe atomique, j'ai eu le cœur serré.",
+    "ja": "原爆ドームを見て、とても胸が痛くなりました。",
+    "ro": "Genbaku dōmu o mite, totemo mune ga itaku narimashita."
    },
    {
-    "fr": "Ensuite, il pleuvait à verse et j'avais oublié mon parapluie.",
-    "pt": "Depois, estava a chover a potes e tinha-me esquecido do guarda-chuva."
+    "fr": "Au musée, il y avait beaucoup d'élèves en voyage scolaire.",
+    "ja": "資料館には修学旅行の学生がたくさんいました。",
+    "ro": "Shiryōkan ni wa shūgaku ryokō no gakusei ga takusan imashita."
    },
    {
-    "fr": "Je suis arrivé trempé à la réunion.",
-    "pt": "Cheguei encharcado à reunião."
+    "fr": "Chaque année, des milliers de grues en papier sont envoyées ici.",
+    "ja": "毎年、何千羽もの折り鶴が届きます。",
+    "ro": "Maitoshi, nanzenba mo no orizuru ga todokimasu."
    },
    {
-    "fr": "Et l'après-midi, mon ordinateur est tombé en panne.",
-    "pt": "E à tarde o computador avariou."
+    "fr": "À midi, on a mangé un okonomiyaki à la mode de Hiroshima.",
+    "ja": "昼は広島風お好み焼きを食べました。",
+    "ro": "Hiru wa Hiroshimafū okonomiyaki o tabemashita."
    },
    {
-    "fr": "Mon pauvre, tu n'as vraiment pas eu de chance.",
-    "pt": "Coitado, tiveste mesmo azar."
+    "fr": "Ici, on met des nouilles au milieu.",
+    "ja": "ここでは、麺を間に入れます。",
+    "ro": "Koko de wa, men o aida ni iremasu."
    },
    {
-    "fr": "Assieds-toi, je te sers un verre de vinho verde.",
-    "pt": "Senta-te, vou servir-te um copo de vinho verde."
+    "fr": "Le cuisinier prépare tout devant nous, sur une plaque chauffante.",
+    "ja": "店の人が目の前の鉄板で焼きます。",
+    "ro": "Mise no hito ga me no mae no teppan de yakimasu."
    },
    {
-    "fr": "Merci, j'en avais bien besoin.",
-    "pt": "Obrigado, estava mesmo a precisar."
+    "fr": "Je trouve celui de Hiroshima plus copieux que celui d'Osaka.",
+    "ja": "大阪のより広島のほうがボリュームがあると思います。",
+    "ro": "Ōsaka no yori Hiroshima no hō ga boryūmu ga aru to omoimasu."
    },
    {
-    "fr": "Demain sera une meilleure journée, tu verras.",
-    "pt": "Amanhã vai ser um dia melhor, vais ver."
+    "fr": "Ce soir, on dort près de l'embarcadère pour Miyajima.",
+    "ja": "今晩は宮島行きの船乗り場の近くに泊まります。",
+    "ro": "Konban wa Miyajima iki no funanoriba no chikaku ni tomarimasu."
    }
   ]
  },
  {
-  "title": "Retrouver un vieil ami",
+  "title": "L'île de Miyajima",
   "phrases": [
    {
-    "fr": "Rui ! Ça fait des années qu'on ne s'est pas vus !",
-    "pt": "Rui! Há anos que não nos víamos!"
+    "fr": "Le ferry pour Miyajima ne met que dix minutes.",
+    "ja": "宮島行きのフェリーは十分しかかかりません。",
+    "ro": "Miyajima iki no ferī wa juppun shika kakarimasen."
    },
    {
-    "fr": "Tu n'as pas changé du tout !",
-    "pt": "Não mudaste nada!"
+    "fr": "On a regardé le grand torii pendant la traversée.",
+    "ja": "船に乗りながら、大鳥居を見ました。",
+    "ro": "Fune ni norinagara, ōtorii o mimashita."
    },
    {
-    "fr": "Ça fait combien de temps que tu habites à Guimarães ?",
-    "pt": "Há quanto tempo é que moras em Guimarães?"
+    "fr": "À marée haute, le torii semble flotter sur la mer.",
+    "ja": "満潮のとき、鳥居は海に浮いているように見えます。",
+    "ro": "Manchō no toki, torii wa umi ni uite iru yō ni miemasu."
    },
    {
-    "fr": "Ça fait presque dix ans que j'y vis.",
-    "pt": "Há quase dez anos que vivo lá."
+    "fr": "Des cerfs se promènent librement dans les rues.",
+    "ja": "鹿が自由に町を歩いています。",
+    "ro": "Shika ga jiyū ni machi o aruite imasu."
    },
    {
-    "fr": "Je travaille dans une entreprise textile près du centre historique.",
-    "pt": "Trabalho numa empresa têxtil perto do centro histórico."
+    "fr": "Les huîtres grillées sont la spécialité de l'île.",
+    "ja": "焼き牡蠣は島の名物です。",
+    "ro": "Yakigaki wa shima no meibutsu desu."
    },
    {
-    "fr": "Tu te souviens de nos soirées d'étudiants à Braga ?",
-    "pt": "Lembras-te das nossas noitadas de estudantes em Braga?"
+    "fr": "Mon ami prend des photos tout en marchant.",
+    "ja": "友達は歩きながら写真を撮っています。",
+    "ro": "Tomodachi wa arukinagara shashin o totte imasu."
    },
    {
-    "fr": "Comment oublier ! On rentrait toujours à l'aube.",
-    "pt": "Como esquecer! Voltávamos sempre de madrugada."
+    "fr": "On a parlé de nos souvenirs en buvant un thé.",
+    "ja": "お茶を飲みながら、思い出を話しました。",
+    "ro": "Ocha o nominagara, omoide o hanashimashita."
    },
    {
-    "fr": "Tu as des nouvelles de Sofia ?",
-    "pt": "Tens notícias da Sofia?"
+    "fr": "Nous sommes montés au mont Misen en téléphérique.",
+    "ja": "ロープウェーで弥山に登りました。",
+    "ro": "Rōpuwē de Misen ni noborimashita."
    },
    {
-    "fr": "Oui, elle s'est mariée l'année dernière.",
-    "pt": "Sim, casou-se no ano passado."
+    "fr": "J'aime regarder la mer en écoutant de la musique.",
+    "ja": "音楽を聞きながら、海を見るのが好きです。",
+    "ro": "Ongaku o kikinagara, umi o miru no ga suki desu."
    },
    {
-    "fr": "Il faut qu'on se voie plus souvent, d'accord ?",
-    "pt": "Temos de nos ver mais vezes, combinado?"
+    "fr": "En fin de journée, l'île devient très calme.",
+    "ja": "夕方、島はとても静かになります。",
+    "ro": "Yūgata, shima wa totemo shizuka ni narimasu."
    }
   ],
   "tip": {
-   "title": "« Há… que » : ça fait… que",
-   "example": "Ça fait presque dix ans que j'y vis. — <b>Há</b> quase dez anos <b>que</b> vivo lá.",
-   "body": "Pour dire « ça fait… que » ou « depuis », le portugais utilise « há… que » suivi du présent quand l'action continue : « Há dez anos que vivo aqui » (ça fait dix ans que j'habite ici). Pour poser la question : « Há quanto tempo é que…? » (depuis combien de temps… ?). Employé seul avec un passé, « há » veut dire « il y a » : « Vi-o há dois dias » (je l'ai vu il y a deux jours)."
+   "title": "« -nagara » : faire deux choses en même temps",
+   "example": "On a parlé de nos souvenirs en buvant un thé. — お茶を<b>飲みながら</b>、思い出を話しました。",
+   "exampleRo": "Ocha o nominagara, omoide o hanashimashita.",
+   "lit": "honorable-thé · [objet] · boire-tout en · souvenirs · [objet] · avoir parlé (poli)",
+   "body": "Pour dire qu'on fait deux choses à la fois, on prend le verbe à la forme en « masu », on enlève « masu » et on ajoute « nagara » : « nomimasu » devient « nominagara », en buvant. Ocha o nominagara, omoide o hanashimashita se décompose ainsi : thé, objet, tout en buvant, souvenirs, objet, nous avons parlé. Le verbe avec « nagara » décrit l'action d'arrière-plan, et c'est le dernier verbe, l'action principale, qui porte le temps et la politesse. Quelques exemples : « arukinagara », en marchant, « kikinagara », en écoutant, « minagara », en regardant. Attention, les deux actions doivent être faites par la même personne. Astuce : pensez au gérondif français « en faisant », mais placé avant l'action principale."
   }
  },
  {
-  "title": "Raconter un voyage",
+  "title": "Un onsen entre amis",
   "phrases": [
    {
-    "fr": "Le week-end dernier, on est partis découvrir Braga et Guimarães.",
-    "pt": "No fim de semana passado, fomos conhecer Braga e Guimarães."
+    "fr": "Ce week-end, je pars à l'onsen avec des amis.",
+    "ja": "今週末、友達と温泉に行きます。",
+    "ro": "Konshūmatsu, tomodachi to onsen ni ikimasu."
    },
    {
-    "fr": "On a pris le train à la gare de São Bento.",
-    "pt": "Apanhámos o comboio na estação de São Bento."
+    "fr": "On a réservé un ryokan à Futsukaichi, près de Fukuoka.",
+    "ja": "福岡の近くの二日市温泉の旅館を予約しました。",
+    "ro": "Fukuoka no chikaku no Futsukaichi onsen no ryokan o yoyaku shimashita."
    },
    {
-    "fr": "À Braga, on a monté le grand escalier du Bom Jesus.",
-    "pt": "Em Braga, subimos o escadório do Bom Jesus."
+    "fr": "Il faut se laver avant d'entrer dans le bain.",
+    "ja": "お風呂に入る前に、体を洗わなければなりません。",
+    "ro": "Ofuro ni hairu mae ni, karada o arawanakereba narimasen."
    },
    {
-    "fr": "Il y avait plus de cinq cents marches !",
-    "pt": "Havia mais de quinhentos degraus!"
+    "fr": "On ne met pas sa serviette dans l'eau.",
+    "ja": "タオルをお湯に入れてはいけません。",
+    "ro": "Taoru o oyu ni irete wa ikemasen."
    },
    {
-    "fr": "Ensuite, on a mangé un bon chevreau dans une petite tasca.",
-    "pt": "Depois, almoçámos um bom cabrito numa tasquinha."
+    "fr": "L'eau est un peu trop chaude pour moi.",
+    "ja": "お湯が私には少し熱すぎます。",
+    "ro": "Oyu ga watashi ni wa sukoshi atsusugimasu."
    },
    {
-    "fr": "Le lendemain, on a visité le château de Guimarães.",
-    "pt": "No dia seguinte, visitámos o castelo de Guimarães."
+    "fr": "La nuit, le bain en plein air est magnifique.",
+    "ja": "夜の露天風呂はすばらしいです。",
+    "ro": "Yoru no rotenburo wa subarashii desu."
    },
    {
-    "fr": "On dit que c'est là qu'est né le Portugal.",
-    "pt": "Diz-se que foi ali que nasceu Portugal."
+    "fr": "Après le bain, on boit du lait bien froid.",
+    "ja": "お風呂のあとで、冷たい牛乳を飲みます。",
+    "ro": "Ofuro no ato de, tsumetai gyūnyū o nomimasu."
    },
    {
-    "fr": "Le centre historique était magnifique au coucher du soleil.",
-    "pt": "O centro histórico estava maravilhoso ao pôr do sol."
+    "fr": "On a joué au ping-pong en yukata.",
+    "ja": "浴衣で卓球をしました。",
+    "ro": "Yukata de takkyū o shimashita."
    },
    {
-    "fr": "Tu y retournerais ?",
-    "pt": "Voltavas lá?"
+    "fr": "On a dîné dans notre chambre.",
+    "ja": "晩ご飯は部屋で食べました。",
+    "ro": "Bangohan wa heya de tabemashita."
    },
    {
-    "fr": "Sans hésiter, surtout pour la cuisine !",
-    "pt": "Sem hesitar, sobretudo pela comida!"
+    "fr": "J'ai pu bien me détendre, merci de m'avoir invité.",
+    "ja": "本当にリラックスできました。誘ってくれてありがとうございます。",
+    "ro": "Hontō ni rirakkusu dekimashita. Sasotte kurete arigatō gozaimasu."
    }
   ]
  },
  {
-  "title": "Un anniversaire surprise",
+  "title": "Donner son opinion",
   "phrases": [
    {
-    "fr": "Marta fête ses trente ans samedi.",
-    "pt": "A Marta faz trinta anos no sábado."
+    "fr": "Que penses-tu du nouveau stade ?",
+    "ja": "新しいスタジアムについてどう思いますか？",
+    "ro": "Atarashii sutajiamu ni tsuite dō omoimasu ka?"
    },
    {
-    "fr": "On lui prépare une fête surprise sur une terrasse de la Foz.",
-    "pt": "Estamos a preparar-lhe uma festa surpresa numa esplanada da Foz."
+    "fr": "Je pense que c'est une bonne chose pour la ville.",
+    "ja": "町にとっていいことだと思います。",
+    "ro": "Machi ni totte ii koto da to omoimasu."
    },
    {
-    "fr": "Son copain va l'y emmener sans rien lui dire.",
-    "pt": "O namorado vai levá-la lá sem lhe dizer nada."
+    "fr": "Moi, je ne suis pas vraiment d'accord.",
+    "ja": "私は、あまり賛成できません。",
+    "ro": "Watashi wa, amari sansei dekimasen."
    },
    {
-    "fr": "C'est toi qui t'occupes du gâteau ?",
-    "pt": "Tratas tu do bolo?"
+    "fr": "À mon avis, les billets sont devenus trop chers.",
+    "ja": "チケットが高くなりすぎたと思います。",
+    "ro": "Chiketto ga takaku narisugita to omoimasu."
    },
    {
-    "fr": "Oui, je vais le commander dans une pâtisserie de la Boavista.",
-    "pt": "Sim, vou encomendá-lo numa pastelaria da Boavista."
+    "fr": "C'est vrai, mais l'ambiance s'est améliorée.",
+    "ja": "それはそうですが、雰囲気はよくなりました。",
+    "ro": "Sore wa sō desu ga, fun'iki wa yoku narimashita."
    },
    {
-    "fr": "Surtout, ne dis rien à personne !",
-    "pt": "Sobretudo, não digas nada a ninguém!"
+    "fr": "Au Japon, on évite souvent de dire non directement.",
+    "ja": "日本では、はっきり「いいえ」と言わないことが多いです。",
+    "ro": "Nihon de wa, hakkiri « iie » to iwanai koto ga ōi desu."
    },
    {
-    "fr": "Il faut arriver avant sept heures.",
-    "pt": "Temos de chegar antes das sete horas."
+    "fr": "On dit plutôt « c'est un peu difficile ».",
+    "ja": "「ちょっと難しいですね」と言います。",
+    "ro": "« Chotto muzukashii desu ne » to iimasu."
    },
    {
-    "fr": "Quand elle arrivera, on criera tous « Surprise ! ».",
-    "pt": "Quando ela chegar, gritamos todos «Surpresa!»."
+    "fr": "Chacun a un avis différent, et je trouve ça bien.",
+    "ja": "人それぞれ意見が違って、いいと思います。",
+    "ro": "Hito sorezore iken ga chigatte, ii to omoimasu."
    },
    {
-    "fr": "On lui a acheté un cadeau tous ensemble.",
-    "pt": "Comprámos-lhe um presente todos juntos."
+    "fr": "Je comprends aussi ce point de vue.",
+    "ja": "その考え方もわかります。",
+    "ro": "Sono kangaekata mo wakarimasu."
    },
    {
-    "fr": "J'espère qu'elle ne se doute de rien.",
-    "pt": "Espero que ela não desconfie de nada."
+    "fr": "Parlons-en encore autour d'un verre.",
+    "ja": "飲みながら、もっと話しましょう。",
+    "ro": "Nominagara, motto hanashimashō."
    }
   ]
  },
  {
-  "title": "Poisson grillé à Matosinhos",
+  "title": "Souvenirs d'enfance",
   "phrases": [
    {
-    "fr": "Dimanche, on va manger du poisson grillé à Matosinhos ?",
-    "pt": "No domingo, vamos comer peixe grelhado a Matosinhos?"
+    "fr": "Quand j'étais petit, je vivais près de la mer à Itoshima.",
+    "ja": "子どものころ、糸島の海の近くに住んでいました。",
+    "ro": "Kodomo no koro, Itoshima no umi no chikaku ni sunde imashita."
    },
    {
-    "fr": "Je connais un restaurant où les grills sont dans la rue.",
-    "pt": "Conheço um restaurante onde os grelhadores estão na rua."
+    "fr": "L'été, je nageais tous les jours.",
+    "ja": "夏は毎日泳いでいました。",
+    "ro": "Natsu wa mainichi oyoide imashita."
    },
    {
-    "fr": "Il faut arriver tôt, sinon on attend une heure.",
-    "pt": "Temos de chegar cedo, senão esperamos uma hora."
+    "fr": "Le dimanche, mon grand-père m'emmenait souvent pêcher.",
+    "ja": "祖父は日曜日によく釣りに連れていってくれました。",
+    "ro": "Sofu wa nichiyōbi ni yoku tsuri ni tsurete itte kuremashita."
    },
    {
-    "fr": "Qu'est-ce que tu nous conseilles ?",
-    "pt": "O que é que nos aconselhas?"
+    "fr": "On allait aussi au matsuri du quartier en yukata.",
+    "ja": "近所のお祭りにも浴衣で行きました。",
+    "ro": "Kinjo no omatsuri ni mo yukata de ikimashita."
    },
    {
-    "fr": "Le bar et les rougets sont délicieux.",
-    "pt": "O robalo e os salmonetes são deliciosos."
+    "fr": "J'adorais pêcher des poissons rouges sur les stands.",
+    "ja": "金魚すくいが大好きでした。",
+    "ro": "Kingyo sukui ga daisuki deshita."
    },
    {
-    "fr": "On partage une dorade et une salade de poulpe ?",
-    "pt": "Partilhamos uma dourada e uma salada de polvo?"
+    "fr": "À l'école primaire, je jouais au baseball avec mes amis.",
+    "ja": "小学校で友達と野球をしていました。",
+    "ro": "Shōgakkō de tomodachi to yakyū o shite imashita."
    },
    {
-    "fr": "Avec une bouteille de vinho verde bien frais.",
-    "pt": "Com uma garrafa de vinho verde bem fresquinho."
+    "fr": "Je n'étais pas très doué, mais je m'amusais beaucoup.",
+    "ja": "あまり上手ではありませんでしたが、とても楽しかったです。",
+    "ro": "Amari jōzu de wa arimasen deshita ga, totemo tanoshikatta desu."
    },
    {
-    "fr": "Le poisson arrive directement du port, juste à côté.",
-    "pt": "O peixe vem diretamente do porto, mesmo ao lado."
+    "fr": "Quel est ton meilleur souvenir d'enfance ?",
+    "ja": "子どものころの一番の思い出は何ですか？",
+    "ro": "Kodomo no koro no ichiban no omoide wa nan desu ka?"
    },
    {
-    "fr": "À quatre, ça fait environ quatre-vingts euros.",
-    "pt": "Para quatro, fica à volta de oitenta euros."
+    "fr": "Je me souviens encore de l'odeur des feux d'artifice.",
+    "ja": "花火のにおいを今でも覚えています。",
+    "ro": "Hanabi no nioi o ima demo oboete imasu."
    },
    {
-    "fr": "Après, on fera une promenade sur la plage.",
-    "pt": "Depois, damos um passeio na praia."
+    "fr": "Ces souvenirs me rendent un peu nostalgique.",
+    "ja": "その思い出は、ちょっと懐かしいです。",
+    "ro": "Sono omoide wa, chotto natsukashii desu."
    }
   ]
  },
  {
-  "title": "La Saint-Jean entre amis",
+  "title": "Chez les parents d'un collègue",
   "phrases": [
    {
-    "fr": "Cette année, on fête la Saint-Jean ensemble ?",
-    "pt": "Este ano, festejamos o São João juntos?"
+    "fr": "Les parents de M. Yamada nous ont invités chez eux.",
+    "ja": "山田さんのご両親が家に招待してくださいました。",
+    "ro": "Yamada-san no goryōshin ga ie ni shōtai shite kudasaimashita."
    },
    {
-    "fr": "Bien sûr, on se retrouve à la Ribeira vers neuf heures.",
-    "pt": "Claro, encontramo-nos na Ribeira por volta das nove."
+    "fr": "Votre père est-il là ?",
+    "ja": "お父さんはいらっしゃいますか？",
+    "ro": "Otōsan wa irasshaimasu ka?"
    },
    {
-    "fr": "N'oublie pas ton petit marteau en plastique !",
-    "pt": "Não te esqueças do martelinho!"
+    "fr": "Mon père rentre tout de suite, entrez donc.",
+    "ja": "父はすぐ帰ってきます。どうぞ、お上がりください。",
+    "ro": "Chichi wa sugu kaette kimasu. Dōzo, oagari kudasai."
    },
    {
-    "fr": "Les gens se tapent sur la tête en riant toute la nuit.",
-    "pt": "As pessoas batem na cabeça umas das outras a rir a noite toda."
+    "fr": "Vous allez souvent à Miyajima, madame ?",
+    "ja": "お母さんは、よく宮島にいらっしゃいますか？",
+    "ro": "Okāsan wa, yoku Miyajima ni irasshaimasu ka?"
    },
    {
-    "fr": "Les plus âgés préfèrent encore le poireau.",
-    "pt": "Os mais velhos ainda preferem o alho-porro."
+    "fr": "Je vous en prie, goûtez ces huîtres.",
+    "ja": "どうぞ、この牡蠣を召し上がってください。",
+    "ro": "Dōzo, kono kaki o meshiagatte kudasai."
    },
    {
-    "fr": "On va manger des sardines grillées dans une ruelle.",
-    "pt": "Vamos comer sardinhas assadas numa ruela."
+    "fr": "Votre père boit-il du saké ?",
+    "ja": "お父さんはお酒を召し上がりますか？",
+    "ro": "Otōsan wa osake o meshiagarimasu ka?"
    },
    {
-    "fr": "À minuit, le ciel se remplit de ballons en papier.",
-    "pt": "À meia-noite, o céu enche-se de balões."
+    "fr": "Que faites-vous le week-end, monsieur ?",
+    "ja": "週末は何をなさいますか？",
+    "ro": "Shūmatsu wa nani o nasaimasu ka?"
    },
    {
-    "fr": "L'année dernière, on est restés dans la rue jusqu'au matin.",
-    "pt": "No ano passado, ficámos na rua até de manhã."
+    "fr": "Mon père regarde toujours les matchs des Carp.",
+    "ja": "父はいつもカープの試合を見ています。",
+    "ro": "Chichi wa itsumo Kāpu no shiai o mite imasu."
    },
    {
-    "fr": "Ma sœur a été ravie de son premier São João.",
-    "pt": "A minha irmã ficou encantada com o seu primeiro São João."
+    "fr": "Hier, le professeur est venu au matsuri, lui aussi.",
+    "ja": "先生も昨日お祭りにいらっしゃいました。",
+    "ro": "Sensei mo kinō omatsuri ni irasshaimashita."
    },
    {
-    "fr": "Où se trouve le meilleur endroit pour voir le feu d'artifice ?",
-    "pt": "Onde é que fica o melhor sítio para ver o fogo de artifício?"
+    "fr": "Merci pour cet accueil si chaleureux.",
+    "ja": "温かく迎えてくださって、ありがとうございました。",
+    "ro": "Atatakaku mukaete kudasatte, arigatō gozaimashita."
    }
   ],
   "tip": {
-   "title": "Les sens de « ficar »",
-   "example": "L'année dernière, on est restés dans la rue jusqu'au matin. — No ano passado, <b>ficámos</b> na rua até de manhã.",
-   "body": "« Ficar » est un verbe à tout faire en portugais. Il veut dire rester (« Ficámos na rua até de manhã »), se trouver pour un lieu (« Onde fica a Ribeira? »), devenir ou réagir (« Ela ficou contente » : elle a été contente) et aller bien pour un vêtement (« Essa camisola fica-te bem »). Au Portugal, on l'entend à chaque phrase : repérez le sens grâce au contexte."
+   "title": "Le langage respectueux : « irasshaimasu », « meshiagarimasu »",
+   "example": "Votre père boit-il du saké ? — お父さんはお酒を<b>召し上がります</b>か？",
+   "exampleRo": "Otōsan wa osake o meshiagarimasu ka?",
+   "lit": "honorable-père · [thème] · honorable-saké · [objet] · boire (respectueux) · [question]",
+   "body": "Quand on parle d'une personne à qui l'on doit du respect, un aîné, un client ou les parents d'un ami, le japonais remplace certains verbes ordinaires par des verbes spéciaux qui l'élèvent. « Irasshaimasu » remplace à la fois « imasu », être là, « ikimasu », aller, et « kimasu », venir ; « meshiagarimasu » remplace « tabemasu », manger, et « nomimasu », boire. Otōsan wa osake o meshiagarimasu ka se décompose ainsi : honorable père, thème, honorable saké, objet, boire avec respect, question ? En revanche, on n'utilise jamais ces verbes pour soi-même ni pour sa propre famille : on dit simplement « chichi wa mite imasu », mon père regarde. Vous connaissez déjà « irasshaimase », le mot d'accueil des magasins : c'est le même verbe. Astuce : on élève les autres, jamais soi-même."
   }
  },
  {
-  "title": "La saudade d'un ami émigré",
+  "title": "Se dire au revoir",
   "phrases": [
    {
-    "fr": "Mon meilleur ami est parti travailler à l'étranger il y a trois ans.",
-    "pt": "O meu melhor amigo foi trabalhar para o estrangeiro há três anos."
+    "fr": "Je rentre en France la semaine prochaine.",
+    "ja": "来週、フランスに帰ります。",
+    "ro": "Raishū, Furansu ni kaerimasu."
    },
    {
-    "fr": "Il me manque beaucoup, surtout les jours de match.",
-    "pt": "Tenho muitas saudades dele, sobretudo em dia de jogo."
+    "fr": "Ces mois à Fukuoka sont passés si vite.",
+    "ja": "福岡での数か月は、あっという間でした。",
+    "ro": "Fukuoka de no sūkagetsu wa, atto iu ma deshita."
    },
    {
-    "fr": "On allait voir le FC Porto ensemble tous les dimanches.",
-    "pt": "Íamos ver o FC Porto juntos todos os domingos."
+    "fr": "Faisons une petite fête d'adieu.",
+    "ja": "送別会をしましょう。",
+    "ro": "Sōbetsukai o shimashō."
    },
    {
-    "fr": "Maintenant, on s'appelle en vidéo une fois par semaine.",
-    "pt": "Agora fazemos uma videochamada uma vez por semana."
+    "fr": "Tout le monde a écrit un mot sur une carte pour toi.",
+    "ja": "みんなでカードに寄せ書きをしました。",
+    "ro": "Minna de kādo ni yosegaki o shimashita."
    },
    {
-    "fr": "Il dit que la mer et les tascas lui manquent.",
-    "pt": "Diz que tem saudades do mar e das tascas."
+    "fr": "Écris-moi quand tu seras arrivé.",
+    "ja": "着いたら、連絡してください。",
+    "ro": "Tsuitara, renraku shite kudasai."
    },
    {
-    "fr": "Là-bas, il ne trouve pas de bonne morue.",
-    "pt": "Lá não encontra bom bacalhau."
+    "fr": "Si tu viens en France, je te ferai visiter Paris.",
+    "ja": "フランスに来たら、パリを案内します。",
+    "ro": "Furansu ni kitara, Pari o annai shimasu."
    },
    {
-    "fr": "Parfois, je lui envoie un colis avec du fromage et du vin.",
-    "pt": "Às vezes, mando-lhe uma encomenda com queijo e vinho."
+    "fr": "On pourra se parler en visio le dimanche.",
+    "ja": "日曜日にビデオ通話で話せます。",
+    "ro": "Nichiyōbi ni bideo tsūwa de hanasemasu."
    },
    {
-    "fr": "Il pense revenir au Portugal dans quelques années.",
-    "pt": "Está a pensar voltar para Portugal daqui a uns anos."
+    "fr": "Je reviendrai peut-être pour le Yamakasa.",
+    "ja": "山笠のときに、また来るかもしれません。",
+    "ro": "Yamakasa no toki ni, mata kuru kamoshiremasen."
    },
    {
-    "fr": "Cet été, il vient passer un mois à Porto.",
-    "pt": "Este verão, vem passar um mês ao Porto."
+    "fr": "Fais attention à ta santé, d'accord ?",
+    "ja": "体に気をつけてくださいね。",
+    "ro": "Karada ni ki o tsukete kudasai ne."
    },
    {
-    "fr": "J'ai hâte de lui faire découvrir le nouveau Bolhão.",
-    "pt": "Estou ansioso por lhe mostrar o novo Bolhão."
+    "fr": "Merci pour tout, on se revoit bientôt.",
+    "ja": "いろいろありがとうございました。また会いましょう。",
+    "ro": "Iroiro arigatō gozaimashita. Mata aimashō."
    }
   ]
  },
@@ -5537,44 +7562,54 @@ const level2Module3Lessons = [
   "title": "Fin du module : un bilan",
   "phrases": [
    {
-    "fr": "On arrive au bout de ce module, félicitations !",
-    "pt": "Chegámos ao fim deste módulo, parabéns!"
+    "fr": "Ce module nous a appris à bavarder en japonais.",
+    "ja": "このモジュールで、日本語でおしゃべりすることを学びました。",
+    "ro": "Kono mojūru de, nihongo de oshaberi suru koto o manabimashita."
    },
    {
-    "fr": "Maintenant, tu sais donner ton avis en portugais.",
-    "pt": "Agora já sabes dar a tua opinião em português."
+    "fr": "Maintenant, on peut parler familièrement avec des amis.",
+    "ja": "今は友達とくだけた日本語で話せます。",
+    "ro": "Ima wa tomodachi to kudaketa nihongo de hanasemasu."
    },
    {
-    "fr": "Tu peux parler de foot, de séries et de fado.",
-    "pt": "Consegues falar de futebol, de séries e de fado."
+    "fr": "Avec nos aînés, on sait aussi utiliser le langage respectueux.",
+    "ja": "目上の人には尊敬語も使えます。",
+    "ro": "Meue no hito ni wa sonkeigo mo tsukaemasu."
    },
    {
-    "fr": "Tu sais aussi raconter une journée difficile.",
-    "pt": "Também sabes contar um dia difícil."
+    "fr": "Avec « kamoshiremasen », on peut nuancer ses phrases.",
+    "ja": "「かもしれません」を使って、やわらかく話せます。",
+    "ro": "« Kamoshiremasen » o tsukatte, yawarakaku hanasemasu."
    },
    {
-    "fr": "Et rassurer un ami qui a des soucis.",
-    "pt": "E acalmar um amigo que anda preocupado."
+    "fr": "Avec « sō desu », on rapporte ce qu'on a entendu dire.",
+    "ja": "「そうです」で、聞いた話を伝えられます。",
+    "ro": "« Sō desu » de, kiita hanashi o tsutaeraremasu."
    },
    {
-    "fr": "Des expressions comme « acho que » te viennent naturellement.",
-    "pt": "Expressões como «acho que» já te saem naturalmente."
+    "fr": "Fukuoka et Hiroshima ont été des villes très chaleureuses.",
+    "ja": "福岡も広島も、とても温かい町でした。",
+    "ro": "Fukuoka mo Hiroshima mo, totemo atatakai machi deshita."
    },
    {
-    "fr": "N'aie pas peur de faire des erreurs en parlant.",
-    "pt": "Não tenhas medo de errar quando falas."
+    "fr": "Notre japonais devient peu à peu plus naturel.",
+    "ja": "日本語がだんだん自然になってきました。",
+    "ro": "Nihongo ga dandan shizen ni natte kimashita."
    },
    {
-    "fr": "Les Portugais apprécient toujours l'effort.",
-    "pt": "Os portugueses apreciam sempre o esforço."
+    "fr": "Le deuxième niveau se termine ici.",
+    "ja": "これで、レベル二が終わります。",
+    "ro": "Kore de, reberu ni ga owarimasu."
    },
    {
-    "fr": "La prochaine fois que tu iras à Porto, lance la conversation !",
-    "pt": "Da próxima vez que fores ao Porto, mete conversa!"
+    "fr": "Au niveau trois, on apprendra le keigo et les nuances.",
+    "ja": "レベル三では、敬語や細かいニュアンスを学びます。",
+    "ro": "Reberu san de wa, keigo ya komakai nyuansu o manabimasu."
    },
    {
-    "fr": "Rendez-vous au prochain niveau !",
-    "pt": "Até ao próximo nível!"
+    "fr": "Bravo pour vos efforts, rendez-vous au niveau suivant !",
+    "ja": "お疲れさまでした。また次のレベルで会いましょう！",
+    "ro": "Otsukaresama deshita. Mata tsugi no reberu de aimashō!"
    }
   ]
  }
@@ -5582,472 +7617,752 @@ const level2Module3Lessons = [
 
 const level3Module1Lessons = [
  {
-  "title": "Le bail et le garant",
+  "title": "Premier jour dans une entreprise japonaise",
   "phrases": [
    {
-    "fr": "Le propriétaire exige que nous ayons un garant avant de signer.",
-    "pt": "O senhorio exige que tenhamos um fiador antes de assinar."
+    "fr": "Le premier jour, j'ai été présenté à toute l'équipe.",
+    "ja": "初日に、チーム全員に紹介されました。",
+    "ro": "Shonichi ni, chīmu zen'in ni shōkai saremashita."
    },
    {
-    "fr": "J'espère que mes parents accepteront d'être mes garants.",
-    "pt": "Espero que os meus pais aceitem ser meus fiadores."
+    "fr": "Le directeur m'a chargé de préparer les documents de demain.",
+    "ja": "部長に明日の資料の準備を頼まれました。",
+    "ro": "Buchō ni ashita no shiryō no junbi o tanomaremashita."
    },
    {
-    "fr": "Il est important que le contrat soit déclaré aux Finanças.",
-    "pt": "É importante que o contrato seja comunicado às Finanças."
+    "fr": "Ce bâtiment a été construit il y a trente ans.",
+    "ja": "このビルは三十年前に建てられました。",
+    "ro": "Kono biru wa sanjūnen mae ni tateraremashita."
    },
    {
-    "fr": "L'agence demande trois mois de caution et deux loyers d'avance.",
-    "pt": "A agência pede três meses de caução e duas rendas adiantadas."
+    "fr": "Hier, je suis arrivé en retard et je me suis fait gronder par mon supérieur.",
+    "ja": "昨日、遅刻して上司に怒られました。",
+    "ro": "Kinō, chikoku shite jōshi ni okoraremashita."
    },
    {
-    "fr": "Je doute que les loyers baissent cette année à Lisbonne.",
-    "pt": "Duvido que as rendas baixem este ano em Lisboa."
+    "fr": "Un collègue m'a invité à déjeuner avec lui.",
+    "ja": "同僚に昼ご飯に誘われました。",
+    "ro": "Dōryō ni hirugohan ni sasowaremashita."
    },
    {
-    "fr": "Il faut que tu lises toutes les clauses avant de signer.",
-    "pt": "É preciso que leias todas as cláusulas antes de assinares."
+    "fr": "Dans le train, quelqu'un m'a marché sur le pied.",
+    "ja": "電車で足を踏まれました。",
+    "ro": "Densha de ashi o fumaremashita."
    },
    {
-    "fr": "Le propriétaire veut que nous payions par virement le premier du mois.",
-    "pt": "O senhorio quer que paguemos por transferência no dia um de cada mês."
+    "fr": "Le nouveau règlement a été annoncé par e-mail ce matin.",
+    "ja": "新しい規則は今朝、メールで発表されました。",
+    "ro": "Atarashii kisoku wa kesa, mēru de happyō saremashita."
    },
    {
-    "fr": "Le bail dure un an et se renouvelle automatiquement.",
-    "pt": "O contrato tem a duração de um ano e renova-se automaticamente."
+    "fr": "À l'accueil, on m'a demandé mon numéro d'employé.",
+    "ja": "受付で社員番号を聞かれました。",
+    "ro": "Uketsuke de shain bangō o kikaremashita."
    },
    {
-    "fr": "Je préfère que tout soit écrit noir sur blanc.",
-    "pt": "Prefiro que fique tudo preto no branco."
+    "fr": "En rentrant, je me suis fait surprendre par la pluie.",
+    "ja": "帰りに雨に降られました。",
+    "ro": "Kaeri ni ame ni furaremashita."
    },
    {
-    "fr": "Pourvu que l'appartement soit aussi lumineux que sur les photos !",
-    "pt": "Oxalá o apartamento seja tão luminoso como nas fotografias!"
+    "fr": "Au final, j'ai été accueilli très chaleureusement par tout le monde.",
+    "ja": "結局、みんなにとても温かく迎えられました。",
+    "ro": "Kekkyoku, minna ni totemo atatakaku mukaeraremashita."
    }
   ],
   "tip": {
-   "title": "« Espero que… / É importante que… » : le subjonctif présent",
-   "example": "J'espère que mes parents accepteront d'être mes garants. — <b>Espero que</b> os meus pais <b>aceitem</b> ser meus fiadores.",
-   "body": "Comme en français, le subjonctif présent suit les verbes de volonté, de doute ou d'obligation et les expressions comme « É importante que » : « É importante que saibas isto ». Attention : « esperar que » demande le subjonctif, alors que « espérer que » prend l'indicatif en français. On le forme à partir de la 1re personne du présent : tenho → tenha, faço → faça, digo → diga. On l'emploie aussi après « talvez » et « oxalá » : « Talvez chova amanhã »."
+   "title": "Le passif : « -rareru », subir une action",
+   "example": "Dans le train, quelqu'un m'a marché sur le pied. — 電車で足を<b>踏まれました</b>。",
+   "exampleRo": "Densha de ashi o fumaremashita.",
+   "lit": "train · [lieu] · pied · [objet] · avoir été marché dessus (poli, passé)",
+   "body": "Le passif japonais se forme en ajoutant « -rareru » ou « -areru » au verbe : « taberu » (manger) devient « taberareru » (être mangé), et « fumu » (marcher sur) devient « fumareru ». La personne qui fait l'action est marquée par « ni » : « jōshi ni okoraremashita » se dit littéralement : supérieur, par, avoir été grondé. Contrairement au français, le japonais l'emploie très souvent pour dire qu'on a subi quelque chose de désagréable, même avec un verbe comme pleuvoir : « ame ni furaremashita », la pluie m'est tombée dessus. Notre exemple, « ashi o fumaremashita », se lit : pied, objet, avoir été marché dessus. Astuce pour retenir : quand vous entendez « -areru » à la fin d'un verbe, pensez « ça m'est tombé dessus »."
   }
  },
  {
-  "title": "La déclaration IRS aux Finanças",
+  "title": "La réunion du lundi matin",
   "phrases": [
    {
-    "fr": "Cette année, je dois remettre ma déclaration IRS avant la fin juin.",
-    "pt": "Este ano, tenho de entregar a declaração de IRS até ao fim de junho."
+    "fr": "La réunion commence à neuf heures pile, ne soyez pas en retard.",
+    "ja": "会議は九時ちょうどに始まるので、遅れないでください。",
+    "ro": "Kaigi wa kuji chōdo ni hajimaru node, okurenaide kudasai."
    },
    {
-    "fr": "J'ai enfin réussi à me connecter au Portal das Finanças.",
-    "pt": "Finalmente consegui entrar no Portal das Finanças."
+    "fr": "Avant la réunion, il faut imprimer l'ordre du jour.",
+    "ja": "会議の前に、議題を印刷しておかなければなりません。",
+    "ro": "Kaigi no mae ni, gidai o insatsu shite okanakereba narimasen."
    },
    {
-    "fr": "Le mot de passe est arrivé par la poste au bout de cinq jours.",
-    "pt": "A senha chegou pelo correio ao fim de cinco dias."
+    "fr": "Chacun résume rapidement l'avancement de son projet.",
+    "ja": "それぞれが自分のプロジェクトの進み具合を簡単に報告します。",
+    "ro": "Sorezore ga jibun no purojekuto no susumiguai o kantan ni hōkoku shimasu."
    },
    {
-    "fr": "Il faut vérifier que toutes les factures ont bien été validées.",
-    "pt": "É preciso confirmar se todas as faturas foram mesmo validadas."
+    "fr": "Au Japon, on décide souvent les choses avant la réunion, en coulisses.",
+    "ja": "日本では、会議の前に根回しで物事を決めることが多いです。",
+    "ro": "Nihon de wa, kaigi no mae ni nemawashi de monogoto o kimeru koto ga ōi desu."
    },
    {
-    "fr": "Les dépenses de santé et d'éducation sont déductibles.",
-    "pt": "As despesas de saúde e de educação são dedutíveis."
+    "fr": "Personne n'ose contredire ouvertement le directeur.",
+    "ja": "部長にはっきり反対する人はいません。",
+    "ro": "Buchō ni hakkiri hantai suru hito wa imasen."
    },
    {
-    "fr": "J'ai toujours demandé une facture avec mon numéro fiscal.",
-    "pt": "Pedi sempre fatura com o meu número de contribuinte."
+    "fr": "Excusez-moi, me permettez-vous de poser une question ?",
+    "ja": "すみません、一つ質問してもよろしいでしょうか。",
+    "ro": "Sumimasen, hitotsu shitsumon shite mo yoroshii deshō ka."
    },
    {
-    "fr": "Mon comptable m'a conseillé l'imposition commune avec ma femme.",
-    "pt": "O meu contabilista aconselhou-me a tributação conjunta com a minha mulher."
+    "fr": "Je pense que ce délai est un peu trop court.",
+    "ja": "この締め切りは少し短すぎると思います。",
+    "ro": "Kono shimekiri wa sukoshi mijikasugiru to omoimasu."
    },
    {
-    "fr": "Si tout se passe bien, le remboursement arrivera en juillet.",
-    "pt": "Se tudo correr bem, o reembolso chega em julho."
+    "fr": "Réfléchissons-y, et on en reparle la semaine prochaine.",
+    "ja": "検討して、来週また話し合いましょう。",
+    "ro": "Kentō shite, raishū mata hanashiaimashō."
    },
    {
-    "fr": "L'an dernier, j'ai dû payer une petite amende pour un oubli.",
-    "pt": "No ano passado, tive de pagar uma pequena coima por um esquecimento."
+    "fr": "Le compte rendu sera envoyé à tout le monde cet après-midi.",
+    "ja": "議事録は今日の午後、全員に送ります。",
+    "ro": "Gijiroku wa kyō no gogo, zen'in ni okurimasu."
    },
    {
-    "fr": "Les Finanças ne pardonnent pas les retards, mieux vaut s'y prendre tôt.",
-    "pt": "As Finanças não perdoam atrasos, mais vale tratar disso cedo."
+    "fr": "Entre nous, cette réunion aurait pu tenir dans un seul e-mail.",
+    "ja": "この会議、メール一通で済んだと思うけど。",
+    "ro": "Kono kaigi, mēru ittsū de sunda to omou kedo."
    }
   ]
  },
  {
-  "title": "Le médecin de famille et le SNS",
+  "title": "Former un nouvel employé",
   "phrases": [
    {
-    "fr": "Quand j'aurai mon numéro d'utente, je pourrai m'inscrire au centre de santé.",
-    "pt": "Quando eu tiver o número de utente, posso inscrever-me no centro de saúde."
+    "fr": "Cette année, on m'a confié la formation d'un nouvel employé.",
+    "ja": "今年、新入社員の指導を任されました。",
+    "ro": "Kotoshi, shinnyū shain no shidō o makasaremashita."
    },
    {
-    "fr": "Si tu peux, appelle le centre de santé dès huit heures.",
-    "pt": "Se puderes, liga para o centro de saúde logo às oito horas."
+    "fr": "D'abord, je lui fais observer notre façon de travailler.",
+    "ja": "まず、仕事のやり方を見学させます。",
+    "ro": "Mazu, shigoto no yarikata o kengaku sasemasu."
    },
    {
-    "fr": "En théorie, chaque résident a droit à un médecin de famille.",
-    "pt": "Em teoria, cada residente tem direito a um médico de família."
+    "fr": "Ensuite, je lui fais faire les photocopies et le classement.",
+    "ja": "次に、コピーや書類の整理をさせます。",
+    "ro": "Tsugi ni, kopī ya shorui no seiri o sasemasu."
    },
    {
-    "fr": "Malheureusement, des milliers de personnes attendent encore le leur.",
-    "pt": "Infelizmente, milhares de pessoas ainda estão à espera do seu."
+    "fr": "Chaque jour, avant qu'il parte, je lui fais écrire un court compte rendu.",
+    "ja": "毎日、帰る前に短い報告を書かせています。",
+    "ro": "Mainichi, kaeru mae ni mijikai hōkoku o kakasete imasu."
    },
    {
-    "fr": "En cas de doute, on peut appeler la ligne SNS vingt-quatre avant d'aller aux urgences.",
-    "pt": "Em caso de dúvida, pode-se ligar para a linha SNS vinte e quatro antes de ir às urgências."
+    "fr": "Le directeur ne laisse pas encore les nouveaux s'occuper seuls des clients.",
+    "ja": "部長は、新人にはまだ一人でお客様の対応をさせません。",
+    "ro": "Buchō wa, shinjin ni wa mada hitori de okyakusama no taiō o sasemasen."
    },
    {
-    "fr": "Dès que le médecin verra les analyses, il t'appellera.",
-    "pt": "Assim que o médico vir as análises, liga-te."
+    "fr": "Laissez-moi m'occuper de ce travail, s'il vous plaît.",
+    "ja": "その仕事、私にやらせてください。",
+    "ro": "Sono shigoto, watashi ni yarasete kudasai."
    },
    {
-    "fr": "La consultation coûte très peu, et parfois rien du tout.",
-    "pt": "A consulta custa muito pouco e, às vezes, nada."
+    "fr": "Désolé de t'avoir fait attendre si longtemps devant la gare.",
+    "ja": "駅の前で長い間待たせてごめんね。",
+    "ro": "Eki no mae de nagai aida matasete gomen ne."
    },
    {
-    "fr": "Si tu as besoin d'une ordonnance, tu peux la demander en ligne.",
-    "pt": "Se precisares de uma receita, podes pedi-la online."
+    "fr": "J'ai fait rire toute l'équipe avec une blague.",
+    "ja": "冗談を言って、チームのみんなを笑わせました。",
+    "ro": "Jōdan o itte, chīmu no minna o warawasemashita."
    },
    {
-    "fr": "Pour voir un spécialiste, l'attente peut durer plusieurs mois.",
-    "pt": "Para uma consulta de especialidade, a espera pode durar vários meses."
+    "fr": "Je ne veux pas l'inquiéter pour rien.",
+    "ja": "余計な心配をさせたくないです。",
+    "ro": "Yokei na shinpai o sasetaku nai desu."
    },
    {
-    "fr": "Quand nous aurons plus de temps, nous comparerons avec le privé.",
-    "pt": "Quando tivermos mais tempo, vamos comparar com o privado."
+    "fr": "Laissez-moi y réfléchir jusqu'à demain.",
+    "ja": "明日まで考えさせてください。",
+    "ro": "Ashita made kangaesasete kudasai."
    }
   ],
   "tip": {
-   "title": "« Quando eu tiver… / Se puderes… » : le futur du subjonctif",
-   "example": "Quand j'aurai mon numéro d'utente, je pourrai m'inscrire au centre de santé. — Quando eu <b>tiver</b> o número de utente, posso inscrever-me no centro de saúde.",
-   "body": "Le portugais a gardé un temps que le français n'a pas : le futur du subjonctif, employé après « quando », « se », « assim que » ou « enquanto » pour une action à venir. Là où le français dit « quand j'aurai » ou « si tu peux », on dit « quando tiver » et « se puderes ». Il se forme sur le passé simple : tiveram → tiver, puderam → puder, viram → vir. Exemples : « Quando chegares, liga-me », « Se fizer sol, vamos à praia »."
+   "title": "Le causatif : faire faire, laisser faire",
+   "example": "Laissez-moi m'occuper de ce travail, s'il vous plaît. — その仕事、私に<b>やらせて</b>ください。",
+   "exampleRo": "Sono shigoto, watashi ni yarasete kudasai.",
+   "lit": "ce · travail · moi · [à] · laisser faire · s'il vous plaît",
+   "body": "Pour dire qu'on fait faire ou qu'on laisse faire quelque chose à quelqu'un, on ajoute « -saseru » ou « -aseru » au verbe : « taberu » devient « tabesaseru », « kaku » (écrire) devient « kakaseru », et « suru » devient « saseru ». La personne qu'on fait agir est suivie de « ni » : « shinjin ni kopī o sasemasu », je fais faire les photocopies au nouveau. Le même verbe veut dire faire faire ou laisser faire, et seul le contexte tranche. Suivi de « kudasai », il devient une demande très polie : « yarasete kudasai » se dit littéralement : faire-laisser, s'il vous plaît, donc laissez-moi le faire. Retenez aussi « kangaesasete kudasai », laissez-moi réfléchir, parfait pour gagner du temps en réunion. Astuce : quand vous entendez « -sase- » au milieu d'un verbe, c'est que quelqu'un tire les ficelles."
   }
  },
  {
-  "title": "Choisir une assurance santé",
+  "title": "Le nomikai de l'équipe",
   "phrases": [
    {
-    "fr": "Beaucoup de gens complètent le SNS avec une assurance privée.",
-    "pt": "Muita gente complementa o SNS com um seguro de saúde privado."
+    "fr": "Vendredi soir, il y a un nomikai avec toute l'équipe.",
+    "ja": "金曜日の夜、チームの飲み会があります。",
+    "ro": "Kin'yōbi no yoru, chīmu no nomikai ga arimasu."
    },
    {
-    "fr": "Mon entreprise offre une assurance santé à tous ses salariés.",
-    "pt": "A minha empresa oferece um seguro de saúde a todos os funcionários."
+    "fr": "Au début, on attend que tout le monde soit servi pour trinquer.",
+    "ja": "最初は、全員の飲み物がそろうまで乾杯を待ちます。",
+    "ro": "Saisho wa, zen'in no nomimono ga sorou made kanpai o machimasu."
    },
    {
-    "fr": "Il faudrait que je lise les exclusions avant de choisir.",
-    "pt": "Convinha que eu lesse as exclusões antes de escolher."
+    "fr": "On ne se sert pas soi-même, on remplit le verre des autres.",
+    "ja": "自分のグラスには注がないで、ほかの人のグラスに注ぎます。",
+    "ro": "Jibun no gurasu ni wa tsuganaide, hoka no hito no gurasu ni tsugimasu."
    },
    {
-    "fr": "Le délai de carence pour les consultations est de trois mois.",
-    "pt": "O período de carência para consultas é de três meses."
+    "fr": "Quand le verre du directeur est vide, il faut le remarquer tout de suite.",
+    "ja": "部長のグラスが空になったら、すぐに気づかないといけません。",
+    "ro": "Buchō no gurasu ga kara ni nattara, sugu ni kizukanai to ikemasen."
    },
    {
-    "fr": "Les soins dentaires ne sont presque jamais inclus.",
-    "pt": "Os tratamentos dentários quase nunca estão incluídos."
+    "fr": "Ce soir, on oublie la hiérarchie, alors parlons sans gêne.",
+    "ja": "今夜は無礼講だから、気楽に話そう。",
+    "ro": "Kon'ya wa bureikō dakara, kiraku ni hanasō."
    },
    {
-    "fr": "Avec cette assurance, une consultation dans le privé me coûte quinze euros.",
-    "pt": "Com este seguro, uma consulta no privado custa-me quinze euros."
+    "fr": "Je ne peux pas boire d'alcool, je prendrai un thé oolong.",
+    "ja": "お酒は飲めないので、ウーロン茶にします。",
+    "ro": "Osake wa nomenai node, ūroncha ni shimasu."
    },
    {
-    "fr": "J'hésite entre deux formules, la différence est de dix euros par mois.",
-    "pt": "Estou indeciso entre dois planos, a diferença é de dez euros por mês."
+    "fr": "Tu viens au karaoké pour la deuxième partie de soirée ?",
+    "ja": "二次会のカラオケ、来る？",
+    "ro": "Nijikai no karaoke, kuru?"
    },
    {
-    "fr": "Les primes augmentent souvent avec l'âge de l'assuré.",
-    "pt": "Os prémios costumam aumentar com a idade do segurado."
+    "fr": "Désolé, il faut que j'attrape le dernier train.",
+    "ja": "ごめん、終電に乗らなきゃ。",
+    "ro": "Gomen, shūden ni noranakya."
    },
    {
-    "fr": "Un collègue m'a recommandé un réseau de cliniques à Porto.",
-    "pt": "Um colega recomendou-me uma rede de clínicas no Porto."
+    "fr": "Le lendemain, personne ne reparle de ce qui s'est dit à table.",
+    "ja": "次の日は、飲み会で言ったことをだれも話題にしません。",
+    "ro": "Tsugi no hi wa, nomikai de itta koto o dare mo wadai ni shimasen."
    },
    {
-    "fr": "Finalement, j'ai signé pour la formule intermédiaire.",
-    "pt": "No fim, assinei o plano intermédio."
+    "fr": "Chef, merci de nous avoir invités hier soir.",
+    "ja": "部長、昨日はごちそうさまでした。",
+    "ro": "Buchō, kinō wa gochisōsama deshita."
    }
   ]
  },
  {
-  "title": "Chez le notaire",
+  "title": "Chercher un appartement",
   "phrases": [
    {
-    "fr": "Le notaire nous a convoqués pour que nous signions l'acte.",
-    "pt": "O notário convocou-nos para assinarmos a escritura."
+    "fr": "Si on s'éloigne un peu du centre, les loyers baissent beaucoup.",
+    "ja": "都心から少し離れれば、家賃がずいぶん安くなります。",
+    "ro": "Toshin kara sukoshi hanarereba, yachin ga zuibun yasuku narimasu."
    },
    {
-    "fr": "Pour signer l'acte, il nous faut les papiers de tout le monde.",
-    "pt": "Para fazermos a escritura, precisamos dos papéis de toda a gente."
+    "fr": "Plus c'est près de la gare, mieux c'est.",
+    "ja": "駅から近ければ近いほどいいです。",
+    "ro": "Eki kara chikakereba chikai hodo ii desu."
    },
    {
-    "fr": "Il vaut mieux que nous soyons là avant que les vendeurs arrivent.",
-    "pt": "É melhor estarmos lá antes de os vendedores chegarem."
+    "fr": "Si possible, j'aimerais un logement orienté au sud.",
+    "ja": "できれば、南向きの部屋がいいです。",
+    "ro": "Dekireba, minamimuki no heya ga ii desu."
    },
    {
-    "fr": "Le notaire lit chaque clause à voix haute, c'est interminable.",
-    "pt": "O notário lê todas as cláusulas em voz alta, é uma eternidade."
+    "fr": "Si vous avez un garant, les formalités sont plus simples.",
+    "ja": "保証人がいれば、手続きが簡単になります。",
+    "ro": "Hoshōnin ga ireba, tetsuzuki ga kantan ni narimasu."
    },
    {
-    "fr": "Ma sœur m'a donné une procuration pour que je signe à sa place.",
-    "pt": "A minha irmã passou-me uma procuração para eu assinar por ela."
+    "fr": "Avec la caution et le « reikin », combien dois-je payer au départ ?",
+    "ja": "敷金と礼金を合わせると、最初にいくら払えばいいですか。",
+    "ro": "Shikikin to reikin o awaseru to, saisho ni ikura haraeba ii desu ka."
    },
    {
-    "fr": "Il est essentiel que nous vérifiions le certificat énergétique.",
-    "pt": "É essencial verificarmos o certificado energético."
+    "fr": "Le « reikin » est un remerciement au propriétaire, et il n'est jamais rendu.",
+    "ja": "礼金は大家さんへのお礼で、返ってきません。",
+    "ro": "Reikin wa ōya-san e no orei de, kaette kimasen."
    },
    {
-    "fr": "Une fois que nous aurons signé, nous recevrons enfin les clés.",
-    "pt": "Depois de assinarmos, recebemos finalmente as chaves."
+    "fr": "Tant qu'on n'a pas visité, on ne peut rien savoir.",
+    "ja": "実際に見なければ、わかりません。",
+    "ro": "Jissai ni minakereba, wakarimasen."
    },
    {
-    "fr": "Les frais d'acte et l'IMT s'ajoutent au prix de l'appartement.",
-    "pt": "Os custos da escritura e o IMT somam-se ao preço do apartamento."
+    "fr": "Si tu veux, je t'accompagne à l'agence immobilière samedi.",
+    "ja": "よければ、土曜日に不動産屋に一緒に行くよ。",
+    "ro": "Yokereba, doyōbi ni fudōsan'ya ni issho ni iku yo."
    },
    {
-    "fr": "Le notaire a demandé aux vendeurs de montrer leurs cartes d'identité.",
-    "pt": "O notário pediu aos vendedores para mostrarem o cartão de cidadão."
+    "fr": "Ce studio est petit, mais il suffit pour vivre seul.",
+    "ja": "この部屋は狭いけど、一人暮らしなら十分です。",
+    "ro": "Kono heya wa semai kedo, hitorigurashi nara jūbun desu."
    },
    {
-    "fr": "En sortant, nous avons fêté ça avec une bica et un pastel de nata.",
-    "pt": "À saída, festejámos com uma bica e um pastel de nata."
+    "fr": "Si on signe cette semaine, on pourra emménager le mois prochain.",
+    "ja": "今週契約すれば、来月引っ越せます。",
+    "ro": "Konshū keiyaku sureba, raigetsu hikkosemasu."
    }
   ],
   "tip": {
-   "title": "« Para fazermos / antes de eles chegarem » : l'infinitif personnel",
-   "example": "Pour signer l'acte, il nous faut les papiers de tout le monde. — <b>Para fazermos</b> a escritura, precisamos dos papéis de toda a gente.",
-   "body": "Particularité du portugais : l'infinitif peut se conjuguer pour indiquer qui fait l'action. Il remplace souvent le subjonctif français après « para », « antes de », « depois de » ou « sem » : « pour que nous fassions » devient « para fazermos ». Terminaisons : -es (tu), -mos (nós), -em (eles). Exemples : « antes de eles chegarem », « depois de jantarmos », « É melhor saíres já »."
+   "title": "« -ba » : la condition, si",
+   "example": "Si vous avez un garant, les formalités sont plus simples. — 保証人が<b>いれば</b>、手続きが簡単になります。",
+   "exampleRo": "Hoshōnin ga ireba, tetsuzuki ga kantan ni narimasu.",
+   "lit": "garant · [sujet] · s'il y a · formalités · [sujet] · simple · devenir (poli)",
+   "body": "Pour dire si, le japonais a plusieurs outils, et « -ba » exprime une condition logique : si A se réalise, alors B suit naturellement. On le forme en remplaçant le « u » final du verbe par « eba » : « iku » devient « ikeba », « iru » devient « ireba », et « suru » devient « sureba ». Pour les adjectifs en « -i », on utilise « -kereba » : « yasui » devient « yasukereba », si c'est bon marché. Notre exemple, « hoshōnin ga ireba », se lit : garant, sujet, s'il y a. Retenez deux formules très utiles au quotidien : « dō sureba ii desu ka », que dois-je faire, et « dekireba », si possible. Astuce : « -ba » regarde vers la suite, on l'emploie quand la condition ouvre la porte au résultat."
   }
  },
  {
-  "title": "L'assemblée de copropriété",
+  "title": "Signer le contrat de location",
   "phrases": [
    {
-    "fr": "L'assemblée de copropriété a lieu jeudi à neuf heures du soir.",
-    "pt": "A reunião de condomínio é na quinta-feira às nove da noite."
+    "fr": "Avant de signer, lisez bien tout le contrat.",
+    "ja": "契約する前に、契約書の内容をよく読んでください。",
+    "ro": "Keiyaku suru mae ni, keiyakusho no naiyō o yoku yonde kudasai."
    },
    {
-    "fr": "L'administrateur a présenté les comptes de l'année.",
-    "pt": "O administrador apresentou as contas do ano."
+    "fr": "Les animaux sont interdits dans cette résidence.",
+    "ja": "このマンションはペット禁止です。",
+    "ro": "Kono manshon wa petto kinshi desu."
    },
    {
-    "fr": "Le voisin du troisième refuse de payer sa part de l'ascenseur.",
-    "pt": "O vizinho do terceiro recusa-se a pagar a parte dele do elevador."
+    "fr": "Le contrat dure deux ans, et le renouvellement entraîne des frais.",
+    "ja": "契約は二年で、更新するときに更新料がかかります。",
+    "ro": "Keiyaku wa ninen de, kōshin suru toki ni kōshinryō ga kakarimasu."
    },
    {
-    "fr": "Nous avons voté pour repeindre la façade au printemps.",
-    "pt": "Aprovámos a pintura da fachada para a primavera."
+    "fr": "Il faut aussi souscrire une assurance incendie.",
+    "ja": "火災保険にも入らなければなりません。",
+    "ro": "Kasai hoken ni mo hairanakereba narimasen."
    },
    {
-    "fr": "Chaque logement devra verser cent cinquante euros de plus.",
-    "pt": "Cada fração vai ter de pagar mais cento e cinquenta euros."
+    "fr": "Où dois-je apposer mon sceau ?",
+    "ja": "どこにはんこを押せばいいですか。",
+    "ro": "Doko ni hanko o oseba ii desu ka."
    },
    {
-    "fr": "La discussion sur les places de parking a duré une heure.",
-    "pt": "A discussão sobre os lugares de garagem durou uma hora."
+    "fr": "Si vous n'avez pas de sceau, une signature suffit.",
+    "ja": "はんこがなければ、サインでも大丈夫です。",
+    "ro": "Hanko ga nakereba, sain demo daijōbu desu."
    },
    {
-    "fr": "Certains voisins se plaignent du bruit des travaux le samedi.",
-    "pt": "Alguns vizinhos queixam-se do barulho das obras ao sábado."
+    "fr": "Pour partir, il faut prévenir un mois à l'avance.",
+    "ja": "退去するときは、一か月前に連絡する必要があります。",
+    "ro": "Taikyo suru toki wa, ikkagetsu mae ni renraku suru hitsuyō ga arimasu."
    },
    {
-    "fr": "On a fini par trouver un accord, mais il était minuit passé.",
-    "pt": "Acabámos por chegar a acordo, mas já passava da meia-noite."
+    "fr": "Les réparations des murs abîmés seront retenues sur la caution.",
+    "ja": "壁の傷の修理代は、敷金から引かれます。",
+    "ro": "Kabe no kizu no shūridai wa, shikikin kara hikaremasu."
    },
    {
-    "fr": "Le procès-verbal sera envoyé à tout le monde par courriel.",
-    "pt": "A ata vai ser enviada a toda a gente por email."
+    "fr": "Les charges communes sont-elles comprises dans le loyer ?",
+    "ja": "共益費は家賃に含まれていますか。",
+    "ro": "Kyōekihi wa yachin ni fukumarete imasu ka."
    },
    {
-    "fr": "Ces réunions sont épuisantes, mais elles restent nécessaires.",
-    "pt": "Estas reuniões são esgotantes, mas continuam a ser necessárias."
+    "fr": "Nous vous remettrons les clés le jour de l'emménagement.",
+    "ja": "鍵は入居日にお渡しします。",
+    "ro": "Kagi wa nyūkyobi ni owatashi shimasu."
    }
   ]
  },
  {
-  "title": "Une infiltration d'eau",
+  "title": "Le jour du déménagement",
   "phrases": [
    {
-    "fr": "Une tache d'humidité est apparue au plafond de la salle de bains.",
-    "pt": "Apareceu uma mancha de humidade no teto da casa de banho."
+    "fr": "Les déménageurs arrivent à huit heures du matin.",
+    "ja": "引っ越し業者は朝八時に来ます。",
+    "ro": "Hikkoshi gyōsha wa asa hachiji ni kimasu."
    },
    {
-    "fr": "L'eau vient sûrement de l'appartement du dessus.",
-    "pt": "A água vem de certeza do apartamento de cima."
+    "fr": "J'ai écrit le nom de la pièce sur chaque carton.",
+    "ja": "段ボールには全部、部屋の名前を書いておきました。",
+    "ro": "Danbōru ni wa zenbu, heya no namae o kaite okimashita."
    },
    {
-    "fr": "J'ai frappé chez la voisine, mais elle n'était pas là.",
-    "pt": "Bati à porta da vizinha, mas ela não estava."
+    "fr": "Attention, ce carton-là contient de la vaisselle fragile.",
+    "ja": "気をつけて。その箱には割れやすい食器が入っています。",
+    "ro": "Ki o tsukete. Sono hako ni wa wareyasui shokki ga haitte imasu."
    },
    {
-    "fr": "Le plombier a trouvé un tuyau fissuré derrière le carrelage.",
-    "pt": "O canalizador encontrou um cano rachado atrás dos azulejos."
+    "fr": "Le frigo ne passe pas par la porte d'entrée.",
+    "ja": "冷蔵庫が玄関から入りません。",
+    "ro": "Reizōko ga genkan kara hairimasen."
    },
    {
-    "fr": "Il a fallu couper l'eau de tout l'immeuble pendant deux heures.",
-    "pt": "Foi preciso cortar a água do prédio inteiro durante duas horas."
+    "fr": "Il n'y a plus qu'à le hisser par la fenêtre avec une corde.",
+    "ja": "窓からロープでつり上げるしかないですね。",
+    "ro": "Mado kara rōpu de tsuriageru shika nai desu ne."
    },
    {
-    "fr": "J'ai pris des photos pour les envoyer à l'assurance.",
-    "pt": "Tirei fotografias para mandar ao seguro."
+    "fr": "N'oublie pas de faire couper le gaz dans l'ancien logement.",
+    "ja": "前の部屋のガスを止めるのを忘れないで。",
+    "ro": "Mae no heya no gasu o tomeru no o wasurenaide."
    },
    {
-    "fr": "L'expert passera mardi pour évaluer les dégâts.",
-    "pt": "O perito passa cá na terça-feira para avaliar os estragos."
+    "fr": "Pour ouvrir le gaz, il faut être là quand le technicien passe.",
+    "ja": "ガスの開栓には、係の人の立ち会いが必要です。",
+    "ro": "Gasu no kaisen ni wa, kakari no hito no tachiai ga hitsuyō desu."
    },
    {
-    "fr": "Avec les pluies d'hiver, le problème s'est encore aggravé.",
-    "pt": "Com as chuvas de inverno, o problema agravou-se ainda mais."
+    "fr": "Pour se présenter, on offre une petite serviette aux voisins.",
+    "ja": "近所の人に、あいさつの品としてタオルを渡します。",
+    "ro": "Kinjo no hito ni, aisatsu no shina to shite taoru o watashimasu."
    },
    {
-    "fr": "En attendant, nous avons mis une bassine sous la fuite.",
-    "pt": "Entretanto, pusemos um alguidar debaixo da fuga."
+    "fr": "Bonjour, je viens d'emménager juste au-dessus de chez vous.",
+    "ja": "こんにちは。真上の部屋に引っ越してきた者です。",
+    "ro": "Konnichiwa. Maue no heya ni hikkoshite kita mono desu."
    },
    {
-    "fr": "Heureusement, la voisine a tout de suite accepté de payer la réparation.",
-    "pt": "Felizmente, a vizinha aceitou logo pagar o arranjo."
+    "fr": "Le soir, on a mangé des soba de déménagement, comme le veut la tradition.",
+    "ja": "夜は、伝統どおり引っ越しそばを食べました。",
+    "ro": "Yoru wa, dentō dōri hikkoshi soba o tabemashita."
    }
   ]
  },
  {
-  "title": "Rénover un vieil appartement",
+  "title": "Une semaine de maladresses",
   "phrases": [
    {
-    "fr": "Cet immeuble a été construit dans les années trente.",
-    "pt": "Este prédio foi construído nos anos trinta."
+    "fr": "J'ai encore oublié mon parapluie dans le train ce matin.",
+    "ja": "今朝、また電車に傘を忘れてしまいました。",
+    "ro": "Kesa, mata densha ni kasa o wasurete shimaimashita."
    },
    {
-    "fr": "Beaucoup d'appartements à rénover sont en vente dans ce quartier.",
-    "pt": "Vendem-se muitos apartamentos para remodelar neste bairro."
+    "fr": "Je me suis trompé et j'ai sorti les bouteilles en plastique le mauvais jour.",
+    "ja": "間違えて、違う日にペットボトルを出してしまいました。",
+    "ro": "Machigaete, chigau hi ni pettobotoru o dashite shimaimashita."
    },
    {
-    "fr": "Les vieux azulejos de l'entrée seront restaurés à la main.",
-    "pt": "Os azulejos antigos da entrada vão ser restaurados à mão."
+    "fr": "On a collé un papier d'avertissement sur mon sac poubelle.",
+    "ja": "ごみ袋に注意の紙を貼られてしまいました。",
+    "ro": "Gomibukuro ni chūi no kami o hararete shimaimashita."
    },
    {
-    "fr": "L'installation électrique a été entièrement refaite le mois dernier.",
-    "pt": "A instalação elétrica foi toda refeita no mês passado."
+    "fr": "Je me suis endormi dans le train et j'ai dépassé ma station.",
+    "ja": "電車で寝てしまって、駅を乗り過ごしました。",
+    "ro": "Densha de nete shimatte, eki o norisugoshimashita."
    },
    {
-    "fr": "Le devis a été accepté après de longues négociations.",
-    "pt": "O orçamento foi aceite depois de longas negociações."
+    "fr": "J'ai mangé tout le gâteau à moi tout seul.",
+    "ja": "ケーキを一人で全部食べちゃった。",
+    "ro": "Kēki o hitori de zenbu tabechatta."
    },
    {
-    "fr": "Les travaux ont été retardés à cause du permis de la mairie.",
-    "pt": "As obras foram adiadas por causa da licença da câmara."
+    "fr": "Zut, j'ai effacé le fichier sans l'enregistrer.",
+    "ja": "しまった、保存しないでファイルを消しちゃった。",
+    "ro": "Shimatta, hozon shinaide fairu o keshichatta."
    },
    {
-    "fr": "À Porto, on rénove beaucoup d'immeubles du centre historique.",
-    "pt": "No Porto, recuperam-se muitos prédios do centro histórico."
+    "fr": "Je suis vraiment désolé d'avoir cassé votre précieuse tasse.",
+    "ja": "大切なカップを割ってしまって、本当に申し訳ありません。",
+    "ro": "Taisetsu na kappu o watte shimatte, hontō ni mōshiwake arimasen."
    },
    {
-    "fr": "Le parquet d'origine a été conservé et poncé.",
-    "pt": "O soalho original foi mantido e afagado."
+    "fr": "Au nomikai, j'ai fini par dire des choses que j'aurais dû taire.",
+    "ja": "飲み会で、言わなくてもいいことを言ってしまいました。",
+    "ro": "Nomikai de, iwanakute mo ii koto o itte shimaimashita."
    },
    {
-    "fr": "Le chantier devrait être terminé avant Noël.",
-    "pt": "A obra deve ficar concluída antes do Natal."
+    "fr": "J'ai liquidé tous mes dossiers avant midi.",
+    "ja": "昼までに、書類を全部片付けてしまいました。",
+    "ro": "Hiru made ni, shorui o zenbu katazukete shimaimashita."
    },
    {
-    "fr": "Après tout ce stress, l'appartement est méconnaissable.",
-    "pt": "Depois de tanto stress, o apartamento está irreconhecível."
+    "fr": "À force de vivre ici, j'ai fini par m'habituer aux trains bondés.",
+    "ja": "ここに住んでいるうちに、満員電車に慣れてしまいました。",
+    "ro": "Koko ni sunde iru uchi ni, man'in densha ni narete shimaimashita."
    }
   ],
   "tip": {
-   "title": "« Foi construído / vende-se » : la voix passive",
-   "example": "Cet immeuble a été construit dans les années trente. — Este prédio <b>foi construído</b> nos anos trinta.",
-   "body": "Comme en français, le passif se forme avec « ser » + participe passé accordé : « A casa foi vendida », « Os azulejos vão ser restaurados ». Quand l'auteur de l'action n'a pas d'importance, le portugais préfère souvent le « se » passif, où le verbe s'accorde avec la chose : « Vende-se casa », « Vendem-se apartamentos », « Aluga-se quarto ». C'est l'équivalent de « on vend » ou de « à vendre » sur les panneaux."
+   "title": "« -te shimau » : finir par, le regret",
+   "example": "J'ai encore oublié mon parapluie dans le train ce matin. — 今朝、また電車に傘を<b>忘れてしまいました</b>。",
+   "exampleRo": "Kesa, mata densha ni kasa o wasurete shimaimashita.",
+   "lit": "ce matin · encore · train · [lieu] · parapluie · [objet] · oublier-finir par (poli, passé)",
+   "body": "En ajoutant « shimau » après la forme en « -te », on dit qu'une action est complètement terminée, ou qu'elle est arrivée malgré nous, avec une pointe de regret. « Wasureru » (oublier) devient ainsi « wasurete shimaimashita », j'ai bel et bien oublié, et zut. Notre exemple se décompose ainsi : ce matin, encore, train, dans, parapluie, objet, oublier pour de bon. Entre amis, la forme se contracte en « -chau » : « tabechatta », j'ai tout mangé, ou « keshichatta », je l'ai effacé par erreur. Le même outil sert aussi à dire qu'on a fini quelque chose d'un coup : « zenbu katazukete shimaimashita », j'ai tout liquidé. Astuce : pensez au cri « shimatta », oups, c'est exactement le même verbe."
   }
  },
  {
-  "title": "Acheter un appartement à crédit",
+  "title": "L'assurance santé nationale",
   "phrases": [
    {
-    "fr": "Nous avons demandé un crédit immobilier dans trois banques.",
-    "pt": "Pedimos crédito à habitação em três bancos."
+    "fr": "Toute personne qui vit au Japon doit s'affilier à une assurance santé.",
+    "ja": "日本に住む人は全員、健康保険に入らなければなりません。",
+    "ro": "Nihon ni sumu hito wa zen'in, kenkō hoken ni hairanakereba narimasen."
    },
    {
-    "fr": "La banque finance au maximum quatre-vingt-dix pour cent de la valeur.",
-    "pt": "O banco financia no máximo noventa por cento do valor."
+    "fr": "Avec l'assurance, on ne paie que trente pour cent des frais médicaux.",
+    "ja": "保険があれば、医療費は三割負担で済みます。",
+    "ro": "Hoken ga areba, iryōhi wa sanwari futan de sumimasu."
    },
    {
-    "fr": "Il faut donc des économies pour l'apport et pour les frais.",
-    "pt": "Por isso, é preciso ter poupanças para a entrada e para as despesas."
+    "fr": "Les salariés sont couverts par l'assurance de leur entreprise.",
+    "ja": "会社員は会社の健康保険に加入しています。",
+    "ro": "Kaishain wa kaisha no kenkō hoken ni kanyū shite imasu."
    },
    {
-    "fr": "Le taux variable dépend de l'Euribor, qui a beaucoup fluctué.",
-    "pt": "A taxa variável depende da Euribor, que tem oscilado muito."
+    "fr": "Les indépendants, eux, cotisent à l'assurance santé nationale.",
+    "ja": "自営業の人は国民健康保険に入ります。",
+    "ro": "Jieigyō no hito wa kokumin kenkō hoken ni hairimasu."
    },
    {
-    "fr": "Nous préférons un taux mixte pour dormir tranquilles.",
-    "pt": "Preferimos uma taxa mista para dormirmos descansados."
+    "fr": "Ma carte d'assuré est arrivée par la poste.",
+    "ja": "保険証が郵便で届きました。",
+    "ro": "Hokenshō ga yūbin de todokimashita."
    },
    {
-    "fr": "L'évaluation de la banque était inférieure au prix demandé.",
-    "pt": "A avaliação do banco ficou abaixo do preço pedido."
+    "fr": "N'oubliez pas de montrer votre carte d'assuré à l'accueil.",
+    "ja": "受付で保険証を見せるのを忘れないでください。",
+    "ro": "Uketsuke de hokenshō o miseru no o wasurenaide kudasai."
    },
    {
-    "fr": "Le vendeur a accepté de baisser de cinq mille euros.",
-    "pt": "O vendedor aceitou baixar cinco mil euros."
+    "fr": "La cotisation est calculée d'après les revenus de l'année précédente.",
+    "ja": "保険料は前の年の収入をもとに計算されます。",
+    "ro": "Hokenryō wa mae no toshi no shūnyū o moto ni keisan saremasu."
    },
    {
-    "fr": "Nous avons signé le compromis de vente la semaine dernière.",
-    "pt": "Assinámos o contrato-promessa de compra e venda na semana passada."
+    "fr": "Si les frais médicaux deviennent très élevés, une partie est remboursée.",
+    "ja": "医療費が高額になったら、一部が戻ってきます。",
+    "ro": "Iryōhi ga kōgaku ni nattara, ichibu ga modotte kimasu."
    },
    {
-    "fr": "La mensualité sera d'environ huit cents euros pendant trente ans.",
-    "pt": "A prestação vai ser de cerca de oitocentos euros durante trinta anos."
+    "fr": "Est-ce que ce traitement est pris en charge par l'assurance ?",
+    "ja": "この治療は保険がききますか。",
+    "ro": "Kono chiryō wa hoken ga kikimasu ka."
    },
    {
-    "fr": "C'est un engagement énorme, mais nous serons enfin chez nous.",
-    "pt": "É um compromisso enorme, mas finalmente vamos ter a nossa casa."
+    "fr": "Grâce à ce système, on peut aller à l'hôpital l'esprit tranquille.",
+    "ja": "この制度のおかげで、安心して病院に行けます。",
+    "ro": "Kono seido no okage de, anshin shite byōin ni ikemasu."
    }
   ]
  },
  {
-  "title": "Bouchons, péages et Via Verde",
+  "title": "Les déchets et la vie de voisinage",
   "phrases": [
    {
-    "fr": "Tous les matins, la Segunda Circular est complètement bouchée.",
-    "pt": "Todas as manhãs, a Segunda Circular está completamente entupida."
+    "fr": "Dans mon quartier, on trie les déchets en cinq catégories.",
+    "ja": "私の地域では、ごみを五種類に分けます。",
+    "ro": "Watashi no chiiki de wa, gomi o goshurui ni wakemasu."
    },
    {
-    "fr": "Sur l'IC19, je mets parfois une heure pour faire quinze kilomètres.",
-    "pt": "No IC19, às vezes demoro uma hora a fazer quinze quilómetros."
+    "fr": "Les déchets combustibles sont ramassés le mardi et le vendredi.",
+    "ja": "燃えるごみは火曜日と金曜日に回収されます。",
+    "ro": "Moeru gomi wa kayōbi to kin'yōbi ni kaishū saremasu."
    },
    {
-    "fr": "Un accident près de Benfica a bloqué la circulation pendant deux heures.",
-    "pt": "Um acidente perto de Benfica parou o trânsito durante duas horas."
+    "fr": "Il faut sortir les poubelles avant huit heures et demie du matin.",
+    "ja": "ごみは朝八時半までに出さなければなりません。",
+    "ro": "Gomi wa asa hachiji han made ni dasanakereba narimasen."
    },
    {
-    "fr": "Avec la Via Verde, je n'ai plus besoin de m'arrêter aux péages.",
-    "pt": "Com a Via Verde, já não preciso de parar nas portagens."
+    "fr": "Pour jeter un gros objet, il faut acheter un autocollant payant.",
+    "ja": "粗大ごみを出すには、有料のシールが必要です。",
+    "ro": "Sodai gomi o dasu ni wa, yūryō no shīru ga hitsuyō desu."
    },
    {
-    "fr": "Le montant est débité directement sur mon compte bancaire.",
-    "pt": "O valor é debitado diretamente na minha conta bancária."
+    "fr": "La personne d'en dessous m'a dit que mes pas faisaient trop de bruit.",
+    "ja": "下の階の人から、足音がうるさいと言われました。",
+    "ro": "Shita no kai no hito kara, ashioto ga urusai to iwaremashita."
    },
    {
-    "fr": "Sur le pont du 25 Avril, on ne paie le péage que dans le sens nord.",
-    "pt": "Na Ponte 25 de Abril, a portagem só se paga no sentido norte."
+    "fr": "Depuis, je fais attention à marcher doucement le soir.",
+    "ja": "それからは、夜は静かに歩くようにしています。",
+    "ro": "Sore kara wa, yoru wa shizuka ni aruku yō ni shite imasu."
    },
    {
-    "fr": "Certaines autoroutes n'ont que des portiques électroniques.",
-    "pt": "Algumas autoestradas só têm pórticos eletrónicos."
+    "fr": "Les annonces du quartier circulent sur un carnet que les voisins se passent.",
+    "ja": "回覧板で、町内のお知らせが回ってきます。",
+    "ro": "Kairanban de, chōnai no oshirase ga mawatte kimasu."
    },
    {
-    "fr": "Sans Via Verde, il faut aller payer à la poste après quelques jours.",
-    "pt": "Sem Via Verde, é preciso ir pagar aos CTT passados uns dias."
+    "fr": "Une fois que je l'ai lu, je le passe à la maison d'à côté.",
+    "ja": "読んだら、隣の家に回します。",
+    "ro": "Yondara, tonari no ie ni mawashimasu."
    },
    {
-    "fr": "Je pense sérieusement à prendre le train de Sintra à la place.",
-    "pt": "Estou a pensar seriamente em apanhar o comboio de Sintra em vez disso."
+    "fr": "Dimanche prochain, il y a un grand nettoyage du quartier.",
+    "ja": "今度の日曜日、町内の清掃活動があります。",
+    "ro": "Kondo no nichiyōbi, chōnai no seisō katsudō ga arimasu."
    },
    {
-    "fr": "Au moins, dans le train, je peux lire tranquillement.",
-    "pt": "Pelo menos, no comboio, posso ler à vontade."
+    "fr": "On se salue toujours quand on se croise dans l'ascenseur, c'est agréable.",
+    "ja": "エレベーターで会うと、いつもあいさつし合うので気持ちがいいです。",
+    "ro": "Erebētā de au to, itsumo aisatsu shiau node kimochi ga ii desu."
+   }
+  ]
+ },
+ {
+  "title": "Se préparer aux séismes",
+  "phrases": [
+   {
+    "fr": "Au Japon, il y a un séisme quelque part presque chaque jour.",
+    "ja": "日本ではほぼ毎日、どこかで地震が起きています。",
+    "ro": "Nihon de wa hobo mainichi, doko ka de jishin ga okite imasu."
+   },
+   {
+    "fr": "Fixez les grands meubles au mur pour qu'ils ne tombent pas.",
+    "ja": "大きな家具は倒れないように壁に固定してください。",
+    "ro": "Ōkina kagu wa taorenai yō ni kabe ni kotei shite kudasai."
+   },
+   {
+    "fr": "Gardons à la maison de l'eau et de la nourriture pour trois jours.",
+    "ja": "家に三日分の水と食料を用意しておきましょう。",
+    "ro": "Ie ni mikkabun no mizu to shokuryō o yōi shite okimashō."
+   },
+   {
+    "fr": "Je garde un sac d'urgence près de l'entrée.",
+    "ja": "玄関の近くに非常用持ち出し袋を置いています。",
+    "ro": "Genkan no chikaku ni hijōyō mochidashi bukuro o oite imasu."
+   },
+   {
+    "fr": "Si ça secoue, protège d'abord ta tête sous une table.",
+    "ja": "揺れたら、まず机の下で頭を守って。",
+    "ro": "Yuretara, mazu tsukue no shita de atama o mamotte."
+   },
+   {
+    "fr": "Pendant que ça tremble, ne te précipite pas dehors.",
+    "ja": "揺れている間は、慌てて外に出ないで。",
+    "ro": "Yurete iru aida wa, awatete soto ni denaide."
+   },
+   {
+    "fr": "Où se trouve le lieu d'évacuation de ce quartier ?",
+    "ja": "この地域の避難場所はどこですか。",
+    "ro": "Kono chiiki no hinan basho wa doko desu ka."
+   },
+   {
+    "fr": "Le portable reçoit une alerte quelques secondes avant la secousse.",
+    "ja": "揺れる数秒前に、携帯に緊急地震速報が届きます。",
+    "ro": "Yureru sūbyō mae ni, keitai ni kinkyū jishin sokuhō ga todokimasu."
+   },
+   {
+    "fr": "Au bureau, il y a un exercice d'évacuation chaque année en septembre.",
+    "ja": "会社では毎年九月に避難訓練があります。",
+    "ro": "Kaisha de wa maitoshi kugatsu ni hinan kunren ga arimasu."
+   },
+   {
+    "fr": "Si l'on s'est préparé, on ne panique pas le moment venu.",
+    "ja": "準備しておけば、いざというときも慌てずに済みます。",
+    "ro": "Junbi shite okeba, iza to iu toki mo awatezu ni sumimasu."
+   }
+  ]
+ },
+ {
+  "title": "Recevoir un client au bureau",
+  "phrases": [
+   {
+    "fr": "Je m'appelle Martin, du service commercial.",
+    "ja": "営業部のマルタンと申します。",
+    "ro": "Eigyōbu no Marutan to mōshimasu."
+   },
+   {
+    "fr": "Nous vous attendions, merci d'être venu de si loin.",
+    "ja": "お待ちしておりました。遠いところをありがとうございます。",
+    "ro": "Omachi shite orimashita. Tōi tokoro o arigatō gozaimasu."
+   },
+   {
+    "fr": "Je vous conduis à la salle de réunion.",
+    "ja": "会議室へご案内いたします。",
+    "ro": "Kaigishitsu e goannai itashimasu."
+   },
+   {
+    "fr": "Je vais chercher le responsable tout de suite.",
+    "ja": "ただいま担当者を呼んでまいります。",
+    "ro": "Tadaima tantōsha o yonde mairimasu."
+   },
+   {
+    "fr": "Je vous apporte du thé.",
+    "ja": "お茶をお持ちいたします。",
+    "ro": "Ocha o omochi itashimasu."
+   },
+   {
+    "fr": "Je vous enverrai le devis demain sans faute.",
+    "ja": "明日、必ず見積書をお送りいたします。",
+    "ro": "Ashita, kanarazu mitsumorisho o ookuri itashimasu."
+   },
+   {
+    "fr": "La semaine prochaine, c'est moi qui viendrai dans vos locaux.",
+    "ja": "来週、御社へまいります。",
+    "ro": "Raishū, onsha e mairimasu."
+   },
+   {
+    "fr": "Je viens de France, et je travaille ici depuis trois ans.",
+    "ja": "フランスからまいりました。こちらで三年働いております。",
+    "ro": "Furansu kara mairimashita. Kochira de sannen hataraite orimasu."
+   },
+   {
+    "fr": "Merci de toujours nous faire confiance.",
+    "ja": "いつもお世話になっております。",
+    "ro": "Itsumo osewa ni natte orimasu."
+   },
+   {
+    "fr": "Je compte sur vous pour la suite de notre collaboration.",
+    "ja": "今後ともよろしくお願いいたします。",
+    "ro": "Kongo tomo yoroshiku onegai itashimasu."
+   }
+  ],
+  "tip": {
+   "title": "Le langage humble : « itashimasu », « mairimasu »",
+   "example": "Je vais chercher le responsable tout de suite. — ただいま担当者を呼んで<b>まいります</b>。",
+   "exampleRo": "Tadaima tantōsha o yonde mairimasu.",
+   "lit": "à l'instant · responsable · [objet] · appeler · aller (humble, poli)",
+   "body": "Au niveau 2, vous avez vu le langage de respect, qui élève l'autre ; le langage humble fait l'inverse : on s'abaisse soi-même pour honorer son interlocuteur. On l'utilise uniquement pour ses propres actions, ou celles de son entreprise face à un client. « Suru » (faire) devient « itasu », d'où « itashimasu », et « iku » ou « kuru » (aller, venir) deviennent « mairu », d'où « mairimasu ». Notre exemple, « yonde mairimasu », se lit : appeler, aller humblement, autrement dit je vais le chercher. Avec « o » ou « go » devant un nom d'action, on obtient des formules toutes faites : « goannai itashimasu », je vous guide, ou « ookuri itashimasu », je vous l'envoie. Astuce : si c'est vous qui agissez face à un client, pensez humble ; si c'est lui, pensez respect."
+  }
+ },
+ {
+  "title": "Les trains bondés aux heures de pointe",
+  "phrases": [
+   {
+    "fr": "Entre huit et neuf heures, les trains sont pleins à craquer.",
+    "ja": "八時から九時の間は、電車がぎゅうぎゅう詰めです。",
+    "ro": "Hachiji kara kuji no aida wa, densha ga gyūgyūzume desu."
+   },
+   {
+    "fr": "Il arrive que le personnel pousse les passagers pour fermer les portes.",
+    "ja": "駅員が乗客を押して、ドアを閉めることもあります。",
+    "ro": "Ekiin ga jōkyaku o oshite, doa o shimeru koto mo arimasu."
+   },
+   {
+    "fr": "Porte ton sac à dos devant toi, s'il te plaît.",
+    "ja": "リュックは前に抱えてね。",
+    "ro": "Ryukku wa mae ni kakaete ne."
+   },
+   {
+    "fr": "Dans le train, la règle est de ne pas téléphoner.",
+    "ja": "電車の中では電話で話さないのがマナーです。",
+    "ro": "Densha no naka de wa denwa de hanasanai no ga manā desu."
+   },
+   {
+    "fr": "Le matin, il y a des voitures réservées aux femmes.",
+    "ja": "朝は、女性専用車両があります。",
+    "ro": "Asa wa, josei sen'yō sharyō ga arimasu."
+   },
+   {
+    "fr": "Le train est en retard à cause d'un accident de personne.",
+    "ja": "人身事故で電車が遅れています。",
+    "ro": "Jinshin jiko de densha ga okurete imasu."
+   },
+   {
+    "fr": "Dans ce cas, on peut obtenir un certificat de retard à la gare.",
+    "ja": "その場合、駅で遅延証明書がもらえます。",
+    "ro": "Sono baai, eki de chien shōmeisho ga moraemasu."
+   },
+   {
+    "fr": "Si je le montre à mon chef, mon retard n'est pas compté.",
+    "ja": "それを上司に見せれば、遅刻扱いになりません。",
+    "ro": "Sore o jōshi ni misereba, chikoku atsukai ni narimasen."
+   },
+   {
+    "fr": "Comme je veux être assis, je m'efforce de partir un peu plus tôt.",
+    "ja": "座りたいので、少し早く家を出るようにしています。",
+    "ro": "Suwaritai node, sukoshi hayaku ie o deru yō ni shite imasu."
+   },
+   {
+    "fr": "Avec le temps, on finit par savoir dormir debout dans le train.",
+    "ja": "そのうち、立ったまま電車で寝られるようになります。",
+    "ro": "Sono uchi, tatta mama densha de nerareru yō ni narimasu."
    }
   ]
  },
@@ -6055,409 +8370,329 @@ const level3Module1Lessons = [
   "title": "Le télétravail",
   "phrases": [
    {
-    "fr": "Depuis la pandémie, je travaille de chez moi trois jours par semaine.",
-    "pt": "Desde a pandemia, trabalho a partir de casa três dias por semana."
+    "fr": "Depuis cette année, je travaille de chez moi deux jours par semaine.",
+    "ja": "今年から、週に二日在宅勤務をしています。",
+    "ro": "Kotoshi kara, shū ni futsuka zaitaku kinmu o shite imasu."
    },
    {
-    "fr": "Mon bureau, c'est un coin du salon près de la fenêtre.",
-    "pt": "O meu escritório é um canto da sala junto à janela."
+    "fr": "Je gagne près de deux heures de trajet par jour.",
+    "ja": "通勤時間が一日二時間近く浮きます。",
+    "ro": "Tsūkin jikan ga ichinichi nijikan chikaku ukimasu."
    },
    {
-    "fr": "Le plus difficile, c'est de décrocher à la fin de la journée.",
-    "pt": "O mais difícil é desligar ao fim do dia."
+    "fr": "Mais mon logement est trop petit pour un vrai coin bureau.",
+    "ja": "でも、部屋が狭くて、ちゃんとした仕事スペースがありません。",
+    "ro": "Demo, heya ga semakute, chanto shita shigoto supēsu ga arimasen."
    },
    {
-    "fr": "La loi oblige l'entreprise à compenser les dépenses comme l'électricité et internet.",
-    "pt": "A lei obriga a empresa a compensar despesas como a luz e a internet."
+    "fr": "Parfois, je travaille dans un café près de chez moi.",
+    "ja": "時々、近所のカフェで仕事をします。",
+    "ro": "Tokidoki, kinjo no kafe de shigoto o shimasu."
    },
    {
-    "fr": "Les réunions en visio s'enchaînent toute la matinée.",
-    "pt": "As reuniões por videochamada sucedem-se a manhã toda."
+    "fr": "Ta caméra est éteinte, on ne voit pas ton visage.",
+    "ja": "カメラがオフになってるよ。顔が見えない。",
+    "ro": "Kamera ga ofu ni natteru yo. Kao ga mienai."
    },
    {
-    "fr": "Parfois, je vais travailler dans un café de Leiria pour changer d'air.",
-    "pt": "Às vezes, vou trabalhar para um café em Leiria para mudar de ares."
+    "fr": "Pardon, il semble que mon micro était coupé.",
+    "ja": "すみません、マイクがミュートになっていたみたいです。",
+    "ro": "Sumimasen, maiku ga myūto ni natte ita mitai desu."
    },
    {
-    "fr": "Mes collègues de Lisbonne, je ne les vois qu'une fois par mois.",
-    "pt": "Os meus colegas de Lisboa, só os vejo uma vez por mês."
+    "fr": "La connexion est instable, je vous rappelle.",
+    "ja": "接続が不安定なので、かけ直します。",
+    "ro": "Setsuzoku ga fuantei na node, kakenaoshimasu."
    },
    {
-    "fr": "Sans les trajets, je gagne presque deux heures par jour.",
-    "pt": "Sem as deslocações, ganho quase duas horas por dia."
+    "fr": "Il paraît que le directeur veut nous voir au bureau le lundi.",
+    "ja": "部長は、月曜日は出社してほしいそうです。",
+    "ro": "Buchō wa, getsuyōbi wa shussha shite hoshii sō desu."
    },
    {
-    "fr": "Mon chat passe ses journées à marcher sur le clavier.",
-    "pt": "O meu gato passa os dias a andar em cima do teclado."
+    "fr": "Pour bien séparer travail et repos, je m'habille comme pour aller au bureau.",
+    "ja": "メリハリをつけるために、出社するときと同じ服を着ます。",
+    "ro": "Merihari o tsukeru tame ni, shussha suru toki to onaji fuku o kimasu."
    },
    {
-    "fr": "Pour rien au monde je ne retournerais au bureau tous les jours.",
-    "pt": "Por nada deste mundo voltava a ir ao escritório todos os dias."
+    "fr": "Le plus difficile, c'est d'arrêter de travailler le soir.",
+    "ja": "一番難しいのは、夜に仕事をやめることです。",
+    "ro": "Ichiban muzukashii no wa, yoru ni shigoto o yameru koto desu."
    }
   ]
  },
  {
-  "title": "Négocier son salaire",
+  "title": "Les démarches à la mairie",
   "phrases": [
    {
-    "fr": "Si j'avais plus d'expérience, je demanderais davantage.",
-    "pt": "Se eu tivesse mais experiência, pedia mais."
+    "fr": "Après un déménagement, il faut déclarer son arrivée sous quatorze jours.",
+    "ja": "引っ越したら、十四日以内に転入届を出さなければなりません。",
+    "ro": "Hikkoshitara, jūyokka inai ni tennyū todoke o dasanakereba narimasen."
    },
    {
-    "fr": "Ici, les salaires restent bas par rapport au prix du logement.",
-    "pt": "Cá, os ordenados continuam baixos em comparação com o preço da habitação."
+    "fr": "J'ai pris un ticket et j'attends qu'on appelle mon numéro.",
+    "ja": "番号札を取って、呼ばれるのを待っています。",
+    "ro": "Bangōfuda o totte, yobareru no o matte imasu."
    },
    {
-    "fr": "J'ai préparé une liste de mes résultats de l'année.",
-    "pt": "Preparei uma lista dos meus resultados do ano."
+    "fr": "Remplissez ce formulaire et déposez-le au guichet numéro trois.",
+    "ja": "この用紙に記入して、三番の窓口に出してください。",
+    "ro": "Kono yōshi ni kinyū shite, sanban no madoguchi ni dashite kudasai."
    },
    {
-    "fr": "Si la directrice était de bonne humeur, ce serait plus facile.",
-    "pt": "Se a diretora estivesse bem-disposta, era mais fácil."
+    "fr": "La banque me demande un certificat de résidence.",
+    "ja": "銀行に出すので、住民票が必要です。",
+    "ro": "Ginkō ni dasu node, jūminhyō ga hitsuyō desu."
    },
    {
-    "fr": "J'ai demandé une augmentation de deux cents euros bruts par mois.",
-    "pt": "Pedi um aumento de duzentos euros brutos por mês."
+    "fr": "Avec la carte My Number, on peut aussi l'imprimer au konbini.",
+    "ja": "マイナンバーカードがあれば、コンビニでも印刷できます。",
+    "ro": "Mai nanbā kādo ga areba, konbini demo insatsu dekimasu."
    },
    {
-    "fr": "Elle a répondu que le budget était déjà bouclé.",
-    "pt": "Ela respondeu que o orçamento já estava fechado."
+    "fr": "Il faut aussi faire changer l'adresse sur la carte de séjour.",
+    "ja": "在留カードの住所も変えてもらう必要があります。",
+    "ro": "Zairyū kādo no jūsho mo kaete morau hitsuyō ga arimasu."
    },
    {
-    "fr": "Si tu étais à ma place, tu accepterais un jour de télétravail en plus ?",
-    "pt": "Se estivesses no meu lugar, aceitavas mais um dia de teletrabalho?"
+    "fr": "Qu'est-ce que je dois apporter, exactement ?",
+    "ja": "何を持ってくればいいですか。",
+    "ro": "Nani o motte kureba ii desu ka."
    },
    {
-    "fr": "N'oublie pas qu'au Portugal, on touche quatorze mois de salaire.",
-    "pt": "Não te esqueças de que, em Portugal, se recebem catorze meses de ordenado."
+    "fr": "Ce guichet ferme à cinq heures et quart de l'après-midi.",
+    "ja": "この窓口は午後五時十五分に閉まります。",
+    "ro": "Kono madoguchi wa gogo goji jūgofun ni shimarimasu."
    },
    {
-    "fr": "Si j'avais su, j'aurais négocié dès mon arrivée dans l'entreprise.",
-    "pt": "Se eu soubesse, tinha negociado logo quando entrei na empresa."
+    "fr": "Il manquait un tampon, alors j'ai dû revenir une deuxième fois.",
+    "ja": "はんこが足りなくて、もう一度来なければなりませんでした。",
+    "ro": "Hanko ga tarinakute, mō ichido konakereba narimasen deshita."
    },
    {
-    "fr": "Finalement, j'ai obtenu une augmentation et une meilleure prime de repas.",
-    "pt": "No fim, consegui um aumento e um subsídio de refeição melhor."
-   }
-  ],
-  "tip": {
-   "title": "« Se eu tivesse… comprava » : l'hypothèse irréelle",
-   "example": "Si j'avais plus d'expérience, je demanderais davantage. — Se eu <b>tivesse</b> mais experiência, <b>pedia</b> mais.",
-   "body": "Pour une hypothèse irréelle, le portugais met l'imparfait du subjonctif après « se », là où le français met l'imparfait de l'indicatif : « Se eu tivesse tempo… ». Dans la principale, le conditionnel (« compraria ») est correct, mais à l'oral, au Portugal, on préfère l'imparfait : « Se tivesse dinheiro, comprava uma casa ». L'imparfait du subjonctif se forme sur le passé simple : tiveram → tivesse, fizeram → fizesse, foram → fosse."
-  }
- },
- {
-  "title": "S'occuper de ses parents âgés",
-  "phrases": [
-   {
-    "fr": "Depuis sa chute, ma mère ne peut plus vivre seule à Viseu.",
-    "pt": "Desde a queda, a minha mãe já não pode viver sozinha em Viseu."
-   },
-   {
-    "fr": "Mon frère et moi, nous nous relayons chaque week-end.",
-    "pt": "Eu e o meu irmão revezamo-nos todos os fins de semana."
-   },
-   {
-    "fr": "L'aide à domicile vient tous les matins l'aider pour sa toilette.",
-    "pt": "O apoio domiciliário vem todas as manhãs ajudá-la na higiene."
-   },
-   {
-    "fr": "La liste d'attente pour la maison de retraite est très longue.",
-    "pt": "A lista de espera para o lar é muito longa."
-   },
-   {
-    "fr": "Mon père refuse catégoriquement de quitter sa maison.",
-    "pt": "O meu pai recusa-se terminantemente a sair de casa."
-   },
-   {
-    "fr": "Je lui ai acheté un portable avec de grosses touches.",
-    "pt": "Comprei-lhe um telemóvel com teclas grandes."
-   },
-   {
-    "fr": "La pharmacienne du village nous aide beaucoup pour les médicaments.",
-    "pt": "A farmacêutica da aldeia ajuda-nos muito com os medicamentos."
-   },
-   {
-    "fr": "Il faut que quelqu'un l'accompagne à ses rendez-vous à l'hôpital.",
-    "pt": "É preciso que alguém o acompanhe às consultas no hospital."
-   },
-   {
-    "fr": "Parfois, je me sens coupable de vivre si loin d'eux.",
-    "pt": "Às vezes, sinto-me culpado por viver tão longe deles."
-   },
-   {
-    "fr": "Mais chaque dimanche, ma mère me raconte sa semaine au téléphone.",
-    "pt": "Mas, todos os domingos, a minha mãe conta-me a semana dela ao telefone."
+    "fr": "Les démarches sont longues, mais les agents sont très aimables.",
+    "ja": "手続きは時間がかかりますが、職員の方はとても親切です。",
+    "ro": "Tetsuzuki wa jikan ga kakarimasu ga, shokuin no kata wa totemo shinsetsu desu."
    }
   ]
  },
  {
-  "title": "L'ecoponto et le tri",
+  "title": "Le bilan de santé annuel",
   "phrases": [
    {
-    "fr": "Au bout de notre rue, il y a un ecoponto avec trois conteneurs.",
-    "pt": "Ao fundo da nossa rua, há um ecoponto com três contentores."
+    "fr": "Chaque année, l'entreprise fait passer un bilan de santé à ses employés.",
+    "ja": "毎年、会社が社員に健康診断を受けさせます。",
+    "ro": "Maitoshi, kaisha ga shain ni kenkō shindan o ukesasemasu."
    },
    {
-    "fr": "Le jaune est pour le plastique et les emballages en métal.",
-    "pt": "O amarelo é para o plástico e as embalagens de metal."
+    "fr": "La veille, il ne faut rien manger après neuf heures du soir.",
+    "ja": "前の日の夜九時以降は、何も食べてはいけません。",
+    "ro": "Mae no hi no yoru kuji ikō wa, nani mo tabete wa ikemasen."
    },
    {
-    "fr": "Le bleu reçoit le papier et le carton, bien pliés.",
-    "pt": "O azul é para o papel e o cartão, bem dobrados."
+    "fr": "On mesure la taille, le poids et le tour de ventre.",
+    "ja": "身長と体重と腹囲を測ります。",
+    "ro": "Shinchō to taijū to fukui o hakarimasu."
    },
    {
-    "fr": "Le verre va dans le vert, sans les bouchons.",
-    "pt": "O vidro vai para o verde, sem as tampas."
+    "fr": "La prise de sang m'a fait un peu peur.",
+    "ja": "採血がちょっと怖かったです。",
+    "ro": "Saiketsu ga chotto kowakatta desu."
    },
    {
-    "fr": "Les piles se déposent dans le petit tube rouge.",
-    "pt": "As pilhas põem-se no pilhão, o tubinho vermelho."
+    "fr": "Pour l'examen de l'estomac, il faut avaler du baryum.",
+    "ja": "胃の検査では、バリウムを飲まなければなりません。",
+    "ro": "I no kensa de wa, bariumu o nomanakereba narimasen."
    },
    {
-    "fr": "Mes enfants corrigent mes erreurs de tri tous les soirs.",
-    "pt": "Os meus filhos corrigem os meus erros de separação todas as noites."
+    "fr": "Les résultats nous sont envoyés un mois plus tard.",
+    "ja": "結果は一か月後に送られてきます。",
+    "ro": "Kekka wa ikkagetsu go ni okurarete kimasu."
    },
    {
-    "fr": "La mairie a distribué des seaux pour les déchets organiques.",
-    "pt": "A câmara distribuiu baldes para os resíduos orgânicos."
+    "fr": "Le médecin m'a dit de faire davantage de sport.",
+    "ja": "医者に、もっと運動するように言われました。",
+    "ro": "Isha ni, motto undō suru yō ni iwaremashita."
    },
    {
-    "fr": "Il est interdit de laisser des sacs à côté des conteneurs.",
-    "pt": "É proibido deixar sacos ao lado dos contentores."
+    "fr": "Mon taux de cholestérol est un peu élevé.",
+    "ja": "コレステロールの値が少し高いです。",
+    "ro": "Koresuterōru no atai ga sukoshi takai desu."
    },
    {
-    "fr": "Les vieux meubles, qu'on appelle ici « monos », la mairie les ramasse gratuitement.",
-    "pt": "Os móveis velhos, a que cá se chama «monos», a câmara recolhe-os de graça."
+    "fr": "Si rien ne change, il faudra peut-être refaire un examen.",
+    "ja": "このままだと、再検査が必要になるかもしれません。",
+    "ro": "Kono mama da to, saikensa ga hitsuyō ni naru kamoshiremasen."
    },
    {
-    "fr": "Trier devient vite un réflexe, comme se brosser les dents.",
-    "pt": "Separar o lixo torna-se depressa um hábito, como lavar os dentes."
+    "fr": "À partir de demain, j'irai à pied jusqu'à la gare suivante.",
+    "ja": "明日から、一つ先の駅まで歩くことにします。",
+    "ro": "Ashita kara, hitotsu saki no eki made aruku koto ni shimasu."
    }
   ]
  },
  {
-  "title": "Élections et bureau de vote",
+  "title": "La banque et les factures",
   "phrases": [
    {
-    "fr": "Les élections législatives ont lieu dimanche prochain.",
-    "pt": "As eleições legislativas são no próximo domingo."
+    "fr": "Pour ouvrir un compte, il faut une adresse et un numéro de téléphone.",
+    "ja": "口座を開くには、住所と電話番号が必要です。",
+    "ro": "Kōza o hiraku ni wa, jūsho to denwa bangō ga hitsuyō desu."
    },
    {
-    "fr": "Comme citoyen européen, je peux voter aux élections municipales.",
-    "pt": "Como cidadão europeu, posso votar nas autárquicas."
+    "fr": "Certaines banques refusent d'ouvrir un compte avant six mois de résidence.",
+    "ja": "日本に住んで六か月たたないと、口座を作れない銀行もあります。",
+    "ro": "Nihon ni sunde rokkagetsu tatanai to, kōza o tsukurenai ginkō mo arimasu."
    },
    {
-    "fr": "J'ai vérifié en ligne dans quel bureau de vote je suis inscrit.",
-    "pt": "Confirmei na internet em que secção de voto estou recenseado."
+    "fr": "Mon salaire est versé le vingt-cinq de chaque mois.",
+    "ja": "給料は毎月二十五日に振り込まれます。",
+    "ro": "Kyūryō wa maitsuki nijūgonichi ni furikomaremasu."
    },
    {
-    "fr": "Le bureau de vote se trouve dans l'école primaire du quartier.",
-    "pt": "A assembleia de voto fica na escola primária do bairro."
+    "fr": "On peut régler la facture d'électricité au konbini.",
+    "ja": "電気代はコンビニで払えます。",
+    "ro": "Denkidai wa konbini de haraemasu."
    },
    {
-    "fr": "Il faut montrer sa carte d'identité ou son titre de séjour.",
-    "pt": "É preciso mostrar o cartão de cidadão ou o título de residência."
+    "fr": "J'ai choisi le prélèvement automatique, c'est plus pratique.",
+    "ja": "口座振替のほうが楽なので、そうしています。",
+    "ro": "Kōza furikae no hō ga raku na node, sō shite imasu."
    },
    {
-    "fr": "La file avançait vite, malgré le monde.",
-    "pt": "A fila andava depressa, apesar de haver muita gente."
+    "fr": "Au Japon, beaucoup de gens paient encore en liquide.",
+    "ja": "日本では、まだ現金を使う人が多いです。",
+    "ro": "Nihon de wa, mada genkin o tsukau hito ga ōi desu."
    },
    {
-    "fr": "Les membres du bureau ont barré mon nom sur la liste.",
-    "pt": "Os membros da mesa riscaram o meu nome da lista."
+    "fr": "Mais les magasins qui acceptent le paiement par smartphone se multiplient.",
+    "ja": "でも、スマホ決済が使える店もどんどん増えています。",
+    "ro": "Demo, sumaho kessai ga tsukaeru mise mo dondon fuete imasu."
    },
    {
-    "fr": "Le soir, toute la famille a suivi les résultats à la télévision.",
-    "pt": "À noite, a família toda seguiu os resultados na televisão."
+    "fr": "En juin, l'avis de l'impôt local arrive dans la boîte aux lettres.",
+    "ja": "六月になると、住民税の通知がポストに届きます。",
+    "ro": "Rokugatsu ni naru to, jūminzei no tsūchi ga posuto ni todokimasu."
    },
    {
-    "fr": "L'abstention a encore été très élevée.",
-    "pt": "A abstenção voltou a ser muito elevada."
+    "fr": "Pour les salariés, cet impôt est prélevé directement sur le salaire.",
+    "ja": "会社員の場合、この税金は給料から天引きされます。",
+    "ro": "Kaishain no baai, kono zeikin wa kyūryō kara tenbiki saremasu."
    },
    {
-    "fr": "Voter ici me donne vraiment l'impression de faire partie du pays.",
-    "pt": "Votar cá dá-me mesmo a sensação de fazer parte do país."
+    "fr": "J'ai enfin compris comment lire ma fiche de paie.",
+    "ja": "やっと給与明細の見方がわかりました。",
+    "ro": "Yatto kyūyo meisai no mikata ga wakarimashita."
    }
   ]
  },
  {
-  "title": "Un potager urbain",
+  "title": "La fête du sanctuaire du quartier",
   "phrases": [
    {
-    "fr": "La mairie de Lisbonne attribue de petites parcelles dans les potagers urbains.",
-    "pt": "A Câmara de Lisboa atribui pequenos talhões nas hortas urbanas."
+    "fr": "Ce week-end, il y a une fête au sanctuaire du quartier.",
+    "ja": "今週末、近所の神社でお祭りがあります。",
+    "ro": "Konshūmatsu, kinjo no jinja de omatsuri ga arimasu."
    },
    {
-    "fr": "Nous avons attendu un an avant d'obtenir notre parcelle.",
-    "pt": "Esperámos um ano até nos darem o nosso talhão."
+    "fr": "Les habitants portent le palanquin sacré à travers les rues.",
+    "ja": "町内の人たちがみこしを担いで、通りを練り歩きます。",
+    "ro": "Chōnai no hitotachi ga mikoshi o katsuide, tōri o neriarukimasu."
    },
    {
-    "fr": "J'y plante des tomates, des courgettes et des haricots verts.",
-    "pt": "Planto lá tomates, curgetes e feijão-verde."
+    "fr": "Cette année, on m'a proposé de le porter avec eux.",
+    "ja": "今年は一緒に担がないかと誘われました。",
+    "ro": "Kotoshi wa issho ni katsuganai ka to sasowaremashita."
    },
    {
-    "fr": "L'été, il faut arroser tous les soirs à cause de la chaleur.",
-    "pt": "No verão, é preciso regar ao fim da tarde por causa do calor."
+    "fr": "Il faut porter la veste « happi » du quartier.",
+    "ja": "町内のはっぴを着なければなりません。",
+    "ro": "Chōnai no happi o kinakereba narimasen."
    },
    {
-    "fr": "Mon voisin de parcelle, un retraité, me donne plein de conseils.",
-    "pt": "O vizinho do talhão ao lado, um reformado, dá-me imensos conselhos."
+    "fr": "Les stands vendent des yakisoba et des pommes d'amour.",
+    "ja": "屋台で焼きそばやりんごあめを売っています。",
+    "ro": "Yatai de yakisoba ya ringoame o utte imasu."
    },
    {
-    "fr": "Il m'a appris à planter selon les phases de la lune.",
-    "pt": "Ensinou-me a plantar conforme as fases da lua."
+    "fr": "Les enfants s'amusent à pêcher des poissons rouges.",
+    "ja": "子どもたちは金魚すくいをしています。",
+    "ro": "Kodomotachi wa kingyo sukui o shite imasu."
    },
    {
-    "fr": "Les escargots ont mangé toutes mes laitues en une nuit.",
-    "pt": "Os caracóis comeram-me as alfaces todas numa noite."
+    "fr": "Tu as mis un yukata ! Il te va vraiment bien.",
+    "ja": "浴衣、着たんだ。よく似合ってるね。",
+    "ro": "Yukata, kita n da. Yoku niatteru ne."
    },
    {
-    "fr": "On partage les outils dans une petite cabane commune.",
-    "pt": "Partilhamos as ferramentas numa pequena arrecadação comum."
+    "fr": "C'est l'occasion de parler aux voisins qu'on ne fait que croiser.",
+    "ja": "いつもすれ違うだけの近所の人と話すいい機会です。",
+    "ro": "Itsumo surechigau dake no kinjo no hito to hanasu ii kikai desu."
    },
    {
-    "fr": "Rien ne vaut une tomate qu'on a fait pousser soi-même.",
-    "pt": "Nada sabe tão bem como um tomate que nós próprios cultivámos."
+    "fr": "Après la fête, tout le monde aide à ranger.",
+    "ja": "お祭りの後は、みんなで片付けを手伝います。",
+    "ro": "Omatsuri no ato wa, minna de katazuke o tetsudaimasu."
    },
    {
-    "fr": "Ce petit coin de terre est devenu mon refuge du samedi matin.",
-    "pt": "Este cantinho de terra tornou-se o meu refúgio ao sábado de manhã."
+    "fr": "J'ai enfin l'impression d'être un vrai habitant de ce quartier.",
+    "ja": "やっと、この町の住人になれた気がします。",
+    "ro": "Yatto, kono machi no jūnin ni nareta ki ga shimasu."
    }
   ]
  },
  {
-  "title": "La Feira da Ladra",
+  "title": "Le pot de départ d'un collègue",
   "phrases": [
    {
-    "fr": "La Feira da Ladra a lieu le mardi et le samedi, près du Panthéon national.",
-    "pt": "A Feira da Ladra realiza-se à terça e ao sábado, junto ao Panteão Nacional."
+    "fr": "Monsieur Tanaka est muté à l'agence de Fukuoka.",
+    "ja": "田中さんが福岡支店に転勤することになりました。",
+    "ro": "Tanaka-san ga Fukuoka shiten ni tenkin suru koto ni narimashita."
    },
    {
-    "fr": "Il vaut mieux y aller tôt, avant qu'il fasse trop chaud.",
-    "pt": "Convém ir cedo, antes de o calor apertar."
+    "fr": "Vendredi soir, nous organisons une soirée d'adieu.",
+    "ja": "金曜日の夜、送別会を開きます。",
+    "ro": "Kin'yōbi no yoru, sōbetsukai o hirakimasu."
    },
    {
-    "fr": "On y trouve de tout : vieux disques, azulejos, outils et vêtements.",
-    "pt": "Encontra-se lá de tudo: discos antigos, azulejos, ferramentas e roupa."
+    "fr": "Chacun a donné mille yens pour lui acheter un cadeau.",
+    "ja": "みんなで千円ずつ出して、プレゼントを買いました。",
+    "ro": "Minna de sen'en zutsu dashite, purezento o kaimashita."
    },
    {
-    "fr": "J'ai repéré une lampe des années soixante sur un étal.",
-    "pt": "Descobri um candeeiro dos anos sessenta numa banca."
+    "fr": "On m'a chargé de rassembler les messages pour la carte collective.",
+    "ja": "寄せ書きのメッセージを集める係になりました。",
+    "ro": "Yosegaki no messēji o atsumeru kakari ni narimashita."
    },
    {
-    "fr": "Le vendeur en demandait quarante euros, ce qui m'a paru cher.",
-    "pt": "O vendedor pedia quarenta euros, o que me pareceu caro."
+    "fr": "Grâce à vous, monsieur Tanaka, j'ai appris énormément de choses.",
+    "ja": "田中さんのおかげで、たくさんのことを学びました。",
+    "ro": "Tanaka-san no okage de, takusan no koto o manabimashita."
    },
    {
-    "fr": "Après un peu de marchandage, on s'est mis d'accord sur vingt-cinq.",
-    "pt": "Depois de regatear um bocado, ficámos nos vinte e cinco."
+    "fr": "On va vraiment se sentir seuls sans vous.",
+    "ja": "本当に寂しくなります。",
+    "ro": "Hontō ni sabishiku narimasu."
    },
    {
-    "fr": "Méfie-toi des azulejos trop bon marché, ils sont parfois volés.",
-    "pt": "Desconfia dos azulejos muito baratos, às vezes são roubados."
+    "fr": "Là-bas aussi, prenez bien soin de votre santé.",
+    "ja": "向こうでも体に気をつけてください。",
+    "ro": "Mukō demo karada ni ki o tsukete kudasai."
    },
    {
-    "fr": "On dit que le nom de la foire vient du mot « ladra », voleuse.",
-    "pt": "Diz-se que o nome da feira vem da palavra «ladra», ou seja, a que rouba."
+    "fr": "Si jamais vous repassez par Tokyo, faites-nous signe.",
+    "ja": "東京に来ることがあれば、ぜひ連絡してください。",
+    "ro": "Tōkyō ni kuru koto ga areba, zehi renraku shite kudasai."
    },
    {
-    "fr": "Ensuite, nous sommes allés boire une bière avec vue sur le Tage.",
-    "pt": "Depois, fomos beber uma imperial com vista para o Tejo."
+    "fr": "À la fin, monsieur Tanaka a fait un discours très émouvant.",
+    "ja": "最後に、田中さんが感動的なスピーチをしました。",
+    "ro": "Saigo ni, Tanaka-san ga kandōteki na supīchi o shimashita."
    },
    {
-    "fr": "Je reviens toujours avec quelque chose dont je n'ai pas besoin.",
-    "pt": "Volto sempre com alguma coisa de que não preciso."
-   }
-  ]
- },
- {
-  "title": "Réflexions sur la vie au Portugal",
-  "phrases": [
-   {
-    "fr": "Cela fait déjà sept ans que je me suis installé au Portugal.",
-    "pt": "Já lá vão sete anos desde que me mudei para Portugal."
-   },
-   {
-    "fr": "Au début, la lenteur de l'administration me rendait fou.",
-    "pt": "No início, a lentidão dos serviços deixava-me louco."
-   },
-   {
-    "fr": "Aujourd'hui, j'ai appris à prendre les choses avec calme.",
-    "pt": "Hoje, aprendi a levar as coisas com calma."
-   },
-   {
-    "fr": "Ce qui me touche le plus, c'est la gentillesse des gens.",
-    "pt": "O que mais me toca é a simpatia das pessoas."
-   },
-   {
-    "fr": "Ici, on trouve toujours le temps de boire un café ensemble.",
-    "pt": "Aqui, há sempre tempo para um café."
-   },
-   {
-    "fr": "Les bas salaires restent le grand problème du pays.",
-    "pt": "Os ordenados baixos continuam a ser o grande problema do país."
-   },
-   {
-    "fr": "Beaucoup de jeunes Portugais partent travailler à l'étranger.",
-    "pt": "Muitos jovens portugueses vão trabalhar para o estrangeiro."
-   },
-   {
-    "fr": "La saudade, je crois que je commence enfin à la comprendre.",
-    "pt": "A saudade, acho que finalmente começo a percebê-la."
-   },
-   {
-    "fr": "Je ne sais pas si je resterai ici toute ma vie.",
-    "pt": "Não sei se vou ficar cá a vida toda."
-   },
-   {
-    "fr": "Mais pour l'instant, je ne me vois vivre nulle part ailleurs.",
-    "pt": "Mas, por agora, não me vejo a viver em mais lado nenhum."
-   }
-  ]
- },
- {
-  "title": "Le déjeuner du dimanche en famille",
-  "phrases": [
-   {
-    "fr": "Chaque dimanche, toute la famille se retrouve chez ma belle-mère.",
-    "pt": "Todos os domingos, a família toda junta-se em casa da minha sogra."
-   },
-   {
-    "fr": "Le repas commence rarement avant deux heures de l'après-midi.",
-    "pt": "O almoço raramente começa antes das duas da tarde."
-   },
-   {
-    "fr": "Ma belle-mère prépare toujours du cabrito ou de la morue au four.",
-    "pt": "A minha sogra faz sempre cabrito assado ou bacalhau no forno."
-   },
-   {
-    "fr": "Il y a toujours de quoi nourrir un régiment.",
-    "pt": "Há sempre comida para um regimento."
-   },
-   {
-    "fr": "Les oncles parlent de football et de politique en même temps.",
-    "pt": "Os tios discutem futebol e política ao mesmo tempo."
-   },
-   {
-    "fr": "Les enfants jouent dans la cour pendant que les adultes restent à table.",
-    "pt": "Os miúdos brincam no quintal enquanto os adultos ficam à mesa."
-   },
-   {
-    "fr": "Comme dessert, il y a toujours un arroz doce à la cannelle.",
-    "pt": "De sobremesa, há sempre arroz-doce com canela."
-   },
-   {
-    "fr": "Après le café, mon beau-père sort son aguardente.",
-    "pt": "Depois do café, o meu sogro tira a aguardente do armário."
-   },
-   {
-    "fr": "On ne quitte jamais la table avant cinq heures.",
-    "pt": "Nunca nos levantamos da mesa antes das cinco."
-   },
-   {
-    "fr": "Ces dimanches m'ont fait me sentir vraiment de la famille.",
-    "pt": "Estes domingos fizeram-me sentir mesmo parte da família."
+    "fr": "Au Japon, les mutations font partie de la vie d'un salarié.",
+    "ja": "日本では、転勤は会社員の生活の一部です。",
+    "ro": "Nihon de wa, tenkin wa kaishain no seikatsu no ichibu desu."
    }
   ]
  },
@@ -6465,44 +8700,54 @@ const level3Module1Lessons = [
   "title": "Fin du module : un bilan",
   "phrases": [
    {
-    "fr": "Ce module nous a plongés dans la vie d'adulte au Portugal.",
-    "pt": "Este módulo levou-nos para a vida adulta em Portugal."
+    "fr": "Ce module nous a fait entrer dans la vie d'adulte à Tokyo.",
+    "ja": "このモジュールでは、東京での大人の生活を体験しました。",
+    "ro": "Kono mojūru de wa, Tōkyō de no otona no seikatsu o taiken shimashita."
    },
    {
-    "fr": "Des Finanças au notaire, on a affronté la paperasse portugaise.",
-    "pt": "Das Finanças ao notário, enfrentámos a burocracia portuguesa."
+    "fr": "On sait maintenant parler du travail, du logement et des démarches.",
+    "ja": "仕事や住まい、手続きについて話せるようになりました。",
+    "ro": "Shigoto ya sumai, tetsuzuki ni tsuite hanaseru yō ni narimashita."
    },
    {
-    "fr": "Le subjonctif n'est plus une montagne infranchissable.",
-    "pt": "O conjuntivo já não é nenhum bicho de sete cabeças."
+    "fr": "Avec le passif, on peut dire ce qu'on a subi, comme la pluie ou un reproche.",
+    "ja": "受け身を使えば、雨や注意など、自分が受けたことを表せます。",
+    "ro": "Ukemi o tsukaeba, ame ya chūi nado, jibun ga uketa koto o arawasemasu."
    },
    {
-    "fr": "Le futur du subjonctif et l'infinitif personnel commencent à venir tout seuls.",
-    "pt": "O futuro do conjuntivo e o infinitivo pessoal já começam a sair naturalmente."
+    "fr": "Avec le causatif, on peut faire faire ou laisser faire quelque chose.",
+    "ja": "使役を使うと、人に何かをさせたり、許したりできます。",
+    "ro": "Shieki o tsukau to, hito ni nanika o sasetari, yurushitari dekimasu."
    },
    {
-    "fr": "On sait maintenant parler de salaire, de crédit ou d'infiltrations.",
-    "pt": "Agora já sabemos falar de ordenados, de crédito ou de infiltrações."
+    "fr": "On sait maintenant exprimer une condition avec « -ba ».",
+    "ja": "「ば」を使って、条件を言えるようになりました。",
+    "ro": "« Ba » o tsukatte, jōken o ieru yō ni narimashita."
    },
    {
-    "fr": "Si on continuait comme ça, on finirait par rêver en portugais.",
-    "pt": "Se continuássemos assim, acabávamos por sonhar em português."
+    "fr": "« Shimatta » est peut-être le mot le plus utile au quotidien.",
+    "ja": "「しまった」は、毎日いちばん役に立つ言葉かもしれません。",
+    "ro": "« Shimatta » wa, mainichi ichiban yaku ni tatsu kotoba kamoshiremasen."
    },
    {
-    "fr": "Le prochain module nous emmènera en voyage à travers le pays.",
-    "pt": "O próximo módulo vai levar-nos a viajar pelo país."
+    "fr": "Le langage humble ne s'apprend pas en un jour.",
+    "ja": "謙譲語は一日で覚えられるものではありません。",
+    "ro": "Kenjōgo wa ichinichi de oboerareru mono de wa arimasen."
    },
    {
-    "fr": "Il reste encore des nuances à travailler, et c'est normal.",
-    "pt": "Ainda há nuances para trabalhar, e é normal."
+    "fr": "Le prochain module nous emmènera en voyage à travers le Japon.",
+    "ja": "次のモジュールでは、日本各地を旅します。",
+    "ro": "Tsugi no mojūru de wa, Nihon kakuchi o tabi shimasu."
    },
    {
-    "fr": "Fais une pause, tu l'as bien méritée.",
-    "pt": "Faz uma pausa, que bem a mereces."
+    "fr": "Prenez le temps de réécouter les leçons qui vous ont paru difficiles.",
+    "ja": "難しかったレッスンは、ゆっくり聞き直してください。",
+    "ro": "Muzukashikatta ressun wa, yukkuri kikinaoshite kudasai."
    },
    {
-    "fr": "À bientôt pour continuer ensemble cette aventure en portugais.",
-    "pt": "Até breve, para continuarmos juntos esta aventura em português."
+    "fr": "Beau travail, on se retrouve dans le prochain module.",
+    "ja": "お疲れさまでした。また次のモジュールで会いましょう。",
+    "ro": "Otsukaresama deshita. Mata tsugi no mojūru de aimashō."
    }
   ]
  }
@@ -6510,927 +8755,1137 @@ const level3Module1Lessons = [
 
 const level3Module2Lessons = [
  {
-  "title": "La traversée entre Pico et Faial",
+  "title": "Arrivée à Okinawa",
   "phrases": [
    {
-    "fr": "Le ferry pour Faial part tous les matins du port de Madalena.",
-    "pt": "O ferry para o Faial parte todas as manhãs do porto da Madalena."
+    "fr": "L'avion vient d'atterrir à Naha, et il fait déjà très chaud.",
+    "ja": "飛行機が那覇に着いたばかりですが、もうとても暑いです。",
+    "ro": "Hikōki ga Naha ni tsuita bakari desu ga, mō totemo atsui desu."
    },
    {
-    "fr": "La traversée ne dure qu'une demi-heure, mais la mer est souvent agitée.",
-    "pt": "A travessia só dura meia hora, mas o mar está muitas vezes agitado."
+    "fr": "Dès la sortie de l'aéroport, l'air sent la mer.",
+    "ja": "空港を出たとたん、海の匂いがします。",
+    "ro": "Kūkō o deta totan, umi no nioi ga shimasu."
    },
    {
-    "fr": "Depuis le pont, on voit le volcan du Pico sortir des nuages.",
-    "pt": "Do convés, vê-se o vulcão do Pico a sair das nuvens."
+    "fr": "Okinawa était autrefois un royaume indépendant appelé Ryūkyū.",
+    "ja": "沖縄はかつて琉球という独立した王国でした。",
+    "ro": "Okinawa wa katsute Ryūkyū to iu dokuritsu shita ōkoku deshita."
    },
    {
-    "fr": "Les habitants des deux îles font ce trajet comme on prend le bus.",
-    "pt": "Os habitantes das duas ilhas fazem este trajeto como quem apanha o autocarro."
+    "fr": "C'est pourquoi la culture locale diffère tant du reste du Japon.",
+    "ja": "だから、地元の文化は日本のほかの地域とずいぶん違います。",
+    "ro": "Dakara, jimoto no bunka wa Nihon no hoka no chiiki to zuibun chigaimasu."
    },
    {
-    "fr": "En haute saison, mieux vaut acheter les billets la veille.",
-    "pt": "Na época alta, mais vale comprar os bilhetes na véspera."
+    "fr": "Les toits des maisons sont gardés par des lions en terre cuite, les shīsā.",
+    "ja": "家の屋根は、シーサーという焼き物の獅子に守られています。",
+    "ro": "Ie no yane wa, shīsā to iu yakimono no shishi ni mamorarete imasu."
    },
    {
-    "fr": "Quand la houle est trop forte, les départs sont annulés sans préavis.",
-    "pt": "Quando a ondulação é demasiado forte, as partidas são canceladas sem aviso prévio."
+    "fr": "On a loué une voiture en se disant qu'on ferait le tour de l'île principale.",
+    "ja": "本島を回ろうと思って、レンタカーを借りました。",
+    "ro": "Hontō o mawarō to omotte, rentakā o karimashita."
    },
    {
-    "fr": "À l'arrivée à Horta, des voiliers du monde entier remplissent la marina.",
-    "pt": "À chegada à Horta, veleiros do mundo inteiro enchem a marina."
+    "fr": "Au début, la conduite à gauche demande un peu d'attention.",
+    "ja": "左側通行には、最初は少し注意が必要です。",
+    "ro": "Hidarigawa tsūkō ni wa, saisho wa sukoshi chūi ga hitsuyō desu."
    },
    {
-    "fr": "Les navigateurs ont l'habitude de peindre le nom de leur bateau sur le quai.",
-    "pt": "Os velejadores têm o hábito de pintar o nome do barco no cais."
+    "fr": "Les gens d'ici sont connus pour vivre très longtemps.",
+    "ja": "この辺りの人は長生きすることで知られています。",
+    "ro": "Kono atari no hito wa nagaiki suru koto de shirarete imasu."
    },
    {
-    "fr": "On dit que partir sans laisser de peinture porte malheur.",
-    "pt": "Diz-se que partir sem deixar uma pintura dá azar."
+    "fr": "Le rythme de vie semble bien plus lent qu'à Tokyo.",
+    "ja": "生活のリズムは東京よりずっとゆっくりしているようです。",
+    "ro": "Seikatsu no rizumu wa Tōkyō yori zutto yukkuri shite iru yō desu."
    },
    {
-    "fr": "Nous avons bu un verre dans le célèbre café du port avant de rentrer.",
-    "pt": "Bebemos um copo no célebre café do porto antes de regressar."
+    "fr": "Ce soir, on dîne dans une petite gargote au bord de la plage.",
+    "ja": "今夜は浜辺の小さな食堂で夕食を食べます。",
+    "ro": "Kon'ya wa hamabe no chiisana shokudō de yūshoku o tabemasu."
    }
   ]
  },
  {
-  "title": "Arrivée à Funchal",
+  "title": "Le marché de Makishi",
   "phrases": [
    {
-    "fr": "Quand nous sommes arrivés à Funchal, la pluie avait déjà cessé.",
-    "pt": "Quando chegámos ao Funchal, a chuva já tinha parado."
+    "fr": "Le marché où je suis allé ce matin s'appelle Makishi.",
+    "ja": "今朝行った市場は牧志市場といいます。",
+    "ro": "Kesa itta ichiba wa Makishi ichiba to iimasu."
    },
    {
-    "fr": "Nous avions réservé une petite chambre dans la vieille ville.",
-    "pt": "Tínhamos reservado um pequeno quarto na zona velha da cidade."
+    "fr": "Les poissons qu'on vend ici ont des couleurs incroyables.",
+    "ja": "ここで売っている魚は、信じられないほど色鮮やかです。",
+    "ro": "Koko de utte iru sakana wa, shinjirarenai hodo iroazayaka desu."
    },
    {
-    "fr": "Le propriétaire nous avait laissé les clés dans une boîte près de la porte.",
-    "pt": "O dono tinha-nos deixado as chaves numa caixa ao lado da porta."
+    "fr": "À l'étage, on peut faire cuisiner le poisson acheté en bas.",
+    "ja": "下の階で買った魚を、上の階で料理してもらえます。",
+    "ro": "Shita no kai de katta sakana o, ue no kai de ryōri shite moraemasu."
    },
    {
-    "fr": "Je n'avais jamais vu un atterrissage aussi impressionnant.",
-    "pt": "Nunca tinha visto uma aterragem tão impressionante."
+    "fr": "Le plat que je préfère, c'est le gōyā chanpurū.",
+    "ja": "私がいちばん好きな料理はゴーヤーチャンプルーです。",
+    "ro": "Watashi ga ichiban suki na ryōri wa gōyā chanpurū desu."
    },
    {
-    "fr": "Une amie m'avait prévenu que la piste était construite au-dessus de la mer.",
-    "pt": "Uma amiga tinha-me avisado de que a pista estava construída sobre o mar."
+    "fr": "La dame qui tient ce stand nous a fait goûter du sucre noir.",
+    "ja": "この店をやっているおばさんが、黒糖を味見させてくれました。",
+    "ro": "Kono mise o yatte iru obasan ga, kokutō o ajimi sasete kuremashita."
    },
    {
-    "fr": "On ne s'était pas rappelé que les magasins fermaient tôt le dimanche.",
-    "pt": "Não nos tínhamos lembrado de que as lojas fechavam cedo ao domingo."
+    "fr": "Le vendeur qui parlait vite était difficile à comprendre.",
+    "ja": "早口で話す店員さんの言葉は、聞き取りにくかったです。",
+    "ro": "Hayakuchi de hanasu ten'in san no kotoba wa, kikitorinikukatta desu."
    },
    {
-    "fr": "Heureusement, nos voisins avaient préparé du bolo do caco pour nous accueillir.",
-    "pt": "Felizmente, os nossos vizinhos tinham preparado bolo do caco para nos receber."
+    "fr": "Voici la boutique qui vend les meilleurs souvenirs.",
+    "ja": "ここが一番いいお土産を売っている店です。",
+    "ro": "Koko ga ichiban ii omiyage o utte iru mise desu."
    },
    {
-    "fr": "Ils l'avaient servi chaud, avec du beurre à l'ail.",
-    "pt": "Tinham-no servido quente, com manteiga de alho."
+    "fr": "Les gens qui viennent ici le matin sont surtout des habitants.",
+    "ja": "朝ここに来る人は、ほとんどが地元の人です。",
+    "ro": "Asa koko ni kuru hito wa, hotondo ga jimoto no hito desu."
    },
    {
-    "fr": "Avant minuit, nous avions déjà goûté notre première poncha.",
-    "pt": "Antes da meia-noite, já tínhamos provado a nossa primeira poncha."
+    "fr": "Le restaurant que tu m'avais recommandé était complet.",
+    "ja": "君が勧めてくれた店は満席でした。",
+    "ro": "Kimi ga susumete kureta mise wa manseki deshita."
    },
    {
-    "fr": "Personne ne nous avait dit que Madère était aussi verte.",
-    "pt": "Ninguém nos tinha dito que a Madeira era tão verde."
+    "fr": "Je n'oublierai jamais le goût de ce que j'ai mangé ici.",
+    "ja": "ここで食べたものの味は、一生忘れません。",
+    "ro": "Koko de tabeta mono no aji wa, isshō wasuremasen."
    }
   ],
   "tip": {
-   "title": "Le plus-que-parfait : « tinha + particípio »",
-   "example": "Quand nous sommes arrivés à Funchal, la pluie avait déjà cessé. — Quando chegámos ao Funchal, a chuva já <b>tinha parado</b>.",
-   "body": "Le plus-que-parfait se forme avec l'imparfait de « ter » suivi du participe passé : c'est l'équivalent exact de « j'avais fait ». Ex. : « Eu tinha jantado », « Tu tinhas saído », « Eles já tinham partido ». Le pronom se place après « tinha » avec un trait d'union (« Ela tinha-me avisado »), mais devant après une négation : « Não me tinha dito ». La forme simple (« chegara », « fizera ») existe aussi, mais elle est surtout littéraire."
+   "title": "Les relatives : le verbe placé devant le nom",
+   "example": "Les poissons qu'on vend ici ont des couleurs incroyables. — ここで<b>売っている魚</b>は、信じられないほど色鮮やかです。",
+   "exampleRo": "Koko de utte iru sakana wa, shinjirarenai hodo iroazayaka desu.",
+   "lit": "ici [lieu] · être en train de vendre · poisson [thème] · incroyable-au point de · coloré · être (poli)",
+   "body": "En japonais, il n'existe pas de mot comme « qui » ou « que » : pour décrire un nom, on place simplement le verbe juste devant lui. « Koko de utte iru sakana » se dit littéralement : ici, en train de vendre, poisson, c'est-à-dire le poisson qu'on vend ici. Le verbe se met à la forme neutre, au présent ou au passé : « kinō katta hon », le livre acheté hier, ou « Naha ni sumu tomodachi », l'ami qui habite à Naha. Si la relative a son propre sujet, il prend « ga » et non « wa » : « watashi ga tsukutta ryōri », le plat que j'ai préparé. Pour retenir, imaginez une étiquette collée devant le nom : tout ce qui décrit vient avant, et le nom arrive toujours en dernier."
   }
  },
  {
-  "title": "Randonnée le long d'une levada",
+  "title": "Le château de Shuri et les îles Kerama",
   "phrases": [
    {
-    "fr": "Les levadas sont d'anciens canaux qui transportaient l'eau à travers l'île.",
-    "pt": "As levadas são antigos canais que levavam a água através da ilha."
+    "fr": "Le château de Shuri domine toute la ville de Naha.",
+    "ja": "首里城は那覇の町全体を見下ろしています。",
+    "ro": "Shurijō wa Naha no machi zentai o mioroshite imasu."
    },
    {
-    "fr": "Le sentier longe le canal sur des kilomètres, presque toujours à plat.",
-    "pt": "O trilho acompanha o canal ao longo de vários quilómetros, quase sempre plano."
+    "fr": "Il a malheureusement brûlé en deux mille dix-neuf.",
+    "ja": "残念ながら、二〇一九年に焼けてしまいました。",
+    "ro": "Zannen nagara, nisen jūkyū nen ni yakete shimaimashita."
    },
    {
-    "fr": "Par endroits, le chemin n'est pas plus large qu'un pied.",
-    "pt": "Em certos sítios, o caminho não é mais largo do que um pé."
+    "fr": "Les travaux de reconstruction se poursuivent encore aujourd'hui.",
+    "ja": "再建工事は今も続いています。",
+    "ro": "Saiken kōji wa ima mo tsuzuite imasu."
    },
    {
-    "fr": "Il faut une lampe frontale pour traverser les tunnels creusés dans la roche.",
-    "pt": "É preciso uma lanterna frontal para atravessar os túneis escavados na rocha."
+    "fr": "On peut même regarder les artisans pendant qu'ils travaillent.",
+    "ja": "職人さんが作業しているところも見学できます。",
+    "ro": "Shokunin san ga sagyō shite iru tokoro mo kengaku dekimasu."
    },
    {
-    "fr": "La forêt de lauriers qui nous entoure existe depuis des millions d'années.",
-    "pt": "A floresta Laurissilva que nos rodeia existe há milhões de anos."
+    "fr": "Le soir, on a écouté un concert de sanshin.",
+    "ja": "夜は三線の演奏を聴きました。",
+    "ro": "Yoru wa sanshin no ensō o kikimashita."
    },
    {
-    "fr": "On entend l'eau couler tout au long du parcours.",
-    "pt": "Ouve-se a água a correr durante todo o percurso."
+    "fr": "Cet instrument à trois cordes est tendu de peau de serpent.",
+    "ja": "この三本弦の楽器には、蛇の皮が張られています。",
+    "ro": "Kono sanbongen no gakki ni wa, hebi no kawa ga hararete imasu."
    },
    {
-    "fr": "Au bout de trois heures, nous avons atteint une cascade magnifique.",
-    "pt": "Ao fim de três horas, chegámos a uma cascata magnífica."
+    "fr": "Le musicien nous a appris quelques mots du dialecte d'Okinawa.",
+    "ja": "演奏者が沖縄の方言をいくつか教えてくれました。",
+    "ro": "Ensōsha ga Okinawa no hōgen o ikutsu ka oshiete kuremashita."
    },
    {
-    "fr": "Autrefois, les levadeiros entretenaient ces canaux à la main.",
-    "pt": "Antigamente, os levadeiros mantinham estes canais à mão."
+    "fr": "Ici, « mensōre » veut dire « bienvenue ».",
+    "ja": "「めんそーれ」は、ここでは「ようこそ」という意味です。",
+    "ro": "« Mensōre » wa, koko de wa « yōkoso » to iu imi desu."
    },
    {
-    "fr": "Mieux vaut porter de bonnes chaussures, car les pierres glissent.",
-    "pt": "Convém levar bom calçado, porque as pedras escorregam."
+    "fr": "Le lendemain, on a pris le bateau pour les îles Kerama.",
+    "ja": "翌日、船で慶良間諸島へ渡りました。",
+    "ro": "Yokujitsu, fune de Kerama shotō e watarimashita."
    },
    {
-    "fr": "On est rentrés trempés, mais émerveillés par cette balade.",
-    "pt": "Voltámos encharcados, mas maravilhados com o passeio."
+    "fr": "L'eau est si claire qu'on voit les tortues depuis le bateau.",
+    "ja": "海がとても透明で、船の上からウミガメが見えます。",
+    "ro": "Umi ga totemo tōmei de, fune no ue kara umigame ga miemasu."
    }
   ]
  },
  {
-  "title": "Négocier avec un guide au Pico do Arieiro",
+  "title": "Préparer le Kumano Kodō",
   "phrases": [
    {
-    "fr": "Le guide nous a dit qu'il allait nous emmener au lever du soleil.",
-    "pt": "O guia disse-nos que nos ia levar ao nascer do sol."
+    "fr": "Pour marcher sur le Kumano Kodō, il faut de bonnes chaussures.",
+    "ja": "熊野古道を歩くためには、いい靴が必要です。",
+    "ro": "Kumano Kodō o aruku tame ni wa, ii kutsu ga hitsuyō desu."
    },
    {
-    "fr": "Il a expliqué que le prix comprenait le transport depuis Funchal.",
-    "pt": "Explicou que o preço incluía o transporte a partir do Funchal."
+    "fr": "Je m'entraîne tous les week-ends pour me faire de l'endurance.",
+    "ja": "体力をつけるために、毎週末トレーニングしています。",
+    "ro": "Tairyoku o tsukeru tame ni, maishūmatsu torēningu shite imasu."
    },
    {
-    "fr": "Je lui ai répondu que c'était un peu cher pour deux personnes.",
-    "pt": "Respondi-lhe que era um bocado caro para duas pessoas."
+    "fr": "On part tôt pour pouvoir arriver avant la nuit.",
+    "ja": "暗くなる前に着けるように、早く出発します。",
+    "ro": "Kuraku naru mae ni tsukeru yō ni, hayaku shuppatsu shimasu."
    },
    {
-    "fr": "Il a assuré qu'il ne pouvait pas baisser davantage son tarif.",
-    "pt": "Garantiu que não podia baixar mais o preço."
+    "fr": "J'emporte une lampe pour ne pas me perdre dans la forêt.",
+    "ja": "森で迷わないように、ライトを持っていきます。",
+    "ro": "Mori de mayowanai yō ni, raito o motte ikimasu."
    },
    {
-    "fr": "Finalement, il a proposé qu'on paie le transport à part.",
-    "pt": "Acabou por propor que pagássemos o transporte à parte."
+    "fr": "Les pèlerins venaient ici pour prier dans les trois grands sanctuaires.",
+    "ja": "巡礼者たちは三つの大社にお参りするために、ここへ来ていました。",
+    "ro": "Junreishatachi wa mittsu no taisha ni omairi suru tame ni, koko e kite imashita."
    },
    {
-    "fr": "Ma femme lui a demandé s'il fournissait aussi des vestes chaudes.",
-    "pt": "A minha mulher perguntou-lhe se também fornecia casacos quentes."
+    "fr": "On fait suivre nos bagages pour pouvoir marcher léger.",
+    "ja": "身軽に歩けるように、荷物を宅配便で送ります。",
+    "ro": "Migaru ni arukeru yō ni, nimotsu o takuhaibin de okurimasu."
    },
    {
-    "fr": "Il a dit qu'au sommet il faisait souvent moins de cinq degrés.",
-    "pt": "Disse que no cume fazia muitas vezes menos de cinco graus."
+    "fr": "J'économise depuis un an pour faire ce voyage.",
+    "ja": "この旅行をするために、一年前から貯金しています。",
+    "ro": "Kono ryokō o suru tame ni, ichinen mae kara chokin shite imasu."
    },
    {
-    "fr": "Il nous a prévenus que le sentier vers le Pico Ruivo pouvait être fermé.",
-    "pt": "Avisou-nos de que o trilho para o Pico Ruivo podia estar fechado."
+    "fr": "Écrivez l'adresse en gros pour que le chauffeur puisse la lire.",
+    "ja": "運転手さんが読めるように、住所を大きく書いてください。",
+    "ro": "Untenshu san ga yomeru yō ni, jūsho o ōkiku kaite kudasai."
    },
    {
-    "fr": "Nous lui avons promis que nous serions prêts à cinq heures.",
-    "pt": "Prometemos-lhe que estaríamos prontos às cinco horas."
+    "fr": "Buvez souvent pour ne pas vous déshydrater.",
+    "ja": "脱水にならないように、こまめに水を飲んでください。",
+    "ro": "Dassui ni naranai yō ni, komame ni mizu o nonde kudasai."
    },
    {
-    "fr": "En nous quittant, il a avoué qu'il n'avait jamais eu de clients aussi doués pour négocier.",
-    "pt": "Ao despedir-se, confessou que nunca tinha tido clientes tão bons a negociar."
+    "fr": "Tout ça, on le fait pour savourer pleinement l'ancien chemin.",
+    "ja": "古道を心から楽しむために、これを全部しています。",
+    "ro": "Kodō o kokoro kara tanoshimu tame ni, kore o zenbu shite imasu."
    }
   ],
   "tip": {
-   "title": "Le discours indirect : « Ele disse que ia… »",
-   "example": "Le guide nous a dit qu'il allait nous emmener au lever du soleil. — O guia disse-nos que <b>nos ia levar</b> ao nascer do sol.",
-   "body": "Pour rapporter des paroles au passé, le portugais décale les temps comme le français : « vou » devient « ia », « posso » devient « podia », « fiz » devient « tinha feito ». Ex. : « Disse que estava cansado », « Disseram que vinham amanhã ». « Perguntar se » correspond à « demander si » : « Perguntou-me se eu queria ir ». Le futur devient conditionnel : « Prometeu que voltaria »."
+   "title": "« Tame ni » et « yō ni » : pour, afin de",
+   "example": "On part tôt pour pouvoir arriver avant la nuit. — 暗くなる前に<b>着けるように</b>、早く出発します。",
+   "exampleRo": "Kuraku naru mae ni tsukeru yō ni, hayaku shuppatsu shimasu.",
+   "lit": "sombre · devenir · avant [temps] · pouvoir arriver · de façon à · tôt · départ-faire (poli)",
+   "body": "« Tame ni » et « yō ni » traduisent tous les deux « pour » ou « afin de », mais pas dans les mêmes cas. « Tame ni » suit une action que l'on contrôle et que l'on veut accomplir : « aruku tame ni », pour marcher, ou « chokin suru tame ni », pour économiser. « Yō ni » suit plutôt un résultat qu'on ne maîtrise pas complètement, souvent un verbe de possibilité ou une négation : « tsukeru yō ni », pour pouvoir arriver, ou « mayowanai yō ni », pour ne pas se perdre. Notre exemple se dit littéralement : devenir sombre, avant, pouvoir arriver, de façon à, tôt, partir. Astuce : si vous pouvez glisser « pouvoir » ou « ne pas » dans la phrase française, pensez à « yō ni »."
   }
  },
  {
-  "title": "Sete Cidades dans le brouillard",
+  "title": "Sur le Kumano Kodō",
   "phrases": [
    {
-    "fr": "Aux Açores, on dit qu'on peut connaître les quatre saisons en une seule journée.",
-    "pt": "Nos Açores, diz-se que se podem viver as quatro estações num só dia."
+    "fr": "Le chemin traverse des forêts de cèdres plus que centenaires.",
+    "ja": "道は樹齢百年を超える杉の森を通っています。",
+    "ro": "Michi wa jurei hyakunen o koeru sugi no mori o tōtte imasu."
    },
    {
-    "fr": "Ce matin, le soleil brillait au-dessus de Ponta Delgada.",
-    "pt": "Esta manhã, o sol brilhava sobre Ponta Delgada."
+    "fr": "Les pavés couverts de mousse glissent après la pluie.",
+    "ja": "苔に覆われた石畳は、雨のあとは滑りやすいです。",
+    "ro": "Koke ni ōwareta ishidatami wa, ame no ato wa suberiyasui desu."
    },
    {
-    "fr": "Une heure plus tard, un brouillard épais couvrait tout le cratère.",
-    "pt": "Uma hora depois, um nevoeiro cerrado cobria a cratera inteira."
+    "fr": "Le long du sentier, on trouve beaucoup de petits bouddhas de pierre.",
+    "ja": "道沿いには小さな石仏がたくさんあります。",
+    "ro": "Michizoi ni wa chiisana sekibutsu ga takusan arimasu."
    },
    {
-    "fr": "Du belvédère, on ne voyait même pas les deux lagunes.",
-    "pt": "Do miradouro, nem se viam as duas lagoas."
+    "fr": "Les pèlerins empruntent ce chemin depuis plus de mille ans.",
+    "ja": "この道は千年以上前から巡礼者に歩かれてきました。",
+    "ro": "Kono michi wa sennen ijō mae kara junreisha ni arukarete kimashita."
    },
    {
-    "fr": "La légende raconte que l'une est verte et l'autre bleue à cause des larmes de deux amoureux.",
-    "pt": "Conta a lenda que uma é verde e a outra azul por causa das lágrimas de dois apaixonados."
+    "fr": "Après six heures de marche, on a enfin aperçu le grand torii.",
+    "ja": "六時間歩いて、やっと大鳥居が見えてきました。",
+    "ro": "Rokujikan aruite, yatto ōtorii ga miete kimashita."
    },
    {
-    "fr": "Nous avons attendu dans la voiture que le ciel se dégage.",
-    "pt": "Esperámos no carro até o céu limpar."
+    "fr": "Ce torii compte parmi les plus grands du Japon.",
+    "ja": "この鳥居は日本で最も大きいもののひとつです。",
+    "ro": "Kono torii wa Nihon de mottomo ōkii mono no hitotsu desu."
    },
    {
-    "fr": "Soudain, le vent a chassé les nuages en quelques minutes.",
-    "pt": "De repente, o vento afastou as nuvens em poucos minutos."
+    "fr": "Le soir, on s'est baignés dans une source chaude au bord de la rivière.",
+    "ja": "夜は川辺の温泉に入りました。",
+    "ro": "Yoru wa kawabe no onsen ni hairimashita."
    },
    {
-    "fr": "Le paysage qui est apparu nous a coupé le souffle.",
-    "pt": "A paisagem que apareceu deixou-nos sem fôlego."
+    "fr": "À Kawayu, on peut creuser son propre bain dans le lit de la rivière.",
+    "ja": "川湯では、川原を掘って自分だけの温泉を作れます。",
+    "ro": "Kawayu de wa, kawara o hotte jibun dake no onsen o tsukuremasu."
    },
    {
-    "fr": "Il vaut mieux toujours garder un imperméable dans son sac, même en été.",
-    "pt": "Convém ter sempre um impermeável na mochila, mesmo no verão."
+    "fr": "L'aubergiste nous a servi un repas de plantes sauvages de montagne.",
+    "ja": "宿の主人が山菜料理を出してくれました。",
+    "ro": "Yado no shujin ga sansai ryōri o dashite kuremashita."
    },
    {
-    "fr": "Ici, on ne fait jamais confiance aux prévisions de la veille.",
-    "pt": "Aqui, nunca se confia na previsão do dia anterior."
+    "fr": "J'avais mal aux jambes, mais j'étais profondément heureux.",
+    "ja": "足は痛かったけれど、心から幸せでした。",
+    "ro": "Ashi wa itakatta keredo, kokoro kara shiawase deshita."
    }
   ]
  },
  {
-  "title": "Le cozido das Furnas",
+  "title": "Kanazawa, la ville préservée",
   "phrases": [
    {
-    "fr": "À Furnas, le sol est si chaud qu'on s'en sert pour cuisiner.",
-    "pt": "Nas Furnas, o solo é tão quente que é usado para cozinhar."
+    "fr": "Pendant la guerre, Kanazawa a été épargnée par les bombardements.",
+    "ja": "金沢は戦争中、空襲の被害を受けませんでした。",
+    "ro": "Kanazawa wa sensōchū, kūshū no higai o ukemasen deshita."
    },
    {
-    "fr": "Le cozido cuit pendant six heures dans des trous creusés près du lac.",
-    "pt": "O cozido coze durante seis horas em buracos escavados junto à lagoa."
+    "fr": "C'est pour cette raison que les vieux quartiers sont si bien conservés.",
+    "ja": "そのため、古い町並みがよく残っています。",
+    "ro": "Sono tame, furui machinami ga yoku nokotte imasu."
    },
    {
-    "fr": "Les marmites sont enterrées dès le petit matin.",
-    "pt": "As panelas são enterradas logo de manhã cedo."
+    "fr": "Le Kenroku-en est considéré comme l'un des trois plus beaux jardins du pays.",
+    "ja": "兼六園は日本三名園のひとつとされています。",
+    "ro": "Kenrokuen wa Nihon sanmeien no hitotsu to sarete imasu."
    },
    {
-    "fr": "La chaleur volcanique donne à la viande un goût légèrement soufré.",
-    "pt": "O calor vulcânico dá à carne um sabor ligeiramente sulfuroso."
+    "fr": "En hiver, on soutient les branches des pins avec des cordes pour qu'elles ne cassent pas sous la neige.",
+    "ja": "冬には、雪の重さで折れないように松の枝を縄で吊ります。",
+    "ro": "Fuyu ni wa, yuki no omosa de orenai yō ni matsu no eda o nawa de tsurimasu."
    },
    {
-    "fr": "On a vu les cuisiniers sortir les marmites vers midi.",
-    "pt": "Vimos os cozinheiros tirar as panelas por volta do meio-dia."
+    "fr": "Dans le quartier de Higashi Chaya, les maisons de thé sont tout en bois.",
+    "ja": "ひがし茶屋街の茶屋は木造です。",
+    "ro": "Higashi chayagai no chaya wa mokuzō desu."
    },
    {
-    "fr": "Le plat mélange plusieurs viandes, du chou et du boudin.",
-    "pt": "O prato mistura várias carnes, couve e morcela."
+    "fr": "On a bu un matcha décoré d'une feuille d'or.",
+    "ja": "金箔をのせた抹茶を飲みました。",
+    "ro": "Kinpaku o noseta matcha o nomimashita."
    },
    {
-    "fr": "Il est conseillé de réserver une table dans un restaurant du village.",
-    "pt": "Recomenda-se reservar mesa num restaurante da vila."
+    "fr": "Presque toute la feuille d'or du Japon est fabriquée ici.",
+    "ja": "日本の金箔のほとんどは、ここで作られています。",
+    "ro": "Nihon no kinpaku no hotondo wa, koko de tsukurarete imasu."
    },
    {
-    "fr": "Après le repas, nous nous sommes baignés dans une source d'eau ferrugineuse.",
-    "pt": "Depois da refeição, tomámos banho numa nascente de água férrea."
+    "fr": "Au marché d'Ōmichō, les crabes d'hiver sont énormes.",
+    "ja": "近江町市場では、冬になるとカニがとても大きいです。",
+    "ro": "Ōmichō ichiba de wa, fuyu ni naru to kani ga totemo ōkii desu."
    },
    {
-    "fr": "L'eau orangée tache les maillots : mieux vaut en prendre un vieux.",
-    "pt": "A água cor de laranja mancha os fatos de banho: mais vale levar um velho."
+    "fr": "Le musée d'art contemporain a une étonnante forme ronde.",
+    "ja": "現代美術館は、驚くほど丸い形をしています。",
+    "ro": "Gendai bijutsukan wa, odoroku hodo marui katachi o shite imasu."
    },
    {
-    "fr": "Ces fumerolles nous rappellent que l'île est toujours vivante.",
-    "pt": "Estas fumarolas lembram-nos que a ilha continua viva."
+    "fr": "Kanazawa mérite qu'on y consacre au moins deux jours.",
+    "ja": "金沢は少なくとも二日かけて見る価値があります。",
+    "ro": "Kanazawa wa sukunaku tomo futsuka kakete miru kachi ga arimasu."
    }
   ]
  },
  {
-  "title": "Les vendanges dans une quinta du Douro",
+  "title": "Préparer une traversée en ferry",
   "phrases": [
    {
-    "fr": "Bien que le soleil ne soit pas encore levé, les vendangeurs sont déjà dans les vignes.",
-    "pt": "Embora o sol ainda não tenha nascido, os vindimadores já estão nas vinhas."
+    "fr": "J'ai réservé les billets de ferry une semaine à l'avance.",
+    "ja": "フェリーの切符を一週間前に予約しておきました。",
+    "ro": "Ferī no kippu o isshūkan mae ni yoyaku shite okimashita."
    },
    {
-    "fr": "Bien que les terrasses soient très raides, personne ne se plaint.",
-    "pt": "Embora os socalcos sejam muito íngremes, ninguém se queixa."
+    "fr": "Les horaires changent selon la saison, vérifie-les avant de partir.",
+    "ja": "季節によって変わるから、出発前に時刻表を確認しておいてね。",
+    "ro": "Kisetsu ni yotte kawaru kara, shuppatsu mae ni jikokuhyō o kakunin shite oite ne."
    },
    {
-    "fr": "Bien que je n'aie aucune expérience, le chef d'équipe me fait confiance.",
-    "pt": "Embora eu não tenha experiência nenhuma, o chefe da equipa confia em mim."
+    "fr": "J'ai pris un médicament contre le mal de mer avant d'embarquer.",
+    "ja": "乗る前に酔い止めを飲んでおきました。",
+    "ro": "Noru mae ni yoidome o nonde okimashita."
    },
    {
-    "fr": "Les paniers sont lourds, mais on les porte en chantant.",
-    "pt": "Os cestos são pesados, mas carregamo-los a cantar."
+    "fr": "Comme la boutique du bateau est petite, mieux vaut acheter à manger au port.",
+    "ja": "船の売店は小さいので、港で食べ物を買っておいたほうがいいです。",
+    "ro": "Fune no baiten wa chiisai node, minato de tabemono o katte oita hō ga ii desu."
    },
    {
-    "fr": "Bien que le travail soit épuisant, on rit beaucoup entre les rangs de vigne.",
-    "pt": "Embora o trabalho seja cansativo, rimo-nos muito entre as videiras."
+    "fr": "J'ai rechargé mon téléphone pendant la nuit.",
+    "ja": "夜のうちにスマホを充電しておきました。",
+    "ro": "Yoru no uchi ni sumaho o jūden shite okimashita."
    },
    {
-    "fr": "Le soir, on foule encore le raisin aux pieds dans des cuves en granit.",
-    "pt": "À noite, ainda se pisam as uvas a pé nos lagares de granito."
+    "fr": "On laisse les grosses valises dans une consigne de la gare.",
+    "ja": "大きいスーツケースは駅のロッカーに入れておきます。",
+    "ro": "Ōkii sūtsukēsu wa eki no rokkā ni irete okimasu."
    },
    {
-    "fr": "Bien que ce soit une tradition ancienne, beaucoup de jeunes y participent.",
-    "pt": "Embora seja uma tradição antiga, muitos jovens participam."
+    "fr": "Je note le numéro de la compagnie, au cas où.",
+    "ja": "念のため、フェリー会社の電話番号をメモしておきます。",
+    "ro": "Nen no tame, ferī gaisha no denwa bangō o memo shite okimasu."
    },
    {
-    "fr": "Le propriétaire de la quinta nous a fait goûter un porto de vingt ans.",
-    "pt": "O dono da quinta deu-nos a provar um vinho do Porto de vinte anos."
+    "fr": "J'ai prévenu l'auberge qu'on arriverait tard.",
+    "ja": "遅く着くことを、宿に伝えておきました。",
+    "ro": "Osoku tsuku koto o, yado ni tsutaete okimashita."
    },
    {
-    "fr": "Bien que nous ne soyons restés que trois jours, nous nous sentions déjà de la famille.",
-    "pt": "Embora só tivéssemos ficado três dias, já nos sentíamos parte da família."
+    "fr": "Il fait trop chaud, laisse la porte de la cabine ouverte.",
+    "ja": "暑いから、船室のドアを開けておいて。",
+    "ro": "Atsui kara, senshitsu no doa o akete oite."
    },
    {
-    "fr": "Le petit train historique nous a ramenés le long du fleuve jusqu'à Pinhão.",
-    "pt": "O comboio histórico levou-nos ao longo do rio até ao Pinhão."
+    "fr": "Tout est prêt, il ne reste plus qu'à monter à bord.",
+    "ja": "準備は全部しておいたので、あとは乗るだけです。",
+    "ro": "Junbi wa zenbu shite oita node, ato wa noru dake desu."
    }
   ],
   "tip": {
-   "title": "« Embora » + subjonctif : bien que",
-   "example": "Bien que les terrasses soient très raides, personne ne se plaint. — <b>Embora</b> os socalcos <b>sejam</b> muito íngremes, ninguém se queixa.",
-   "body": "« Embora » (bien que) est toujours suivi du subjonctif, exactement comme en français : « Embora esteja cansado, continuo ». Pour parler du passé, on emploie le subjonctif imparfait : « Embora chovesse, saímos ». On peut aussi dire « apesar de » + infinitif : « Apesar de estar cansado, continuo ». « Mesmo que » (même si) suit la même règle : « Mesmo que chova, vamos »."
+   "title": "« -te oku » : faire à l'avance",
+   "example": "J'ai réservé les billets de ferry une semaine à l'avance. — フェリーの切符を一週間前に<b>予約しておきました</b>。",
+   "exampleRo": "Ferī no kippu o isshūkan mae ni yoyaku shite okimashita.",
+   "lit": "ferry [possessif] · billet [objet] · une semaine · avant [temps] · réserver · mettre de côté (poli, passé)",
+   "body": "« -te oku » se forme avec la forme en « te » du verbe, suivie de « oku », qui veut dire poser. L'idée est de faire quelque chose maintenant en prévision de plus tard, comme si l'on posait l'action de côté pour s'en servir ensuite. « Yoyaku shite okimashita » se dit littéralement : réserver, et poser, au passé poli, c'est-à-dire j'ai réservé à l'avance. On l'emploie aussi pour laisser une chose dans un certain état : « doa o akete oku », laisser la porte ouverte. À l'oral, on contracte souvent en « -toku » : « kattoku », je l'achète d'avance. Retenez l'image du sac posé près de la porte la veille du départ."
   }
  },
  {
-  "title": "Observer les baleines de façon responsable",
+  "title": "Le ferry pour Naoshima",
   "phrases": [
    {
-    "fr": "Autrefois, l'île de Pico vivait de la chasse à la baleine.",
-    "pt": "Antigamente, a ilha do Pico vivia da caça à baleia."
+    "fr": "Le ferry pour Naoshima part du port d'Uno.",
+    "ja": "直島行きのフェリーは宇野港から出ます。",
+    "ro": "Naoshima iki no ferī wa Uno kō kara demasu."
    },
    {
-    "fr": "Aujourd'hui, les anciens baleiniers sont devenus guides d'observation.",
-    "pt": "Hoje, os antigos baleeiros tornaram-se guias de observação."
+    "fr": "La traversée ne prend qu'une vingtaine de minutes.",
+    "ja": "船で二十分ほどしかかかりません。",
+    "ro": "Fune de nijuppun hodo shika kakarimasen."
    },
    {
-    "fr": "Des vigies repèrent les cétacés depuis des tours sur la côte.",
-    "pt": "Os vigias avistam os cetáceos a partir de torres na costa."
+    "fr": "La mer intérieure de Seto est parsemée de centaines d'îles.",
+    "ja": "瀬戸内海には何百もの島が点在しています。",
+    "ro": "Setonaikai ni wa nanbyaku mo no shima ga tenzai shite imasu."
    },
    {
-    "fr": "Ils transmettent leur position au bateau par radio.",
-    "pt": "Transmitem a posição ao barco por rádio."
+    "fr": "Depuis le pont, on voit les îles défiler lentement.",
+    "ja": "デッキから、島々がゆっくり過ぎていくのが見えます。",
+    "ro": "Dekki kara, shimajima ga yukkuri sugite iku no ga miemasu."
    },
    {
-    "fr": "Il est interdit de s'approcher à moins de cinquante mètres d'un animal.",
-    "pt": "É proibido aproximar-se a menos de cinquenta metros de um animal."
+    "fr": "Des mouettes suivent le bateau dans l'espoir d'un peu de nourriture.",
+    "ja": "カモメが餌をもらおうと船を追いかけてきます。",
+    "ro": "Kamome ga esa o moraō to fune o oikakete kimasu."
    },
    {
-    "fr": "Le capitaine coupe le moteur dès qu'un cachalot apparaît.",
-    "pt": "O comandante desliga o motor assim que aparece um cachalote."
+    "fr": "À l'arrivée, une grande citrouille rouge à pois nous accueille.",
+    "ja": "着くと、水玉模様の大きな赤いかぼちゃが迎えてくれます。",
+    "ro": "Tsuku to, mizutama moyō no ōkina akai kabocha ga mukaete kuremasu."
    },
    {
-    "fr": "Nous avons choisi une entreprise qui respecte les règles de protection.",
-    "pt": "Escolhemos uma empresa que respeita as regras de proteção."
+    "fr": "Sur l'île, on se déplace surtout en vélo électrique.",
+    "ja": "島では、主に電動自転車で移動します。",
+    "ro": "Shima de wa, omo ni dendō jitensha de idō shimasu."
    },
    {
-    "fr": "Un groupe de dauphins a suivi le bateau pendant plusieurs minutes.",
-    "pt": "Um grupo de golfinhos acompanhou o barco durante vários minutos."
+    "fr": "En été, les vélos de location partent très vite.",
+    "ja": "夏はレンタサイクルがすぐになくなってしまいます。",
+    "ro": "Natsu wa rentasaikuru ga sugu ni nakunatte shimaimasu."
    },
    {
-    "fr": "Voir la queue d'un cachalot disparaître sous l'eau est un moment inoubliable.",
-    "pt": "Ver a cauda de um cachalote a desaparecer debaixo de água é um momento inesquecível."
+    "fr": "Les habitants vivent surtout de la pêche et du tourisme.",
+    "ja": "住民は主に漁業と観光で暮らしています。",
+    "ro": "Jūmin wa omo ni gyogyō to kankō de kurashite imasu."
    },
    {
-    "fr": "Une partie du prix finance la recherche scientifique locale.",
-    "pt": "Uma parte do preço financia a investigação científica local."
+    "fr": "Pour rentrer, on a pris le dernier bateau du soir.",
+    "ja": "帰りは夜の最終便に乗りました。",
+    "ro": "Kaeri wa yoru no saishūbin ni norimashita."
    }
   ]
  },
  {
-  "title": "Le vignoble de Pico",
+  "title": "Naoshima, l'île de l'art",
   "phrases": [
    {
-    "fr": "Les vignes de Pico poussent entre des murets de pierre volcanique.",
-    "pt": "As vinhas do Pico crescem entre muros de pedra vulcânica."
+    "fr": "Le musée Chichū est presque entièrement construit sous terre.",
+    "ja": "地中美術館は、ほとんど地下に造られています。",
+    "ro": "Chichū bijutsukan wa, hotondo chika ni tsukurarete imasu."
    },
    {
-    "fr": "Ces petits enclos protègent les ceps du vent et des embruns.",
-    "pt": "Estes pequenos currais protegem as videiras do vento e da maresia."
+    "fr": "Selon l'heure, la lumière naturelle change l'aspect des œuvres.",
+    "ja": "時間によって、自然光が作品の見え方を変えます。",
+    "ro": "Jikan ni yotte, shizenkō ga sakuhin no miekata o kaemasu."
    },
    {
-    "fr": "Ce paysage est classé au patrimoine mondial depuis deux mille quatre.",
-    "pt": "Esta paisagem é Património Mundial desde dois mil e quatro."
+    "fr": "Pour y entrer, il faut réserver un créneau horaire.",
+    "ja": "入るには、時間指定の予約が必要です。",
+    "ro": "Hairu ni wa, jikan shitei no yoyaku ga hitsuyō desu."
    },
    {
-    "fr": "Il a fallu des siècles pour construire ce labyrinthe de pierre.",
-    "pt": "Foram precisos séculos para construir este labirinto de pedra."
+    "fr": "Dans le quartier de Honmura, de vieilles maisons sont devenues des œuvres d'art.",
+    "ja": "本村地区では、古い家がアート作品に生まれ変わっています。",
+    "ro": "Honmura chiku de wa, furui ie ga āto sakuhin ni umarekawatte imasu."
    },
    {
-    "fr": "Le vin le plus célèbre de l'île s'appelle le verdelho.",
-    "pt": "O vinho mais famoso da ilha é o verdelho."
+    "fr": "Dans l'une d'elles, on avance dans une obscurité totale.",
+    "ja": "そのひとつでは、真っ暗な中に入っていきます。",
+    "ro": "Sono hitotsu de wa, makkura na naka ni haitte ikimasu."
    },
    {
-    "fr": "Le vigneron nous a montré comment la lave garde la chaleur du jour.",
-    "pt": "O viticultor mostrou-nos como a lava guarda o calor do dia."
+    "fr": "Peu à peu, nos yeux s'habituent et distinguent une faible lueur.",
+    "ja": "だんだん目が慣れて、かすかな光が見えてきます。",
+    "ro": "Dandan me ga narete, kasuka na hikari ga miete kimasu."
    },
    {
-    "fr": "Les vendanges se font entièrement à la main, faute de place pour les machines.",
-    "pt": "A vindima é feita toda à mão, porque não há espaço para máquinas."
+    "fr": "Même le bain public de l'île est une œuvre d'art.",
+    "ja": "島の銭湯さえもアート作品です。",
+    "ro": "Shima no sentō sae mo āto sakuhin desu."
    },
    {
-    "fr": "Nous avons dégusté trois vins blancs face à la mer.",
-    "pt": "Provámos três vinhos brancos de frente para o mar."
+    "fr": "Dans la plupart des musées, les photos sont interdites.",
+    "ja": "ほとんどの美術館の中では、撮影が禁止されています。",
+    "ro": "Hotondo no bijutsukan no naka de wa, satsuei ga kinshi sarete imasu."
    },
    {
-    "fr": "Ce vin a un goût salé qu'on ne trouve nulle part ailleurs.",
-    "pt": "Este vinho tem um sabor salgado que não se encontra em mais lado nenhum."
+    "fr": "C'est justement parce qu'on ne peut pas photographier qu'on regarde vraiment.",
+    "ja": "撮影できないからこそ、本当によく見るようになります。",
+    "ro": "Satsuei dekinai kara koso, hontō ni yoku miru yō ni narimasu."
    },
    {
-    "fr": "Nous avons rapporté deux bouteilles, bien emballées dans nos valises.",
-    "pt": "Trouxemos duas garrafas, bem embrulhadas nas malas."
+    "fr": "Naoshima prouve qu'une petite île peut renaître grâce à l'art.",
+    "ja": "直島は、小さな島がアートで生まれ変われることを示しています。",
+    "ro": "Naoshima wa, chiisana shima ga āto de umarekawareru koto o shimeshite imasu."
    }
   ]
  },
  {
-  "title": "La Serra da Estrela et son fromage",
+  "title": "Takayama, au cœur des montagnes",
   "phrases": [
    {
-    "fr": "La Serra da Estrela est la plus haute montagne du Portugal continental.",
-    "pt": "A Serra da Estrela é a montanha mais alta de Portugal continental."
+    "fr": "On surnomme Takayama le « petit Kyōto » de Hida.",
+    "ja": "高山は「飛騨の小京都」と呼ばれています。",
+    "ro": "Takayama wa « Hida no shōkyōto » to yobarete imasu."
    },
    {
-    "fr": "En hiver, il arrive qu'il neige sur les sommets.",
-    "pt": "No inverno, às vezes neva nos cumes."
+    "fr": "Les rues de Sanmachi sont bordées de maisons marchandes en bois sombre.",
+    "ja": "三町の通りには、黒っぽい木の町家が並んでいます。",
+    "ro": "Sanmachi no tōri ni wa, kuroppoi ki no machiya ga narande imasu."
    },
    {
-    "fr": "Nous avons visité une fromagerie familiale près de Seia.",
-    "pt": "Visitámos uma queijaria familiar perto de Seia."
+    "fr": "Plusieurs brasseries de saké proposent des dégustations.",
+    "ja": "いくつかの酒蔵で試飲ができます。",
+    "ro": "Ikutsu ka no sakagura de shiin ga dekimasu."
    },
    {
-    "fr": "Le queijo da Serra est fabriqué avec du lait de brebis cru.",
-    "pt": "O queijo da Serra é feito com leite de ovelha cru."
+    "fr": "Une boule de cèdre suspendue signale que le saké nouveau est prêt.",
+    "ja": "杉玉が吊るされていると、新酒ができた印です。",
+    "ro": "Sugidama ga tsurusarete iru to, shinshu ga dekita shirushi desu."
    },
    {
-    "fr": "On utilise de la fleur de chardon pour faire cailler le lait.",
-    "pt": "Usa-se flor de cardo para coalhar o leite."
+    "fr": "Le marché du matin se tient au bord de la rivière Miyagawa.",
+    "ja": "朝市は宮川沿いで開かれます。",
+    "ro": "Asaichi wa Miyagawa zoi de hirakaremasu."
    },
    {
-    "fr": "Quand il est bien crémeux, on coupe le dessus et on mange la pâte à la cuillère.",
-    "pt": "Quando está amanteigado, corta-se a tampa e come-se a pasta à colher."
+    "fr": "De vieilles dames y vendent des légumes et des pickles maison.",
+    "ja": "おばあさんたちが野菜や手作りの漬物を売っています。",
+    "ro": "Obāsantachi ga yasai ya tezukuri no tsukemono o utte imasu."
    },
    {
-    "fr": "La fromagère travaille avec sa mère depuis quarante ans.",
-    "pt": "A queijeira trabalha com a mãe há quarenta anos."
+    "fr": "Le bœuf de Hida fond littéralement dans la bouche.",
+    "ja": "飛騨牛は口の中でとろけるようです。",
+    "ro": "Hidagyū wa kuchi no naka de torokeru yō desu."
    },
    {
-    "fr": "Les chiens de berger de la région sont célèbres dans tout le pays.",
-    "pt": "Os cães da Serra da Estrela são famosos em todo o país."
+    "fr": "On a mangé des brochettes grillées sous nos yeux.",
+    "ja": "目の前で焼いてくれた串焼きを食べました。",
+    "ro": "Me no mae de yaite kureta kushiyaki o tabemashita."
    },
    {
-    "fr": "Le soir, il faisait si froid qu'on a allumé la cheminée.",
-    "pt": "À noite, estava tanto frio que acendemos a lareira."
+    "fr": "La fête de Takayama attire des foules au printemps et en automne.",
+    "ja": "高山祭は春と秋に大勢の人を集めます。",
+    "ro": "Takayama matsuri wa haru to aki ni ōzei no hito o atsumemasu."
    },
    {
-    "fr": "Nous sommes repartis avec un fromage entier enveloppé dans un torchon.",
-    "pt": "Partimos com um queijo inteiro embrulhado num pano."
+    "fr": "En dehors de la fête, la ville est paisible le soir.",
+    "ja": "祭り以外の時期は、夜の町は静かです。",
+    "ro": "Matsuri igai no jiki wa, yoru no machi wa shizuka desu."
    }
   ]
  },
  {
-  "title": "Les vagues géantes de Nazaré",
+  "title": "Les maisons de Shirakawa-gō",
   "phrases": [
    {
-    "fr": "En hiver, Nazaré attire les meilleurs surfeurs de vagues géantes.",
-    "pt": "No inverno, a Nazaré atrai os melhores surfistas de ondas gigantes."
+    "fr": "Le bus pour Shirakawa-gō met une cinquantaine de minutes.",
+    "ja": "白川郷行きのバスは五十分ぐらいかかります。",
+    "ro": "Shirakawagō iki no basu wa gojuppun gurai kakarimasu."
    },
    {
-    "fr": "Un canyon sous-marin explique la hauteur exceptionnelle des vagues.",
-    "pt": "Um canhão submarino explica a altura excecional das ondas."
+    "fr": "Les toits de chaume ressemblent à des mains jointes.",
+    "ja": "かやぶき屋根は、合わせた手のように見えます。",
+    "ro": "Kayabuki yane wa, awaseta te no yō ni miemasu."
    },
    {
-    "fr": "Certaines vagues dépassent la hauteur d'un immeuble de dix étages.",
-    "pt": "Algumas ondas ultrapassam a altura de um prédio de dez andares."
+    "fr": "C'est pour ça que ce style s'appelle « gasshō-zukuri ».",
+    "ja": "それで、この様式は「合掌造り」と呼ばれています。",
+    "ro": "Sorede, kono yōshiki wa « gasshō zukuri » to yobarete imasu."
    },
    {
-    "fr": "Depuis le phare, la foule retient son souffle à chaque descente.",
-    "pt": "Do farol, a multidão sustém a respiração a cada descida."
+    "fr": "Grâce à la pente raide, la neige s'accumule difficilement.",
+    "ja": "急な傾斜のおかげで、雪が積もりにくいです。",
+    "ro": "Kyū na keisha no okage de, yuki ga tsumorinikui desu."
    },
    {
-    "fr": "Les surfeurs sont tractés par des jet-skis pour attraper les vagues.",
-    "pt": "Os surfistas são rebocados por motas de água para apanhar as ondas."
+    "fr": "Tout le village refait le chaume tous les trente ou quarante ans.",
+    "ja": "屋根のふき替えは、三、四十年ごとに村人全員で行います。",
+    "ro": "Yane no fukikae wa, san, yonjū nen goto ni murabito zen'in de okonaimasu."
    },
    {
-    "fr": "Les jours de grosse houle, la police ferme l'accès aux rochers.",
-    "pt": "Nos dias de grande ondulação, a polícia fecha o acesso às rochas."
+    "fr": "Cette entraide porte le nom de « yui ».",
+    "ja": "この助け合いは「結」と呼ばれています。",
+    "ro": "Kono tasukeai wa « yui » to yobarete imasu."
    },
    {
-    "fr": "En bas, sur la plage, certaines femmes portent encore les sept jupes traditionnelles.",
-    "pt": "Lá em baixo, na praia, ainda há mulheres com as sete saias tradicionais."
+    "fr": "Certaines maisons sont encore habitées aujourd'hui.",
+    "ja": "今でも人が住んでいる家もあります。",
+    "ro": "Ima demo hito ga sunde iru ie mo arimasu."
    },
    {
-    "fr": "Elles vendent du poisson séché au soleil sur des claies.",
-    "pt": "Vendem peixe seco ao sol em estendais."
+    "fr": "On a dormi dans l'une d'elles, autour du foyer creusé dans le sol.",
+    "ja": "そのひとつに泊まって、囲炉裏を囲みました。",
+    "ro": "Sono hitotsu ni tomatte, irori o kakomimashita."
    },
    {
-    "fr": "Le funiculaire relie la plage au quartier du Sítio, en haut de la falaise.",
-    "pt": "O ascensor liga a praia ao Sítio, lá no alto da falésia."
+    "fr": "La fumée du foyer protège la charpente des insectes.",
+    "ja": "囲炉裏の煙が、木を虫から守ります。",
+    "ro": "Irori no kemuri ga, ki o mushi kara mamorimasu."
    },
    {
-    "fr": "Nous n'oublierons jamais le fracas des vagues contre la falaise.",
-    "pt": "Nunca nos vamos esquecer do estrondo das ondas contra a falésia."
+    "fr": "En hiver, le village illuminé sous la neige a quelque chose de magique.",
+    "ja": "冬、雪の中でライトアップされた村は幻想的です。",
+    "ro": "Fuyu, yuki no naka de raitoappu sareta mura wa gensōteki desu."
    }
   ]
  },
  {
-  "title": "Un cours de surf à Peniche",
+  "title": "Un typhon bloque les bateaux",
   "phrases": [
    {
-    "fr": "Ce matin, les vagues sont trop fortes : pour les débutants, ce n'est pas possible.",
-    "pt": "Esta manhã, as ondas estão fortes demais: para principiantes, não dá."
+    "fr": "Normalement, le ferry doit partir à dix heures.",
+    "ja": "フェリーは十時に出るはずです。",
+    "ro": "Ferī wa jūji ni deru hazu desu."
    },
    {
-    "fr": "Le moniteur propose qu'on aille faire un tour à Baleal en attendant.",
-    "pt": "O instrutor sugere que vamos dar uma volta ao Baleal enquanto esperamos."
+    "fr": "Mais un typhon s'approche de l'archipel.",
+    "ja": "でも、台風が諸島に近づいています。",
+    "ro": "Demo, taifū ga shotō ni chikazuite imasu."
    },
    {
-    "fr": "Une combinaison plus épaisse ne serait pas de refus avec cette eau froide.",
-    "pt": "Um fato mais grosso dava jeito com esta água fria."
+    "fr": "Avec ce vent, le bateau ne devrait pas pouvoir quitter le port.",
+    "ja": "この風では、船は出られないはずです。",
+    "ro": "Kono kaze de wa, fune wa derarenai hazu desu."
    },
    {
-    "fr": "Vers midi, la mer s'est calmée et on a enfin pu entrer dans l'eau.",
-    "pt": "Por volta do meio-dia, o mar acalmou e finalmente deu para entrar na água."
+    "fr": "La compagnie devrait annoncer sa décision avant huit heures.",
+    "ja": "フェリー会社は八時までに判断を発表するはずです。",
+    "ro": "Ferī gaisha wa hachiji made ni handan o happyō suru hazu desu."
    },
    {
-    "fr": "Je ne me suis pas rendu compte que le courant m'emportait vers les rochers.",
-    "pt": "Não dei conta de que a corrente me estava a levar para as rochas."
+    "fr": "L'auberge devrait bien nous laisser rester une nuit de plus.",
+    "ja": "宿はもう一泊させてくれるはずです。",
+    "ro": "Yado wa mō ippaku sasete kureru hazu desu."
    },
    {
-    "fr": "Cette séance m'a complètement démoli le dos.",
-    "pt": "Esta sessão deu cabo das minhas costas."
+    "fr": "Et pourtant, j'avais bien vérifié la météo hier soir.",
+    "ja": "昨日の夜、ちゃんと天気予報を確認したはずなのに。",
+    "ro": "Kinō no yoru, chanto tenki yohō o kakunin shita hazu na no ni."
    },
    {
-    "fr": "Je m'entends très bien avec les autres élèves de l'école.",
-    "pt": "Dou-me muito bem com os outros alunos da escola."
+    "fr": "Les magasins devraient rester fermés toute la journée.",
+    "ja": "店は一日中閉まっているはずです。",
+    "ro": "Mise wa ichinichijū shimatte iru hazu desu."
    },
    {
-    "fr": "En sortant, nous sommes tombés sur une petite gargote de poisson grillé.",
-    "pt": "À saída, demos com uma pequena tasca de peixe grelhado."
+    "fr": "Le bâtiment est solide, il ne devrait pas y avoir de souci.",
+    "ja": "建物は丈夫だから、心配はいらないはずです。",
+    "ro": "Tatemono wa jōbu da kara, shinpai wa iranai hazu desu."
    },
    {
-    "fr": "Nous avons fait un dernier plongeon avant le coucher du soleil.",
-    "pt": "Demos um último mergulho antes do pôr do sol."
+    "fr": "Demain matin, la tempête devrait être passée.",
+    "ja": "明日の朝には、嵐は過ぎているはずです。",
+    "ro": "Ashita no asa ni wa, arashi wa sugite iru hazu desu."
    },
    {
-    "fr": "Peniche vit du surf, mais aussi de la pêche, depuis toujours.",
-    "pt": "Peniche vive do surf, mas também da pesca, desde sempre."
+    "fr": "Encore une annulation ? Ce n'est pas possible !",
+    "ja": "またキャンセルなんて、そんなはずはありません！",
+    "ro": "Mata kyanseru nante, sonna hazu wa arimasen!"
    }
   ],
   "tip": {
-   "title": "Les expressions avec « dar »",
-   "example": "Une combinaison plus épaisse ne serait pas de refus avec cette eau froide. — Um fato mais grosso <b>dava jeito</b> com esta água fria.",
-   "body": "« Dar » entre dans une foule d'expressions très courantes au Portugal : « dar jeito » (être pratique, arranger), « dar para » (être possible : « Não dá! »), « dar conta de » (se rendre compte), « dar com » (tomber sur), « dar-se bem com » (bien s'entendre avec). Ex. : « Dava-me jeito sair mais cedo », « Dei com ele no café », « Dás-te bem com a tua irmã? ». Ces tournures donnent tout de suite un portugais plus naturel."
+   "title": "« Hazu desu » : normalement, ça devrait",
+   "example": "Normalement, le ferry doit partir à dix heures. — フェリーは十時に<b>出るはずです</b>。",
+   "exampleRo": "Ferī wa jūji ni deru hazu desu.",
+   "lit": "ferry [thème] · dix heures [temps] · sortir · attente logique · être (poli)",
+   "body": "« Hazu desu » s'ajoute après un verbe à la forme neutre pour dire ce qui devrait logiquement se passer, d'après ce que l'on sait. « Jūji ni deru hazu desu » se dit littéralement : dix heures, partir, attente logique, être, soit il devrait partir à dix heures. Ce n'est pas un simple peut-être : on s'appuie sur un horaire, une règle ou une information fiable. Au négatif, « derarenai hazu desu » signifie il ne devrait pas pouvoir sortir, et « sonna hazu wa arimasen » veut dire ce n'est pas possible. Astuce : pensez au mot « normalement » en français, c'est presque toujours la bonne traduction."
   }
  },
  {
-  "title": "Óbidos, sa ginja et ses fêtes",
+  "title": "Le pèlerinage de Shikoku",
   "phrases": [
    {
-    "fr": "Óbidos est entourée de remparts qu'on peut parcourir à pied.",
-    "pt": "Óbidos está rodeada de muralhas que se podem percorrer a pé."
+    "fr": "Le pèlerinage de Shikoku relie quatre-vingt-huit temples.",
+    "ja": "四国遍路は八十八か所の寺を結んでいます。",
+    "ro": "Shikoku henro wa hachijūhakkasho no tera o musunde imasu."
    },
    {
-    "fr": "Le chemin de ronde n'a pas de garde-corps, alors il faut faire attention.",
-    "pt": "O caminho da muralha não tem corrimão, por isso é preciso ter cuidado."
+    "fr": "Le parcours complet fait environ mille deux cents kilomètres.",
+    "ja": "全行程はおよそ千二百キロあります。",
+    "ro": "Zenkōtei wa oyoso sen nihyaku kiro arimasu."
    },
    {
-    "fr": "Dans chaque ruelle, quelqu'un vous propose de goûter la ginja.",
-    "pt": "Em cada ruela, há alguém a oferecer ginja para provar."
+    "fr": "La plupart des gens le font en car ou en voiture.",
+    "ja": "ほとんどの人はバスや車で回ります。",
+    "ro": "Hotondo no hito wa basu ya kuruma de mawarimasu."
    },
    {
-    "fr": "Cette liqueur de griotte se boit dans un petit gobelet en chocolat.",
-    "pt": "Este licor de ginja bebe-se num copinho de chocolate."
+    "fr": "Ceux qui le font à pied mettent une quarantaine de jours.",
+    "ja": "歩いて回る人は、四十日ほどかかります。",
+    "ro": "Aruite mawaru hito wa, yonjūnichi hodo kakarimasu."
    },
    {
-    "fr": "On mange le gobelet après l'avoir vidé, évidemment.",
-    "pt": "Come-se o copo depois de o esvaziar, claro."
+    "fr": "Les pèlerins portent une veste blanche et un chapeau de paille conique.",
+    "ja": "お遍路さんは白衣を着て、すげ笠をかぶります。",
+    "ro": "Ohenro san wa hakui o kite, sugegasa o kaburimasu."
    },
    {
-    "fr": "En été, la ville accueille un grand marché médiéval.",
-    "pt": "No verão, a vila recebe um grande mercado medieval."
+    "fr": "Sur le chapeau est écrit « dōgyō ninin » : nous marchons à deux.",
+    "ja": "笠には「同行二人」と書いてあります。",
+    "ro": "Kasa ni wa « dōgyō ninin » to kaite arimasu."
    },
    {
-    "fr": "Les habitants se déguisent en chevaliers et en marchands.",
-    "pt": "Os habitantes vestem-se de cavaleiros e de mercadores."
+    "fr": "Cela signifie que Kōbō Daishi marche toujours à vos côtés.",
+    "ja": "弘法大師がいつも一緒に歩いてくれるという意味です。",
+    "ro": "Kōbō Daishi ga itsumo issho ni aruite kureru to iu imi desu."
    },
    {
-    "fr": "Des musiciens jouent de la cornemuse devant la porte de la ville.",
-    "pt": "Uns músicos tocam gaita de foles à porta da vila."
+    "fr": "Les habitants offrent souvent des fruits ou du thé aux marcheurs.",
+    "ja": "地元の人は、よく歩き遍路に果物やお茶をくれます。",
+    "ro": "Jimoto no hito wa, yoku aruki henro ni kudamono ya ocha o kuremasu."
    },
    {
-    "fr": "Au printemps, c'est le festival du chocolat qui remplit les rues.",
-    "pt": "Na primavera, é o festival do chocolate que enche as ruas."
+    "fr": "Cette tradition d'accueil s'appelle « osettai ».",
+    "ja": "このおもてなしの伝統は「お接待」と呼ばれます。",
+    "ro": "Kono omotenashi no dentō wa « osettai » to yobaremasu."
    },
    {
-    "fr": "Il y a tellement de monde qu'il vaut mieux arriver avant dix heures.",
-    "pt": "Há tanta gente que é melhor chegar antes das dez horas."
+    "fr": "Refuser une offrande est considéré comme impoli.",
+    "ja": "お接待を断るのは失礼だとされています。",
+    "ro": "Osettai o kotowaru no wa shitsurei da to sarete imasu."
    }
   ]
  },
  {
-  "title": "Tomar et le couvent du Christ",
+  "title": "Une nuit dans un temple",
   "phrases": [
    {
-    "fr": "Le couvent du Christ domine la ville depuis le haut de la colline.",
-    "pt": "O Convento de Cristo domina a cidade do alto da colina."
+    "fr": "Ce soir, nous logeons dans un temple du pèlerinage.",
+    "ja": "今夜は札所のお寺の宿坊に泊まります。",
+    "ro": "Kon'ya wa fudasho no otera no shukubō ni tomarimasu."
    },
    {
-    "fr": "Il a été fondé par les Templiers au douzième siècle.",
-    "pt": "Foi fundado pelos Templários no século doze."
+    "fr": "Le dîner est de la cuisine bouddhique, sans viande ni poisson.",
+    "ja": "夕食は精進料理なので、肉も魚も使いません。",
+    "ro": "Yūshoku wa shōjin ryōri na node, niku mo sakana mo tsukaimasen."
    },
    {
-    "fr": "La rotonde des Templiers est décorée de peintures dorées.",
-    "pt": "A charola dos Templários está decorada com pinturas douradas."
+    "fr": "Le tofu au sésame avait un goût d'une finesse étonnante.",
+    "ja": "ごま豆腐は驚くほど上品な味でした。",
+    "ro": "Gomadōfu wa odoroku hodo jōhin na aji deshita."
    },
    {
-    "fr": "On raconte que les chevaliers assistaient à la messe à cheval.",
-    "pt": "Conta-se que os cavaleiros assistiam à missa a cavalo."
+    "fr": "Le moine nous a demandé de venir au pavillon principal à six heures.",
+    "ja": "お坊さんに、六時に本堂に来るように言われました。",
+    "ro": "Obōsan ni, rokuji ni hondō ni kuru yō ni iwaremashita."
    },
    {
-    "fr": "La fenêtre manuéline est couverte de cordages, de coraux et d'algues sculptés.",
-    "pt": "A janela manuelina está coberta de cordas, corais e algas esculpidos."
+    "fr": "La prière du matin dure environ une demi-heure.",
+    "ja": "朝のお勤めは三十分ぐらいです。",
+    "ro": "Asa no otsutome wa sanjuppun gurai desu."
    },
    {
-    "fr": "Tous les quatre ans, la ville célèbre la fête des Tabuleiros.",
-    "pt": "De quatro em quatro anos, a cidade celebra a Festa dos Tabuleiros."
+    "fr": "Même sans comprendre les sutras, on est touché par leur rythme.",
+    "ja": "お経の意味がわからなくても、そのリズムに心を打たれます。",
+    "ro": "Okyō no imi ga wakaranakute mo, sono rizumu ni kokoro o utaremasu."
    },
    {
-    "fr": "Les jeunes filles portent sur la tête de très hauts plateaux de pain.",
-    "pt": "As raparigas levam à cabeça tabuleiros de pão muito altos."
+    "fr": "Ensuite, on s'est essayés à recopier un sutra au pinceau.",
+    "ja": "そのあと、写経に挑戦しました。",
+    "ro": "Sono ato, shakyō ni chōsen shimashita."
    },
    {
-    "fr": "Chaque plateau doit mesurer la taille de la jeune fille qui le porte.",
-    "pt": "Cada tabuleiro deve ter a altura da rapariga que o leva."
+    "fr": "Il faut se concentrer sur chaque trait sans se presser.",
+    "ja": "急がずに、一画一画に集中しなければなりません。",
+    "ro": "Isogazu ni, ikkaku ikkaku ni shūchū shinakereba narimasen."
    },
    {
-    "fr": "Les rues sont ornées de fleurs en papier fabriquées par les habitants.",
-    "pt": "As ruas são enfeitadas com flores de papel feitas pelos moradores."
+    "fr": "Dans chaque temple, on reçoit un sceau calligraphié sur son carnet.",
+    "ja": "札所ごとに納経帳に御朱印をいただきます。",
+    "ro": "Fudasho goto ni nōkyōchō ni goshuin o itadakimasu."
    },
    {
-    "fr": "Nous avons eu la chance d'être là l'année de la fête.",
-    "pt": "Tivemos a sorte de lá estar no ano da festa."
+    "fr": "Ce calme absolu m'a fait un bien immense.",
+    "ja": "この静けさに、本当に心が癒されました。",
+    "ro": "Kono shizukesa ni, hontō ni kokoro ga iyasaremashita."
    }
   ]
  },
  {
-  "title": "Monsanto, le village entre les rochers",
+  "title": "Yakushima, l'île de la pluie",
   "phrases": [
    {
-    "fr": "Monsanto a été construit au milieu d'énormes blocs de granit.",
-    "pt": "Monsanto foi construída no meio de enormes penedos de granito."
+    "fr": "Yakushima est une île couverte de forêts, au sud de Kyūshū.",
+    "ja": "屋久島は九州の南にある、森に覆われた島です。",
+    "ro": "Yakushima wa Kyūshū no minami ni aru, mori ni ōwareta shima desu."
    },
    {
-    "fr": "Certaines maisons utilisent un rocher comme toit.",
-    "pt": "Algumas casas usam um penedo como telhado."
+    "fr": "On dit qu'il y pleut trente-cinq jours par mois.",
+    "ja": "「ひと月に三十五日雨が降る」と言われています。",
+    "ro": "« Hitotsuki ni sanjūgonichi ame ga furu » to iwarete imasu."
    },
    {
-    "fr": "Les ruelles montent tellement qu'on s'arrête souvent pour reprendre son souffle.",
-    "pt": "As ruelas sobem tanto que paramos muitas vezes para recuperar o fôlego."
+    "fr": "C'est exagéré, bien sûr, mais il pleut vraiment beaucoup.",
+    "ja": "もちろん大げさですが、本当によく雨が降ります。",
+    "ro": "Mochiron ōgesa desu ga, hontō ni yoku ame ga furimasu."
    },
    {
-    "fr": "Il ne reste qu'une centaine d'habitants toute l'année.",
-    "pt": "Restam apenas uns cem habitantes durante todo o ano."
+    "fr": "Certains cèdres ont plus de mille ans.",
+    "ja": "樹齢千年を超える杉もあります。",
+    "ro": "Jurei sennen o koeru sugi mo arimasu."
    },
    {
-    "fr": "Une vieille dame nous a invités à entrer chez elle.",
-    "pt": "Uma senhora de idade convidou-nos a entrar em casa dela."
+    "fr": "Le plus célèbre, le Jōmon-sugi, aurait plusieurs milliers d'années.",
+    "ja": "一番有名な縄文杉は、樹齢数千年とも言われています。",
+    "ro": "Ichiban yūmei na Jōmon sugi wa, jurei sūsennen to mo iwarete imasu."
    },
    {
-    "fr": "Elle nous a montré les adufes, des tambourins carrés de la région.",
-    "pt": "Mostrou-nos os adufes, uns pandeiros quadrados típicos da região."
+    "fr": "Il faut une dizaine d'heures pour faire l'aller-retour jusqu'à lui.",
+    "ja": "往復で十時間ぐらいかかります。",
+    "ro": "Ōfuku de jūjikan gurai kakarimasu."
    },
    {
-    "fr": "Du château en ruines, la vue porte jusqu'à la frontière.",
-    "pt": "Do castelo em ruínas, a vista alcança a fronteira."
+    "fr": "La forêt de Shiratani a servi de modèle à un célèbre film d'animation.",
+    "ja": "白谷雲水峡の森は、有名なアニメ映画のモデルになりました。",
+    "ro": "Shiratani Unsuikyō no mori wa, yūmei na anime eiga no moderu ni narimashita."
    },
    {
-    "fr": "Le village semble figé dans le temps.",
-    "pt": "A aldeia parece parada no tempo."
+    "fr": "Au bord du chemin, des cerfs et des singes nous observaient.",
+    "ja": "道ばたからシカやサルがこちらを見ていました。",
+    "ro": "Michibata kara shika ya saru ga kochira o mite imashita."
    },
    {
-    "fr": "Il vaut mieux éviter de monter au château aux heures les plus chaudes.",
-    "pt": "Convém evitar subir ao castelo nas horas de mais calor."
+    "fr": "Ils sont plus petits que ceux du reste du Japon.",
+    "ja": "本土のシカやサルより小柄です。",
+    "ro": "Hondo no shika ya saru yori kogara desu."
    },
    {
-    "fr": "Le soir, seul le vent vient troubler le silence.",
-    "pt": "À noite, só o vento quebra o silêncio."
+    "fr": "Après la pluie, toute la mousse brillait d'un vert intense.",
+    "ja": "雨上がりには、苔が一面あざやかな緑に輝いていました。",
+    "ro": "Ameagari ni wa, koke ga ichimen azayaka na midori ni kagayaite imashita."
    }
   ]
  },
  {
-  "title": "Séjourner dans un village de schiste",
+  "title": "Avec un guide de l'île",
   "phrases": [
    {
-    "fr": "Les villages de schiste sont cachés dans les montagnes du centre du pays.",
-    "pt": "As aldeias do xisto escondem-se nas serras do centro do país."
+    "fr": "Pour la randonnée, on a fait appel à un guide local.",
+    "ja": "登山のために、地元のガイドさんを頼みました。",
+    "ro": "Tozan no tame ni, jimoto no gaido san o tanomimashita."
    },
    {
-    "fr": "Beaucoup avaient été abandonnés avant d'être restaurés.",
-    "pt": "Muitas tinham sido abandonadas antes de serem recuperadas."
+    "fr": "Il a grandi sur l'île et connaît chaque sentier.",
+    "ja": "島で生まれ育ったので、どの道もよく知っています。",
+    "ro": "Shima de umaresodatta node, dono michi mo yoku shitte imasu."
    },
    {
-    "fr": "Nous avons loué une maison rénovée par un couple de la région.",
-    "pt": "Alugámos uma casa recuperada por um casal da região."
+    "fr": "Il nous a appris à reconnaître les arbres à leur écorce.",
+    "ja": "樹皮で木を見分ける方法を教えてくれました。",
+    "ro": "Juhi de ki o miwakeru hōhō o oshiete kuremashita."
    },
    {
-    "fr": "Pour voyager de façon responsable, nous achetons tout aux producteurs locaux.",
-    "pt": "Para viajar de forma responsável, compramos tudo aos produtores locais."
+    "fr": "Grâce à lui, on a remarqué des détails qu'on aurait manqués seuls.",
+    "ja": "彼のおかげで、自分たちでは見逃していた細かいところに気づけました。",
+    "ro": "Kare no okage de, jibuntachi de wa minogashite ita komakai tokoro ni kizukemashita."
    },
    {
-    "fr": "Le miel et les châtaignes viennent directement du village voisin.",
-    "pt": "O mel e as castanhas vêm diretamente da aldeia vizinha."
+    "fr": "Il nous a laissés faire une pause à chaque point d'eau.",
+    "ja": "水場ごとに休憩させてくれました。",
+    "ro": "Mizuba goto ni kyūkei sasete kuremashita."
    },
    {
-    "fr": "Ici, on laisse la voiture et on se déplace à pied.",
-    "pt": "Aqui, deixamos o carro e andamos a pé."
+    "fr": "D'après lui, en montagne, le temps change en quelques minutes.",
+    "ja": "彼によると、山の天気は数分で変わるそうです。",
+    "ro": "Kare ni yoru to, yama no tenki wa sūfun de kawaru sō desu."
    },
    {
-    "fr": "Les sentiers relient les villages entre eux à travers la forêt.",
-    "pt": "Os trilhos ligam as aldeias umas às outras através da floresta."
+    "fr": "Il nous a demandé de ne rien laisser derrière nous.",
+    "ja": "何も残さないようにと言われました。",
+    "ro": "Nani mo nokosanai yō ni to iwaremashita."
    },
    {
-    "fr": "Il est important de ne laisser aucun déchet derrière soi.",
-    "pt": "É importante não deixar lixo nenhum para trás."
+    "fr": "Même une peau de fruit peut nuire aux animaux.",
+    "ja": "果物の皮でさえ、動物に悪い影響を与えることがあります。",
+    "ro": "Kudamono no kawa de sae, dōbutsu ni warui eikyō o ataeru koto ga arimasu."
    },
    {
-    "fr": "Le tourisme a redonné vie à ces hameaux presque déserts.",
-    "pt": "O turismo devolveu a vida a estes lugarejos quase desertos."
+    "fr": "À la fin, il nous a offert un verre de shōchū de l'île.",
+    "ja": "最後に、地元の焼酎をごちそうしてくれました。",
+    "ro": "Saigo ni, jimoto no shōchū o gochisō shite kuremashita."
    },
    {
-    "fr": "On repart avec l'impression d'avoir aidé, à notre échelle.",
-    "pt": "Partimos com a sensação de ter ajudado, à nossa escala."
+    "fr": "Avec un bon guide, l'expérience devient tout autre.",
+    "ja": "いいガイドがいると、体験がまったく変わります。",
+    "ro": "Ii gaido ga iru to, taiken ga mattaku kawarimasu."
    }
   ]
  },
  {
-  "title": "Une soirée à Madère : poncha et espetada",
+  "title": "Voyager de façon responsable",
   "phrases": [
    {
-    "fr": "À Madère, la soirée se termine souvent dans une petite taverne.",
-    "pt": "Na Madeira, a noite acaba muitas vezes numa pequena tasca."
+    "fr": "Dans certaines zones de Yakushima, le nombre de randonneurs est limité.",
+    "ja": "屋久島の一部では、入山者の数が制限されています。",
+    "ro": "Yakushima no ichibu de wa, nyūzansha no kazu ga seigen sarete imasu."
    },
    {
-    "fr": "La poncha se prépare avec de l'eau-de-vie de canne, du miel et du citron.",
-    "pt": "A poncha faz-se com aguardente de cana, mel e limão."
+    "fr": "Chaque randonneur verse une petite contribution pour protéger la forêt.",
+    "ja": "森を守るために、登山者は協力金を払います。",
+    "ro": "Mori o mamoru tame ni, tozansha wa kyōryokukin o haraimasu."
    },
    {
-    "fr": "Le barman mélange le tout avec un bâton en bois prévu pour ça.",
-    "pt": "O empregado mexe tudo com um pau de madeira próprio."
+    "fr": "À Shirakawa-gō, les habitants souffrent parfois du trop grand nombre de touristes.",
+    "ja": "白川郷では、観光客が多すぎて住民が困ることもあります。",
+    "ro": "Shirakawagō de wa, kankōkyaku ga ōsugite jūmin ga komaru koto mo arimasu."
    },
    {
-    "fr": "Elle se boit facilement, mais elle est bien plus forte qu'elle n'en a l'air.",
-    "pt": "Bebe-se bem, mas é muito mais forte do que parece."
+    "fr": "Il ne faut pas entrer dans les maisons privées sans autorisation.",
+    "ja": "許可なく民家に入ってはいけません。",
+    "ro": "Kyoka naku minka ni haitte wa ikemasen."
    },
    {
-    "fr": "Ensuite, on nous a servi l'espetada sur une broche suspendue au-dessus de la table.",
-    "pt": "Depois, serviram-nos a espetada num espeto pendurado por cima da mesa."
+    "fr": "On essaie de voyager hors saison pour éviter la foule.",
+    "ja": "混雑を避けるために、オフシーズンに旅行するようにしています。",
+    "ro": "Konzatsu o sakeru tame ni, ofushīzun ni ryokō suru yō ni shite imasu."
    },
    {
-    "fr": "Traditionnellement, la viande est enfilée sur des branches de laurier.",
-    "pt": "Tradicionalmente, a carne é espetada em paus de loureiro."
+    "fr": "Il y a peu de poubelles au Japon, alors on garde toujours ses déchets.",
+    "ja": "日本はゴミ箱が少ないので、ゴミはいつも持ち帰ります。",
+    "ro": "Nihon wa gomibako ga sukunai node, gomi wa itsumo mochikaerimasu."
    },
    {
-    "fr": "On l'accompagne de bolo do caco et de milho frito.",
-    "pt": "Acompanha-se com bolo do caco e milho frito."
+    "fr": "Dormir dans une pension familiale fait vivre l'économie locale.",
+    "ja": "民宿に泊まると、地元の経済が潤います。",
+    "ro": "Minshuku ni tomaru to, jimoto no keizai ga uruoimasu."
    },
    {
-    "fr": "Un vieux monsieur a commencé à chanter au fond de la salle.",
-    "pt": "Um senhor de idade começou a cantar ao fundo da sala."
+    "fr": "Acheter de l'artisanat local soutient aussi les artisans.",
+    "ja": "地元の工芸品を買うことも、職人さんの支えになります。",
+    "ro": "Jimoto no kōgeihin o kau koto mo, shokunin san no sasae ni narimasu."
    },
    {
-    "fr": "Toute la taverne a repris le refrain avec lui.",
-    "pt": "A tasca inteira cantou o refrão com ele."
+    "fr": "Le train et le ferry pèsent bien moins sur l'environnement que l'avion.",
+    "ja": "電車やフェリーは、飛行機より環境への負担がずっと少ないです。",
+    "ro": "Densha ya ferī wa, hikōki yori kankyō e no futan ga zutto sukunai desu."
    },
    {
-    "fr": "Après une soirée pareille, mieux vaut rentrer à pied.",
-    "pt": "Depois de uma noite assim, mais vale voltar a pé."
+    "fr": "Voyager lentement permet aussi de mieux comprendre un lieu.",
+    "ja": "ゆっくり旅をすると、その土地をもっと深く理解できます。",
+    "ro": "Yukkuri tabi o suru to, sono tochi o motto fukaku rikai dekimasu."
    }
   ]
  },
  {
-  "title": "Préparer une randonnée dans le Gerês",
+  "title": "Expliquer un imprévu",
   "phrases": [
    {
-    "fr": "Au cas où il pleuvrait, nous prendrons le sentier le plus court.",
-    "pt": "Caso chova, vamos pelo trilho mais curto."
+    "fr": "Excusez-moi, en fait, j'ai raté le dernier bus.",
+    "ja": "すみません、実は最終バスに乗り遅れたんです。",
+    "ro": "Sumimasen, jitsu wa saishū basu ni noriokureta n desu."
    },
    {
-    "fr": "Nous partirons à l'aube, à moins que le guide ne préfère attendre.",
-    "pt": "Partimos de madrugada, a não ser que o guia prefira esperar."
+    "fr": "Qu'est-ce qui se passe ? Pourquoi le train est-il arrêté ?",
+    "ja": "どうしたんですか？どうして電車が止まっているんですか？",
+    "ro": "Dō shita n desu ka? Dōshite densha ga tomatte iru n desu ka?"
    },
    {
-    "fr": "Au cas où on se perdrait, chacun a la carte sur son téléphone.",
-    "pt": "Caso nos percamos, cada um tem o mapa no telemóvel."
+    "fr": "Un arbre est tombé sur la voie à cause du vent.",
+    "ja": "風で木が線路に倒れたんです。",
+    "ro": "Kaze de ki ga senro ni taoreta n desu."
    },
    {
-    "fr": "On ne se baignera pas dans les cascades, à moins qu'il fasse vraiment chaud.",
-    "pt": "Não vamos nadar nas cascatas, a não ser que esteja mesmo calor."
+    "fr": "Si je suis en retard, c'est que le ferry a été annulé.",
+    "ja": "フェリーが欠航になったので、遅れたんです。",
+    "ro": "Ferī ga kekkō ni natta node, okureta n desu."
    },
    {
-    "fr": "Le parc national abrite des chevaux sauvages, les garranos.",
-    "pt": "O parque nacional abriga cavalos selvagens, os garranos."
+    "fr": "Je cherche une pharmacie, ma fille a de la fièvre.",
+    "ja": "娘が熱を出したので、薬局を探しているんです。",
+    "ro": "Musume ga netsu o dashita node, yakkyoku o sagashite iru n desu."
    },
    {
-    "fr": "Au cas où nous croiserions des vaches, il faudra s'écarter calmement.",
-    "pt": "Caso nos cruzemos com vacas, temos de nos afastar com calma."
+    "fr": "Tu ne manges pas ? Tu n'as pas faim ?",
+    "ja": "食べないの？お腹すいてないの？",
+    "ro": "Tabenai no? Onaka suitenai no?"
    },
    {
-    "fr": "On ne peut pas camper dans le parc, sauf dans un camping.",
-    "pt": "Não se pode acampar no parque, a não ser que seja num parque de campismo."
+    "fr": "Non, c'est que j'ai trop mangé au marché ce matin.",
+    "ja": "ううん、今朝市場で食べすぎちゃったんだ。",
+    "ro": "Uun, kesa ichiba de tabesugichatta n da."
    },
    {
-    "fr": "Prenez une veste au cas où le temps changerait en altitude.",
-    "pt": "Levem um casaco, caso o tempo mude lá em cima."
+    "fr": "En fait, c'est mon premier voyage seul au Japon.",
+    "ja": "実は、日本を一人で旅するのは初めてなんです。",
+    "ro": "Jitsu wa, Nihon o hitori de tabi suru no wa hajimete na n desu."
    },
    {
-    "fr": "Nous dormirons dans un refuge, à moins qu'il ne soit complet.",
-    "pt": "Vamos dormir num abrigo, a não ser que esteja cheio."
+    "fr": "Je voudrais modifier ma réservation, c'est possible ?",
+    "ja": "予約を変更したいんですが、できますか？",
+    "ro": "Yoyaku o henkō shitai n desu ga, dekimasu ka?"
    },
    {
-    "fr": "Si tout se passe bien, nous arriverons demain soir à Pitões das Júnias.",
-    "pt": "Se tudo correr bem, chegamos amanhã à noite a Pitões das Júnias."
+    "fr": "Je ne trouve plus mon passeport, que dois-je faire ?",
+    "ja": "パスポートが見つからないんですが、どうすればいいでしょうか？",
+    "ro": "Pasupōto ga mitsukaranai n desu ga, dō sureba ii deshō ka?"
    }
   ],
   "tip": {
-   "title": "« Caso » et « a não ser que » + subjonctif",
-   "example": "Nous partirons à l'aube, à moins que le guide ne préfère attendre. — Partimos de madrugada, <b>a não ser que</b> o guia <b>prefira</b> esperar.",
-   "body": "« Caso » (au cas où, si jamais) et « a não ser que » (à moins que) exigent le subjonctif présent : « Caso precises, liga-me », « Vou a pé, a não ser que chova ». Dans un récit au passé, on passe au subjonctif imparfait : « Disse que vinha, a não ser que estivesse cansado ». Avec « se » (si) tourné vers l'avenir, on emploie le futur du subjonctif : « Se chover, fico em casa »."
+   "title": "« -n desu » : expliquer, donner le contexte",
+   "example": "Un arbre est tombé sur la voie à cause du vent. — 風で木が線路に<b>倒れたんです</b>。",
+   "exampleRo": "Kaze de ki ga senro ni taoreta n desu.",
+   "lit": "vent [moyen] · arbre [sujet] · voie ferrée [direction] · être tombé · c'est que · être (poli)",
+   "body": "En ajoutant « n desu » après un verbe ou un adjectif à la forme neutre, on présente sa phrase comme une explication, un peu comme « c'est que » ou « en fait » en français. « Taoreta n desu » se dit littéralement : être tombé, c'est que, être, ce qui sonne comme c'est qu'un arbre est tombé. Les Japonais l'utilisent sans cesse pour donner le contexte, par exemple « jitsu wa noriokureta n desu », en fait, j'ai raté le bus. En question, « dō shita n desu ka » demande ce qui se passe avec plus d'intérêt qu'une question neutre. Entre amis, on dit simplement « n da » ou « no ». Retenez que sans « n desu », une explication paraît souvent sèche, presque froide."
   }
  },
  {
-  "title": "Retour à Madère dix ans après",
+  "title": "De retour à Tokyo",
   "phrases": [
    {
-    "fr": "Nous sommes revenus à Madère dix ans après notre voyage de noces.",
-    "pt": "Voltámos à Madeira dez anos depois da nossa lua de mel."
+    "fr": "De retour à Tokyo, on a du mal à quitter le rythme des îles.",
+    "ja": "東京に戻っても、島のリズムからなかなか抜けられません。",
+    "ro": "Tōkyō ni modotte mo, shima no rizumu kara nakanaka nukeraremasen."
    },
    {
-    "fr": "L'aéroport s'est agrandi, mais l'atterrissage reste aussi spectaculaire qu'avant.",
-    "pt": "O aeroporto cresceu, mas a aterragem continua tão espetacular como antes."
+    "fr": "Mes collègues m'ont demandé quel endroit j'avais préféré.",
+    "ja": "同僚に、どこが一番よかったかと聞かれました。",
+    "ro": "Dōryō ni, doko ga ichiban yokatta ka to kikaremashita."
    },
    {
-    "fr": "Le petit hôtel où nous avions dormi est devenu une maison d'hôtes.",
-    "pt": "O pequeno hotel onde tínhamos dormido passou a ser uma casa de hóspedes."
+    "fr": "C'est difficile de choisir entre la forêt et la mer.",
+    "ja": "森と海のどちらかを選ぶのは難しいです。",
+    "ro": "Mori to umi no dochira ka o erabu no wa muzukashii desu."
    },
    {
-    "fr": "Le marché des Lavradores est toujours aussi coloré.",
-    "pt": "O Mercado dos Lavradores continua tão colorido como sempre."
+    "fr": "J'ai rapporté des gâteaux de Kanazawa pour tout le bureau.",
+    "ja": "職場のみんなに金沢のお菓子を買ってきました。",
+    "ro": "Shokuba no minna ni Kanazawa no okashi o katte kimashita."
    },
    {
-    "fr": "La vendeuse de fruits se souvenait vaguement de nous.",
-    "pt": "A vendedora de fruta lembrava-se vagamente de nós."
+    "fr": "Au Japon, rapporter des souvenirs à ses collègues est presque une obligation.",
+    "ja": "日本では、同僚へのお土産はほとんど義務のようなものです。",
+    "ro": "Nihon de wa, dōryō e no omiyage wa hotondo gimu no yō na mono desu."
    },
    {
-    "fr": "Nous avons refait la descente depuis Monte dans les traîneaux en osier.",
-    "pt": "Voltámos a descer do Monte nos carros de cesto."
+    "fr": "Ce week-end, j'ai trié des centaines de photos.",
+    "ja": "週末に何百枚もの写真を整理しました。",
+    "ro": "Shūmatsu ni nanbyakumai mo no shashin o seiri shimashita."
    },
    {
-    "fr": "Les deux conducteurs semblaient ne pas avoir vieilli.",
-    "pt": "Os dois carreiros pareciam não ter envelhecido."
+    "fr": "Celles de Shirakawa-gō sous la neige sont mes préférées.",
+    "ja": "雪の白川郷の写真が一番のお気に入りです。",
+    "ro": "Yuki no Shirakawagō no shashin ga ichiban no okiniiri desu."
    },
    {
-    "fr": "Ce qui a le plus changé, finalement, c'est nous.",
-    "pt": "Afinal, quem mudou mais fomos nós."
+    "fr": "Ce voyage m'a appris à prendre mon temps.",
+    "ja": "この旅で、ゆっくり過ごすことを覚えました。",
+    "ro": "Kono tabi de, yukkuri sugosu koto o oboemashita."
    },
    {
-    "fr": "Cette fois, j'ai pu parler portugais avec tout le monde.",
-    "pt": "Desta vez, consegui falar português com toda a gente."
+    "fr": "Je rêve déjà de faire tout le pèlerinage de Shikoku à pied.",
+    "ja": "もう四国遍路を全部歩くことを夢見ています。",
+    "ro": "Mō Shikoku henro o zenbu aruku koto o yumemite imasu."
    },
    {
-    "fr": "Nous nous sommes promis de ne pas attendre encore dix ans.",
-    "pt": "Prometemos um ao outro não esperar mais dez anos."
+    "fr": "Pour cela, il me faudra au moins un an de préparation.",
+    "ja": "そのために、少なくとも一年は準備しないといけません。",
+    "ro": "Sono tame ni, sukunaku tomo ichinen wa junbi shinai to ikemasen."
    }
   ]
  },
  {
-  "title": "Fin du module : un bilan de voyage",
+  "title": "Fin du module : un bilan",
   "phrases": [
    {
-    "fr": "Ce module nous a menés des îles de l'Atlantique aux montagnes du continent.",
-    "pt": "Este módulo levou-nos das ilhas do Atlântico às serras do continente."
+    "fr": "Ce module nous a menés d'Okinawa jusqu'aux montagnes de Hida.",
+    "ja": "この単元で、沖縄から飛騨の山まで旅しました。",
+    "ro": "Kono tangen de, Okinawa kara Hida no yama made tabi shimashita."
    },
    {
-    "fr": "Nous avons traversé la mer, marché le long des levadas et vendangé dans le Douro.",
-    "pt": "Atravessámos o mar, caminhámos ao longo das levadas e vindimámos no Douro."
+    "fr": "On sait désormais décrire un lieu avec des propositions relatives.",
+    "ja": "今では、関係節を使って場所を説明できます。",
+    "ro": "Ima de wa, kankeisetsu o tsukatte basho o setsumei dekimasu."
    },
    {
-    "fr": "Le plus-que-parfait et le discours indirect nous sont maintenant familiers.",
-    "pt": "O mais-que-perfeito e o discurso indireto já nos são familiares."
+    "fr": "Avec « tame ni » et « yō ni », on sait exprimer un but.",
+    "ja": "「ために」と「ように」で、目的を説明できるようになりました。",
+    "ro": "« Tame ni » to « yō ni » de, mokuteki o setsumei dekiru yō ni narimashita."
    },
    {
-    "fr": "Nous savons employer « embora », « caso » et « a não ser que » sans hésiter.",
-    "pt": "Já sabemos usar « embora », « caso » e « a não ser que » sem hesitar."
+    "fr": "Grâce à « te oku », on peut dire qu'on prépare les choses à l'avance.",
+    "ja": "「ておく」で、前もって準備することが言えます。",
+    "ro": "« Te oku » de, maemotte junbi suru koto ga iemasu."
    },
    {
-    "fr": "Les expressions avec « dar » rendent notre portugais plus naturel.",
-    "pt": "As expressões com « dar » tornam o nosso português mais natural."
+    "fr": "« Hazu desu » exprime ce qui devrait normalement arriver.",
+    "ja": "「はずです」で、当然そうなるはずのことが言えます。",
+    "ro": "« Hazu desu » de, tōzen sō naru hazu no koto ga iemasu."
    },
    {
-    "fr": "Négocier avec un guide en portugais ne nous fait plus peur.",
-    "pt": "Negociar com um guia em português já não nos assusta."
+    "fr": "Et avec « n desu », nos explications sonnent bien plus naturelles.",
+    "ja": "そして「んです」を使うと、説明がもっと自然になります。",
+    "ro": "Soshite « n desu » o tsukau to, setsumei ga motto shizen ni narimasu."
    },
    {
-    "fr": "Chaque région nous a appris des mots qu'on ne trouve pas dans les livres.",
-    "pt": "Cada região ensinou-nos palavras que não vêm nos livros."
+    "fr": "Le japonais du voyage ne nous fait presque plus peur.",
+    "ja": "旅行の日本語は、もうほとんど怖くありません。",
+    "ro": "Ryokō no nihongo wa, mō hotondo kowaku arimasen."
    },
    {
-    "fr": "On se débrouille désormais seuls, même quand le temps ou les plans changent.",
-    "pt": "Agora já nos desenrascamos sozinhos, mesmo quando o tempo ou os planos mudam."
+    "fr": "Chaque phrase apprise ici nous rapproche des gens que l'on rencontre.",
+    "ja": "ここで覚えた一文一文が、出会う人との距離を縮めてくれます。",
+    "ro": "Koko de oboeta ichibun ichibun ga, deau hito to no kyori o chijimete kuremasu."
    },
    {
-    "fr": "Bravo pour tout ce chemin parcouru ensemble.",
-    "pt": "Parabéns por todo este caminho percorrido juntos."
+    "fr": "Le prochain module sera consacré à des conversations plus personnelles.",
+    "ja": "次の単元では、もっと個人的な会話を学びます。",
+    "ro": "Tsugi no tangen de wa, motto kojinteki na kaiwa o manabimasu."
    },
    {
-    "fr": "Rendez-vous dans le prochain module pour parler de tout et de rien.",
-    "pt": "Encontramo-nos no próximo módulo para conversar sobre tudo e mais alguma coisa."
+    "fr": "Bravo pour ce beau voyage, et à très vite pour la suite !",
+    "ja": "お疲れさまでした。また次回お会いしましょう！",
+    "ro": "Otsukaresama deshita. Mata jikai oai shimashō!"
    }
   ]
  }
@@ -7438,882 +9893,1082 @@ const level3Module2Lessons = [
 
 const level3Module3Lessons = [
  {
-  "title": "Les expressions idiomatiques portugaises",
+  "title": "Le cœur qui bat : émotions et onomatopées",
   "phrases": [
    {
-    "fr": "Quand mon collègue a fait une gaffe en réunion, tout le monde a ri.",
-    "pt": "Quando o meu colega meteu água na reunião, toda a gente se riu."
+    "fr": "Avant l'entretien, mon cœur battait à tout rompre.",
+    "ja": "面接の前、心臓がドキドキしていました。",
+    "ro": "Mensetsu no mae, shinzō ga dokidoki shite imashita."
    },
    {
-    "fr": "Il faut avoir du culot pour arriver en retard et se plaindre du service.",
-    "pt": "É preciso ter lata para chegar atrasado e queixar-se do serviço."
+    "fr": "Mon collègue parle le français couramment, c'est impressionnant.",
+    "ja": "同僚はフランス語がペラペラで、すごいです。",
+    "ro": "Dōryō wa furansugo ga perapera de, sugoi desu."
    },
    {
-    "fr": "Ce matin, mon chef était de très mauvaise humeur.",
-    "pt": "Esta manhã, o meu chefe estava com os azeites."
+    "fr": "Le dimanche, je traîne à la maison sans rien faire.",
+    "ja": "日曜日は家でゴロゴロしています。",
+    "ro": "Nichiyōbi wa ie de gorogoro shite imasu."
    },
    {
-    "fr": "Les expressions idiomatiques révèlent beaucoup de choses sur la culture d'un pays.",
-    "pt": "As expressões idiomáticas revelam muita coisa sobre a cultura de um país."
+    "fr": "Le voyage du mois prochain me rend tout excité.",
+    "ja": "来月の旅行が楽しみで、ワクワクしています。",
+    "ro": "Raigetsu no ryokō ga tanoshimi de, wakuwaku shite imasu."
    },
    {
-    "fr": "Ma grand-mère disait toujours que ça ne sert à rien de pleurer sur le lait renversé.",
-    "pt": "A minha avó dizia sempre que não vale a pena chorar sobre leite derramado."
+    "fr": "Le train n'arrivait pas et je commençais à m'énerver.",
+    "ja": "電車が来なくて、イライラしてきました。",
+    "ro": "Densha ga konakute, iraira shite kimashita."
    },
    {
-    "fr": "Si quelqu'un t'envoie « peigner des singes », c'est qu'il veut que tu le laisses tranquille.",
-    "pt": "Se alguém te mandar pentear macacos, é porque quer que o deixes em paz."
+    "fr": "En sortant du bain, j'ai la peau toute douce.",
+    "ja": "お風呂上がりで、肌がすべすべです。",
+    "ro": "Ofuro agari de, hada ga subesube desu."
    },
    {
-    "fr": "J'ai mis du temps à comprendre que « faire figure d'ours » veut dire se ridiculiser.",
-    "pt": "Demorei a perceber que « fazer figura de urso » quer dizer fazer uma figura ridícula."
+    "fr": "Devant le feu d'artifice, les yeux de l'enfant brillaient.",
+    "ja": "花火を見て、子供の目がキラキラ輝いていました。",
+    "ro": "Hanabi o mite, kodomo no me ga kirakira kagayaite imashita."
    },
    {
-    "fr": "Traduire ces expressions mot à mot n'a souvent aucun sens.",
-    "pt": "Traduzir estas expressões à letra muitas vezes não faz sentido nenhum."
+    "fr": "Je n'ai rien mangé depuis ce matin, je meurs de faim.",
+    "ja": "朝から何も食べていないので、お腹がペコペコです。",
+    "ro": "Asa kara nani mo tabete inai node, onaka ga pekopeko desu."
    },
    {
-    "fr": "Mon ami portugais m'apprenait une nouvelle expression chaque semaine.",
-    "pt": "O meu amigo português ensinava-me uma expressão nova todas as semanas."
+    "fr": "Il pleut des cordes sur Tokyo depuis ce matin.",
+    "ja": "東京は朝から雨がザーザー降っています。",
+    "ro": "Tōkyō wa asa kara ame ga zāzā futte imasu."
    },
    {
-    "fr": "Placer ces expressions au bon moment fait toujours sourire les gens.",
-    "pt": "Usar estas expressões no momento certo põe sempre as pessoas a sorrir."
+    "fr": "Grâce aux onomatopées, le japonais paraît vraiment vivant.",
+    "ja": "オノマトペのおかげで、日本語はとても生き生きしています。",
+    "ro": "Onomatope no okage de, nihongo wa totemo ikiiki shite imasu."
    }
   ],
   "tip": {
-   "title": "Les expressions idiomatiques : « meter água », « ter lata », « estar com os azeites »",
-   "example": "Quand mon collègue a fait une gaffe en réunion, tout le monde a ri. — Quando o meu colega <b>meteu água</b> na reunião, toda a gente se riu.",
-   "body": "« Meter água » (littéralement « mettre de l'eau ») veut dire faire une gaffe ou se tromper : « Meti água no exame ». « Ter lata » (« avoir de la boîte de conserve ») correspond à « avoir du culot » : « Que lata! », « Ele tem cá uma lata! ». « Estar com os azeites », c'est être de mauvaise humeur, un peu comme « être mal luné » : « Hoje ela está com os azeites. » Ces expressions sont typiquement portugaises et font toujours plaisir à entendre dans la bouche d'un étranger."
+   "title": "Les onomatopées japonaises : doki doki, pera pera, goro goro",
+   "example": "Le dimanche, je traîne à la maison sans rien faire. — 日曜日は家で<b>ゴロゴロ</b>しています。",
+   "exampleRo": "Nichiyōbi wa ie de gorogoro shite imasu.",
+   "lit": "dimanche · [thème] · maison · [lieu] · goro goro (se prélasser) · faire, être en train (poli)",
+   "body": "Le japonais adore les onomatopées, bien plus que le français, et elles ne servent pas seulement à imiter des bruits : elles décrivent aussi des états et des émotions. « Doki doki » évoque le cœur qui bat d'émotion, « pera pera » une parole fluide, et « goro goro » le fait de se prélasser sans rien faire. On les emploie très souvent avec le verbe « suru » (faire) : « gorogoro shite imasu » se dit littéralement goro goro, faire, être en train, c'est-à-dire « je traîne ». Vous entendrez aussi « wakuwaku suru » pour l'impatience joyeuse et « iraira suru » pour l'agacement. Astuce : prononcez-les à voix haute, leur son vous aide à sentir leur sens."
   }
  },
  {
-  "title": "Débattre des réseaux sociaux",
+  "title": "Travail et équilibre de vie",
   "phrases": [
    {
-    "fr": "Je passe beaucoup trop de temps sur mon téléphone à regarder des publications.",
-    "pt": "Passo demasiado tempo agarrado ao telemóvel a ver publicações."
+    "fr": "Au Japon, beaucoup de gens font encore des heures supplémentaires tous les soirs.",
+    "ja": "日本では、今でも毎晩残業する人が多いです。",
+    "ro": "Nihon de wa, ima demo maiban zangyō suru hito ga ōi desu."
    },
    {
-    "fr": "Ma sœur pense que les réseaux sociaux rendent les gens plus seuls.",
-    "pt": "A minha irmã acha que as redes sociais deixam as pessoas mais sozinhas."
+    "fr": "Pour certains, rentrer après le dernier train n'a rien d'exceptionnel.",
+    "ja": "終電の後に帰るのが珍しくない人もいます。",
+    "ro": "Shūden no ato ni kaeru no ga mezurashiku nai hito mo imasu."
    },
    {
-    "fr": "Je ne suis pas tout à fait d'accord avec elle sur ce point.",
-    "pt": "Não concordo totalmente com ela nesse ponto."
+    "fr": "On parle de plus en plus d'équilibre entre travail et vie privée.",
+    "ja": "ワークライフバランスについて話すことが増えてきました。",
+    "ro": "Wāku raifu baransu ni tsuite hanasu koto ga fuete kimashita."
    },
    {
-    "fr": "Grâce à ces plateformes, j'ai retrouvé des amis d'école que j'avais perdus de vue.",
-    "pt": "Graças a estas plataformas, reencontrei amigos da escola que tinha perdido de vista."
+    "fr": "Mon entreprise a enfin accepté le télétravail deux jours par semaine.",
+    "ja": "うちの会社は、やっと週に二日の在宅勤務を認めてくれました。",
+    "ro": "Uchi no kaisha wa, yatto shū ni futsuka no zaitaku kinmu o mitomete kuremashita."
    },
    {
-    "fr": "Le problème, c'est que tout le monde ne montre que le meilleur de sa vie.",
-    "pt": "O problema é que toda a gente só mostra o melhor da sua vida."
+    "fr": "Dans certains bureaux, prendre tous ses congés payés reste mal vu.",
+    "ja": "有給休暇を全部取るのを、まだ嫌がる職場もあります。",
+    "ro": "Yūkyū kyūka o zenbu toru no o, mada iyagaru shokuba mo arimasu."
    },
    {
-    "fr": "Les fausses nouvelles circulent beaucoup plus vite que les vraies.",
-    "pt": "As notícias falsas circulam muito mais depressa do que as verdadeiras."
+    "fr": "Le mot « karōshi » désigne la mort causée par l'excès de travail.",
+    "ja": "「過労死」という言葉は、働きすぎによる死を意味します。",
+    "ro": "\"Karōshi\" to iu kotoba wa, hatarakisugi ni yoru shi o imi shimasu."
    },
    {
-    "fr": "Je me demande si mes neveux arriveraient à vivre sans leur téléphone.",
-    "pt": "Pergunto-me se os meus sobrinhos conseguiriam viver sem o telemóvel."
+    "fr": "Même avec un salaire plus bas, je veux du temps pour ma famille.",
+    "ja": "給料が少なくても、家族との時間がほしいです。",
+    "ro": "Kyūryō ga sukunakute mo, kazoku to no jikan ga hoshii desu."
    },
    {
-    "fr": "Depuis que j'ai supprimé certaines applications, je dors mieux.",
-    "pt": "Desde que apaguei algumas aplicações, durmo melhor."
+    "fr": "Les jeunes n'acceptent plus de tout sacrifier pour leur entreprise.",
+    "ja": "今の若者は、会社のためにすべてを犠牲にしなくなりました。",
+    "ro": "Ima no wakamono wa, kaisha no tame ni subete o gisei ni shinaku narimashita."
    },
    {
-    "fr": "Il faudrait que les écoles apprennent aux élèves à utiliser ces outils avec esprit critique.",
-    "pt": "Era preciso que as escolas ensinassem os alunos a usar estas ferramentas com espírito crítico."
+    "fr": "Personne ne devrait culpabiliser de quitter le bureau à l'heure.",
+    "ja": "定時に帰ることに、罪悪感を持つ必要はないはずです。",
+    "ro": "Teiji ni kaeru koto ni, zaiakukan o motsu hitsuyō wa nai hazu desu."
    },
    {
-    "fr": "Au fond, ce n'est pas l'outil qui pose problème, mais la façon dont on s'en sert.",
-    "pt": "No fundo, o problema não é a ferramenta, mas a maneira como a usamos."
+    "fr": "À ton avis, on vit pour travailler ou on travaille pour vivre ?",
+    "ja": "働くために生きるのか、生きるために働くのか、どう思う？",
+    "ro": "Hataraku tame ni ikiru no ka, ikiru tame ni hataraku no ka, dō omou?"
    }
   ]
  },
  {
-  "title": "Parler de santé mentale sans tabou",
+  "title": "Les petites formules du quotidien",
   "phrases": [
    {
-    "fr": "Ma collègue m'a avoué qu'elle se sentait épuisée depuis des mois.",
-    "pt": "A minha colega confessou-me que se sentia esgotada há meses."
+    "fr": "Je m'appelle Yamada et je commence aujourd'hui ; ravi de travailler avec vous.",
+    "ja": "今日から入りました山田です。どうぞよろしくお願いいたします。",
+    "ro": "Kyō kara hairimashita Yamada desu. Dōzo yoroshiku onegai itashimasu."
    },
    {
-    "fr": "Elle m'a dit qu'elle avait enfin pris rendez-vous avec un psychologue.",
-    "pt": "Disse-me que tinha finalmente marcado uma consulta com um psicólogo."
+    "fr": "Merci pour ton travail aujourd'hui, à demain !",
+    "ja": "今日もお疲れさま。また明日！",
+    "ro": "Kyō mo otsukaresama. Mata ashita!"
    },
    {
-    "fr": "Oui, je me sens un peu mieux ; d'ailleurs, j'arrive enfin à dormir.",
-    "pt": "Pois, sinto-me um pouco melhor; aliás, já consigo dormir."
+    "fr": "Bon courage pour la réunion de cet après-midi.",
+    "ja": "午後の会議、頑張ってください。",
+    "ro": "Gogo no kaigi, ganbatte kudasai."
    },
    {
-    "fr": "Elle travaillait jour et nuit, donc elle a fini par craquer.",
-    "pt": "Trabalhava dia e noite, portanto acabou por ir abaixo."
+    "fr": "Avant de manger, on joint les mains et on dit « itadakimasu ».",
+    "ja": "食べる前は、手を合わせて「いただきます」と言います。",
+    "ro": "Taberu mae wa, te o awasete \"itadakimasu\" to iimasu."
    },
    {
-    "fr": "Bref, elle a compris qu'elle devait ralentir.",
-    "pt": "Enfim, percebeu que tinha de abrandar."
+    "fr": "Après le repas, n'oublie pas de dire « gochisōsama ».",
+    "ja": "食べ終わったら、「ごちそうさま」と言うのを忘れないでね。",
+    "ro": "Tabeowattara, \"gochisōsama\" to iu no o wasurenaide ne."
    },
    {
-    "fr": "Il y a quelques années, presque personne n'osait parler de ces sujets.",
-    "pt": "Há uns anos, quase ninguém se atrevia a falar destes assuntos."
+    "fr": "Excusez-moi, je me permets de partir avant vous.",
+    "ja": "お先に失礼します。",
+    "ro": "Osaki ni shitsurei shimasu."
    },
    {
-    "fr": "Aujourd'hui, de plus en plus de gens demandent de l'aide sans avoir honte.",
-    "pt": "Hoje em dia, cada vez mais pessoas pedem ajuda sem terem vergonha."
+    "fr": "En rentrant, je lance toujours « tadaima » depuis l'entrée.",
+    "ja": "家に帰ると、いつも玄関で「ただいま」と言います。",
+    "ro": "Ie ni kaeru to, itsumo genkan de \"tadaima\" to iimasu."
    },
    {
-    "fr": "Je lui ai dit qu'elle pouvait compter sur moi à n'importe quel moment.",
-    "pt": "Disse-lhe que podia contar comigo a qualquer momento."
+    "fr": "Ma mère me répond « okaeri » depuis la cuisine.",
+    "ja": "母は台所から「おかえり」と答えます。",
+    "ro": "Haha wa daidokoro kara \"okaeri\" to kotaemasu."
    },
    {
-    "fr": "Prendre soin de sa tête est aussi important que prendre soin de son corps.",
-    "pt": "Cuidar da cabeça é tão importante como cuidar do corpo."
+    "fr": "Désolé de vous avoir fait attendre si longtemps.",
+    "ja": "長い間お待たせしました。",
+    "ro": "Nagai aida omatase shimashita."
    },
    {
-    "fr": "Je suis content qu'elle ait eu assez confiance en moi pour m'en parler.",
-    "pt": "Fico contente por ela ter tido confiança suficiente para me falar disso."
+    "fr": "Ces petites formules donnent le rythme de toute une journée au Japon.",
+    "ja": "こういう短い挨拶が、日本の一日のリズムを作っています。",
+    "ro": "Kō iu mijikai aisatsu ga, Nihon no ichinichi no rizumu o tsukutte imasu."
    }
   ],
   "tip": {
-   "title": "Les marqueurs de discours : « pois », « aliás », « portanto », « enfim »",
-   "example": "Oui, je me sens un peu mieux ; d'ailleurs, j'arrive enfin à dormir. — <b>Pois</b>, sinto-me um pouco melhor; <b>aliás</b>, já consigo dormir.",
-   "body": "« Pois » est partout à l'oral au Portugal : il signifie « oui », « eh oui, c'est ça » (« Pois, tens razão », « Pois é »). « Aliás » correspond à « d'ailleurs » ou « ou plutôt » (« Aliás, eu já sabia »), « portanto » à « donc » (« Está a chover, portanto fico em casa ») et « enfim » à « bref » ou « enfin » pour conclure ou soupirer (« Enfim, paciência! »). Bien placés, ces petits mots rendent ton portugais beaucoup plus naturel."
+   "title": "Les expressions de tous les jours : yoroshiku onegaishimasu, otsukaresama, itadakimasu",
+   "example": "Merci pour ton travail aujourd'hui, à demain ! — 今日も<b>お疲れさま</b>。また明日！",
+   "exampleRo": "Kyō mo otsukaresama. Mata ashita!",
+   "lit": "aujourd'hui · [aussi] · honorable-fatigue (merci pour tes efforts) · encore · demain",
+   "body": "Certaines formules japonaises n'ont pas d'équivalent exact en français, et pourtant on les entend partout. « Yoroshiku onegaishimasu » se dit en se présentant ou en demandant un service : littéralement bien, je vous en prie, soit à peu près « je compte sur votre bienveillance ». « Otsukaresama » (merci pour vos efforts) salue le travail de quelqu'un, le soir en quittant le bureau comme en croisant un collègue dans le couloir. « Itadakimasu » (je reçois humblement) se prononce avant de manger, et « gochisōsama » (merci pour ce festin) après. Astuce : voyez ces formules comme des rituels plutôt que des traductions ; on les retient en les disant au bon moment."
   }
  },
  {
-  "title": "Un dilemme moral",
+  "title": "Le vieillissement de la population",
   "phrases": [
    {
-    "fr": "Mon cousin a trouvé un portefeuille plein d'argent dans le métro.",
-    "pt": "O meu primo encontrou uma carteira cheia de dinheiro no metro."
+    "fr": "Le Japon compte parmi les pays où l'espérance de vie est la plus longue.",
+    "ja": "日本は、世界でも平均寿命が特に長い国の一つです。",
+    "ro": "Nihon wa, sekai demo heikin jumyō ga toku ni nagai kuni no hitotsu desu."
    },
    {
-    "fr": "Il n'y avait aucun papier d'identité, seulement trois cents euros.",
-    "pt": "Não havia nenhum documento de identificação, só trezentos euros."
+    "fr": "Dans mon village natal, presque tous les habitants ont plus de soixante-dix ans.",
+    "ja": "私のふるさとの村では、ほとんどの住民が七十歳を超えています。",
+    "ro": "Watashi no furusato no mura de wa, hotondo no jūmin ga nanajissai o koete imasu."
    },
    {
-    "fr": "Il m'a demandé ce que j'aurais fait à sa place.",
-    "pt": "Perguntou-me o que é que eu teria feito no lugar dele."
+    "fr": "Faute d'enfants, les écoles ferment les unes après les autres.",
+    "ja": "子供が少なくて、学校が次々と閉校しています。",
+    "ro": "Kodomo ga sukunakute, gakkō ga tsugitsugi to heikō shite imasu."
    },
    {
-    "fr": "Honnêtement, j'ai hésité avant de lui répondre.",
-    "pt": "Sinceramente, hesitei antes de lhe responder."
+    "fr": "Qui s'occupera des personnes âgées dans vingt ans ?",
+    "ja": "二十年後、誰がお年寄りの世話をするのでしょうか。",
+    "ro": "Nijūnen go, dare ga otoshiyori no sewa o suru no deshō ka."
    },
    {
-    "fr": "Si ça avait été moi, je l'aurais apporté au commissariat.",
-    "pt": "Se tivesse sido eu, tê-la-ia levado à esquadra."
+    "fr": "À quatre-vingt-dix ans, mon grand-père travaille encore aux champs tous les matins.",
+    "ja": "九十歳の祖父は、今でも毎朝畑仕事をしています。",
+    "ro": "Kyūjussai no sofu wa, ima demo maiasa hatakeshigoto o shite imasu."
    },
    {
-    "fr": "Mais il est au chômage et il a du mal à payer son loyer.",
-    "pt": "Mas ele está desempregado e tem dificuldade em pagar a renda."
+    "fr": "Dans certaines maisons de retraite, des robots aident déjà le personnel.",
+    "ja": "介護施設では、もうロボットが職員を手伝っています。",
+    "ro": "Kaigo shisetsu de wa, mō robotto ga shokuin o tetsudatte imasu."
    },
    {
-    "fr": "Ce n'est pas toujours facile de faire ce qui est juste.",
-    "pt": "Nem sempre é fácil fazer o que está certo."
+    "fr": "Lors de la Journée du respect des aînés, on remercie les personnes âgées.",
+    "ja": "敬老の日には、お年寄りに感謝の気持ちを伝えます。",
+    "ro": "Keirō no hi ni wa, otoshiyori ni kansha no kimochi o tsutaemasu."
    },
    {
-    "fr": "Finalement, il a rendu le portefeuille au commissariat le plus proche.",
-    "pt": "No fim, entregou a carteira na esquadra mais próxima."
+    "fr": "Beaucoup de personnes âgées vivent seules et souffrent de solitude.",
+    "ja": "一人暮らしで寂しい思いをしているお年寄りも多いです。",
+    "ro": "Hitorigurashi de sabishii omoi o shite iru otoshiyori mo ōi desu."
    },
    {
-    "fr": "Une semaine plus tard, le propriétaire l'a appelé pour le remercier.",
-    "pt": "Uma semana depois, o dono ligou-lhe para lhe agradecer."
+    "fr": "Si les jeunes ne reviennent pas, le village finira peut-être par disparaître.",
+    "ja": "若者が戻ってこなければ、村はなくなってしまうかもしれません。",
+    "ro": "Wakamono ga modotte konakereba, mura wa nakunatte shimau kamo shiremasen."
    },
    {
-    "fr": "Je crois qu'il ne regrettera jamais d'avoir été honnête.",
-    "pt": "Acho que ele nunca se vai arrepender de ter sido honesto."
+    "fr": "Vieillir au Japon, c'est aussi voir son expérience valorisée.",
+    "ja": "日本で年を取るということは、経験が大切にされることでもあります。",
+    "ro": "Nihon de toshi o toru to iu koto wa, keiken ga taisetsu ni sareru koto demo arimasu."
    }
   ]
  },
  {
-  "title": "Protéger les forêts des incendies d'été",
+  "title": "Tradition et modernité",
   "phrases": [
    {
-    "fr": "Chaque été, les incendies détruisent des milliers d'hectares au Portugal.",
-    "pt": "Todos os verões, os incêndios destroem milhares de hectares em Portugal."
+    "fr": "Avec ses maisons en bois alignées, ce coin est typiquement japonais.",
+    "ja": "木の家が並んでいて、この辺りは本当に日本らしいですね。",
+    "ro": "Ki no ie ga narande ite, kono atari wa hontō ni Nihon rashii desu ne."
    },
    {
-    "fr": "Les eucalyptus brûlent très vite et laissent les sols appauvris.",
-    "pt": "Os eucaliptos ardem muito depressa e deixam os solos empobrecidos."
+    "fr": "Un temple coincé entre des gratte-ciel, c'est tellement Tokyo.",
+    "ja": "高層ビルの間にお寺があるなんて、いかにも東京らしい。",
+    "ro": "Kōsō biru no aida ni otera ga aru nante, ikanimo Tōkyō rashii."
    },
    {
-    "fr": "Beaucoup de terrains ont été abandonnés quand les gens sont partis en ville.",
-    "pt": "Muitos terrenos ficaram ao abandono quando as pessoas partiram para as cidades."
+    "fr": "Cette nouvelle boutique a un petit air rétro.",
+    "ja": "この新しい店は、ちょっとレトロっぽい感じです。",
+    "ro": "Kono atarashii mise wa, chotto retoroppoi kanji desu."
    },
    {
-    "fr": "Les pompiers volontaires ont lutté jour et nuit pour sauver le village.",
-    "pt": "Os bombeiros voluntários lutaram dia e noite para salvar a aldeia."
+    "fr": "Ma grand-mère porte encore le kimono pour les grandes occasions.",
+    "ja": "祖母は今でも、特別な日には着物を着ます。",
+    "ro": "Sobo wa ima demo, tokubetsu na hi ni wa kimono o kimasu."
    },
    {
-    "fr": "Mon oncle a arrêté de fumer après avoir vu son terrain brûler.",
-    "pt": "O meu tio deixou de fumar depois de ver o terreno dele arder."
+    "fr": "Dès qu'il parle de trains, il redevient un vrai gamin.",
+    "ja": "電車の話になると、彼は子供っぽくなります。",
+    "ro": "Densha no hanashi ni naru to, kare wa kodomoppoku narimasu."
    },
    {
-    "fr": "Les autorités ne laissent personne faire de barbecue dans la forêt en été.",
-    "pt": "As autoridades não deixam ninguém fazer churrascos na floresta no verão."
+    "fr": "Le ciel est grisâtre ; il paraît qu'il va pleuvoir.",
+    "ja": "空が灰色っぽいですね。雨が降るらしいですよ。",
+    "ro": "Sora ga haiiroppoi desu ne. Ame ga furu rashii desu yo."
    },
    {
-    "fr": "Il faut débroussailler les terrains autour des maisons avant le mois de mai.",
-    "pt": "É preciso limpar os terrenos à volta das casas antes do mês de maio."
+    "fr": "Les jeunes louent des kimonos pour se promener dans Kyoto.",
+    "ja": "若者が着物をレンタルして、京都を散歩しています。",
+    "ro": "Wakamono ga kimono o rentaru shite, Kyōto o sanpo shite imasu."
    },
    {
-    "fr": "Les incendies de Pedrógão Grande ont marqué tout le pays.",
-    "pt": "Os incêndios de Pedrógão Grande marcaram o país inteiro."
+    "fr": "Dans ce restaurant de sushis, on commande sur tablette, mais le comptoir est resté en bois ancien.",
+    "ja": "この寿司屋はタブレットで注文するのに、カウンターは昔ながらの木のままです。",
+    "ro": "Kono sushiya wa taburetto de chūmon suru noni, kauntā wa mukashi nagara no ki no mama desu."
    },
    {
-    "fr": "Replanter des chênes et des chênes-lièges serait une bonne solution.",
-    "pt": "Voltar a plantar carvalhos e sobreiros seria uma boa solução."
+    "fr": "Rester poli même dans un train bondé, c'est très japonais.",
+    "ja": "満員電車でも礼儀正しいのは、とても日本人らしいです。",
+    "ro": "Man'in densha demo reigi tadashii no wa, totemo nihonjin rashii desu."
    },
    {
-    "fr": "Protéger la forêt, c'est aussi protéger les gens qui y vivent.",
-    "pt": "Proteger a floresta é também proteger as pessoas que lá vivem."
+    "fr": "La tradition et la modernité ne s'opposent pas forcément.",
+    "ja": "伝統と現代は、必ずしも対立するものではありません。",
+    "ro": "Dentō to gendai wa, kanarazushimo tairitsu suru mono de wa arimasen."
    }
   ],
   "tip": {
-   "title": "Les différents sens de « deixar »",
-   "example": "Mon oncle a arrêté de fumer après avoir vu son terrain brûler. — O meu tio <b>deixou de</b> fumar depois de ver o terreno dele arder.",
-   "body": "« Deixar » signifie d'abord « laisser » : « Deixei as chaves em casa ». Il veut aussi dire « permettre » : « Os meus pais não me deixam sair ». Suivi de « de » + infinitif, il signifie « arrêter de » : « Deixei de fumar », « Deixa de te queixar! ». Enfin, « deixar » + adjectif équivaut à « rendre » : « Essa notícia deixou-me triste »."
+   "title": "« -ppoi » et « -rashii » : avoir l'air, typique de",
+   "example": "Cette nouvelle boutique a un petit air rétro. — この新しい店は、ちょっと<b>レトロっぽい</b>感じです。",
+   "exampleRo": "Kono atarashii mise wa, chotto retoroppoi kanji desu.",
+   "lit": "ce · nouveau · boutique · [thème] · un peu · rétro-genre · impression · être (poli)",
+   "body": "Le suffixe « -ppoi » signifie avoir l'air de, tirer sur, avec une idée d'approximation : « kodomoppoi » (un peu gamin), « haiiroppoi » (grisâtre), « retoroppoi » (dans un style rétro). Le suffixe « -rashii » a deux emplois : après un nom, il veut dire typique de, digne de, comme « Nihon rashii » (typiquement japonais) ; après un verbe, il signale une information entendue, comme « ame ga furu rashii » (il paraît qu'il va pleuvoir). Ainsi « retoroppoi kanji desu » se dit littéralement rétro-genre, impression, être, soit « ça donne une impression rétro ». En résumé, « -ppoi » décrit une ressemblance, tandis que « -rashii » souligne ce qui correspond vraiment à l'essence d'une chose. Astuce : « otona rashii » est un compliment (vraiment adulte, mature), alors que « kodomoppoi » est plutôt un reproche."
   }
  },
  {
-  "title": "Les différences entre générations",
+  "title": "Le manga comme sujet de débat",
   "phrases": [
    {
-    "fr": "Mon grand-père a commencé à travailler aux champs à douze ans.",
-    "pt": "O meu avô começou a trabalhar no campo aos doze anos."
+    "fr": "Au Japon, des adultes lisent des mangas dans le train sans la moindre gêne.",
+    "ja": "日本では、大人が電車で堂々と漫画を読んでいます。",
+    "ro": "Nihon de wa, otona ga densha de dōdō to manga o yonde imasu."
    },
    {
-    "fr": "À son époque, peu d'enfants allaient à l'école jusqu'au bout.",
-    "pt": "No tempo dele, poucas crianças andavam na escola até ao fim."
+    "fr": "Certains parents croient que leurs enfants n'étudient pas à cause des mangas.",
+    "ja": "漫画のせいで子供が勉強しないと思っている親もいます。",
+    "ro": "Manga no sei de kodomo ga benkyō shinai to omotte iru oya mo imasu."
    },
    {
-    "fr": "Ma mère ne comprend pas pourquoi je ne veux pas acheter de maison.",
-    "pt": "A minha mãe não percebe porque é que eu não quero comprar casa."
+    "fr": "Pourtant, il existe des mangas sur l'histoire, la médecine ou la cuisine.",
+    "ja": "でも、歴史や医療や料理についての漫画もあります。",
+    "ro": "Demo, rekishi ya iryō ya ryōri ni tsuite no manga mo arimasu."
    },
    {
-    "fr": "Pour sa génération, être propriétaire était une priorité absolue.",
-    "pt": "Para a geração dela, ter casa própria era uma prioridade absoluta."
+    "fr": "C'est grâce à un manga que j'ai découvert le monde du shōgi.",
+    "ja": "将棋の世界を知ったのは、ある漫画のおかげです。",
+    "ro": "Shōgi no sekai o shitta no wa, aru manga no okage desu."
    },
    {
-    "fr": "Les jeunes d'aujourd'hui restent chez leurs parents jusqu'à plus de trente ans.",
-    "pt": "Os jovens de hoje ficam em casa dos pais até depois dos trinta."
+    "fr": "Les mangakas travaillent souvent jusqu'à l'épuisement, paraît-il.",
+    "ja": "漫画家は、倒れるまで働くことが多いそうです。",
+    "ro": "Mangaka wa, taoreru made hataraku koto ga ōi sō desu."
    },
    {
-    "fr": "Ce n'est pas un choix : les loyers à Lisbonne sont devenus impossibles.",
-    "pt": "Não é por escolha: as rendas em Lisboa tornaram-se impossíveis."
+    "fr": "Les magazines de manga hebdomadaires se vendent dans tous les konbini.",
+    "ja": "週刊の漫画雑誌は、どのコンビニでも売っています。",
+    "ro": "Shūkan no manga zasshi wa, dono konbini demo utte imasu."
    },
    {
-    "fr": "Mes parents ont connu la dictature, alors que nous avons grandi en démocratie.",
-    "pt": "Os meus pais viveram a ditadura, ao passo que nós crescemos em democracia."
+    "fr": "Je trouve que la fin de cette série a été bâclée.",
+    "ja": "このシリーズの終わり方は、急ぎすぎだったと思います。",
+    "ro": "Kono shirīzu no owarikata wa, isogisugi datta to omoimasu."
    },
    {
-    "fr": "Le dimanche, toute la famille se retrouve encore autour de la table.",
-    "pt": "Ao domingo, a família toda ainda se junta à volta da mesa."
+    "fr": "On lit un manga en une heure, mais il faut des mois pour le dessiner.",
+    "ja": "漫画は一時間で読めるけど、描くには何か月もかかります。",
+    "ro": "Manga wa ichijikan de yomeru kedo, kaku ni wa nankagetsu mo kakarimasu."
    },
    {
-    "fr": "Ma grand-mère m'apprend ses recettes et je lui apprends à envoyer des messages.",
-    "pt": "A minha avó ensina-me as receitas dela e eu ensino-a a mandar mensagens."
+    "fr": "Le manga, est-ce de l'art ou un simple divertissement ?",
+    "ja": "漫画は芸術なのか、ただの娯楽なのか。",
+    "ro": "Manga wa geijutsu na no ka, tada no goraku na no ka."
    },
    {
-    "fr": "Chaque génération a quelque chose à apprendre de l'autre.",
-    "pt": "Cada geração tem alguma coisa a aprender com a outra."
+    "fr": "Pour moi, une bonne histoire reste une bonne histoire, quel que soit son format.",
+    "ja": "私にとって、いい物語は形に関係なく、いい物語です。",
+    "ro": "Watashi ni totte, ii monogatari wa katachi ni kankei naku, ii monogatari desu."
    }
   ]
  },
  {
-  "title": "L'art et les azulejos",
+  "title": "L'anime et la culture populaire",
   "phrases": [
    {
-    "fr": "Les azulejos font partie de l'identité visuelle du Portugal.",
-    "pt": "Os azulejos fazem parte da identidade visual de Portugal."
+    "fr": "Certains films d'animation attirent des millions de spectateurs au cinéma.",
+    "ja": "アニメ映画が何百万人もの観客を集めることもあります。",
+    "ro": "Anime eiga ga nanbyakuman nin mo no kankyaku o atsumeru koto mo arimasu."
    },
    {
-    "fr": "Au Musée national de l'Azulejo, on peut voir cinq siècles d'histoire.",
-    "pt": "No Museu Nacional do Azulejo, podem ver-se cinco séculos de história."
+    "fr": "Des fans visitent les lieux réels qui apparaissent dans les anime.",
+    "ja": "アニメに出てくる実際の場所を訪れるファンもいます。",
+    "ro": "Anime ni dete kuru jissai no basho o otozureru fan mo imasu."
    },
    {
-    "fr": "Les façades couvertes de carreaux protègent aussi les maisons de l'humidité.",
-    "pt": "As fachadas cobertas de azulejos também protegem as casas da humidade."
+    "fr": "On appelle cela un « pèlerinage en terre sacrée ».",
+    "ja": "それは「聖地巡礼」と呼ばれています。",
+    "ro": "Sore wa \"seichi junrei\" to yobarete imasu."
    },
    {
-    "fr": "Ce qui me touche le plus, ce sont les panneaux bleus et blancs des églises.",
-    "pt": "O que mais me toca são os painéis azuis e brancos das igrejas."
+    "fr": "Grâce à ces fans, une petite ville de campagne a retrouvé de la vie.",
+    "ja": "そのファンのおかげで、田舎の小さな町が元気を取り戻しました。",
+    "ro": "Sono fan no okage de, inaka no chiisana machi ga genki o torimodoshimashita."
    },
    {
-    "fr": "La gare de São Bento, à Porto, est un vrai musée à ciel ouvert.",
-    "pt": "A estação de São Bento, no Porto, é um verdadeiro museu a céu aberto."
+    "fr": "À Akihabara, il y a des boutiques de figurines à chaque coin de rue.",
+    "ja": "秋葉原には、あちこちにフィギュアの店があります。",
+    "ro": "Akihabara ni wa, achikochi ni figyua no mise ga arimasu."
    },
    {
-    "fr": "Malheureusement, certains volent des azulejos sur les vieilles façades.",
-    "pt": "Infelizmente, há quem roube azulejos das fachadas antigas."
+    "fr": "Au Japon, les comédiens de doublage sont de véritables stars.",
+    "ja": "日本では、声優は本物のスターです。",
+    "ro": "Nihon de wa, seiyū wa honmono no sutā desu."
    },
    {
-    "fr": "Je me suis inscrit à un cours pour apprendre à peindre mon propre azulejo.",
-    "pt": "Inscrevi-me num curso para aprender a pintar o meu próprio azulejo."
+    "fr": "Petit, je me levais tôt le dimanche pour regarder des dessins animés.",
+    "ja": "子供の頃、日曜日はアニメを見るために早起きしていました。",
+    "ro": "Kodomo no koro, nichiyōbi wa anime o miru tame ni hayaoki shite imashita."
    },
    {
-    "fr": "Certains artistes contemporains réinventent cette tradition de façon surprenante.",
-    "pt": "Alguns artistas contemporâneos reinventam esta tradição de forma surpreendente."
+    "fr": "Les génériques d'anime font partie des chansons les plus chantées au karaoké.",
+    "ja": "アニメの主題歌は、カラオケでよく歌われます。",
+    "ro": "Anime no shudaika wa, karaoke de yoku utawaremasu."
    },
    {
-    "fr": "L'art urbain a transformé des quartiers entiers de Lisbonne.",
-    "pt": "A arte urbana transformou bairros inteiros de Lisboa."
+    "fr": "Certains disent que l'anime donne une image faussée du Japon.",
+    "ja": "アニメは日本の間違ったイメージを与えると言う人もいます。",
+    "ro": "Anime wa Nihon no machigatta imēji o ataeru to iu hito mo imasu."
    },
    {
-    "fr": "Pour moi, l'art doit avant tout provoquer une émotion.",
-    "pt": "Para mim, a arte deve, antes de mais, provocar uma emoção."
+    "fr": "Mais beaucoup ont justement commencé le japonais grâce aux anime.",
+    "ja": "でも、まさにアニメがきっかけで日本語を始めた人も多いです。",
+    "ro": "Demo, masa ni anime ga kikkake de nihongo o hajimeta hito mo ōi desu."
    }
   ]
  },
  {
-  "title": "Une amitié de trente ans",
+  "title": "Ce qu'on nous a obligés à faire",
   "phrases": [
    {
-    "fr": "Je connais Rita depuis l'école primaire, à Coimbra.",
-    "pt": "Conheço a Rita desde a escola primária, em Coimbra."
+    "fr": "Enfant, on m'obligeait à prendre des cours de piano.",
+    "ja": "子供の頃、ピアノを習わされていました。",
+    "ro": "Kodomo no koro, piano o narawasarete imashita."
    },
    {
-    "fr": "Nous avons fait nos études ensemble avant que chacun suive son chemin.",
-    "pt": "Estudámos juntos antes de cada um seguir o seu caminho."
+    "fr": "Au club de sport, les élèves de première année devaient ramasser les balles.",
+    "ja": "部活では、一年生はボールを拾わされました。",
+    "ro": "Bukatsu de wa, ichinensei wa bōru o hirowasaremashita."
    },
    {
-    "fr": "La vie a beau nous éloigner, nous continuons à nous parler chaque semaine.",
-    "pt": "Por mais que a vida nos afaste, continuamos a falar todas as semanas."
+    "fr": "Hier soir, mon directeur m'a obligé à boire jusqu'à minuit.",
+    "ja": "昨日の夜、部長に十二時まで飲まされました。",
+    "ro": "Kinō no yoru, buchō ni jūniji made nomasaremashita."
    },
    {
-    "fr": "C'est la seule personne qui me connaît vraiment.",
-    "pt": "Ela é a única pessoa que me conhece mesmo."
+    "fr": "On m'a fait attendre une heure entière devant le restaurant de ramen.",
+    "ja": "ラーメン屋の前で一時間も待たされました。",
+    "ro": "Rāmen'ya no mae de ichijikan mo matasaremashita."
    },
    {
-    "fr": "Quand on se revoit, c'est comme si le temps ne s'était pas écoulé.",
-    "pt": "Quando nos voltamos a ver, é como se o tempo não tivesse passado."
+    "fr": "À l'école, on nous faisait nettoyer les salles de classe nous-mêmes.",
+    "ja": "学校では、自分たちで教室を掃除させられました。",
+    "ro": "Gakkō de wa, jibuntachi de kyōshitsu o sōji saseraremashita."
    },
    {
-    "fr": "Nous nous sommes déjà fâchés, mais jamais pour longtemps.",
-    "pt": "Já nos zangámos, mas nunca por muito tempo."
+    "fr": "Je suis obligé de faire des heures supplémentaires presque tous les jours.",
+    "ja": "ほとんど毎日、残業させられています。",
+    "ro": "Hotondo mainichi, zangyō saserarete imasu."
    },
    {
-    "fr": "Tu auras beau chercher, tu ne trouveras jamais une amie comme elle.",
-    "pt": "Por mais que procures, nunca vais encontrar uma amiga como ela."
+    "fr": "Au mariage de mon ami, on m'a fait chanter devant tout le monde.",
+    "ja": "友達の結婚式で、みんなの前で歌わされました。",
+    "ro": "Tomodachi no kekkonshiki de, minna no mae de utawasaremashita."
    },
    {
-    "fr": "L'été dernier, nous avons fêté nos trente ans d'amitié à Nazaré.",
-    "pt": "No verão passado, celebrámos trinta anos de amizade na Nazaré."
+    "fr": "Ma mère me forçait à manger les légumes que je détestais.",
+    "ja": "母に嫌いな野菜を食べさせられました。",
+    "ro": "Haha ni kirai na yasai o tabesaseraremashita."
    },
    {
-    "fr": "Une amitié comme celle-là demande des efforts des deux côtés.",
-    "pt": "Uma amizade assim exige esforço de parte a parte."
+    "fr": "Ce film m'a vraiment fait réfléchir.",
+    "ja": "この映画には、本当に考えさせられました。",
+    "ro": "Kono eiga ni wa, hontō ni kangaesaseraremashita."
    },
    {
-    "fr": "J'espère que nous vieillirons ensemble en nous racontant nos histoires.",
-    "pt": "Espero que envelheçamos juntos a contar as nossas histórias."
+    "fr": "Avec le recul, je suis content qu'on m'ait obligé à apprendre le piano.",
+    "ja": "今思えば、ピアノを習わされてよかったです。",
+    "ro": "Ima omoeba, piano o narawasarete yokatta desu."
    }
   ],
   "tip": {
-   "title": "« Por mais que » + subjonctif",
-   "example": "La vie a beau nous éloigner, nous continuons à nous parler chaque semaine. — <b>Por mais que</b> a vida nos <b>afaste</b>, continuamos a falar todas as semanas.",
-   "body": "« Por mais que » se traduit par « avoir beau » ou « quoi que » : « Por mais que estude, esqueço tudo » (j'ai beau étudier, j'oublie tout). Comme « bien que » en français, il est toujours suivi du subjonctif : présent (« Por mais que tentes ») ou imparfait pour le passé (« Por mais que chovesse, ele saía »). On entend aussi « por muito que », avec exactement le même sens."
+   "title": "Le causatif-passif : être obligé de",
+   "example": "Ma mère me forçait à manger les légumes que je détestais. — 母<b>に</b>嫌いな野菜を<b>食べさせられました</b>。",
+   "exampleRo": "Haha ni kirai na yasai o tabesaseraremashita.",
+   "lit": "mère · [par] · détesté · légume · [objet] · être forcé de manger (passé poli)",
+   "body": "Le causatif-passif combine deux formes que vous connaissez déjà : le causatif (faire faire) et le passif (subir). Ensemble, ils expriment une action qu'on a été obligé de faire contre son gré. On part du causatif « tabesaseru » (faire manger), puis on ajoute le passif pour obtenir « tabesaserareru » (être forcé de manger). « Haha ni kirai na yasai o tabesaseraremashita » se dit littéralement mère, par, détesté, légume, objet, être forcé de manger, soit « ma mère m'a forcé à manger des légumes que je détestais ». Pour les verbes en « -u », on utilise souvent une forme courte : « nomasareru » (être forcé de boire), « matasareru » (devoir attendre). Astuce : avec « kangaesaserareta » (cela m'a fait réfléchir), la forme décrit aussi une émotion qu'on n'a pas choisie mais qu'on a ressentie."
   }
  },
  {
-  "title": "Parler d'un échec personnel",
+  "title": "Le wabi-sabi : la beauté de l'imparfait",
   "phrases": [
    {
-    "fr": "Il y a cinq ans, j'ai ouvert un restaurant à Braga qui a fermé au bout d'un an.",
-    "pt": "Há cinco anos, abri um restaurante em Braga que fechou ao fim de um ano."
+    "fr": "Le wabi-sabi est difficile à traduire en un seul mot.",
+    "ja": "「わびさび」は一言で訳すのが難しいです。",
+    "ro": "\"Wabisabi\" wa hitokoto de yakusu no ga muzukashii desu."
    },
    {
-    "fr": "Sur le moment, j'avais l'impression que tout s'écroulait.",
-    "pt": "Na altura, tinha a sensação de que tudo estava a desabar."
+    "fr": "C'est la beauté de ce qui est simple, imparfait et éphémère.",
+    "ja": "それは、シンプルで不完全で、はかないものの美しさです。",
+    "ro": "Sore wa, shinpuru de fukanzen de, hakanai mono no utsukushisa desu."
    },
    {
-    "fr": "J'avais investi toutes mes économies dans ce projet.",
-    "pt": "Tinha investido todas as minhas poupanças nesse projeto."
+    "fr": "Les fissures de ce vieux bol ont été réparées avec de l'or.",
+    "ja": "この古いお茶碗は、ひびを金で直してあります。",
+    "ro": "Kono furui ochawan wa, hibi o kin de naoshite arimasu."
    },
    {
-    "fr": "Ma famille m'a soutenu sans jamais me critiquer.",
-    "pt": "A minha família apoiou-me sem nunca me criticar."
+    "fr": "Cette technique de réparation s'appelle le kintsugi.",
+    "ja": "この技法は「金継ぎ」と言います。",
+    "ro": "Kono gihō wa \"kintsugi\" to iimasu."
    },
    {
-    "fr": "Avec le recul, je vois bien les erreurs que j'ai commises.",
-    "pt": "Olhando para trás, vejo bem os erros que cometi."
+    "fr": "Les cicatrices font partie de l'histoire de l'objet.",
+    "ja": "傷も、その器の歴史の一部です。",
+    "ro": "Kizu mo, sono utsuwa no rekishi no ichibu desu."
    },
    {
-    "fr": "Je n'avais pas assez étudié le marché avant de me lancer.",
-    "pt": "Não tinha estudado bem o mercado antes de me lançar."
+    "fr": "Dans le jardin de ce temple, la mousse recouvre les vieilles pierres.",
+    "ja": "このお寺の庭では、苔が古い石を覆っています。",
+    "ro": "Kono otera no niwa de wa, koke ga furui ishi o ōtte imasu."
    },
    {
-    "fr": "Cet échec m'a appris à être plus patient et plus humble.",
-    "pt": "Este fracasso ensinou-me a ser mais paciente e mais humilde."
+    "fr": "Je préfère une maison un peu usée à un appartement neuf sans âme.",
+    "ja": "新しくて味気ないマンションより、少し古びた家のほうが好きです。",
+    "ro": "Atarashikute ajikenai manshon yori, sukoshi furubita ie no hō ga suki desu."
    },
    {
-    "fr": "Au Portugal, les gens ont parfois honte d'échouer, alors que c'est parfaitement normal.",
-    "pt": "Em Portugal, às vezes as pessoas têm vergonha de falhar, quando isso é perfeitamente normal."
+    "fr": "Dans la cérémonie du thé, chaque geste est simple mais mûrement pensé.",
+    "ja": "茶道では、一つ一つの動作がシンプルですが、よく考えられています。",
+    "ro": "Sadō de wa, hitotsu hitotsu no dōsa ga shinpuru desu ga, yoku kangaerarete imasu."
    },
    {
-    "fr": "Aujourd'hui, je travaille dans une coopérative et je suis heureux.",
-    "pt": "Hoje trabalho numa cooperativa e sou feliz."
+    "fr": "Accepter l'imperfection est peut-être une forme de sagesse.",
+    "ja": "不完全さを受け入れることは、一種の知恵かもしれません。",
+    "ro": "Fukanzensa o ukeireru koto wa, isshu no chie kamo shiremasen."
    },
    {
-    "fr": "Si je n'avais pas échoué, je ne serais pas là où j'en suis aujourd'hui.",
-    "pt": "Se não tivesse falhado, não estaria onde estou hoje."
+    "fr": "Depuis que je connais le wabi-sabi, je regarde les vieux objets autrement.",
+    "ja": "わびさびを知ってから、古い物の見方が変わりました。",
+    "ro": "Wabisabi o shitte kara, furui mono no mikata ga kawarimashita."
    }
   ]
  },
  {
-  "title": "L'amour et les relations",
+  "title": "L'omotenashi : l'art de recevoir",
   "phrases": [
    {
-    "fr": "Ma sœur et son copain sont ensemble depuis dix ans sans être mariés.",
-    "pt": "A minha irmã e o namorado estão juntos há dez anos sem serem casados."
+    "fr": "L'omotenashi, c'est l'art de recevoir sans rien attendre en retour.",
+    "ja": "おもてなしとは、見返りを求めずに人をもてなす心です。",
+    "ro": "Omotenashi to wa, mikaeri o motomezu ni hito o motenasu kokoro desu."
    },
    {
-    "fr": "Pour elle, le mariage n'est qu'un bout de papier.",
-    "pt": "Para ela, o casamento não passa de um papel."
+    "fr": "Dans ce ryokan, la patronne nous a accueillis agenouillée dans l'entrée.",
+    "ja": "この旅館では、女将さんが玄関で正座して迎えてくれました。",
+    "ro": "Kono ryokan de wa, okamisan ga genkan de seiza shite mukaete kuremashita."
    },
    {
-    "fr": "Mes parents, eux, se sont mariés à l'église à vingt ans.",
-    "pt": "Os meus pais, esses, casaram-se pela igreja aos vinte anos."
+    "fr": "Le personnel a remarqué que j'étais gaucher et a posé mes baguettes à gauche.",
+    "ja": "スタッフは私が左利きだと気づいて、お箸を左側に置いてくれました。",
+    "ro": "Sutaffu wa watashi ga hidarikiki da to kizuite, ohashi o hidarigawa ni oite kuremashita."
    },
    {
-    "fr": "Je crois qu'une relation repose avant tout sur la confiance.",
-    "pt": "Acho que uma relação assenta sobretudo na confiança."
+    "fr": "Les vendeurs s'inclinent même quand on n'achète rien.",
+    "ja": "何も買わなくても、店員さんはお辞儀をしてくれます。",
+    "ro": "Nani mo kawanakute mo, ten'insan wa ojigi o shite kuremasu."
    },
    {
-    "fr": "Il est important que chacun garde son espace et ses amis.",
-    "pt": "É importante que cada um mantenha o seu espaço e os seus amigos."
+    "fr": "Dans le shinkansen, le contrôleur s'incline chaque fois qu'il entre dans une voiture.",
+    "ja": "新幹線では、車掌さんが車両に入るたびにお辞儀をします。",
+    "ro": "Shinkansen de wa, shashōsan ga sharyō ni hairu tabi ni ojigi o shimasu."
    },
    {
-    "fr": "Mon meilleur ami a rencontré sa femme sur une application.",
-    "pt": "O meu melhor amigo conheceu a mulher numa aplicação."
+    "fr": "Les serviettes chaudes servies avant le repas s'appellent des oshibori.",
+    "ja": "食事の前に出される温かいタオルは「おしぼり」と言います。",
+    "ro": "Shokuji no mae ni dasareru atatakai taoru wa \"oshibori\" to iimasu."
    },
    {
-    "fr": "Au début, il avait un peu honte de le raconter.",
-    "pt": "Ao princípio, tinha um bocado de vergonha de contar."
+    "fr": "On ne laisse pas de pourboire, car un bon service va de soi.",
+    "ja": "チップは要りません。いいサービスは当たり前だからです。",
+    "ro": "Chippu wa irimasen. Ii sābisu wa atarimae da kara desu."
    },
    {
-    "fr": "Une rupture peut faire aussi mal qu'un deuil.",
-    "pt": "Uma separação pode doer tanto como um luto."
+    "fr": "Certains trouvent cette politesse parfois un peu excessive.",
+    "ja": "この丁寧さを、ちょっとやりすぎだと感じる人もいます。",
+    "ro": "Kono teineisa o, chotto yarisugi da to kanjiru hito mo imasu."
    },
    {
-    "fr": "Avec le temps, on apprend à aimer sans vouloir changer l'autre.",
-    "pt": "Com o tempo, aprende-se a amar sem querer mudar o outro."
+    "fr": "Moi, j'ai été profondément touché par tant d'attentions.",
+    "ja": "私は、そこまでの気配りに深く感動しました。",
+    "ro": "Watashi wa, soko made no kikubari ni fukaku kandō shimashita."
    },
    {
-    "fr": "Le plus beau, c'est de vieillir avec quelqu'un qui te fait rire.",
-    "pt": "O mais bonito é envelhecer com alguém que te faça rir."
+    "fr": "Quand mes amis viendront en France, je voudrais les recevoir de la même façon.",
+    "ja": "友達がフランスに来たら、同じようにもてなしたいです。",
+    "ro": "Tomodachi ga Furansu ni kitara, onaji yō ni motenashitai desu."
    }
   ]
  },
  {
-  "title": "Chercher du sens dans son travail",
+  "title": "Les quatre saisons",
   "phrases": [
    {
-    "fr": "Je me demande souvent si ce que je fais sert vraiment à quelque chose.",
-    "pt": "Pergunto-me muitas vezes se o que faço serve mesmo para alguma coisa."
+    "fr": "Les Japonais sont très attachés aux quatre saisons.",
+    "ja": "日本人は四季をとても大切にしています。",
+    "ro": "Nihonjin wa shiki o totemo taisetsu ni shite imasu."
    },
    {
-    "fr": "Beaucoup de jeunes diplômés gagnent à peine plus que le salaire minimum.",
-    "pt": "Muitos jovens licenciados ganham pouco mais do que o salário mínimo."
+    "fr": "Au printemps, on pique-nique sous les cerisiers en fleurs.",
+    "ja": "春は桜の下でお花見をします。",
+    "ro": "Haru wa sakura no shita de ohanami o shimasu."
    },
    {
-    "fr": "Mon frère a quitté une grande entreprise pour devenir menuisier.",
-    "pt": "O meu irmão largou uma grande empresa para ser carpinteiro."
+    "fr": "La saison des pluies de juin est moite et un peu déprimante.",
+    "ja": "六月の梅雨は、じめじめしていて気分が沈みます。",
+    "ro": "Rokugatsu no tsuyu wa, jimejime shite ite kibun ga shizumimasu."
    },
    {
-    "fr": "Il gagne moins, mais il dit qu'il ne s'est jamais senti aussi utile.",
-    "pt": "Ganha menos, mas diz que nunca se sentiu tão útil."
+    "fr": "En été, on mange de la glace pilée en écoutant les cigales.",
+    "ja": "夏はセミの声を聞きながら、かき氷を食べます。",
+    "ro": "Natsu wa semi no koe o kikinagara, kakigōri o tabemasu."
    },
    {
-    "fr": "Pour mes parents, un poste stable dans la fonction publique était le rêve.",
-    "pt": "Para os meus pais, um emprego estável na função pública era o sonho."
+    "fr": "Les feux d'artifice d'été rassemblent des foules en yukata.",
+    "ja": "夏の花火大会には、浴衣姿の人がたくさん集まります。",
+    "ro": "Natsu no hanabi taikai ni wa, yukata sugata no hito ga takusan atsumarimasu."
    },
    {
-    "fr": "Aujourd'hui, on cherche plutôt un travail qui ait du sens.",
-    "pt": "Hoje em dia, procura-se mais um trabalho que tenha sentido."
+    "fr": "En automne, les érables rougissent dans les montagnes autour de Kyoto.",
+    "ja": "秋になると、京都の山のもみじが赤く色づきます。",
+    "ro": "Aki ni naru to, Kyōto no yama no momiji ga akaku irozukimasu."
    },
    {
-    "fr": "Le télétravail a changé mon rapport à mon métier.",
-    "pt": "O teletrabalho mudou a minha relação com a profissão."
+    "fr": "Un bain chaud en plein air un jour de neige, c'est le paradis.",
+    "ja": "雪の日の露天風呂は最高です。",
+    "ro": "Yuki no hi no rotenburo wa saikō desu."
    },
    {
-    "fr": "J'aimerais que mon travail laisse une trace positive.",
-    "pt": "Gostava que o meu trabalho deixasse uma marca positiva."
+    "fr": "Même les gâteaux et les menus changent selon la saison.",
+    "ja": "お菓子やメニューまで、季節によって変わります。",
+    "ro": "Okashi ya menyū made, kisetsu ni yotte kawarimasu."
    },
    {
-    "fr": "Ce n'est pas facile de concilier sa passion et les factures à payer.",
-    "pt": "Não é fácil conciliar a paixão com as contas para pagar."
+    "fr": "Une lettre commence souvent par quelques mots sur la saison.",
+    "ja": "手紙は、よく季節の挨拶から始めます。",
+    "ro": "Tegami wa, yoku kisetsu no aisatsu kara hajimemasu."
    },
    {
-    "fr": "Au fond, le sens du travail se trouve souvent chez les gens qu'on aide.",
-    "pt": "No fundo, o sentido do trabalho está muitas vezes nas pessoas que ajudamos."
+    "fr": "Au Japon, quelle saison préfères-tu, et pourquoi ?",
+    "ja": "日本の季節で、どれが一番好き？どうして？",
+    "ro": "Nihon no kisetsu de, dore ga ichiban suki? Dōshite?"
    }
   ]
  },
  {
-  "title": "Les clichés sur le Portugal",
+  "title": "La sagesse des proverbes",
   "phrases": [
    {
-    "fr": "Beaucoup d'étrangers pensent que les Portugais écoutent du fado toute la journée.",
-    "pt": "Muitos estrangeiros pensam que os portugueses ouvem fado o dia todo."
+    "fr": "Il existe un proverbe japonais pour presque chaque situation.",
+    "ja": "日本には、ほとんどどんな場面にも合うことわざがあります。",
+    "ro": "Nihon ni wa, hotondo donna bamen ni mo au kotowaza ga arimasu."
    },
    {
-    "fr": "On dit aussi que les Portugais mangent de la morue tous les jours.",
-    "pt": "Também se diz que os portugueses comem bacalhau todos os dias."
+    "fr": "Même un singe tombe de l'arbre : tout le monde peut se tromper.",
+    "ja": "猿も木から落ちる。誰でも間違えることがあります。",
+    "ro": "Saru mo ki kara ochiru. Dare demo machigaeru koto ga arimasu."
    },
    {
-    "fr": "Bon, ce cliché-là n'est pas tout à fait faux !",
-    "pt": "Bem, esse cliché não é totalmente falso!"
+    "fr": "Sept fois à terre, huit fois debout : il ne faut jamais abandonner.",
+    "ja": "七転び八起き。決してあきらめてはいけません。",
+    "ro": "Nanakorobi yaoki. Kesshite akiramete wa ikemasen."
    },
    {
-    "fr": "On imagine un pays toujours ensoleillé, mais il pleut beaucoup dans le Minho.",
-    "pt": "Imagina-se um país sempre com sol, mas no Minho chove muito."
+    "fr": "Des boulettes plutôt que des fleurs : on préfère manger que contempler.",
+    "ja": "花より団子。きれいなものより、おいしいものです。",
+    "ro": "Hana yori dango. Kirei na mono yori, oishii mono desu."
    },
    {
-    "fr": "Certains croient que tout le pays ressemble à Lisbonne et à l'Algarve.",
-    "pt": "Há quem pense que o país inteiro é como Lisboa e o Algarve."
+    "fr": "Trois ans sur un rocher : la patience finit toujours par payer.",
+    "ja": "石の上にも三年。我慢すれば、いつか報われます。",
+    "ro": "Ishi no ue ni mo sannen. Gaman sureba, itsuka mukuwaremasu."
    },
    {
-    "fr": "Pourvu que les gens viennent découvrir l'intérieur du pays et pas seulement les plages.",
-    "pt": "Oxalá as pessoas venham conhecer o interior e não só as praias."
+    "fr": "La poussière accumulée finit par former une montagne.",
+    "ja": "塵も積もれば山となる。",
+    "ro": "Chiri mo tsumoreba yama to naru."
    },
    {
-    "fr": "Si seulement les touristes restaient plus de trois jours !",
-    "pt": "Quem me dera que os turistas ficassem mais de três dias!"
+    "fr": "Ce proverbe m'encourage à réviser un peu de japonais chaque jour.",
+    "ja": "このことわざのおかげで、毎日少しずつ日本語を復習しています。",
+    "ro": "Kono kotowaza no okage de, mainichi sukoshi zutsu nihongo o fukushū shite imasu."
    },
    {
-    "fr": "Les Portugais ont la réputation d'être accueillants, et c'est souvent vrai.",
-    "pt": "Os portugueses têm fama de ser hospitaleiros, e muitas vezes é verdade."
+    "fr": "La grenouille au fond du puits ne connaît pas l'océan.",
+    "ja": "井の中の蛙、大海を知らず。",
+    "ro": "I no naka no kawazu, taikai o shirazu."
    },
    {
-    "fr": "On nous croit tristes, mais il suffit d'aller à une fête de village pour voir le contraire.",
-    "pt": "Acham que somos tristes, mas basta ir a uma festa de aldeia para ver o contrário."
+    "fr": "Pour moi, ce proverbe est une excellente raison de voyager.",
+    "ja": "私にとって、このことわざは旅をするいい理由です。",
+    "ro": "Watashi ni totte, kono kotowaza wa tabi o suru ii riyū desu."
    },
    {
-    "fr": "Les clichés contiennent souvent un peu de vérité et beaucoup d'exagération.",
-    "pt": "Os clichés têm muitas vezes um pouco de verdade e muito exagero."
+    "fr": "Si tu places bien un proverbe, les Japonais seront souvent impressionnés.",
+    "ja": "ことわざをうまく使うと、日本人によく感心されます。",
+    "ro": "Kotowaza o umaku tsukau to, nihonjin ni yoku kanshin saremasu."
    }
   ],
   "tip": {
-   "title": "« Oxalá » et « quem me dera » : exprimer un souhait",
-   "example": "Pourvu que les gens viennent découvrir l'intérieur du pays et pas seulement les plages. — <b>Oxalá</b> as pessoas <b>venham</b> conhecer o interior e não só as praias.",
-   "body": "« Oxalá » (pourvu que, mot d'origine arabe signifiant « si Dieu le veut ») est toujours suivi du subjonctif : présent pour un souhait possible (« Oxalá faça sol amanhã »), imparfait pour un souhait peu probable (« Oxalá eu pudesse ir »). « Quem me dera » veut dire « si seulement » ou « j'aimerais tant » : avec un infinitif (« Quem me dera ter férias! ») ou avec « que » + subjonctif imparfait (« Quem me dera que viesses comigo! »)."
+   "title": "Les proverbes japonais : kotowaza",
+   "example": "Même un singe tombe de l'arbre : tout le monde peut se tromper. — <b>猿も木から落ちる</b>。誰でも間違えることがあります。",
+   "exampleRo": "Saru mo ki kara ochiru. Dare demo machigaeru koto ga arimasu.",
+   "lit": "singe · [même] · arbre · [depuis] · tomber · n'importe qui · [même] · se tromper · chose · [sujet] · il y a (poli)",
+   "body": "Les « kotowaza », les proverbes japonais, sont bien vivants dans la conversation, et en placer un au bon moment fait toujours son effet. « Saru mo ki kara ochiru » se dit littéralement singe, même, arbre, depuis, tomber : même un singe tombe de l'arbre, autrement dit, tout le monde peut se tromper, même les experts. « Hana yori dango », des boulettes plutôt que des fleurs, se moque gentiment de ceux qui, sous les cerisiers, pensent surtout au pique-nique. « Nanakorobi yaoki », sept chutes, huit relevés, encourage à ne jamais abandonner. Remarquez que les proverbes sont à la forme neutre et souvent très courts, parfois sans verbe. Astuce : associez chaque proverbe à une image mentale, comme ce singe qui glisse de sa branche."
   }
  },
  {
-  "title": "La saudade",
+  "title": "Campagne ou grande ville ?",
   "phrases": [
    {
-    "fr": "On dit que le mot « saudade » est impossible à traduire.",
-    "pt": "Diz-se que a palavra « saudade » é impossível de traduzir."
+    "fr": "J'ai grandi à Tokyo, mais je rêve de vivre à la campagne.",
+    "ja": "東京で育ちましたが、田舎暮らしに憧れています。",
+    "ro": "Tōkyō de sodachimashita ga, inakagurashi ni akogarete imasu."
    },
    {
-    "fr": "C'est un mélange de nostalgie, de manque et de tendresse.",
-    "pt": "É uma mistura de nostalgia, de falta e de ternura."
+    "fr": "En ville, tout est pratique, mais on n'a jamais le temps de souffler.",
+    "ja": "都会は便利だけど、ほっとする暇がありません。",
+    "ro": "Tokai wa benri da kedo, hotto suru hima ga arimasen."
    },
    {
-    "fr": "Mon village m'a manqué dès ma première semaine à Lisbonne.",
-    "pt": "Tive saudades da minha aldeia logo na primeira semana em Lisboa."
+    "fr": "À la campagne, les voisins déposent des légumes devant votre porte.",
+    "ja": "田舎では、近所の人が玄関の前に野菜を置いていってくれます。",
+    "ro": "Inaka de wa, kinjo no hito ga genkan no mae ni yasai o oite itte kuremasu."
    },
    {
-    "fr": "On peut même ressentir la saudade de quelque chose qu'on n'a jamais vécu.",
-    "pt": "Até se pode ter saudades de algo que nunca se viveu."
+    "fr": "Sans voiture, la vie dans les villages est presque impossible.",
+    "ja": "車がないと、村での生活はほとんど無理です。",
+    "ro": "Kuruma ga nai to, mura de no seikatsu wa hotondo muri desu."
    },
    {
-    "fr": "Le fado exprime souvent ce sentiment mieux que n'importe quel discours.",
-    "pt": "O fado exprime muitas vezes esse sentimento melhor do que qualquer discurso."
+    "fr": "Les loyers de Tokyo sont si chers que beaucoup habitent loin du centre.",
+    "ja": "東京は家賃が高すぎて、中心から離れて住む人が多いです。",
+    "ro": "Tōkyō wa yachin ga takasugite, chūshin kara hanarete sumu hito ga ōi desu."
    },
    {
-    "fr": "Quand j'écoute Amália, je pense toujours à ma grand-mère.",
-    "pt": "Quando ouço a Amália, penso sempre na minha avó."
+    "fr": "Avec le télétravail, certains jeunes s'installent dans la campagne de Nagano.",
+    "ja": "在宅勤務が広まってから、長野の田舎に移住する若者もいます。",
+    "ro": "Zaitaku kinmu ga hiromatte kara, Nagano no inaka ni ijū suru wakamono mo imasu."
    },
    {
-    "fr": "Au téléphone, ma mère finit toujours par me dire que je lui manque.",
-    "pt": "Ao telefone, a minha mãe acaba sempre por dizer que tem saudades minhas."
+    "fr": "La nuit, on n'entend que les grenouilles dans les rizières.",
+    "ja": "夜は田んぼのカエルの声しか聞こえません。",
+    "ro": "Yoru wa tanbo no kaeru no koe shika kikoemasen."
    },
    {
-    "fr": "Beaucoup de poètes portugais ont écrit sur ce sentiment.",
-    "pt": "Muitos poetas portugueses escreveram sobre este sentimento."
+    "fr": "Ici, tout le monde se connaît, pour le meilleur et pour le pire.",
+    "ja": "ここでは、良くも悪くもみんな知り合いです。",
+    "ro": "Koko de wa, yoku mo waruku mo minna shiriai desu."
    },
    {
-    "fr": "La saudade n'est pas forcément triste, elle peut aussi être douce.",
-    "pt": "A saudade não é necessariamente triste, também pode ser doce."
+    "fr": "Les grandes villes offrent davantage d'emplois et de culture.",
+    "ja": "大都市のほうが、仕事も文化も多いです。",
+    "ro": "Daitoshi no hō ga, shigoto mo bunka mo ōi desu."
    },
    {
-    "fr": "Ressentir de la saudade, c'est la preuve qu'on a aimé quelque chose.",
-    "pt": "Ter saudades é a prova de que se amou alguma coisa."
+    "fr": "Idéalement, je travaillerais en ville et passerais mes week-ends à la campagne.",
+    "ja": "理想を言えば、平日は都会で働いて、週末は田舎で過ごしたいです。",
+    "ro": "Risō o ieba, heijitsu wa tokai de hataraite, shūmatsu wa inaka de sugoshitai desu."
    }
   ]
  },
  {
-  "title": "Grande ville ou intérieur du pays",
+  "title": "Une amitié née au Japon",
   "phrases": [
    {
-    "fr": "Mon village dans le Trás-os-Montes a perdu la moitié de ses habitants.",
-    "pt": "A minha aldeia em Trás-os-Montes perdeu metade dos habitantes."
+    "fr": "J'ai rencontré Kenta dans un petit bar de Shinjuku il y a dix ans.",
+    "ja": "健太とは、十年前に新宿の小さなバーで出会いました。",
+    "ro": "Kenta to wa, jūnen mae ni Shinjuku no chiisana bā de deaimashita."
    },
    {
-    "fr": "L'école a fermé il y a dix ans, faute d'enfants.",
-    "pt": "A escola fechou há dez anos por falta de crianças."
+    "fr": "Le courant est tout de suite passé, comme si on se connaissait depuis toujours.",
+    "ja": "まるで昔からの知り合いのように、すぐ気が合いました。",
+    "ro": "Marude mukashi kara no shiriai no yō ni, sugu ki ga aimashita."
    },
    {
-    "fr": "Aujourd'hui, il n'y reste presque plus que des personnes âgées.",
-    "pt": "Hoje em dia, quase só lá ficaram pessoas idosas."
+    "fr": "Il corrigeait mon japonais avec une patience infinie.",
+    "ja": "彼は根気よく私の日本語を直してくれました。",
+    "ro": "Kare wa konki yoku watashi no nihongo o naoshite kuremashita."
    },
    {
-    "fr": "Les jeunes partent à Lisbonne ou à Porto pour chercher du travail.",
-    "pt": "Os jovens vão para Lisboa ou para o Porto à procura de trabalho."
+    "fr": "En échange, je lui ai appris à faire des crêpes.",
+    "ja": "その代わりに、私はクレープの作り方を教えてあげました。",
+    "ro": "Sono kawari ni, watashi wa kurēpu no tsukurikata o oshiete agemashita."
    },
    {
-    "fr": "Pourtant, la vie en ville coûte de plus en plus cher.",
-    "pt": "No entanto, a vida na cidade está cada vez mais cara."
+    "fr": "Au Japon, il faut parfois du temps avant de devenir vraiment proches.",
+    "ja": "日本では、本当に仲良くなるまで時間がかかることもあります。",
+    "ro": "Nihon de wa, hontō ni nakayoku naru made jikan ga kakaru koto mo arimasu."
    },
    {
-    "fr": "Avec le télétravail, certains couples s'installent à la campagne.",
-    "pt": "Com o teletrabalho, alguns casais estão a mudar-se para o campo."
+    "fr": "Le jour où il m'a parlé sans formules de politesse, j'ai compris qu'on était amis.",
+    "ja": "彼がタメ口で話してくれた日、友達になれたと分かりました。",
+    "ro": "Kare ga tameguchi de hanashite kureta hi, tomodachi ni nareta to wakarimashita."
    },
    {
-    "fr": "Il faudrait de meilleurs transports pour que l'intérieur ne soit pas oublié.",
-    "pt": "Eram precisos melhores transportes para que o interior não fosse esquecido."
+    "fr": "Même loin l'un de l'autre, on s'écrit presque chaque semaine.",
+    "ja": "離れていても、ほとんど毎週連絡を取り合っています。",
+    "ro": "Hanarete ite mo, hotondo maishū renraku o toriatte imasu."
    },
    {
-    "fr": "Ici, tout le monde se connaît et s'entraide.",
-    "pt": "Aqui toda a gente se conhece e se ajuda."
+    "fr": "Un vrai ami, c'est quelqu'un avec qui le silence n'est jamais gênant.",
+    "ja": "本当の友達とは、黙っていても気まずくならない人です。",
+    "ro": "Hontō no tomodachi to wa, damatte ite mo kimazuku naranai hito desu."
    },
    {
-    "fr": "En ville, j'ai tout à portée de main, mais je connais à peine mes voisins.",
-    "pt": "Na cidade tenho tudo à mão, mas mal conheço os meus vizinhos."
+    "fr": "Il m'a dit qu'il viendrait à Paris l'année prochaine.",
+    "ja": "来年パリに来ると言っていました。",
+    "ro": "Rainen Pari ni kuru to itte imashita."
    },
    {
-    "fr": "Si je pouvais travailler à distance, je retournerais vivre dans l'intérieur.",
-    "pt": "Se pudesse trabalhar à distância, voltava a viver no interior."
+    "fr": "Cette amitié est peut-être le plus beau trésor que m'a offert le Japon.",
+    "ja": "この友情は、日本での一番の宝物かもしれません。",
+    "ro": "Kono yūjō wa, Nihon de no ichiban no takaramono kamo shiremasen."
    }
   ]
  },
  {
-  "title": "L'émigration et le retour au pays",
+  "title": "Les non-dits : honne et tatemae",
   "phrases": [
    {
-    "fr": "Dans les années soixante, mon grand-père a émigré en France.",
-    "pt": "Nos anos sessenta, o meu avô emigrou para França."
+    "fr": "Au Japon, on dit rarement non de manière directe.",
+    "ja": "日本では、はっきり「いいえ」と言わないことが多いです。",
+    "ro": "Nihon de wa, hakkiri \"iie\" to iwanai koto ga ōi desu."
    },
    {
-    "fr": "Il est parti clandestinement, à pied, à travers les montagnes.",
-    "pt": "Partiu clandestinamente, a pé, pelas montanhas."
+    "fr": "« C'est un peu difficile » veut souvent dire tout simplement non.",
+    "ja": "「ちょっと難しいですね」は、たいてい断りの意味です。",
+    "ro": "\"Chotto muzukashii desu ne\" wa, taitei kotowari no imi desu."
    },
    {
-    "fr": "Il a travaillé trente ans sur des chantiers pour construire sa maison au pays.",
-    "pt": "Trabalhou trinta anos nas obras para construir a sua casa na terra."
+    "fr": "On jongle entre ce qu'on pense vraiment, le honne, et ce qu'on montre, le tatemae.",
+    "ja": "本音と建前を使い分けます。",
+    "ro": "Honne to tatemae o tsukaiwakemasu."
    },
    {
-    "fr": "Chaque mois d'août, toute la famille revenait au village en voiture.",
-    "pt": "Todos os anos, em agosto, a família inteira voltava à aldeia de carro."
+    "fr": "Comme disent les Japonais, il faut savoir lire l'air.",
+    "ja": "日本人がよく言うように、空気を読むことが大切です。",
+    "ro": "Nihonjin ga yoku iu yō ni, kūki o yomu koto ga taisetsu desu."
    },
    {
-    "fr": "Ma cousine, elle, est partie au Luxembourg il y a cinq ans.",
-    "pt": "A minha prima, essa, foi para o Luxemburgo há cinco anos."
+    "fr": "Au début, je ne comprenais pas pourquoi mes collègues restaient si vagues.",
+    "ja": "最初は、同僚がなぜあんなにあいまいなのか分かりませんでした。",
+    "ro": "Saisho wa, dōryō ga naze anna ni aimai na no ka wakarimasen deshita."
    },
    {
-    "fr": "Elle est infirmière et gagne là-bas trois fois plus qu'ici.",
-    "pt": "É enfermeira e lá ganha três vezes mais do que cá."
+    "fr": "Peu à peu, j'ai appris à deviner ce que les gens ne disent pas.",
+    "ja": "今は、言葉にしない気持ちが少しずつ分かるようになりました。",
+    "ro": "Ima wa, kotoba ni shinai kimochi ga sukoshi zutsu wakaru yō ni narimashita."
    },
    {
-    "fr": "Elle dit qu'elle rentrera dès que les salaires seront meilleurs au Portugal.",
-    "pt": "Diz que volta assim que os salários forem melhores em Portugal."
+    "fr": "Cette retenue évite les conflits, mais elle peut aussi fatiguer.",
+    "ja": "この遠慮は争いを避けるけれど、疲れることもあります。",
+    "ro": "Kono enryo wa arasoi o sakeru keredo, tsukareru koto mo arimasu."
    },
    {
-    "fr": "Beaucoup d'émigrés ne se sentent chez eux ni ici ni là-bas.",
-    "pt": "Muitos emigrantes não se sentem em casa nem cá nem lá."
+    "fr": "Entre amis proches, on se parle beaucoup plus franchement.",
+    "ja": "親しい友達の間では、もっと本音で話します。",
+    "ro": "Shitashii tomodachi no aida de wa, motto honne de hanashimasu."
    },
    {
-    "fr": "Le gouvernement essaie d'encourager le retour des jeunes qualifiés.",
-    "pt": "O governo está a tentar incentivar o regresso dos jovens qualificados."
+    "fr": "Les Français, eux, adorent débattre ouvertement à table.",
+    "ja": "フランス人は、食事中に堂々と議論するのが好きです。",
+    "ro": "Furansujin wa, shokujichū ni dōdō to giron suru no ga suki desu."
    },
    {
-    "fr": "Rentrer au pays après tant d'années, c'est presque émigrer une deuxième fois.",
-    "pt": "Regressar ao país depois de tantos anos é quase emigrar uma segunda vez."
+    "fr": "La politesse ne prend pas la même forme d'un pays à l'autre.",
+    "ja": "礼儀の形は、国によって違います。",
+    "ro": "Reigi no katachi wa, kuni ni yotte chigaimasu."
    }
   ]
  },
  {
-  "title": "Le 25 Avril et la liberté",
+  "title": "Les fêtes de fin d'année",
   "phrases": [
    {
-    "fr": "En 1974, la révolution des Œillets a mis fin à près de cinquante ans de dictature.",
-    "pt": "Em 1974, a Revolução dos Cravos pôs fim a quase cinquenta anos de ditadura."
+    "fr": "En décembre, on se retrouve entre collègues pour la fête de fin d'année.",
+    "ja": "十二月には、同僚と忘年会をします。",
+    "ro": "Jūnigatsu ni wa, dōryō to bōnenkai o shimasu."
    },
    {
-    "fr": "Mon grand-père raconte qu'on ne pouvait pas parler de politique au café.",
-    "pt": "O meu avô conta que não se podia falar de política no café."
+    "fr": "Le bōnenkai sert littéralement à oublier l'année écoulée.",
+    "ja": "忘年会は、文字通りその年を忘れるための会です。",
+    "ro": "Bōnenkai wa, mojidōri sono toshi o wasureru tame no kai desu."
    },
    {
-    "fr": "La censure contrôlait les journaux, les livres et même les chansons.",
-    "pt": "A censura controlava os jornais, os livros e até as canções."
+    "fr": "Le grand ménage de fin d'année se fait en famille.",
+    "ja": "年末の大掃除は、家族みんなでします。",
+    "ro": "Nenmatsu no ōsōji wa, kazoku minna de shimasu."
    },
    {
-    "fr": "Ce matin-là, les soldats ont reçu des œillets des mains des habitants.",
-    "pt": "Nessa manhã, os soldados receberam cravos das mãos da população."
+    "fr": "Le soir du réveillon, on mange des soba pour souhaiter une longue vie.",
+    "ja": "大晦日の夜は、長生きを願って年越しそばを食べます。",
+    "ro": "Ōmisoka no yoru wa, nagaiki o negatte toshikoshi soba o tabemasu."
    },
    {
-    "fr": "La chanson « Grândola, Vila Morena » a servi de signal à la révolution.",
-    "pt": "A canção « Grândola, Vila Morena » serviu de senha para a revolução."
+    "fr": "Cette nuit-là, les cloches des temples sonnent cent huit fois.",
+    "ja": "その夜、お寺の鐘が百八回鳴らされます。",
+    "ro": "Sono yoru, otera no kane ga hyakuhachikai narasaremasu."
    },
    {
-    "fr": "Chaque année, des milliers de personnes défilent sur l'avenue de la Liberté.",
-    "pt": "Todos os anos, milhares de pessoas desfilam na Avenida da Liberdade."
+    "fr": "Le premier janvier, on va prier au sanctuaire pour la nouvelle année.",
+    "ja": "一月一日には、神社へ初詣に行きます。",
+    "ro": "Ichigatsu tsuitachi ni wa, jinja e hatsumōde ni ikimasu."
    },
    {
-    "fr": "Ma génération est née libre et l'a peut-être considérée comme acquise.",
-    "pt": "A minha geração nasceu em liberdade e, se calhar, deu-a por garantida."
+    "fr": "Les enfants reçoivent de l'argent dans de petites enveloppes, l'otoshidama.",
+    "ja": "子供たちは、小さな袋に入ったお年玉をもらいます。",
+    "ro": "Kodomotachi wa, chiisana fukuro ni haitta otoshidama o moraimasu."
    },
    {
-    "fr": "Il est essentiel que les jeunes connaissent cette partie de l'histoire.",
-    "pt": "É essencial que os jovens conheçam esta parte da história."
+    "fr": "Les cartes de vœux arrivent toutes ensemble le matin du jour de l'an.",
+    "ja": "年賀状は、元日の朝にまとめて届きます。",
+    "ro": "Nengajō wa, ganjitsu no asa ni matomete todokimasu."
    },
    {
-    "fr": "La liberté d'expression n'est jamais acquise pour toujours.",
-    "pt": "A liberdade de expressão nunca está garantida para sempre."
+    "fr": "Pour beaucoup, le Nouvel An est l'occasion de rentrer chez ses parents.",
+    "ja": "多くの人にとって、お正月は実家に帰るチャンスです。",
+    "ro": "Ōku no hito ni totte, oshōgatsu wa jikka ni kaeru chansu desu."
    },
    {
-    "fr": "Le 25 Avril, j'accroche toujours un œillet rouge à ma veste.",
-    "pt": "No 25 de Abril, ponho sempre um cravo vermelho no casaco."
+    "fr": "Merci pour tout cette année, et je compte sur vous l'an prochain !",
+    "ja": "今年もお世話になりました。来年もよろしくお願いします。",
+    "ro": "Kotoshi mo osewa ni narimashita. Rainen mo yoroshiku onegai shimasu."
    }
   ]
  },
  {
-  "title": "Des souvenirs d'enfance",
+  "title": "Un au revoir à la gare",
   "phrases": [
    {
-    "fr": "Enfant, je passais tous mes étés chez mes grands-parents dans l'Alentejo.",
-    "pt": "Em criança, passava os verões todos em casa dos meus avós no Alentejo."
+    "fr": "Je rentre en France demain, alors c'est notre dernier dîner ensemble.",
+    "ja": "明日フランスに帰るから、これが一緒に食べる最後の晩ご飯だね。",
+    "ro": "Ashita Furansu ni kaeru kara, kore ga issho ni taberu saigo no bangohan da ne."
    },
    {
-    "fr": "Nous jouions dans la rue jusqu'au coucher du soleil.",
-    "pt": "Brincávamos na rua até ao pôr do sol."
+    "fr": "Tous mes amis sont venus me dire au revoir à la gare de Tokyo.",
+    "ja": "友達がみんな、東京駅まで見送りに来てくれました。",
+    "ro": "Tomodachi ga minna, Tōkyō eki made miokuri ni kite kuremashita."
    },
    {
-    "fr": "Ma grand-mère faisait du pain dans un four à bois tous les samedis.",
-    "pt": "A minha avó fazia pão no forno a lenha todos os sábados."
+    "fr": "Ils ont agité la main jusqu'à ce que le train disparaisse.",
+    "ja": "電車が見えなくなるまで、手を振ってくれました。",
+    "ro": "Densha ga mienaku naru made, te o futte kuremashita."
    },
    {
-    "fr": "L'odeur des sardines grillées me ramène toujours à mon enfance.",
-    "pt": "O cheiro a sardinhas assadas leva-me sempre de volta à infância."
+    "fr": "Au Japon, on dit rarement « sayōnara » à ses amis.",
+    "ja": "日本では、友達にはあまり「さようなら」と言いません。",
+    "ro": "Nihon de wa, tomodachi ni wa amari \"sayōnara\" to iimasen."
    },
    {
-    "fr": "Je me souviens encore du goût des premières cerises de la saison.",
-    "pt": "Ainda me lembro do sabor das primeiras cerejas da época."
+    "fr": "Il est plus naturel de dire « mata ne », à la prochaine.",
+    "ja": "「またね」と言うほうが自然です。",
+    "ro": "\"Mata ne\" to iu hō ga shizen desu."
    },
    {
-    "fr": "On allait à la plage de Comporta dans la vieille voiture de mon père.",
-    "pt": "Íamos à praia da Comporta no carro velho do meu pai."
+    "fr": "« Sayōnara » sonne un peu comme un adieu pour toujours.",
+    "ja": "「さようなら」は、ちょっと永遠の別れみたいに聞こえます。",
+    "ro": "\"Sayōnara\" wa, chotto eien no wakare mitai ni kikoemasu."
    },
    {
-    "fr": "Le soir, mon grand-père nous racontait des histoires de loups.",
-    "pt": "À noite, o meu avô contava-nos histórias de lobos."
+    "fr": "Elle m'a acheté un porte-bonheur au sanctuaire pour le voyage.",
+    "ja": "彼女は、旅のお守りを神社で買ってくれました。",
+    "ro": "Kanojo wa, tabi no omamori o jinja de katte kuremashita."
    },
    {
-    "fr": "Nous n'avions pas grand-chose, mais il ne nous manquait rien d'important.",
-    "pt": "Não tínhamos grande coisa, mas não nos faltava nada de importante."
+    "fr": "J'ai essayé de ne pas pleurer, mais c'était impossible.",
+    "ja": "泣かないようにしたけど、無理でした。",
+    "ro": "Nakanai yō ni shita kedo, muri deshita."
    },
    {
-    "fr": "Quand je suis revenu au village l'an dernier, tout m'a semblé plus petit.",
-    "pt": "Quando voltei à aldeia no ano passado, tudo me pareceu mais pequeno."
+    "fr": "Prends soin de toi, et préviens-moi quand tu seras arrivé.",
+    "ja": "元気でね。着いたら連絡してね。",
+    "ro": "Genki de ne. Tsuitara renraku shite ne."
    },
    {
-    "fr": "J'aimerais que mes enfants aient des souvenirs aussi simples et heureux.",
-    "pt": "Gostava que os meus filhos tivessem memórias tão simples e felizes."
+    "fr": "Ce n'est pas un adieu, c'est juste un « à la prochaine ».",
+    "ja": "これはお別れじゃなくて、ただの「またね」だよ。",
+    "ro": "Kore wa owakare ja nakute, tada no \"mata ne\" da yo."
    }
   ]
  },
  {
-  "title": "Un au revoir difficile",
+  "title": "Ichigo ichie : chaque rencontre est unique",
   "phrases": [
    {
-    "fr": "Mon meilleur ami part s'installer aux Açores la semaine prochaine.",
-    "pt": "O meu melhor amigo vai viver para os Açores na próxima semana."
+    "fr": "« Ichigo ichie » désigne une rencontre qui n'arrive qu'une fois dans une vie.",
+    "ja": "「一期一会」とは、一生に一度の出会いという意味です。",
+    "ro": "\"Ichigo ichie\" to wa, isshō ni ichido no deai to iu imi desu."
    },
    {
-    "fr": "Nous avons organisé un dîner surprise dans notre tasca préférée.",
-    "pt": "Organizámos um jantar surpresa na nossa tasca preferida."
+    "fr": "Cette idée vient de la cérémonie du thé.",
+    "ja": "この考え方は、茶道から来ています。",
+    "ro": "Kono kangaekata wa, sadō kara kite imasu."
    },
    {
-    "fr": "Personne ne voulait que la soirée se termine.",
-    "pt": "Ninguém queria que a noite acabasse."
+    "fr": "On sert chaque tasse de thé avec soin, comme si c'était la dernière.",
+    "ja": "一杯のお茶を、最後の一杯のように心を込めて出します。",
+    "ro": "Ippai no ocha o, saigo no ippai no yō ni kokoro o komete dashimasu."
    },
    {
-    "fr": "Il a promis qu'il viendrait nous voir à Noël.",
-    "pt": "Prometeu que vinha visitar-nos no Natal."
+    "fr": "En repensant à mon séjour, je revois toutes les personnes croisées.",
+    "ja": "日本での日々を振り返ると、出会った人たちのことを思い出します。",
+    "ro": "Nihon de no hibi o furikaeru to, deatta hitotachi no koto o omoidashimasu."
    },
    {
-    "fr": "Je sais que c'est une belle occasion pour lui, mais ça me rend triste.",
-    "pt": "Sei que é uma boa oportunidade para ele, mas isso deixa-me triste."
+    "fr": "Ce vieux monsieur qui m'a guidé sous la pluie jusqu'à mon hôtel.",
+    "ja": "雨の中、ホテルまで案内してくれたおじいさん。",
+    "ro": "Ame no naka, hoteru made annai shite kureta ojiisan."
    },
    {
-    "fr": "À l'aéroport, nous nous sommes serrés dans les bras sans rien dire.",
-    "pt": "No aeroporto, abraçámo-nos sem dizer nada."
+    "fr": "Cette étudiante qui m'a aidé à déchiffrer un menu sans photos.",
+    "ja": "写真のないメニューを読むのを手伝ってくれた学生さん。",
+    "ro": "Shashin no nai menyū o yomu no o tetsudatte kureta gakuseisan."
    },
    {
-    "fr": "Certains adieux sont plus durs que d'autres.",
-    "pt": "Há despedidas mais difíceis do que outras."
+    "fr": "Je ne les reverrai sans doute jamais, mais je ne les oublierai pas.",
+    "ja": "もう二度と会えないかもしれないけど、決して忘れません。",
+    "ro": "Mō nido to aenai kamo shirenai kedo, kesshite wasuremasen."
    },
    {
-    "fr": "Il m'a dit de ne pas faire cette tête, que ce n'était qu'un « à tout de suite ».",
-    "pt": "Disse-me para não fazer essa cara, que era só um « até já »."
+    "fr": "Grâce à eux, je me suis senti chez moi loin de chez moi.",
+    "ja": "その人たちのおかげで、遠い国でも自分の家にいるように感じました。",
+    "ro": "Sono hitotachi no okage de, tōi kuni demo jibun no ie ni iru yō ni kanjimashita."
    },
    {
-    "fr": "Heureusement, aujourd'hui on peut se voir en appel vidéo tous les jours.",
-    "pt": "Felizmente, hoje em dia podemos ver-nos por videochamada todos os dias."
+    "fr": "Je voudrais leur dire merci du fond du cœur.",
+    "ja": "心から「ありがとう」と伝えたいです。",
+    "ro": "Kokoro kara \"arigatō\" to tsutaetai desu."
    },
    {
-    "fr": "Une vraie amitié résiste à la distance et au temps.",
-    "pt": "Uma verdadeira amizade resiste à distância e ao tempo."
+    "fr": "Désormais, je chéris chaque rencontre comme un ichigo ichie.",
+    "ja": "これからは、すべての出会いを一期一会だと思って大切にします。",
+    "ro": "Kore kara wa, subete no deai o ichigo ichie da to omotte taisetsu ni shimasu."
    }
   ]
  },
  {
-  "title": "Regarder en arrière sur ce parcours en portugais",
+  "title": "Regarder en arrière sur ce parcours en japonais",
   "phrases": [
    {
-    "fr": "Au début, je confondais tout le temps « ser » et « estar ».",
-    "pt": "No início, confundia sempre o « ser » e o « estar »."
+    "fr": "Au début, je ne savais même pas dire « konnichiwa » correctement.",
+    "ja": "最初は、「こんにちは」さえちゃんと言えませんでした。",
+    "ro": "Saisho wa, \"konnichiwa\" sae chanto iemasen deshita."
    },
    {
-    "fr": "Les sons nasaux du portugais me semblaient impossibles à prononcer.",
-    "pt": "Os sons nasais do português pareciam-me impossíveis de pronunciar."
+    "fr": "La différence entre « wa » et « ga » m'a longtemps donné mal à la tête.",
+    "ja": "「は」と「が」の違いは、本当に頭が痛い問題でした。",
+    "ro": "\"Wa\" to \"ga\" no chigai wa, hontō ni atama ga itai mondai deshita."
    },
    {
-    "fr": "Je me souviens de ma première conversation avec un serveur à Lisbonne.",
-    "pt": "Lembro-me da minha primeira conversa com um empregado de mesa em Lisboa."
+    "fr": "Puis j'ai appris les formes neutres, et j'ai progressé d'un coup.",
+    "ja": "それから普通形を覚えて、一気に上達しました。",
+    "ro": "Sore kara futsūkei o oboete, ikki ni jōtatsu shimashita."
    },
    {
-    "fr": "Aujourd'hui, je comprends presque tout quand les gens parlent lentement.",
-    "pt": "Hoje percebo quase tudo quando as pessoas falam devagar."
+    "fr": "Le keigo m'a donné des sueurs froides plus d'une fois.",
+    "ja": "敬語には、何度も冷や汗をかかされました。",
+    "ro": "Keigo ni wa, nando mo hiyaase o kakasaremashita."
    },
    {
-    "fr": "Le subjonctif futur m'a fait souffrir, mais maintenant je l'utilise sans y penser.",
-    "pt": "O futuro do conjuntivo fez-me sofrer, mas agora uso-o sem pensar."
+    "fr": "Aujourd'hui, je peux parler de wabi-sabi avec un ami japonais.",
+    "ja": "今では、日本人の友達とわびさびについて話せます。",
+    "ro": "Ima de wa, nihonjin no tomodachi to wabisabi ni tsuite hanasemasu."
    },
    {
-    "fr": "Écouter du fado m'a beaucoup aidé à améliorer ma prononciation.",
-    "pt": "Ouvir fado ajudou-me muito a melhorar a pronúncia."
+    "fr": "Le japonais m'a appris à écouter avant de parler.",
+    "ja": "日本語のおかげで、話す前に聞くことを覚えました。",
+    "ro": "Nihongo no okage de, hanasu mae ni kiku koto o oboemashita."
    },
    {
-    "fr": "J'ai osé faire des erreurs et c'est comme ça que j'ai progressé.",
-    "pt": "Atrevi-me a errar e foi assim que progredi."
+    "fr": "Je ne comprends pas encore tout, mais je ne panique plus.",
+    "ja": "まだ全部は分からないけど、もう慌てません。",
+    "ro": "Mada zenbu wa wakaranai kedo, mō awatemasen."
    },
    {
-    "fr": "Mes amis portugais disent que mon accent s'est beaucoup amélioré.",
-    "pt": "Os meus amigos portugueses dizem que o meu sotaque melhorou muito."
+    "fr": "Dans le train, j'ai pris l'habitude de répéter des phrases à voix basse.",
+    "ja": "電車の中で、小さな声でフレーズを繰り返すのが習慣になりました。",
+    "ro": "Densha no naka de, chiisana koe de furēzu o kurikaesu no ga shūkan ni narimashita."
    },
    {
-    "fr": "Chaque trajet passé à écouter ces phrases m'a rapproché du Portugal.",
-    "pt": "Cada viagem passada a ouvir estas frases aproximou-me de Portugal."
+    "fr": "Chaque trajet est devenu une petite leçon de japonais.",
+    "ja": "毎日の移動が、小さな日本語のレッスンになりました。",
+    "ro": "Mainichi no idō ga, chiisana nihongo no ressun ni narimashita."
    },
    {
-    "fr": "Je suis fier du chemin parcouru depuis la toute première leçon.",
-    "pt": "Tenho orgulho do caminho que percorri desde a primeira lição."
+    "fr": "Depuis la première leçon, j'ai fait un sacré bout de chemin.",
+    "ja": "最初のレッスンから、ずいぶん遠くまで来ました。",
+    "ro": "Saisho no ressun kara, zuibun tōku made kimashita."
    }
   ]
  },
@@ -8321,44 +10976,54 @@ const level3Module3Lessons = [
   "title": "Fin du parcours : un dernier bilan",
   "phrases": [
    {
-    "fr": "Ce dernier module nous a fait parler de sujets profonds en portugais.",
-    "pt": "Este último módulo pôs-nos a falar de temas profundos em português."
+    "fr": "Ce dernier module nous a fait voyager du wabi-sabi jusqu'aux proverbes.",
+    "ja": "この最後のモジュールでは、わびさびからことわざまで旅をしました。",
+    "ro": "Kono saigo no mojūru de wa, wabisabi kara kotowaza made tabi o shimashita."
    },
    {
-    "fr": "Nous avons débattu de liberté, d'amour, de travail et de saudade.",
-    "pt": "Debatemos a liberdade, o amor, o trabalho e a saudade."
+    "fr": "Nous avons parlé de travail, de vieillesse, de manga et d'amitié en japonais.",
+    "ja": "仕事や高齢化、漫画や友情について、日本語で話しました。",
+    "ro": "Shigoto ya kōreika, manga ya yūjō ni tsuite, nihongo de hanashimashita."
    },
    {
-    "fr": "Je peux maintenant exprimer mes opinions avec nuance.",
-    "pt": "Agora consigo exprimir as minhas opiniões com nuance."
+    "fr": "Les onomatopées et le causatif-passif ne nous font plus peur.",
+    "ja": "オノマトペも使役受身も、もう怖くありません。",
+    "ro": "Onomatope mo shieki ukemi mo, mō kowaku arimasen."
    },
    {
-    "fr": "Les expressions idiomatiques me font beaucoup moins peur qu'avant.",
-    "pt": "As expressões idiomáticas já me assustam muito menos do que antes."
+    "fr": "Après trois niveaux, notre parcours en japonais arrive à son terme.",
+    "ja": "三つのレベルを終えて、日本語の旅はここで一区切りです。",
+    "ro": "Mittsu no reberu o oete, nihongo no tabi wa koko de hitokugiri desu."
    },
    {
-    "fr": "Je ne parle pas encore parfaitement, mais je me débrouille vraiment bien.",
-    "pt": "Ainda não falo na perfeição, mas desenrasco-me muito bem."
+    "fr": "Des premières phrases en « desu » jusqu'au keigo, quelle aventure !",
+    "ja": "最初の「です」から敬語まで、なんという冒険でしょう！",
+    "ro": "Saisho no \"desu\" kara keigo made, nan to iu bōken deshō!"
    },
    {
-    "fr": "Mon prochain objectif est de lire un roman de Saramago en version originale.",
-    "pt": "O meu próximo objetivo é ler um romance do Saramago no original."
+    "fr": "Une langue, c'est un voyage sans véritable fin.",
+    "ja": "言葉は、終わりのない旅のようなものです。",
+    "ro": "Kotoba wa, owari no nai tabi no yō na mono desu."
    },
    {
-    "fr": "Je compte passer quelques mois au Portugal pour pratiquer tous les jours.",
-    "pt": "Conto passar uns meses em Portugal para praticar todos os dias."
+    "fr": "Continuez à écouter, à lire et surtout à parler japonais.",
+    "ja": "これからも、日本語を聞いて、読んで、そして何より話し続けてください。",
+    "ro": "Kore kara mo, nihongo o kiite, yonde, soshite nani yori hanashitsuzukete kudasai."
    },
    {
-    "fr": "On n'a jamais fini d'apprendre une langue, et c'est tant mieux.",
-    "pt": "Uma língua nunca se aprende por completo, e ainda bem."
+    "fr": "Le jour où vous partirez au Japon, vous serez prêts.",
+    "ja": "日本に行く日が来たら、もう準備はできています。",
+    "ro": "Nihon ni iku hi ga kitara, mō junbi wa dekite imasu."
    },
    {
-    "fr": "Merci de m'avoir accompagné pendant tous ces trajets.",
-    "pt": "Obrigado por me teres acompanhado em todas estas viagens."
+    "fr": "Merci d'avoir partagé avec nous tous ces trajets.",
+    "ja": "すべての移動の時間に付き合ってくれて、ありがとうございました。",
+    "ro": "Subete no idō no jikan ni tsukiatte kurete, arigatō gozaimashita."
    },
    {
-    "fr": "Ce n'est pas un adieu, juste un « à bientôt ».",
-    "pt": "Isto não é um adeus, é só um « até breve »."
+    "fr": "Pour tout ce chemin parcouru, du fond du cœur : otsukaresama deshita !",
+    "ja": "ここまで、本当にお疲れさまでした！",
+    "ro": "Koko made, hontō ni otsukaresama deshita!"
    }
   ]
  }
@@ -8367,13 +11032,13 @@ const level3Module3Lessons = [
 const LEVEL1_MODULES = [
   {
     id:1, name:"Le quotidien",
-    desc:"La vie de tous les jours au Portugal, en route et à la maison.",
+    desc:"La vie de tous les jours au Japon, en route et à la maison.",
     totalPhrases:200, lessonsCount:20,
     lessons: level1Module1Lessons
   },
   {
     id:2, name:"En voyage",
-    desc:"Se déplacer, découvrir et gérer les imprévus au Portugal.",
+    desc:"Se déplacer, découvrir et gérer les imprévus au Japon.",
     totalPhrases:200, lessonsCount:20,
     lessons: level1Module2Lessons
   },
@@ -8411,7 +11076,7 @@ const LEVEL2_FREE_LESSONS = { 1: 3, 2: 0, 3: 0 }; // à partir du niveau 2, seul
 const LEVEL3_MODULES = [
   {
     id:1, name:"Le quotidien",
-    desc:"Une vie quotidienne installée au Portugal, avec ses subtilités.",
+    desc:"Une vie quotidienne installée au Japon, avec ses subtilités.",
     totalPhrases:200, lessonsCount:20,
     lessons: level3Module1Lessons
   },
