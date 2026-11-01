@@ -159,3 +159,8 @@ body{
 .phrase-lit{margin-top:6px;font-size:13.5px;color:var(--text-muted);opacity:.85;}
 .tip-ro{margin-top:6px;font-style:italic;color:var(--text-muted);}
 .tip-lit{margin-top:4px;font-size:13px;color:var(--text-muted);}
+/* Points de grammaire longs (japonais) : la carte défile à l'intérieur de la scène,
+   sans déborder sur l'en-tête ni sur la barre de temps et les contrôles. */
+.stage{min-height:0;}
+.tip-overlay{justify-content:flex-start;overflow-y:auto;-webkit-overflow-scrolling:touch;padding:12px 6px 24px;}
+.tip-overlay .tip-card{margin:auto 0;}
